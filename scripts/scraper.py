@@ -1,10 +1,11 @@
 """
-Job Radar — Scraper de vagas Telecom/VoIP
+Job Radar — Scraper de vagas Telecom/VoIP (Brasil + remoto internacional)
 Fontes validadas:
-  - LinkedIn     (HTML — guest API pública)
+  - LinkedIn     (HTML — guest API pública; Brasil e Worldwide/remoto)
   - Vagas.com    (HTML — busca nacional)
   - Programathor (RSS feed /jobs.rss)
   - Gupy         (API JSON portal.api.gupy.io)
+  - Remotive     (API JSON — vagas 100% remotas internacionais)
 
 Fontes removidas (sem feed/API pública acessível):
   - Indeed    → 403 em IPs de datacenter
@@ -116,6 +117,24 @@ LOCATIONS = [
 # Quantas localizações usar no LinkedIn (BH + MG já cobrem Contagem)
 LINKEDIN_LOCATIONS_LIMIT = 2
 
+# Termos em inglês para a busca internacional remota (LinkedIn Worldwide +
+# Remotive). Foco continua em Telecom/VoIP/NOC — inglês avançado para leitura
+# e escrita, com a fala ainda em desenvolvimento, então o foco é suporte
+# remoto assíncrono (email/chat/ticket) mais do que cargos de atendimento
+# telefônico constante.
+ENGLISH_SEARCH_QUERIES = [
+    "VoIP Support Engineer",
+    "VoIP Engineer Remote",
+    "SIP Support Engineer",
+    "NOC Engineer Remote",
+    "Network Operations Center Engineer",
+    "Telecom Support Engineer",
+    "Telecommunications Analyst Remote",
+    "BroadWorks Engineer",
+    "Unified Communications Engineer",
+    "UCaaS Support Engineer",
+]
+
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
@@ -147,6 +166,10 @@ class Job:
     recruiter: Optional[dict] = None
     valid_through: Optional[str] = None
     company_logo: Optional[str] = None
+    # True para vagas buscadas fora do Brasil (LinkedIn Worldwide, Remotive).
+    # Usado pelo scorer para o bonus de remoto/internacional e pelo
+    # letter_gen para decidir o idioma da carta.
+    is_overseas: bool = False
 
     @property
     def id(self) -> str:
@@ -177,6 +200,7 @@ class Job:
             "recruiter": self.recruiter,
             "valid_through": self.valid_through,
             "company_logo": self.company_logo,
+            "is_overseas": self.is_overseas,
         }
 
 
@@ -211,22 +235,28 @@ def _safe_get(url: str, timeout: int = 20, extra_headers: dict = None, **kwargs)
 
 # ─── LinkedIn ─────────────────────────────────────────────────────────────────
 
-def scrape_linkedin(query: str, location: str) -> list[Job]:
-    """API pública guest do LinkedIn — validada: retorna ~10 vagas por query."""
+def scrape_linkedin(query: str, location: str, overseas: bool = False) -> list[Job]:
+    """
+    API pública guest do LinkedIn — validada: retorna ~10 vagas por query.
+    overseas=True busca fora do Brasil (location já vem pronta, ex: "Worldwide"
+    ou um país) e filtra por vaga remota (f_WT=2), sem travar em ", Brasil".
+    """
+    loc_param = location if overseas else f"{location}, Brasil"
     url = (
         "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
         f"?keywords={quote_plus(query)}"
-        f"&location={quote_plus(location + ', Brasil')}"
+        f"&location={quote_plus(loc_param)}"
         # 30 dias: vaga aberta vale mesmo sendo antiga. Quem já está no banco
         # não duplica, e quem fechou sai pela verificação do main.
         "&f_TPR=r2592000"
         # Nível: 2=assistente, 3=júnior/associado, 4=pleno-sênior.
         # Os cargos sênior que sobrarem caem no portão de título do scorer.
         "&f_E=2%2C3%2C4"
-        "&start=0"
+        + ("&f_WT=2" if overseas else "")  # f_WT=2 = somente remoto
+        + "&start=0"
     )
 
-    log.info("[LinkedIn] query=%r location=%r", query, location)
+    log.info("[LinkedIn] query=%r location=%r overseas=%s", query, location, overseas)
     resp = _safe_get(url)
     if not resp:
         return []
@@ -286,6 +316,7 @@ def scrape_linkedin(query: str, location: str) -> list[Job]:
             recruiter=_RECRUITER_CACHE.get(c["url"]),
             valid_through=_VALID_THROUGH_CACHE.get(c["url"]),
             company_logo=c.get("logo") or _PAGE_LOGO.get(c["url"]),
+            is_overseas=overseas,
         )
         for c in cards_data
     ]
@@ -650,6 +681,60 @@ def scrape_gupy(query: str, limit: int = 30) -> list[Job]:
     return jobs
 
 
+# ─── Remotive (vagas remotas internacionais) ──────────────────────────────────
+
+def scrape_remotive(query: str, limit: int = 30) -> list[Job]:
+    """
+    API JSON pública da Remotive (remotive.com/api/remote-jobs) — agrega vagas
+    100% remotas de empresas do mundo todo. Sem autenticação, sem rate limit
+    documentado. Todas as vagas retornadas são marcadas is_overseas=True.
+    """
+    jobs: list[Job] = []
+    url = f"https://remotive.com/api/remote-jobs?search={quote_plus(query)}"
+
+    log.info("[Remotive] query=%r", query)
+    resp = _safe_get(url, extra_headers={"Accept": "application/json"})
+    if not resp:
+        return jobs
+
+    try:
+        data = resp.json()
+    except ValueError as e:
+        log.error("[Remotive] Resposta não-JSON: %s", e)
+        return jobs
+
+    items = (data.get("jobs") or [])[:limit]
+    for it in items:
+        try:
+            title = (it.get("title") or "").strip()
+            job_url = (it.get("url") or "").strip()
+            if not title or not job_url:
+                continue
+            if is_obviously_rejected(title):
+                continue
+
+            desc_html = it.get("description") or ""
+            description = BeautifulSoup(desc_html, _HTML_PARSER).get_text(separator=" ", strip=True)[:3000]
+
+            jobs.append(Job(
+                title=title,
+                company=(it.get("company_name") or "N/A").strip(),
+                location=(it.get("candidate_required_location") or "Worldwide").strip(),
+                url=job_url,
+                source="Remotive",
+                description=description,
+                salary=(it.get("salary") or "").strip(),
+                published_at=(it.get("publication_date") or "").strip(),
+                company_logo=(it.get("company_logo") or None),
+                is_overseas=True,
+            ))
+        except Exception as e:
+            log.warning("[Remotive] Erro ao processar item: %s", e)
+
+    log.info("[Remotive] %d vagas encontradas", len(jobs))
+    return jobs
+
+
 # ─── Orquestração ─────────────────────────────────────────────────────────────
 
 def load_existing_jobs() -> dict:
@@ -897,6 +982,31 @@ def run_scraper() -> list[Job]:
             log.error("[Gupy] Falha em query=%r: %s", query, e)
 
         _sleep(1.0, 2.0)
+
+    # Busca internacional remota (LinkedIn Worldwide + Remotive) — queries em
+    # inglês, sem travar em ", Brasil", só vaga remota (f_WT=2 / 100% remoto).
+    for query in ENGLISH_SEARCH_QUERIES:
+        try:
+            for job in scrape_linkedin(query, "Worldwide", overseas=True):
+                if _is_new(job, existing_ids, seen_signatures, blacklist_ids):
+                    new_jobs.append(job)
+                    _register(job, existing_ids, seen_signatures)
+                elif job.id in blacklist_ids:
+                    rejected_by_blacklist += 1
+        except Exception as e:
+            log.error("[LinkedIn/Worldwide] Falha em query=%r: %s", query, e)
+        _sleep(0.5, 1.5)
+
+        try:
+            for job in scrape_remotive(query):
+                if _is_new(job, existing_ids, seen_signatures, blacklist_ids):
+                    new_jobs.append(job)
+                    _register(job, existing_ids, seen_signatures)
+                elif job.id in blacklist_ids:
+                    rejected_by_blacklist += 1
+        except Exception as e:
+            log.error("[Remotive] Falha em query=%r: %s", query, e)
+        _sleep(0.5, 1.5)
 
     log.info("Total de vagas novas encontradas: %d (rejeitadas por blacklist: %d)",
              len(new_jobs), rejected_by_blacklist)

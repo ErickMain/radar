@@ -1200,6 +1200,14 @@
             <span class="chip" data-value="1">Só empresas alvo</span>
           </div>
         </div>
+
+        <div class="filter-group">
+          <label>🌍 Remoto internacional</label>
+          <div class="chip-group" id="filter-overseas">
+            <span class="chip active" data-value="">Todas</span>
+            <span class="chip" data-value="1">Só remoto internacional</span>
+          </div>
+        </div>
       </div>
     </aside>
 
@@ -1371,6 +1379,13 @@
                   placeholder="Cole aqui a descrição/requisitos/skills da vaga..."></textarea>
       </div>
 
+      <div style="margin-bottom:12px">
+        <label style="font-size:0.82rem;display:flex;align-items:center;gap:6px;cursor:pointer">
+          <input id="addjob-overseas" type="checkbox">
+          🌍 Vaga remota internacional (fora do Brasil)
+        </label>
+      </div>
+
       <div id="addjob-preview" style="display:none;background:var(--accent-soft);
            border:1px solid var(--border-strong);border-radius:8px;padding:12px;font-size:0.82rem">
       </div>
@@ -1486,6 +1501,7 @@ let filterState = {
   location: [],
   status: [],
   target: [],
+  overseas: [],
   text: '',
   scoreMin: 0,
 };
@@ -1571,7 +1587,7 @@ function updateMetrics() {
 }
 
 // ─── Filtros (multi-select) ───────────────────────────────────────────────────
-const FILTER_GROUPS = ['filter-fit', 'filter-source', 'filter-location', 'filter-status', 'filter-target'];
+const FILTER_GROUPS = ['filter-fit', 'filter-source', 'filter-location', 'filter-status', 'filter-target', 'filter-overseas'];
 
 function setupChipFilters() {
   FILTER_GROUPS.forEach(groupId => {
@@ -1616,6 +1632,7 @@ function resetChipFilters() {
   filterState.location = [];
   filterState.status = [];
   filterState.target = [];
+  filterState.overseas = [];
   FILTER_GROUPS.forEach(groupId => {
     const group = document.getElementById(groupId);
     if (group) renderChipGroup(group, groupId.replace('filter-', ''));
@@ -1666,6 +1683,7 @@ function applyFilters() {
     if (filterState.source.length && !filterState.source.includes(job.source)) return false;
     if (filterState.status.length && !filterState.status.includes(job.status)) return false;
     if (filterState.target.includes('1') && !job.target_company) return false;
+    if (filterState.overseas.includes('1') && !job.is_overseas) return false;
     if (job.score < filterState.scoreMin) return false;
 
     if (filterState.location.length) {
@@ -1864,6 +1882,10 @@ function renderCard(job) {
     ? `<span class="badge badge-gcp" title="Skills de crescimento: ${(job.priority_skills || []).join(', ')}">🌱 Crescimento</span>`
     : '';
 
+  const overseasBadge = job.is_overseas
+    ? `<span class="badge badge-target" title="Vaga remota internacional — carta e abordagem geradas em inglês">🌍 Remoto internacional</span>`
+    : '';
+
   // Badge 'NEW' para vagas com found_at < 48h
   let newBadge = '';
   if (job.found_at) {
@@ -1916,6 +1938,7 @@ function renderCard(job) {
 
   const targetBonus = job.score_breakdown?.target_company || 0;
   const prioBonus = job.score_breakdown?.priority_skills || 0;
+  const overseasBonusVal = job.score_breakdown?.overseas || 0;
   const breakdown = job.score_breakdown ? `
     <div class="breakdown-grid">
       <span class="breakdown-label">Skills</span><span class="breakdown-value">${job.score_breakdown.skills || 0}/40</span>
@@ -1926,6 +1949,7 @@ function renderCard(job) {
       ${job.score_breakdown.title ? `<span class="breakdown-label">Cargo da área</span><span class="breakdown-value" style="color:var(--green)">+${job.score_breakdown.title}</span>` : ''}
       ${targetBonus ? `<span class="breakdown-label">🎯 Empresa alvo</span><span class="breakdown-value" style="color:var(--target)">+${targetBonus}</span>` : ''}
       ${prioBonus ? `<span class="breakdown-label">🌱 Crescimento</span><span class="breakdown-value" style="color:var(--gcp)">+${prioBonus}</span>` : ''}
+      ${overseasBonusVal ? `<span class="breakdown-label">🌍 Remoto internacional</span><span class="breakdown-value" style="color:var(--target)">+${overseasBonusVal}</span>` : ''}
     </div>
   ` : '';
 
@@ -1934,7 +1958,7 @@ function renderCard(job) {
       <div class="card-top">
         ${companyAvatar(job)}
         <div class="card-title-block">
-          <h3>${newBadge} ${escHtml(job.title)} ${targetBadge} ${gcpBadge}</h3>
+          <h3>${newBadge} ${escHtml(job.title)} ${targetBadge} ${gcpBadge} ${overseasBadge}</h3>
           <div class="card-meta">
             <span>🏢 ${escHtml(job.company)}</span>
             <span>📍 ${escHtml(job.location)}</span>
@@ -2778,7 +2802,12 @@ const _JS_LOC_BH = /\b(belo horizonte|bh|contagem|betim|minas gerais|mg)\b/;
 const _JS_POSITIVE = ['voip', 'sip', 'broadworks', 'sbc', 'telefonia', 'telefonia ip',
   'unified communications', 'comunicacoes unificadas', 'pabx', 'ip pbx', 'call center',
   'telecom', 'telecomunicacoes', 'noc', 'operadora', 'atendimento tecnico', 'suporte tecnico',
-  'troubleshooting', 'analise de logs', 'cdr', 'redes', 'cloud'];
+  'troubleshooting', 'analise de logs', 'cdr', 'redes', 'cloud',
+  'english', 'inglês avançado', 'ingles avancado', 'fluent english', 'advanced english', 'bilingual'];
+// Foco em remoto internacional — mesma lista do scorer.py.
+const _JS_OVERSEAS = ['worldwide', 'anywhere', 'global team', 'distributed team',
+  'remote-first', 'remote first', 'international team', 'work from anywhere',
+  'fully remote', 'remote (worldwide)', 'async', 'asynchronous team', 'remote, global'];
 
 function _wb(skill) {
   return new RegExp('\\b' + skill.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b');
@@ -2813,9 +2842,9 @@ function scoreJobLocal(job) {
   }
   skillsScore = Math.min(skillsScore, 40);
 
-  // Localização (20)
+  // Localização (20) — vaga marcada is_overseas é remota por definição
   const locText = (job.location + ' ' + job.description).toLowerCase();
-  const isRemote = _JS_LOC_REMOTE.test(locText);
+  const isRemote = job.is_overseas || _JS_LOC_REMOTE.test(locText);
   const isBH = _JS_LOC_BH.test(locText);
   const locationScore = (isRemote || isBH) ? 20 : 0;
 
@@ -2854,10 +2883,16 @@ function scoreJobLocal(job) {
   const priorityFound = _JS_PRIORITY_SKILLS.filter(s => _wb(s).test(text));
   const priorityBonus = Math.min(priorityFound.length, 10);
 
-  let total = skillsScore + locationScore + levelScore + kwScore + salaryScore + bigTechBonus + priorityBonus;
+  // Remoto internacional (cap 15) — flat se job.is_overseas, senão por keyword
+  const isOverseasJob = !!job.is_overseas;
+  const overseasKwCount = _JS_OVERSEAS.filter(k => text.includes(k)).length;
+  const overseasBonus = isOverseasJob ? 15 : Math.min(overseasKwCount * 3, 15);
+
+  let total = skillsScore + locationScore + levelScore + kwScore + salaryScore +
+    bigTechBonus + priorityBonus + overseasBonus;
   total = Math.min(total, 100);
 
-  const altoThreshold = isBigTech ? 60 : 70;
+  const altoThreshold = (isBigTech || isOverseasJob) ? 60 : 70;
   let fitLevel = 'baixo';
   if (total >= altoThreshold) fitLevel = 'alto';
   else if (total >= 50) fitLevel = 'medio';
@@ -2870,11 +2905,13 @@ function scoreJobLocal(job) {
       skills: skillsScore, location: locationScore, level: levelScore,
       keywords: kwScore, salary: salaryScore,
       target_company: bigTechBonus, priority_skills: priorityBonus,
+      overseas: overseasBonus,
     },
     skills_match: found.sort(),
     skills_gap: missing.sort(),
     target_company: isBigTech,
     priority_skills: priorityFound.sort(),
+    is_overseas: isOverseasJob,
   };
 }
 
@@ -2901,6 +2938,7 @@ async function previewAndAddJob() {
   const location = document.getElementById('addjob-location').value.trim() || 'Remoto';
   const description = document.getElementById('addjob-description').value.trim();
   const salary = document.getElementById('addjob-salary').value.trim();
+  const isOverseas = document.getElementById('addjob-overseas').checked;
 
   if (!url || !title || !company) {
     toast('Preencha URL, Título e Empresa.', 'error');
@@ -2919,7 +2957,7 @@ async function previewAndAddJob() {
     return;
   }
 
-  const job = { url, title, company, location, description, salary, source: inferSource(url) };
+  const job = { url, title, company, location, description, salary, source: inferSource(url), is_overseas: isOverseas };
   const score = scoreJobLocal(job);
 
   if (score.rejected) {
@@ -2950,6 +2988,7 @@ async function previewAndAddJob() {
     skills_gap: score.skills_gap,
     target_company: score.target_company,
     priority_skills: score.priority_skills,
+    is_overseas: isOverseas,
   };
 
   allJobs.unshift(newJob);

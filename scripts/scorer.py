@@ -65,6 +65,10 @@ POSITIVE_KEYWORDS = {
     "analista de voip", "analista sip", "administrador broadworks",
     "analista de comunicacoes unificadas", "analista noc",
     "suporte telecom", "engenheiro de voz",
+    # Inglês (leitura/escrita avançadas, fala em desenvolvimento)
+    "english", "inglês avançado", "ingles avancado", "fluent english",
+    "advanced english", "bilingual", "inglês fluente", "ingles fluente",
+    "english required", "english proficiency", "b2 english", "c1 english",
 }
 
 NEGATIVE_KEYWORDS = {
@@ -85,6 +89,18 @@ SENIOR_PATTERNS = [
 
 LOCATION_KEYWORDS_BH = {"belo horizonte", "bh", "contagem", "betim", "minas gerais", "mg"}
 LOCATION_KEYWORDS_REMOTE = {"remoto", "remote", "home office", "híbrido", "hibrido", "trabalho remoto"}
+
+# ─── Foco em remoto internacional ──────────────────────────────────────────────
+# O candidato quer priorizar vagas remotas e oportunidades fora do Brasil.
+# Inglês avançado para leitura/escrita — fala ainda em desenvolvimento, então
+# o foco é suporte remoto assíncrono (email/chat/ticket) mais que atendimento
+# telefônico constante.
+OVERSEAS_KEYWORDS = {
+    "worldwide", "anywhere", "global team", "distributed team",
+    "remote-first", "remote first", "international team",
+    "work from anywhere", "fully remote", "remote (worldwide)",
+    "async", "asynchronous team", "remote, global",
+}
 
 # ─── Empresas alvo (operadoras / fabricantes / plataformas de telecom) ────────
 # Vagas dessas empresas recebem +15 no score e threshold mais baixo
@@ -299,6 +315,8 @@ class ScoreResult:
     priority_skills: list[str] = None
     title_bonus: int = 0
     title_class: str = ""
+    is_overseas: bool = False
+    overseas_bonus: int = 0
 
 
 def score_job(job_dict: dict) -> ScoreResult:
@@ -360,8 +378,11 @@ def score_job(job_dict: dict) -> ScoreResult:
     skills_score = min(skills_score, 40)
 
     # ── Localização (20) ────────────────────────────────────────────────────
+    # Vaga marcada is_overseas (buscada via LinkedIn Worldwide ou Remotive) é
+    # remota por definição — não depende de achar keyword no texto.
+    is_overseas_job = bool(job_dict.get("is_overseas"))
     loc_text = (job_dict.get("location", "") + " " + job_dict.get("description", "")).lower()
-    is_remote = any(kw in loc_text for kw in LOCATION_KEYWORDS_REMOTE)
+    is_remote = is_overseas_job or any(kw in loc_text for kw in LOCATION_KEYWORDS_REMOTE)
     location_score = 0
     if is_remote:
         location_score = 20
@@ -421,12 +442,23 @@ def score_job(job_dict: dict) -> ScoreResult:
     # Cargo exatamente da área vale mais que carreira vizinha
     title_bonus = 10 if title_class == "core" else 0
 
+    # ── Boost de remoto internacional (cap 15) ──────────────────────────────
+    # Flat +15 se a vaga já veio marcada is_overseas (LinkedIn Worldwide ou
+    # Remotive); senão, +3 por keyword de remoto internacional no texto.
+    if is_overseas_job:
+        overseas_bonus = 15
+    else:
+        overseas_kw_found = sum(1 for kw in OVERSEAS_KEYWORDS if kw in text_lower)
+        overseas_bonus = min(overseas_kw_found * 3, 15)
+
     total = (skills_score + location_score + level_score + kw_score +
-             salary_score + target_company_bonus + priority_bonus + title_bonus)
+             salary_score + target_company_bonus + priority_bonus + title_bonus +
+             overseas_bonus)
     total = min(total, 100)
 
-    # Threshold mais baixo de alto fit quando é big tech (60 vs 70)
-    alto_threshold = 60 if target_company else 70
+    # Threshold mais baixo de alto fit quando é big tech ou vaga remota
+    # internacional (60 vs 70) — reflete a prioridade atual do candidato.
+    alto_threshold = 60 if (target_company or is_overseas_job) else 70
     if total >= alto_threshold:
         fit_level = "alto"
     elif total >= 50:
@@ -436,8 +468,11 @@ def score_job(job_dict: dict) -> ScoreResult:
 
     if target_company:
         combo = " +remoto" if is_remote else ""
-        log.info("🎯 Big Tech detectada: %s (boost +%d%s, threshold alto=60)",
+        log.info("🎯 Empresa alvo detectada: %s (boost +%d%s, threshold alto=60)",
                  company, target_company_bonus, combo)
+    if is_overseas_job:
+        log.info("🌍 Vaga remota internacional: %s @ %s (boost +%d, threshold alto=60)",
+                 job_dict.get("title", ""), company, overseas_bonus)
 
     if contact_email:
         log.info("Email de contato detectado: %s → %s", contact_email, job_dict.get("title", ""))
@@ -460,6 +495,8 @@ def score_job(job_dict: dict) -> ScoreResult:
         priority_skills=sorted(priority_skills_found),
         title_bonus=title_bonus,
         title_class=title_class,
+        is_overseas=is_overseas_job,
+        overseas_bonus=overseas_bonus,
     )
 
 
@@ -494,6 +531,7 @@ def apply_scores(jobs: list[dict]) -> list[dict]:
                 "target_company": result.target_company_bonus,
                 "priority_skills": result.priority_bonus,
                 "title": result.title_bonus,
+                "overseas": result.overseas_bonus,
             }
             job["title_class"] = result.title_class
             job["skills_match"] = result.skills_match
@@ -502,6 +540,7 @@ def apply_scores(jobs: list[dict]) -> list[dict]:
             job["contact_email"] = result.contact_email
             job["target_company"] = result.target_company
             job["priority_skills"] = result.priority_skills or []
+            job["is_overseas"] = result.is_overseas
             if job.get("status") == "nova":
                 pass  # mantém "nova"
         scored.append(job)

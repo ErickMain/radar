@@ -101,16 +101,38 @@ ou acesse **Actions → Job Radar — Daily Scan → Run workflow** para rodar a
 | Skills match | até 40 pts |
 | Localização (BH/Remoto/Híbrido) | 20 pts |
 | Nível (júnior/pleno) | 20 pts |
-| Keywords positivas | até 10 pts |
+| Keywords positivas (inclui inglês) | até 10 pts |
 | Salário | até 10 pts |
+| 🌍 Remoto internacional | até 15 pts |
+| 🎯 Empresa alvo | até 20 pts |
+| 🌱 Skills de crescimento | até 10 pts |
 
-- **Score ≥ 70** → 🟢 Alto fit — candidatura automática
+- **Score ≥ 70** (ou ≥ 60 para empresa alvo / remoto internacional) → 🟢 Alto fit — candidatura automática
 - **Score 50–69** → 🟡 Médio fit — aprovação manual no dashboard
 - **Score < 50** → 🔴 Baixo fit — arquivado
 
 Vagas com keywords negativas (Sênior 8+, Arquiteto, CTO, Mobile...) são rejeitadas automaticamente.
 Cargos fora de Telecom/VoIP/NOC (ex: DevOps, Cloud puro) são classificados como
 "adjacent" — área de crescimento, mas não pontuados nem candidatados automaticamente.
+
+### Foco em remoto internacional
+
+O candidato prioriza vagas remotas, inclusive fora do Brasil — inglês avançado
+para leitura/escrita, fala ainda em desenvolvimento (por isso o foco é suporte
+remoto assíncrono: email/chat/ticket, não atendimento telefônico constante).
+
+- Vagas achadas via **LinkedIn Worldwide** (sem travar em ", Brasil", filtro
+  `f_WT=2` = só remoto) ou via **Remotive** (API de vagas 100% remotas
+  internacionais) são marcadas `is_overseas: true`.
+- Essas vagas recebem localização máxima (remoto por definição), o bonus de
+  +15 "🌍 Remoto internacional", e o threshold de alto fit cai para 60 (igual
+  ao de empresa alvo).
+- **Carta de apresentação e abordagem de recrutador são geradas em inglês**
+  para essas vagas (`letter_gen.py` decide o idioma pelo campo `is_overseas`),
+  sempre com base só no perfil real — nunca inventa fluência que o candidato
+  não tem.
+- ⚠️ Limitação conhecida: o currículo anexado (`assets/curriculo.pdf`) está em
+  português mesmo para vagas overseas — ainda não há uma versão em inglês.
 
 ---
 
@@ -131,10 +153,13 @@ PYTHONPATH=scripts python scripts/main.py apply <job_id>
 
 ## Fontes de vagas
 
-- **Indeed BR** — indeed.com.br
-- **LinkedIn Jobs** — API pública guest (sem login)
-- **Gupy** — portal.gupy.io API
-- **Vagas.com** — vagas.com.br
+- **LinkedIn Jobs** — API pública guest (sem login); busca no Brasil (BH/MG)
+  e Worldwide/remoto (sem restrição de país)
+- **Vagas.com** — vagas.com.br (Brasil)
+- **Programathor** — RSS feed (Brasil)
+- **Gupy** — portal.gupy.io API (Brasil) — atualmente retornando 404 em todas
+  as queries, possível mudança no endpoint público
+- **Remotive** — remotive.com API, vagas 100% remotas internacionais
 
 Rate limiting e user-agents rotativos estão configurados para evitar bloqueio.
 Cada fonte tem fallback gracioso — se uma estiver indisponível, as demais continuam.

@@ -52,6 +52,52 @@ Regras obrigatórias:
 - Finalizar com disponibilidade para entrevista
 - Escrever em português brasileiro formal-técnico"""
 
+# Versão em inglês — usada para vagas remotas internacionais (is_overseas).
+# Mesmos fatos, sem inventar nada; inclui o nível real de inglês para não
+# criar expectativa maior do que a fala atual do candidato sustenta.
+CANDIDATE_PROFILE_EN = """Erick Moreira — Telecommunications Analyst, 5 years of experience.
+Based in Belo Horizonte, Brazil. Open to remote work.
+
+Current role — Método Telecom (since Jun/2021), Telecommunications Analyst:
+- Specialized support for IP telephony and VoIP, administering BroadWorks
+  environments.
+- SIP and RTP protocol analysis; SBC (Session Border Controller) troubleshooting.
+- Extension/IP device provisioning; IP phone and ATA configuration.
+- Direct technical dealings with carriers such as Oi, Algar and TIP.
+- CDR and SIP log analysis; packet capture and interpretation with Wireshark.
+- Diagnosing audio issues, SIP registration, NAT, firewall and codec problems.
+- Critical incident handling and service ticket management in mission-critical
+  environments.
+- Writing technical documentation and operational procedures.
+
+Stack: SIP, RTP, BroadWorks, SBC, VoIP, IP PBX, Wireshark, Windows Server,
+log analysis, CDR, NAT/firewall/codecs, tier-2 technical support.
+
+English level: advanced reading and writing; spoken English is currently
+improving. Comfortable with async, written communication (email/chat/tickets).
+
+Interested in growing into networking, information security, cloud and
+unified communications."""
+
+SYSTEM_PROMPT_EN = """You write cover letters on behalf of Erick Moreira.
+
+CANDIDATE PROFILE (use only what's here, never invent experience):
+""" + CANDIDATE_PROFILE_EN + """
+
+Mandatory rules:
+- Direct, technical tone, no empty adjectives or exaggeration
+- Maximum 4 short paragraphs (no more than 5 lines each)
+- Don't open with "Dear Sir/Madam" or generic phrases
+- Highlight 2-3 points from the profile that match the job, preferring
+  concrete facts (e.g. SBC troubleshooting in mission-critical environments,
+  direct technical dealings with carriers, SIP/CDR log analysis with
+  Wireshark)
+- Never claim a technology, experience, or spoken-English fluency level
+  that isn't in the profile above — the profile says reading/writing are
+  advanced and speaking is still improving; don't overstate that
+- End with availability for an interview
+- Write in professional, technical English"""
+
 GROQ_MODEL = "llama-3.3-70b-versatile"
 
 
@@ -63,13 +109,28 @@ def generate_cover_letter(job: dict) -> str:
 
     client = Groq(api_key=api_key)
 
+    overseas = bool(job.get("is_overseas"))
     title = job.get("title", "")
     company = job.get("company", "")
     description = job.get("description", "")[:1500]
     skills_match = job.get("skills_match", [])
     skills_gap = job.get("skills_gap", [])
 
-    user_prompt = f"""Vaga: {title} na {company}
+    if overseas:
+        system_prompt = SYSTEM_PROMPT_EN
+        user_prompt = f"""Job: {title} at {company}
+
+Job description (excerpt):
+{description}
+
+Skills from the job Erick has: {', '.join(skills_match[:10]) if skills_match else 'SIP, VoIP, BroadWorks'}
+Skills from the job Erick doesn't have: {', '.join(skills_gap[:5]) if skills_gap else 'none relevant'}
+
+Write a personalized, concise cover letter for Erick to apply to this job. \
+Focus on the matching skills and the value he can bring to the company."""
+    else:
+        system_prompt = SYSTEM_PROMPT
+        user_prompt = f"""Vaga: {title} na {company}
 
 Descrição da vaga (resumida):
 {description}
@@ -80,14 +141,15 @@ Skills da vaga que Erick não possui: {', '.join(skills_gap[:5]) if skills_gap e
 Escreva uma carta de apresentação personalizada e objetiva para Erick se candidatar \
 a esta vaga. Foque nas skills coincidentes e no valor que ele pode agregar à empresa."""
 
-    log.info("Gerando carta para: %s @ %s (Groq/%s)", title, company, GROQ_MODEL)
+    log.info("Gerando carta para: %s @ %s (Groq/%s, %s)", title, company, GROQ_MODEL,
+              "EN" if overseas else "PT-BR")
 
     response = client.chat.completions.create(
         model=GROQ_MODEL,
         max_tokens=600,
         temperature=0.7,
         messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt},
         ],
     )
@@ -112,11 +174,31 @@ def generate_letter_batch(jobs: list[dict]) -> dict[str, str]:
 
 
 def _fallback_letter(job: dict) -> str:
-    title = job.get("title", "Analista de Telecomunicações")
-    company = job.get("company", "empresa")
     # dict.get(key, default) só retorna default se a chave não existir.
     # Se for lista vazia [], retorna [] e o join vira "". Trata os dois casos.
     skills_list = job.get("skills_match") or ["SIP", "VoIP", "BroadWorks"]
+
+    if job.get("is_overseas"):
+        title = job.get("title", "Telecommunications Analyst")
+        company = job.get("company", "the company")
+        skills = ", ".join(skills_list[:3])
+        return f"""Dear Hiring Team at {company},
+
+I'm interested in the {title} position and believe my experience with \
+{skills} lines up directly with what you're looking for.
+
+I've spent over 5 years working with IP telephony and VoIP, administering \
+BroadWorks environments and troubleshooting SBCs in mission-critical settings, \
+with direct technical dealings with carriers and SIP/CDR log analysis (Wireshark).
+
+I'm available for a technical conversation whenever convenient for the team.
+
+Best regards,
+Erick Moreira
+erickjhonatanmoreira@gmail.com"""
+
+    title = job.get("title", "Analista de Telecomunicações")
+    company = job.get("company", "empresa")
     skills = ", ".join(skills_list[:3])
     return f"""Prezados da {company},
 
@@ -158,6 +240,25 @@ Regras: tom cordial e direto, como uma pessoa real escreveria; português
 brasileiro informal-profissional; nada de "Prezado(a)" ou jargão corporativo;
 nenhuma tecnologia ou resultado fora do perfil."""
 
+RECRUITER_SYSTEM_PROMPT_EN = """You write Erick Moreira's LinkedIn outreach \
+for recruiters who posted Telecom/VoIP/NOC/Unified Communications remote jobs.
+
+PROFILE (use only what's here, never invent experience):
+""" + CANDIDATE_PROFILE_EN + """
+
+Return JSON with two keys:
+- "convite": connection-request note. AT MOST 280 characters. Mention the
+  job and one concrete proof point from the profile. End without a long
+  question.
+- "mensagem": follow-up message for after the invite is accepted, up to 70
+  words. Reference the job, give 2 concrete results that match it, and end
+  with a simple, low-friction question (e.g. "want me to send my resume?").
+
+Rules: warm, direct tone, like a real person would write; professional but
+casual English; no "Dear Sir/Madam" or corporate jargon; no technology or
+result outside the profile — don't overstate spoken-English fluency, the
+profile says reading/writing are advanced and speaking is still improving."""
+
 
 def _fit(text: str, limit: int) -> str:
     """Corta no limite sem quebrar palavra, preferindo fim de frase."""
@@ -184,11 +285,24 @@ def generate_recruiter_outreach(recruiter: dict) -> dict:
         raise ValueError("GROQ_API_KEY não configurada")
 
     best = _best_job(recruiter)
+    overseas = bool(best.get("is_overseas"))
     jobs = recruiter.get("jobs") or []
     first_name = (recruiter.get("name") or "").split()[0] if recruiter.get("name") else ""
     outras = len(jobs) - 1
 
-    user_prompt = f"""Recrutador: {recruiter.get('name', '')} (primeiro nome: {first_name})
+    if overseas:
+        system_prompt = RECRUITER_SYSTEM_PROMPT_EN
+        user_prompt = f"""Recruiter: {recruiter.get('name', '')} (first name: {first_name})
+Their title: {recruiter.get('headline', 'not informed')}
+
+Job they posted: {best.get('title', 'a tech job')}
+Company: {best.get('company', 'not informed')}
+{f'They also have {outras} other relevant job(s) open.' if outras > 0 else ''}
+
+Write the JSON with "convite" and "mensagem"."""
+    else:
+        system_prompt = RECRUITER_SYSTEM_PROMPT
+        user_prompt = f"""Recrutador: {recruiter.get('name', '')} (primeiro nome: {first_name})
 Cargo dele: {recruiter.get('headline', 'não informado')}
 
 Vaga que ele publicou: {best.get('title', 'vaga de tecnologia')}
@@ -198,14 +312,15 @@ Empresa: {best.get('company', 'não informada')}
 Escreva o JSON com "convite" e "mensagem"."""
 
     client = Groq(api_key=api_key)
-    log.info("Gerando abordagem para recruiter: %s (Groq/%s)", recruiter.get("name"), GROQ_MODEL)
+    log.info("Gerando abordagem para recruiter: %s (Groq/%s, %s)", recruiter.get("name"), GROQ_MODEL,
+              "EN" if overseas else "PT-BR")
     response = client.chat.completions.create(
         model=GROQ_MODEL,
         max_tokens=400,
         temperature=0.7,
         response_format={"type": "json_object"},
         messages=[
-            {"role": "system", "content": RECRUITER_SYSTEM_PROMPT},
+            {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt},
         ],
     )
@@ -244,9 +359,29 @@ def _fallback_outreach(recruiter: dict) -> dict:
     """Textos padrão quando a Groq falha. O convite respeita os 300 caracteres."""
     best = _best_job(recruiter)
     first_name = (recruiter.get("name") or "").split()[0] if recruiter.get("name") else ""
+    empresa = best.get("company", "")
+
+    if best.get("is_overseas"):
+        hi = f"Hi {first_name}" if first_name else "Hi"
+        vaga = best.get("title", "the Telecom role")
+        onde = f" at {empresa}" if empresa and empresa != "N/A" else ""
+        invite = _fit(
+            f"{hi}! I saw your posting for {vaga}{onde}. I'm a Telecommunications "
+            f"Analyst with 5 years of experience in SIP/VoIP, BroadWorks and SBC "
+            f"troubleshooting in mission-critical environments. Would love to connect.",
+            INVITE_LIMIT,
+        )
+        message = (
+            f"{hi}, thanks for accepting!\n\n"
+            f"About the {vaga}{onde} role: I work on administering BroadWorks "
+            f"environments and troubleshooting SBCs, with direct technical dealings "
+            f"with carriers.\n\n"
+            f"Can I send over my resume?"
+        )
+        return {"invite_note": invite, "message": message}
+
     oi = f"Oi {first_name}" if first_name else "Oi"
     vaga = best.get("title", "a vaga de Telecom")
-    empresa = best.get("company", "")
     onde = f" na {empresa}" if empresa and empresa != "N/A" else ""
 
     invite = _fit(

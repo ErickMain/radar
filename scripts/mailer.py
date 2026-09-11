@@ -68,23 +68,27 @@ def already_applied_to_company(company: str, sent_history: dict) -> bool:
 def _build_subject(job: dict, is_recruiter_email: bool) -> str:
     """
     Gera subject escaneável:
-      - Recrutador:  'Candidatura — Erick Moreira | Analista de Telecomunicações'
+      - Recrutador (BR):       'Candidatura — Erick Moreira | Analista de Telecomunicações'
+      - Recrutador (overseas): 'Application — Erick Moreira | VoIP Support Engineer'
       - Auto-revisão: '🟢 [REVISE] Algar Telecom — Analista SIP 🎯 🌱 (56/100) | LinkedIn'
     """
     if is_recruiter_email:
+        if job.get("is_overseas"):
+            return f"Application — Erick Moreira | {job.get('title', '')}"
         return f"Candidatura — Erick Moreira | {job.get('title', '')}"
 
     fit = (job.get("fit_level") or "").lower()
     fit_emoji = {"alto": "🟢", "medio": "🟡", "baixo": "🔴"}.get(fit, "⚪")
     target = " 🎯" if job.get("target_company") else ""
     growth = " 🌱" if (job.get("priority_skills") or []) else ""
+    overseas = " 🌍" if job.get("is_overseas") else ""
     company = job.get("company") or "Empresa"
     title = job.get("title") or ""
     score = job.get("score", 0)
     source = job.get("source", "")
 
     # Empresa primeiro (mais escaneável no Gmail), depois título.
-    return f"{fit_emoji} [REVISE] {company} — {title}{target}{growth} ({score}/100) | {source}"
+    return f"{fit_emoji} [REVISE] {company} — {title}{target}{growth}{overseas} ({score}/100) | {source}"
 
 
 def build_email(job: dict, cover_letter: str) -> MIMEMultipart:
@@ -107,6 +111,8 @@ def build_email(job: dict, cover_letter: str) -> MIMEMultipart:
         tags = []
         if job.get("target_company"):
             tags.append("🎯 Empresa alvo")
+        if job.get("is_overseas"):
+            tags.append("🌍 Remoto internacional")
         if job.get("priority_skills"):
             tags.append("🌱 Crescimento: " + ", ".join(job["priority_skills"][:5]))
         tags_line = "Tags:   " + " | ".join(tags) + "\n" if tags else ""
@@ -131,10 +137,15 @@ Score:   {job.get('score', 0)}/100 ({(job.get('fit_level') or '').upper()} FIT)
             part = MIMEBase("application", "octet-stream")
             part.set_payload(f.read())
         encoders.encode_base64(part)
+        # Conteúdo do PDF é o mesmo (currículo em português) — só o nome do
+        # arquivo muda. Ver limitação conhecida: sem versão do currículo em
+        # inglês ainda, então a vaga overseas recebe um currículo em PT-BR.
+        resume_filename = ("resume_erick_telecom.pdf" if job.get("is_overseas")
+                            else "curriculo_erick_telecom.pdf")
         part.add_header(
             "Content-Disposition",
             "attachment",
-            filename="curriculo_erick_telecom.pdf",
+            filename=resume_filename,
         )
         msg.attach(part)
         log.info("Currículo anexado")

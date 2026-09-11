@@ -1,4 +1,187 @@
 {
-  "recruiters": [],
-  "last_updated": "2026-09-11T21:10:16.988723+00:00"
+  "recruiters": [
+    {
+      "id": "d2d4ea4e66627032",
+      "name": "Gaëtan Travailleur",
+      "profile_url": "https://fr.linkedin.com/in/ga%C3%ABtan-travailleur",
+      "headline": "IT Talent Acquisition Specialist",
+      "is_recruiter": true,
+      "country": "FR",
+      "companies": [
+        "CNS Communications"
+      ],
+      "jobs": [
+        {
+          "id": "1f2aae3bd71a7e60",
+          "title": "Unified Communications engineer (M/F)",
+          "company": "CNS Communications",
+          "url": "https://ro.linkedin.com/jobs/view/unified-communications-engineer-m-f-at-cns-communications-4464190419",
+          "score": 92,
+          "fit_level": "alto",
+          "found_at": "2026-09-11T21:23:38.493208+00:00"
+        }
+      ],
+      "first_seen": "2026-09-11T21:23:44.989092+00:00",
+      "last_seen": "2026-09-11T21:23:44.989092+00:00",
+      "message": null,
+      "priority": 58
+    },
+    {
+      "id": "6c6425bf68593f14",
+      "name": "Federica Piccioni",
+      "profile_url": "https://it.linkedin.com/in/federica-piccioni-a18025109",
+      "headline": "Recruiting Vmway srl",
+      "is_recruiter": true,
+      "country": "IT",
+      "companies": [
+        "VmWay S.r.l."
+      ],
+      "jobs": [
+        {
+          "id": "16e4584d16ed20b7",
+          "title": "Core Network Voice Engineer (IMS/VoLTE)",
+          "company": "VmWay S.r.l.",
+          "url": "https://it.linkedin.com/jobs/view/core-network-voice-engineer-ims-volte-at-vmway-4460478202",
+          "score": 87,
+          "fit_level": "alto",
+          "found_at": "2026-09-11T21:23:00.938753+00:00"
+        }
+      ],
+      "first_seen": "2026-09-11T21:23:44.989092+00:00",
+      "last_seen": "2026-09-11T21:23:44.989092+00:00",
+      "message": null,
+      "priority": 56
+    },
+    {
+      "id": "e4b407aa96181af0",
+      "name": "Kalyani Vajpayee",
+      "profile_url": "https://in.linkedin.com/in/kalyani-vajpayee-241173a6",
+      "headline": "💡 Talent Matchmaker | IT & Non-IT Recruitment Lead | Making Careers Happen to work for UK, USA, Canada & Australia 🌟",
+      "is_recruiter": true,
+      "country": "IN",
+      "companies": [
+        "Technomine"
+      ],
+      "jobs": [
+        {
+          "id": "8e8e9e38da1a261a",
+          "title": "Network Operations Center Engineer",
+          "company": "Technomine",
+          "url": "https://in.linkedin.com/jobs/view/network-operations-center-engineer-at-technomine-4460729327",
+          "score": 88,
+          "fit_level": "alto",
+          "found_at": "2026-09-11T21:23:17.836068+00:00"
+        }
+      ],
+      "first_seen": "2026-09-11T21:23:44.989092+00:00",
+      "last_seen": "2026-09-11T21:23:44.989092+00:00",
+      "message": null,
+      "priority": 56
+    },
+    {
+      "id": "7029c26d196d85ce",
+      "name": "Jonathan Wells",
+      "profile_url": "https://uk.linkedin.com/in/jonwellstechrecruitment",
+      "headline": "Director | Deep Technology Networks. Strategic Hiring Expertise.",
+      "is_recruiter": true,
+      "country": "UK",
+      "companies": [
+        "Experis UK"
+      ],
+      "jobs": [
+        {
+          "id": "ff2bffde35e64031",
+          "title": "Network Operations Center Engineer",
+          "company": "Experis UK",
+          "url": "https://uk.linkedin.com/jobs/view/network-operations-center-engineer-at-experis-uk-4455468607",
+          "score": 75,
+          "fit_level": "alto",
+          "found_at": "2026-09-11T21:23:11.536423+00:00"
+        }
+      ],
+      "first_seen": "2026-09-11T21:23:44.989092+00:00",
+      "last_seen": "2026-09-11T21:23:44.989092+00:00",
+      "message": null,
+      "priority": 52
+    },
+    {
+      "id": "6ccc71f4e2447f71",
+      "name": "Nataliia Rudakova",
+      "profile_url": "https://ua.linkedin.com/in/nataliia-rudakova",
+      "headline": "Digital Marketing Manager | Email Marketing | Content Marketing | Social Media Strategy | B2B | B2C | Helping Brands Connect & Convert",
+      "is_recruiter": false,
+      "country": "UA",
+      "companies": [
+        "ABCommunication"
+      ],
+      "jobs": [
+        {
+          "id": "96a0cc1e68810ac0",
+          "title": "IP Telephony Engineer (VoIP Engineer)",
+          "company": "ABCommunication",
+          "url": "https://ua.linkedin.com/jobs/view/ip-telephony-engineer-voip-engineer-at-abcommunication-4459919704",
+          "score": 97,
+          "fit_level": "alto",
+          "found_at": "2026-09-11T21:23:38.493208+00:00"
+        }
+      ],
+      "first_seen": "2026-09-11T21:23:44.989092+00:00",
+      "last_seen": "2026-09-11T21:23:44.989092+00:00",
+      "message": null,
+      "priority": 35
+    },
+    {
+      "id": "786a6a6ab29636e2",
+      "name": "Jasmin Loh",
+      "profile_url": "https://my.linkedin.com/in/jasmin-loh-29baa747",
+      "headline": "Regional HR Leader | Passionate about Culture, Performance & Growth | Focused on Building Fair, Positive & Sustainable Work Environment",
+      "is_recruiter": false,
+      "country": "MY",
+      "companies": [
+        "ViewQwest"
+      ],
+      "jobs": [
+        {
+          "id": "c9daf12a82f59d78",
+          "title": "Network Operations Centre (NOC) Engineer",
+          "company": "ViewQwest",
+          "url": "https://sg.linkedin.com/jobs/view/network-operations-centre-noc-engineer-at-viewqwest-4465682005",
+          "score": 81,
+          "fit_level": "alto",
+          "found_at": "2026-09-11T21:23:17.836068+00:00"
+        }
+      ],
+      "first_seen": "2026-09-11T21:23:44.989092+00:00",
+      "last_seen": "2026-09-11T21:23:44.989092+00:00",
+      "message": null,
+      "priority": 29
+    },
+    {
+      "id": "02dd3b4eb40a179c",
+      "name": "Ted Tan",
+      "profile_url": "https://sg.linkedin.com/in/tedtanszeming",
+      "headline": "Associate Director -  Real Estate, Technology & Engineering",
+      "is_recruiter": false,
+      "country": "SG",
+      "companies": [
+        "The Edge Partnership - The Edge in Asia"
+      ],
+      "jobs": [
+        {
+          "id": "f41fdf198100aa72",
+          "title": "Network Operations Center Engineer",
+          "company": "The Edge Partnership - The Edge in Asia",
+          "url": "https://sg.linkedin.com/jobs/view/network-operations-center-engineer-at-the-edge-partnership-the-edge-in-asia-4457694671",
+          "score": 81,
+          "fit_level": "alto",
+          "found_at": "2026-09-11T21:23:17.836068+00:00"
+        }
+      ],
+      "first_seen": "2026-09-11T21:23:44.989092+00:00",
+      "last_seen": "2026-09-11T21:23:44.989092+00:00",
+      "message": null,
+      "priority": 29
+    }
+  ],
+  "last_updated": "2026-09-11T21:23:44.989092+00:00"
 }
