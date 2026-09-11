@@ -1194,10 +1194,10 @@
         </div>
 
         <div class="filter-group">
-          <label>🎯 Big Tech</label>
+          <label>🎯 Empresa alvo</label>
           <div class="chip-group" id="filter-target">
             <span class="chip active" data-value="">Todas</span>
-            <span class="chip" data-value="1">Só Big Techs</span>
+            <span class="chip" data-value="1">Só empresas alvo</span>
           </div>
         </div>
       </div>
@@ -1857,11 +1857,11 @@ function renderCard(job) {
     : '';
 
   const targetBadge = job.target_company
-    ? `<span class="badge badge-target" title="Big Tech alvo — boost +15 no score">🎯 Big Tech</span>`
+    ? `<span class="badge badge-target" title="Empresa alvo (operadora/fabricante/plataforma de telecom) — boost +15 no score">🎯 Empresa alvo</span>`
     : '';
 
   const gcpBadge = (job.priority_skills || []).length > 0
-    ? `<span class="badge badge-gcp" title="Skills prioritárias: ${(job.priority_skills || []).join(', ')}">☁️ GCP</span>`
+    ? `<span class="badge badge-gcp" title="Skills de crescimento: ${(job.priority_skills || []).join(', ')}">🌱 Crescimento</span>`
     : '';
 
   // Badge 'NEW' para vagas com found_at < 48h
@@ -1924,8 +1924,8 @@ function renderCard(job) {
       <span class="breakdown-label">Keywords</span><span class="breakdown-value">${job.score_breakdown.keywords || 0}/10</span>
       <span class="breakdown-label">Salário</span><span class="breakdown-value">${job.score_breakdown.salary || 0}/10</span>
       ${job.score_breakdown.title ? `<span class="breakdown-label">Cargo da área</span><span class="breakdown-value" style="color:var(--green)">+${job.score_breakdown.title}</span>` : ''}
-      ${targetBonus ? `<span class="breakdown-label">🎯 Big Tech</span><span class="breakdown-value" style="color:var(--target)">+${targetBonus}</span>` : ''}
-      ${prioBonus ? `<span class="breakdown-label">☁️ GCP</span><span class="breakdown-value" style="color:var(--gcp)">+${prioBonus}</span>` : ''}
+      ${targetBonus ? `<span class="breakdown-label">🎯 Empresa alvo</span><span class="breakdown-value" style="color:var(--target)">+${targetBonus}</span>` : ''}
+      ${prioBonus ? `<span class="breakdown-label">🌱 Crescimento</span><span class="breakdown-value" style="color:var(--gcp)">+${prioBonus}</span>` : ''}
     </div>
   ` : '';
 
@@ -2329,18 +2329,19 @@ function jsOutreachTexts(r) {
   const first = (r.name || '').split(' ')[0];
   const oi = first ? `Oi ${first}` : 'Oi';
   const job = (r.jobs || [])[0] || {};
-  const vaga = job.title || 'vagas de DevOps';
+  const vaga = job.title || 'vagas de Telecom';
   const emp = (r.companies || [])[0];
   const onde = emp && emp !== 'N/A' ? ` na ${emp}` : '';
   return {
     invite_note: jsFit(
-      `${oi}! Vi que você está contratando para ${vaga}${onde}. Sou DevOps há 3 anos e ` +
-      `hoje cuido do CI/CD e da observabilidade de 30+ sistemas em produção. Gostaria de me conectar.`,
+      `${oi}! Vi que você está contratando para ${vaga}${onde}. Sou Analista de ` +
+      `Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting ` +
+      `de SBCs em ambiente de missão crítica. Gostaria de me conectar.`,
       INVITE_LIMIT),
     message:
-      `${oi}, obrigado por aceitar!\n\nSobre ${job.title ? 'a vaga de ' + vaga : 'as vagas de DevOps'}${onde}: ` +
-      `construí do zero uma plataforma interna (Jenkins, SonarQube, Trivy) que sustenta 30+ sistemas ` +
-      `em produção, e conduzi uma migração GCP → AWS com Terraform e Ansible sem retrabalho.\n\n` +
+      `${oi}, obrigado por aceitar!\n\nSobre ${job.title ? 'a vaga de ' + vaga : 'as vagas de Telecom'}${onde}: ` +
+      `atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com ` +
+      `tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\n` +
       `Posso te enviar meu currículo?`,
   };
 }
@@ -2724,44 +2725,46 @@ function closeAddJobModal() {
 
 // Scoring local (porting simplificado do scorer.py)
 // Mantém paridade com Python para skills, big tech e bonus principais.
-const _JS_CORE_SKILLS = new Set(['python', 'docker', 'linux', 'prometheus', 'grafana']);
+const _JS_CORE_SKILLS = new Set(['sip', 'voip', 'broadworks', 'sbc', 'wireshark']);
 const _JS_SKILLS = [
   // Core
-  'python', 'docker', 'linux', 'prometheus', 'grafana',
-  // AWS
-  'aws', 'ec2', 's3', 'rds', 'lambda', 'cloudwatch', 'cloudformation', 'eks', 'ecs', 'iam', 'vpc', 'route53',
-  // GCP
-  'gcp', 'google cloud', 'gke', 'cloud run', 'bigquery', 'cloud storage',
-  // Azure
-  'azure', 'aks', 'azure devops',
-  // IaC
-  'terraform', 'ansible', 'kubernetes', 'helm', 'argocd', 'pulumi',
-  // CI/CD
-  'github actions', 'ci/cd', 'jenkins', 'gitlab ci', 'circleci',
-  // Observability
-  'zabbix', 'datadog', 'loki', 'alertmanager', 'elk', 'newrelic', 'dynatrace',
-  // Infra
-  'nginx', 'bash', 'shell', 'git', 'rest', 'api', 'k3s', 'wireguard', 'mikrotik', 'fortigate', 'vmware', 'n8n', 'flask',
+  'sip', 'voip', 'broadworks', 'sbc', 'wireshark',
+  // Protocolos / voz
+  'rtp', 'srtp', 'sip trunk', 'codec', 'codecs', 'nat', 'stun', 'turn', 'qos', 'e1', 'isdn', 'ramal', 'ramais',
+  // Plataformas / equipamentos
+  'ip pbx', 'pabx', 'ura', 'gateway', 'khomp', 'digitro', 'leucotron', 'intelbras',
+  'grandstream', 'yealink', '3cx', 'asterisk', 'freeswitch', 'genesys', 'avaya', 'cisco', 'huawei',
+  // Comunicação unificada
+  'unified communications', 'comunicacoes unificadas', 'teams', 'webex', 'contact center', 'call center',
+  // Suporte / operação
+  'atendimento tecnico', 'suporte tecnico', 'suporte nivel 2', 'troubleshooting',
+  'analise de logs', 'cdr', 'ordem de servico', 'noc',
+  // Redes / segurança
+  'vlan', 'firewall', 'vpn', 'dns', 'bgp', 'olt', 'mikrotik', 'fortigate', 'wireguard', 'vmware',
+  'rede', 'redes', 'network', 'networking', 'seguranca da informacao', 'cybersecurity',
+  // Infra / SO
+  'windows server', 'linux', 'active directory',
+  // Cloud / crescimento
+  'cloud', 'aws', 'azure', 'gcp', 'sd-wan',
 ];
-const _JS_PRIORITY_SKILLS = ['gcp', 'google cloud', 'gke', 'bigquery', 'cloud run',
-  'cloud storage', 'cloud functions', 'gcs', 'cloud sql', 'firestore', 'firebase',
-  'pub/sub', 'dataflow', 'dataproc'];
+const _JS_PRIORITY_SKILLS = ['redes', 'network', 'networking', 'seguranca da informacao',
+  'cybersecurity', 'cloud', 'aws', 'azure', 'gcp', 'sd-wan', 'zero trust',
+  'unified communications', 'comunicacoes unificadas'];
 const _JS_BIG_TECHS = [
-  'nubank', 'ifood', 'itaú', 'itau', 'bradesco', 'santander', 'banco do brasil',
-  'magalu', 'magazine luiza', 'mercado livre', 'mercadolivre', 'meli',
-  'inter', 'banco inter', 'c6', 'picpay', 'pagseguro', 'pagbank', 'cielo',
-  'stone', 'xp', 'btg', 'b3', 'creditas', 'méliuz', 'meliuz',
-  'totvs', 'locaweb', 'globo', 'movile', 'rd station', 'hotmart',
-  'rappi', 'zé delivery', 'ze delivery', '99', 'loggi', 'uber',
-  'loft', 'quintoandar', 'quinto andar', 'vtex', 'olist',
-  'americanas', 'casas bahia', 'riachuelo', 'renner', 'carrefour',
-  'amazon', 'google', 'microsoft', 'ibm', 'oracle', 'salesforce', 'meta',
-  'embraer', 'vale', 'petrobras', 'ambev', 'klabin', 'weg', 'gerdau',
-  'ey', 'deloitte', 'pwc', 'kpmg', 'accenture', 'capgemini', 'stefanini',
-  'ci&t', 'thoughtworks', 'tcs', 'wipro', 'ntt data',
-  'vivo', 'claro', 'tim', 'telefônica', 'telefonica',
-  'rd saúde', 'dasa', 'einstein', 'cogna', 'wellhub', 'gympass',
-  'red hat', 'vmware', 'cisco', 'dell', 'nvidia', 'spotify', 'netflix',
+  // Operadoras / telecom BR
+  'vivo', 'telefônica', 'telefonica', 'claro', 'tim', 'tim brasil', 'oi',
+  'algar', 'algar telecom', 'embratel', 'sercomtel', 'brisanet', 'desktop',
+  'americanet', 'copel telecom', 'unifique', 'hughes',
+  // ISPs / data centers
+  'v.tal', 'vtal', 'ascenty', 'equinix', 'diveo',
+  // Fabricantes / plataformas VoIP, PABX, UC
+  'khomp', 'digitro', 'leucotron', 'intelbras', 'grandstream', 'yealink',
+  'cisco', 'avaya', 'genesys', '3cx', 'ringcentral', 'zoom', 'huawei', 'nec',
+  'zte', 'ericsson', 'nokia', 'microsoft',
+  // CPaaS / comunicação
+  'twilio', 'zenvia', 'movidesk', 'totvs', 'vonage',
+  // Consultoria com forte atuação em telecom
+  'ntt data', 'stefanini', 'compass uol',
 ];
 const _JS_SENIOR_RE = [
   /\bs[eê]nior\b/, /\bsr\.?\s+(devops|engenheiro|analista)/,
@@ -2772,9 +2775,10 @@ const _JS_NEGATIVE = ['arquiteto', 'architect', 'manager', 'diretor', 'director'
   'mobile developer', 'mobile engineer', 'data scientist', 'machine learning', 'ml engineer'];
 const _JS_LOC_REMOTE = /(remoto|remote|home office|h[íi]brido|trabalho remoto)/;
 const _JS_LOC_BH = /\b(belo horizonte|bh|contagem|betim|minas gerais|mg)\b/;
-const _JS_POSITIVE = ['observabilidade', 'observability', 'sre', 'monitoramento', 'devops',
-  'infraestrutura', 'infrastructure', 'cloud', 'nuvem', 'automação', 'automation',
-  'cloud native', 'multicloud', 'finops', 'cloud migration', 'plataforma', 'platform'];
+const _JS_POSITIVE = ['voip', 'sip', 'broadworks', 'sbc', 'telefonia', 'telefonia ip',
+  'unified communications', 'comunicacoes unificadas', 'pabx', 'ip pbx', 'call center',
+  'telecom', 'telecomunicacoes', 'noc', 'operadora', 'atendimento tecnico', 'suporte tecnico',
+  'troubleshooting', 'analise de logs', 'cdr', 'redes', 'cloud'];
 
 function _wb(skill) {
   return new RegExp('\\b' + skill.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b');
@@ -2846,7 +2850,7 @@ function scoreJobLocal(job) {
     if (isRemote) bigTechBonus += 5;
   }
 
-  // Priority Skills (GCP)
+  // Priority Skills (crescimento: redes, segurança, cloud, UC)
   const priorityFound = _JS_PRIORITY_SKILLS.filter(s => _wb(s).test(text));
   const priorityBonus = Math.min(priorityFound.length, 10);
 
@@ -2954,7 +2958,7 @@ async function previewAndAddJob() {
 
   _enqueueSave(() => saveJobsToGitHub())
     .then(() => {
-      const tag = score.target_company ? '🎯 Big Tech' : '';
+      const tag = score.target_company ? '🎯 Empresa alvo' : '';
       toast(`Vaga adicionada: ${score.score}/100 ${score.fit_level.toUpperCase()} ${tag}`, 'success');
     })
     .catch(e => toast('Erro ao salvar: ' + e.message + ' — só local.', 'error'));
