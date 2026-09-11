@@ -22,7 +22,7 @@ RESUME_PATH = ASSETS_DIR / "curriculo.pdf"
 
 GMAIL_USER = os.environ.get("GMAIL_USER", "")
 GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "")
-CANDIDATE_EMAIL = os.environ.get("CANDIDATE_EMAIL", "ericdias0603@gmail.com")
+CANDIDATE_EMAIL = os.environ.get("CANDIDATE_EMAIL", "erickjhonatanmoreira@gmail.com")
 
 # Quando True (padrão): envia email-rascunho para si mesmo nas vagas sem
 # contact_email (assim você revisa e candidata manualmente).
@@ -30,7 +30,7 @@ CANDIDATE_EMAIL = os.environ.get("CANDIDATE_EMAIL", "ericdias0603@gmail.com")
 # Vagas com contact_email continuam sendo enviadas direto pro recrutador.
 SEND_SELF_NOTIFICATIONS = os.environ.get("SEND_SELF_NOTIFICATIONS", "true").lower() in ("true", "1", "yes")
 
-DASHBOARD_URL = os.environ.get("DASHBOARD_URL", "https://ericdiaslemos.github.io/radar/")
+DASHBOARD_URL = os.environ.get("DASHBOARD_URL", "https://erickmain.github.io/radar/")
 
 
 def load_sent_history() -> dict:
@@ -68,23 +68,23 @@ def already_applied_to_company(company: str, sent_history: dict) -> bool:
 def _build_subject(job: dict, is_recruiter_email: bool) -> str:
     """
     Gera subject escaneável:
-      - Recrutador:  'Candidatura — Eric Dias Lemos | DevOps Engineer'
-      - Auto-revisão: '🟢 [REVISE] Nubank — Staff IT Engineer 🎯 ☁️ (56/100) | LinkedIn'
+      - Recrutador:  'Candidatura — Erick Moreira | Analista de Telecomunicações'
+      - Auto-revisão: '🟢 [REVISE] Algar Telecom — Analista SIP 🎯 🌱 (56/100) | LinkedIn'
     """
     if is_recruiter_email:
-        return f"Candidatura — Eric Dias Lemos | {job.get('title', '')}"
+        return f"Candidatura — Erick Moreira | {job.get('title', '')}"
 
     fit = (job.get("fit_level") or "").lower()
     fit_emoji = {"alto": "🟢", "medio": "🟡", "baixo": "🔴"}.get(fit, "⚪")
-    bigtech = " 🎯" if job.get("target_company") else ""
-    gcp = " ☁️" if (job.get("priority_skills") or []) else ""
+    target = " 🎯" if job.get("target_company") else ""
+    growth = " 🌱" if (job.get("priority_skills") or []) else ""
     company = job.get("company") or "Empresa"
     title = job.get("title") or ""
     score = job.get("score", 0)
     source = job.get("source", "")
 
     # Empresa primeiro (mais escaneável no Gmail), depois título.
-    return f"{fit_emoji} [REVISE] {company} — {title}{bigtech}{gcp} ({score}/100) | {source}"
+    return f"{fit_emoji} [REVISE] {company} — {title}{target}{growth} ({score}/100) | {source}"
 
 
 def build_email(job: dict, cover_letter: str) -> MIMEMultipart:
@@ -106,9 +106,9 @@ def build_email(job: dict, cover_letter: str) -> MIMEMultipart:
         skills = ", ".join(job.get("skills_match", [])[:8]) or "(nenhuma detectada)"
         tags = []
         if job.get("target_company"):
-            tags.append("🎯 Big Tech")
+            tags.append("🎯 Empresa alvo")
         if job.get("priority_skills"):
-            tags.append("☁️ GCP: " + ", ".join(job["priority_skills"][:5]))
+            tags.append("🌱 Crescimento: " + ", ".join(job["priority_skills"][:5]))
         tags_line = "Tags:   " + " | ".join(tags) + "\n" if tags else ""
 
         body = f"""{cover_letter}
@@ -134,7 +134,7 @@ Score:   {job.get('score', 0)}/100 ({(job.get('fit_level') or '').upper()} FIT)
         part.add_header(
             "Content-Disposition",
             "attachment",
-            filename="curriculo_eric_devops.pdf",
+            filename="curriculo_erick_telecom.pdf",
         )
         msg.attach(part)
         log.info("Currículo anexado")

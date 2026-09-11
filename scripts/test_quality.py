@@ -29,16 +29,16 @@ def check(nome, cond, detalhe=""):
 
 print("[portao de cargo]")
 casos = {
-    "DevOps Engineer": "core",
-    "Analista de Devsecops": "core",
-    "Platform Engineer (Kubernetes) - Remote Work": "core",
-    "Azure Cloud Engineer": "core",
-    "Analista de Infraestrutura Pleno": "core",
-    "Analista de Sistemas e Aplicacoes ( Linux )": "core",
-    "Analista de Redes": "adjacent",
-    "Plataforma de Dados": "adjacent",
+    "Analista de Telecomunicações": "core",
+    "Analista SIP Pleno": "core",
+    "Administrador BroadWorks": "core",
+    "Analista NOC (Remote Work)": "core",
+    "Analista de Telecom Junior": "core",
+    "Analista de Suporte Telecom": "core",
+    "DevOps Engineer": "adjacent",
+    "Cloud Engineer": "adjacent",
     "Staff Software Engineer - Backend Java": "senior",
-    "Analista de Infraestrutura Sr": "senior",
+    "Analista de Telecomunicações Sr": "senior",
     "Cyber Security Junior": "adjacent",
     "Data Engineer (AWS)": "off",
     "Desenvolvedor Fullstack Node e React": "off",
@@ -52,15 +52,15 @@ for titulo, esperado in casos.items():
 
 print("[score_job]")
 base = {"company": "Acme", "location": "Remoto",
-        "description": "AWS Docker Kubernetes Terraform Python Linux Prometheus Grafana CI/CD"}
+        "description": "SIP VoIP BroadWorks RTP SBC Wireshark troubleshooting analise de logs"}
 r = score_job(dict(base, title="Staff Software Engineer - Backend Java"))
-check("backend java com stack DevOps na descricao e rejeitada", r.rejected)
-r = score_job(dict(base, title="Analista de DevSecOps"))
-check("devsecops aceita e ganha bonus de cargo", (not r.rejected) and r.title_bonus == 10)
-r = score_job(dict(base, title="Analista de Redes - Selecao em Andamento"))
-check("carreira vizinha (redes) e rejeitada", r.rejected)
-r = score_job(dict(base, title="Analista de Infraestrutura - Jr"))
-check("infraestrutura jr aceita", not r.rejected)
+check("backend java com stack telecom na descricao e rejeitada", r.rejected)
+r = score_job(dict(base, title="Analista de Telecomunicações"))
+check("telecom aceita e ganha bonus de cargo", (not r.rejected) and r.title_bonus == 10)
+r = score_job(dict(base, title="Cloud Engineer - Selecao em Andamento"))
+check("carreira de interesse futuro (cloud) e rejeitada", r.rejected)
+r = score_job(dict(base, title="Analista de Telecomunicações - Jr"))
+check("telecom jr aceita", not r.rejected)
 
 print("[diretorio de recruiters]")
 tmp = Path(tempfile.mkdtemp())
@@ -81,16 +81,16 @@ def vaga(i, titulo, score, rec=None, empresa="Dexian"):
 ana = {"name": "Ana Souza", "profile_url": "https://br.linkedin.com/in/ana-souza/pt",
        "headline": "Tech Recruiter | Talent Acquisition"}
 d = recruiters.merge_jobs_into_directory([
-    vaga("a", "DevOps Engineer", 72, ana),
+    vaga("a", "Analista de Telecomunicações", 72, ana),
     vaga("b", "Desenvolvedor Fullstack", 80, {"name": "Bia", "profile_url": "https://br.linkedin.com/in/bia",
                                               "headline": "Recruiter"}),
-    vaga("c", "SRE Pleno", 66),                       # sem recruiter -> inferida pela empresa
-    vaga("d", "Cloud Engineer", 50),                  # abaixo do score minimo
+    vaga("c", "Analista NOC Pleno", 66),               # sem recruiter -> inferida pela empresa
+    vaga("d", "Analista SIP", 50),                     # abaixo do score minimo
 ])
 nomes = {x["name"]: x for x in d["recruiters"]}
 check("recruiter antigo (score 46) podado pelo criterio atual", "Antigo" not in nomes)
 check("recruiter de vaga fora da area nao entra", "Bia" not in nomes)
-check("recruiter de vaga DevOps entra", "Ana Souza" in nomes)
+check("recruiter de vaga Telecom entra", "Ana Souza" in nomes)
 ana_d = nomes.get("Ana Souza", {})
 check("vaga sem recruiter da mesma empresa foi inferida",
       any(j.get("inferred") for j in ana_d.get("jobs", [])))

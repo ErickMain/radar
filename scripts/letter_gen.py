@@ -13,41 +13,29 @@ log = logging.getLogger(__name__)
 
 # Perfil do candidato — base factual usada nos prompts.
 # Mantenha fiel ao currículo: o modelo não deve inventar experiência.
-CANDIDATE_PROFILE = """Eric Dias Lemos — DevOps / Platform Engineer, 3 anos de experiência.
-Engenharia da Computação concluída (Centro Universitário Una, 2026). Belo Horizonte/MG.
+CANDIDATE_PROFILE = """Erick Moreira — Analista de Telecomunicações, 5 anos de experiência.
+Belo Horizonte/MG.
 
-Atuação atual — Método Telecom (desde mar/2025), DevOps | Cloud & Infraestrutura:
-- Construiu do zero uma plataforma interna (IDP) com Gitea, Jenkins, Docker Registry,
-  Trivy, Gitleaks e SonarQube — DevSecOps embutido em cada commit, stack open source.
-- Sustenta hospedagem, confiabilidade e CI/CD de 30+ sistemas em produção;
-  4 servidores e 25+ máquinas Linux monitoradas.
-- Observabilidade com Zabbix, Prometheus, Grafana e Loki: dashboards, alertas
-  multi-canal e abertura automática de chamados.
-- Pipelines Jenkins containerizado em EC2 e Kubernetes (K3s), testes em múltiplos
-  níveis e Blue-Green Deployment com zero downtime. Provisionamento com Terraform.
-- Ambiente híbrido GCP + AWS + VMware, com migração de sistemas e FinOps.
-- Exporters em Python integrando APIs de SBCs de telefonia ao Prometheus.
-- Redes e segurança: Fortigate, WireGuard, MikroTik, segmentação e troubleshooting.
+Atuação atual — Método Telecom (desde jun/2021), Telecommunications Analyst:
+- Suporte especializado em telefonia IP e VoIP, com administração de ambientes
+  BroadWorks.
+- Análise de protocolos SIP e RTP; troubleshooting de SBCs (Session Border
+  Controllers).
+- Provisionamento de ramais e dispositivos IP; configuração de telefones IP e ATAs.
+- Tratativas técnicas diretas com operadoras como Oi, Algar e TIP.
+- Análise de CDRs e logs SIP; captura e interpretação de tráfego com Wireshark.
+- Diagnóstico de problemas de áudio, registro SIP, NAT, firewall e codecs.
+- Atendimento técnico de incidentes críticos e gestão de Ordens de Serviço em
+  ambientes de missão crítica.
+- Elaboração de documentação técnica e procedimentos operacionais.
 
-MUG Solutions (desde mar/2026), Cloud Engineer | DevOps — responsável pela infraestrutura:
-- Reconstruiu a infra como código (Terraform + Ansible) — ambiente 100% reprodutível.
-- Conduziu avaliação multi-cloud e migrou a stack de GCP para AWS reaproveitando
-  100% da camada Ansible — migração sem retrabalho.
-- CI/CD com GitHub Actions e deploy blue-green (Next.js + Supabase).
-- Análise de custo/capacidade que reduziu gasto de nuvem.
+Stack: SIP, RTP, BroadWorks, SBC, VoIP, IP PBX, Wireshark, Windows Server,
+análise de logs, CDR, NAT/firewall/codecs, atendimento técnico nível 2.
 
-Antes: Analista de Redes Jr (Century) e Assistente de NOC (Kater) — Zabbix, Grafana,
-MikroTik, Huawei, OLT, VLAN, troubleshooting camada 2/3. Militar do Exército (Comunicações).
+Interesse em expandir atuação para redes, segurança da informação, cloud e
+comunicações unificadas."""
 
-Stack: Python, Docker, Kubernetes/K3s, Terraform, Ansible, Jenkins, GitHub Actions,
-Prometheus, Grafana, Loki, Zabbix, AWS (EC2, EBS, IAM, Elastic IP), GCP (Compute Engine,
-Cloud Run), VMware, Nginx, Cloudflare, Fortigate, WireGuard, FastAPI, Flask, N8N.
-
-Certificações: AWS Cloud Practitioner (curso), Google DevOps Essentials,
-Cisco NDG Linux Essentials, Networking Basics. Cursando Google Cloud Associate
-Cloud Engineer."""
-
-SYSTEM_PROMPT = """Você escreve cartas de apresentação em nome de Eric Dias Lemos.
+SYSTEM_PROMPT = """Você escreve cartas de apresentação em nome de Erick Moreira.
 
 PERFIL DO CANDIDATO (use só o que está aqui, nunca invente experiência):
 """ + CANDIDATE_PROFILE + """
@@ -57,8 +45,9 @@ Regras obrigatórias:
 - Máximo 4 parágrafos curtos (não mais de 5 linhas cada)
 - Não começar com "Prezados" ou frases genéricas
 - Destacar 2-3 pontos do perfil que casam com a vaga, preferindo
-  resultados concretos (ex: plataforma interna para 30+ sistemas,
-  migração GCP→AWS sem retrabalho, blue-green com zero downtime)
+  resultados concretos (ex: troubleshooting de SBCs em ambiente de missão
+  crítica, tratativas técnicas diretas com operadoras, análise de logs
+  SIP/CDR com Wireshark)
 - Nunca citar tecnologia ou experiência que não esteja no perfil acima
 - Finalizar com disponibilidade para entrevista
 - Escrever em português brasileiro formal-técnico"""
@@ -85,10 +74,10 @@ def generate_cover_letter(job: dict) -> str:
 Descrição da vaga (resumida):
 {description}
 
-Skills da vaga que Eric possui: {', '.join(skills_match[:10]) if skills_match else 'DevOps, Linux, Docker'}
-Skills da vaga que Eric não possui: {', '.join(skills_gap[:5]) if skills_gap else 'nenhuma relevante'}
+Skills da vaga que Erick possui: {', '.join(skills_match[:10]) if skills_match else 'SIP, VoIP, BroadWorks'}
+Skills da vaga que Erick não possui: {', '.join(skills_gap[:5]) if skills_gap else 'nenhuma relevante'}
 
-Escreva uma carta de apresentação personalizada e objetiva para Eric se candidatar \
+Escreva uma carta de apresentação personalizada e objetiva para Erick se candidatar \
 a esta vaga. Foque nas skills coincidentes e no valor que ele pode agregar à empresa."""
 
     log.info("Gerando carta para: %s @ %s (Groq/%s)", title, company, GROQ_MODEL)
@@ -123,26 +112,26 @@ def generate_letter_batch(jobs: list[dict]) -> dict[str, str]:
 
 
 def _fallback_letter(job: dict) -> str:
-    title = job.get("title", "DevOps Engineer")
+    title = job.get("title", "Analista de Telecomunicações")
     company = job.get("company", "empresa")
     # dict.get(key, default) só retorna default se a chave não existir.
     # Se for lista vazia [], retorna [] e o join vira "". Trata os dois casos.
-    skills_list = job.get("skills_match") or ["Docker", "Linux", "Python"]
+    skills_list = job.get("skills_match") or ["SIP", "VoIP", "BroadWorks"]
     skills = ", ".join(skills_list[:3])
     return f"""Prezados da {company},
 
 Tenho interesse na vaga de {title} e acredito que minha experiência em {skills} \
 se alinha diretamente com as necessidades descritas.
 
-Atuo há mais de 3 anos em ambientes de infraestrutura Linux com foco em \
-automação, monitoramento (Prometheus/Grafana) e containerização com Docker e Kubernetes. \
-Já implementei pipelines CI/CD com GitHub Actions e Jenkins em ambientes produtivos.
+Atuo há mais de 5 anos com telefonia IP e VoIP, administrando ambientes BroadWorks \
+e fazendo troubleshooting de SBCs em ambiente de missão crítica, com tratativas \
+técnicas diretas junto a operadoras e análise de logs SIP/CDR (Wireshark).
 
 Estou disponível para uma conversa técnica quando for conveniente para a equipe.
 
 Atenciosamente,
-Eric Dias Lemos
-ericdias0603@gmail.com"""
+Erick Moreira
+erickjhonatanmoreira@gmail.com"""
 
 
 # ─── Abordagem de recruiters (LinkedIn) ───────────────────────────────────────
@@ -152,8 +141,8 @@ ericdias0603@gmail.com"""
 
 INVITE_LIMIT = 300
 
-RECRUITER_SYSTEM_PROMPT = """Você escreve a abordagem de LinkedIn de Eric Dias Lemos \
-para recrutadores que publicaram vagas de DevOps/Cloud/Platform.
+RECRUITER_SYSTEM_PROMPT = """Você escreve a abordagem de LinkedIn de Erick Moreira \
+para recrutadores que publicaram vagas de Telecom/VoIP/NOC/Comunicações Unificadas.
 
 PERFIL (use só o que está aqui, nunca invente experiência):
 """ + CANDIDATE_PROFILE + """
@@ -256,21 +245,21 @@ def _fallback_outreach(recruiter: dict) -> dict:
     best = _best_job(recruiter)
     first_name = (recruiter.get("name") or "").split()[0] if recruiter.get("name") else ""
     oi = f"Oi {first_name}" if first_name else "Oi"
-    vaga = best.get("title", "a vaga de DevOps")
+    vaga = best.get("title", "a vaga de Telecom")
     empresa = best.get("company", "")
     onde = f" na {empresa}" if empresa and empresa != "N/A" else ""
 
     invite = _fit(
-        f"{oi}! Vi sua vaga de {vaga}{onde}. Sou DevOps há 3 anos e hoje cuido "
-        f"do CI/CD e da observabilidade de 30+ sistemas em produção. "
-        f"Gostaria de me conectar.",
+        f"{oi}! Vi sua vaga de {vaga}{onde}. Sou Analista de Telecomunicações há "
+        f"5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs "
+        f"em ambiente de missão crítica. Gostaria de me conectar.",
         INVITE_LIMIT,
     )
     message = (
         f"{oi}, obrigado por aceitar!\n\n"
-        f"Sobre a vaga de {vaga}{onde}: construí do zero uma plataforma interna "
-        f"(Jenkins, SonarQube, Trivy) que sustenta 30+ sistemas em produção, e "
-        f"conduzi uma migração GCP → AWS com Terraform e Ansible sem retrabalho.\n\n"
+        f"Sobre a vaga de {vaga}{onde}: atuo na administração de ambientes "
+        f"BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas "
+        f"junto a operadoras como Oi, Algar e TIP.\n\n"
         f"Posso te enviar meu currículo?"
     )
     return {"invite_note": invite, "message": message}

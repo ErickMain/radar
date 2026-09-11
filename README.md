@@ -1,7 +1,10 @@
-# 📡 Job Radar — Eric Dias Lemos
+# 📡 Job Radar — Erick Moreira
 
-Sistema automatizado de busca e candidatura em vagas de DevOps.
+Sistema automatizado de busca e candidatura em vagas de Telecom/VoIP/NOC.
 Roda 100% gratuito via GitHub Actions + GitHub Pages.
+
+> Fork de [EricDiasLemos/radar](https://github.com/EricDiasLemos/radar), adaptado
+> para o perfil de Analista de Telecomunicações (SIP/VoIP/BroadWorks/SBC/NOC).
 
 ## Estrutura
 
@@ -14,12 +17,12 @@ job-radar/
 │   ├── main.py               # Orquestrador (entry point)
 │   ├── scraper.py            # Busca vagas (Indeed/LinkedIn/Gupy/Vagas.com)
 │   ├── scorer.py             # Calcula fit score 0–100
-│   ├── letter_gen.py         # Gera carta via Claude API
+│   ├── letter_gen.py         # Gera carta via Groq (gratuito)
 │   └── mailer.py             # Envia email com currículo
 ├── data/
 │   ├── jobs.json             # Banco de vagas
 │   └── sent.json             # Histórico de candidaturas
-├── dashboard/
+├── docs/
 │   └── index.html            # Interface (GitHub Pages)
 ├── assets/
 │   └── curriculo.pdf         # ← Adicione seu currículo aqui
@@ -31,8 +34,8 @@ job-radar/
 ### 1. Fork / clone o repositório
 
 ```bash
-git clone https://github.com/SEU_USUARIO/job-radar.git
-cd job-radar
+git clone https://github.com/ErickMain/radar.git
+cd radar
 ```
 
 ### 2. Adicione o currículo
@@ -45,8 +48,8 @@ Vá em **Settings → Secrets and variables → Actions → New repository secre
 
 | Secret | Valor |
 |--------|-------|
-| `ANTHROPIC_API_KEY` | Chave da API Claude (console.anthropic.com) |
-| `GMAIL_USER` | Seu email Gmail (ex: eric@gmail.com) |
+| `GROQ_API_KEY` | Chave da API Groq, gratuita (console.groq.com) |
+| `GMAIL_USER` | Seu email Gmail (ex: erickjhonatanmoreira@gmail.com) |
 | `GMAIL_APP_PASSWORD` | Senha de app do Gmail (não a senha normal) |
 | `CANDIDATE_EMAIL` | Email para receber as candidaturas |
 
@@ -60,11 +63,11 @@ Vá em **Settings → Secrets and variables → Actions → New repository secre
 
 ### 5. Edite o dashboard
 
-Em `dashboard/index.html`, atualize as constantes no topo do `<script>`:
+Em `docs/index.html`, as constantes no topo do `<script>` já apontam para este fork:
 
 ```js
-const GITHUB_OWNER = 'seu-usuario';   // ← seu username
-const GITHUB_REPO  = 'job-radar';
+const GITHUB_OWNER = 'ErickMain';
+const GITHUB_REPO  = 'radar';
 ```
 
 ### 6. Configure o token no dashboard
@@ -106,6 +109,8 @@ ou acesse **Actions → Job Radar — Daily Scan → Run workflow** para rodar a
 - **Score < 50** → 🔴 Baixo fit — arquivado
 
 Vagas com keywords negativas (Sênior 8+, Arquiteto, CTO, Mobile...) são rejeitadas automaticamente.
+Cargos fora de Telecom/VoIP/NOC (ex: DevOps, Cloud puro) são classificados como
+"adjacent" — área de crescimento, mas não pontuados nem candidatados automaticamente.
 
 ---
 
@@ -118,7 +123,7 @@ pip install -r requirements.txt
 PYTHONPATH=scripts python scripts/main.py scan --no-auto-apply
 
 # Candidatura manual para uma vaga específica
-ANTHROPIC_API_KEY=... GMAIL_USER=... GMAIL_APP_PASSWORD=... \
+GROQ_API_KEY=... GMAIL_USER=... GMAIL_APP_PASSWORD=... \
 PYTHONPATH=scripts python scripts/main.py apply <job_id>
 ```
 

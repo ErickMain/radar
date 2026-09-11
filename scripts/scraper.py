@@ -1,5 +1,5 @@
 """
-Job Radar — Scraper de vagas DevOps
+Job Radar — Scraper de vagas Telecom/VoIP
 Fontes validadas:
   - LinkedIn     (HTML — guest API pública)
   - Vagas.com    (HTML — busca nacional)
@@ -81,33 +81,31 @@ JOBS_FILE = DATA_DIR / "jobs.json"
 BLACKLIST_FILE = DATA_DIR / "blacklist.json"
 
 SEARCH_QUERIES = [
-    # DevOps
-    "DevOps",
-    "DevOps Engineer",
-    "Engenheiro DevOps",
-    "DevOps Pleno",
-    "DevOps Junior",
-    # SRE / Infra
-    "SRE",
-    "Analista Infraestrutura Linux",
-    "Analista de Infraestrutura",
-    "Analista de Infraestrutura Junior",
-    "Analista de Infraestrutura Pleno",
-    # Platform Engineering
-    "Platform Engineer",
-    "Cloud Platform",
-    "Engenheiro de Plataforma",
-    # Cloud
-    "Cloud Engineer",
-    "Engenheiro Cloud",
-    "Analista Cloud",
-    "Cloud Junior",
-    "AWS Engineer",
-    "GCP Engineer",
-    "Cloud Computing",
-    "Computação em Nuvem",
-    "Administrador Cloud",
-    "Cloud Operations",
+    # Telecom / VoIP
+    "Analista de Telecomunicações",
+    "Analista de Telecom",
+    "Telecommunications Analyst",
+    "Analista de Telecomunicações Pleno",
+    "Analista de Telecomunicações Junior",
+    # VoIP / SIP / BroadWorks
+    "VoIP",
+    "Analista VoIP",
+    "SIP",
+    "Analista SIP",
+    "BroadWorks",
+    "Administrador BroadWorks",
+    "Telefonia IP",
+    "Analista de Telefonia",
+    # Unified Communications
+    "Unified Communications",
+    "Comunicações Unificadas",
+    "Analista de Comunicações Unificadas",
+    # NOC / Suporte
+    "Analista NOC",
+    "NOC Telecom",
+    "Suporte Telecom",
+    "Analista de Suporte Telecom",
+    "Suporte Nível 2 Telecom",
 ]
 
 LOCATIONS = [

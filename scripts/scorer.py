@@ -15,66 +15,56 @@ log = logging.getLogger(__name__)
 
 CANDIDATE_SKILLS = {
     # Core (valem +3)
-    "python", "docker", "linux", "prometheus", "grafana",
-    # Cloud — AWS (valem +2)
-    "aws", "ec2", "s3", "rds", "lambda", "cloudwatch", "cloudformation",
-    "eks", "ecs", "iam", "vpc", "route53",
-    # Cloud — GCP (valem +2)
-    "gcp", "google cloud", "gke", "cloud run", "bigquery", "cloud storage",
-    # Cloud — Azure (valem +2)
-    "azure", "aks", "azure devops",
-    # IaC / Orquestração (valem +2)
-    "terraform", "ansible", "kubernetes", "helm", "argocd", "pulumi",
-    # CI/CD (valem +2)
-    "github actions", "ci/cd", "jenkins", "gitlab ci", "circleci",
-    # Observabilidade (valem +2)
-    "zabbix", "datadog", "loki", "alertmanager", "grafana loki", "elk",
-    "newrelic", "dynatrace",
-    # DevSecOps / qualidade de codigo (valem +2)
-    "sonarqube", "trivy", "gitleaks", "gitea", "vault", "devsecops",
-    # Estrategias de deploy (valem +2)
-    "blue-green", "blue green", "canary", "gitops", "rollback",
-    "zero downtime", "zero-downtime",
-    # IaC / plataforma (valem +2)
-    "iac", "infrastructure as code", "infraestrutura como codigo",
-    "docker compose", "docker-compose", "proxmox", "systemd",
-    # Dados / backing services (valem +2)
-    "postgresql", "postgres", "redis", "cloud sql", "rabbitmq", "kafka",
-    # Cloud / edge complementares (valem +2)
-    "cloudflare", "compute engine", "cloud functions", "app engine",
-    "elastic ip", "ebs", "security groups", "load balancer",
-    # Redes (base do candidato — valem +2)
-    "cisco", "huawei", "vlan", "bgp", "firewall", "vpn", "dns", "olt",
-    # Infra / Rede (valem +2)
-    "nginx", "bash", "shell", "git", "rest", "api",
-    "k3s", "wireguard", "mikrotik", "fortigate", "vmware",
-    "n8n", "flask", "fastapi", "gunicorn",
+    "sip", "voip", "broadworks", "sbc", "wireshark",
+    # Protocolos / voz (valem +2)
+    "rtp", "srtp", "sip trunk", "codec", "codecs", "g.711", "g.729",
+    "nat", "stun", "turn", "qos", "e1", "isdn", "ramal", "ramais",
+    # Plataformas / equipamentos (valem +2)
+    "ip pbx", "pabx", "pabx ip", "ura", "gateway", "khomp", "digitro",
+    "leucotron", "intelbras", "grandstream", "yealink", "3cx", "asterisk",
+    "freeswitch", "genesys", "avaya", "cisco", "huawei", "session border controller",
+    # Comunicação unificada (valem +2)
+    "unified communications", "comunicacoes unificadas", "teams", "webex",
+    "zoom phone", "contact center", "call center", "ura",
+    # Suporte / operação (valem +2)
+    "atendimento tecnico", "suporte tecnico", "suporte nivel 2", "nivel 2",
+    "troubleshooting", "analise de logs", "cdr", "ordem de servico",
+    "documentacao tecnica", "noc",
+    # Redes / segurança (valem +2)
+    "vlan", "firewall", "vpn", "dns", "bgp", "olt", "mikrotik", "fortigate",
+    "wireguard", "vmware", "rede", "redes", "network", "networking",
+    "seguranca da informacao", "cybersecurity",
+    # Infra / SO (valem +2)
+    "windows server", "linux", "active directory", "sql server",
+    # Operadoras (valem +2) — nomes ambíguos como "oi"/"claro"/"vivo" evitados
+    # de propósito (palavras comuns em português, dariam falso positivo)
+    "algar", "algar telecom", "tim brasil", "embratel", "operadora",
+    # Cloud / crescimento (valem +2)
+    "cloud", "aws", "azure", "gcp", "sd-wan",
 }
 
-CORE_SKILLS = {"python", "docker", "linux", "prometheus", "grafana"}
+CORE_SKILLS = {"sip", "voip", "broadworks", "sbc", "wireshark"}
 
 POSITIVE_KEYWORDS = {
     # Área
-    "observabilidade", "observability", "sre", "monitoramento", "monitoring",
-    "infraestrutura", "infrastructure", "automação", "automation",
-    "telecom", "plataforma", "platform", "devops", "devsecops",
-    "on-premise", "on premise", "noc",
-    # Cloud genérico
-    "cloud", "nuvem", "cloud computing", "computação em nuvem",
-    "cloud native", "multicloud", "multi-cloud", "hybrid cloud",
-    "cloud operations", "cloudops", "finops",
-    "migração para nuvem", "cloud migration",
-    # Platform engineering / confiabilidade
-    "platform engineering", "plataforma interna", "internal developer platform",
-    "idp", "gitops", "zero downtime", "blue-green",
-    "confiabilidade", "reliability", "disponibilidade", "availability",
-    "escalabilidade", "scalability", "infraestrutura como codigo",
+    "voip", "sip", "broadworks", "sbc", "telefonia", "telefonia ip",
+    "ip telephony", "unified communications", "comunicacoes unificadas",
+    "pabx", "ip pbx", "ura", "call center", "contact center",
+    "telecom", "telecomunicacoes", "noc", "operadora",
+    # Suporte / operação
+    "atendimento tecnico", "suporte tecnico", "suporte nivel 2",
+    "troubleshooting", "analise de logs", "cdr", "ordem de servico",
+    "missao critica", "alta disponibilidade", "incidente",
+    # Protocolos / redes
+    "rtp", "nat", "firewall", "vlan", "qos", "wireshark",
+    # Crescimento (redes, segurança, cloud, comunicações unificadas)
+    "redes", "network", "seguranca da informacao", "cybersecurity",
+    "cloud", "nuvem",
     # Cargos alvo
-    "analista de infraestrutura", "engenheiro de infraestrutura",
-    "platform engineer", "engenheiro de plataforma", "devops engineer",
-    "engenheiro cloud", "analista cloud", "cloud engineer",
-    "suporte linux", "administrador linux", "linux admin",
-    "administrador cloud", "cloud administrator",
+    "analista de telecomunicacoes", "analista de telecom",
+    "analista de voip", "analista sip", "administrador broadworks",
+    "analista de comunicacoes unificadas", "analista noc",
+    "suporte telecom", "engenheiro de voz",
 }
 
 NEGATIVE_KEYWORDS = {
@@ -96,84 +86,37 @@ SENIOR_PATTERNS = [
 LOCATION_KEYWORDS_BH = {"belo horizonte", "bh", "contagem", "betim", "minas gerais", "mg"}
 LOCATION_KEYWORDS_REMOTE = {"remoto", "remote", "home office", "híbrido", "hibrido", "trabalho remoto"}
 
-# ─── Empresas alvo (Big Techs) ────────────────────────────────────────────────
+# ─── Empresas alvo (operadoras / fabricantes / plataformas de telecom) ────────
 # Vagas dessas empresas recebem +15 no score e threshold mais baixo
 # para alto fit (60 em vez de 70). Match normaliza (lowercase, sem acento).
 TARGET_COMPANIES = {
-    # Fintechs / bancos digitais
-    "nubank", "inter", "banco inter", "c6", "c6 bank", "picpay", "pagseguro",
-    "pagbank", "cielo", "creditas", "sicredi", "sicoob", "stone", "xp", "xp inc",
-    "b3", "méliuz", "meliuz", "original", "banco original",
-    "btg", "btg pactual", "neon", "banco neon", "modal", "modalmais",
-    "iti", "next", "agibank", "will bank", "willbank",
-    # Bancos tradicionais (digital teams)
-    "itaú", "itau", "itaú unibanco", "bradesco", "santander", "banco do brasil",
-    "caixa", "caixa econômica", "banco safra", "safra",
-    # E-commerce / marketplaces / varejo
-    "mercado livre", "mercadolivre", "meli", "magalu", "magazine luiza",
-    "americanas", "via varejo", "vtex", "olist", "amazon", "shopee",
-    "casas bahia", "ponto frio", "riachuelo", "renner", "lojas renner",
-    "marisa", "c&a", "carrefour", "carrefour brasil", "grupo pão de açúcar",
-    "pão de açúcar", "gpa", "assaí", "atacadão", "havan",
-    # Delivery / logística / mobilidade
-    "ifood", "rappi", "zé delivery", "ze delivery", "99", "99app", "loggi",
-    "uber", "uber brasil", "kovi", "buser", "movile",
-    "jadlog", "total express",
-    # Imobiliária / proptech
-    "loft", "quintoandar", "quinto andar", "imovelweb", "vivareal",
-    # Saúde / health-tech
-    "rd saúde", "rd saude", "raia drogasil", "dasa", "hapvida", "fleury",
-    "amil", "notredame intermédica", "hospital albert einstein", "einstein",
-    "hospital sírio libanês", "sírio libanês", "drogaria pacheco", "drogasil",
-    # Educação
-    "cogna", "hotmart", "kroton", "ânima", "anima educação", "yduqs",
-    "estácio", "estacio", "ser educacional", "afya",
-    # Consultoria / serviços
-    "ey", "ernst young", "deloitte", "pwc", "kpmg", "accenture",
-    "everis", "ntt data", "ntt", "tcs", "tata consultancy", "wipro",
-    "capgemini", "atos", "stefanini", "ci&t", "ci and t", "ci t",
-    "thoughtworks", "indra",
-    # Indústria / energia
-    "embraer", "vale", "vale tech", "petrobras", "ambev", "br distribuidora",
-    "raízen", "raizen", "ultragaz", "ultrapar", "klabin", "suzano",
-    "gerdau", "csn", "usiminas", "votorantim", "weg",
-    # Telecom
+    # Operadoras / telecom BR
     "vivo", "telefônica", "telefonica", "claro", "tim", "tim brasil", "oi",
-    "nextel", "algar", "algar telecom", "embratel",
-    # Software / SaaS BR
-    "totvs", "locaweb", "rd station", "resultados digitais",
-    "globo", "globo.com", "grupo globo", "globoplay",
-    "movile", "blip", "nuvemshop", "loggi tech", "neoway",
-    # Outsourcing / digital consultancies
-    "compass uol", "luizalabs", "ze.tech", "zé tech",
-    # Tech BR / startups grandes
-    "qi tech", "qitech", "warren", "modalmais", "easynvest", "rico investimentos",
-    "rico", "inter pag", "mosyle", "vtex tech",
-    # Wellness / outras
-    "wellhub", "gympass", "smart fit", "totalpass",
-    # Auto / mobilidade
-    "porto seguro", "porto", "azul seguros", "sulamerica", "sul america",
-    "bradesco seguros", "mapfre",
-    # Globais com escritório/contratação no BR
-    "google", "microsoft", "ibm", "oracle", "salesforce", "meta",
-    "apple", "sap", "aws", "red hat", "redhat", "vmware", "cisco",
-    "dell", "hp", "hpe", "intel", "nvidia", "siemens", "schneider",
-    "ericsson", "nokia", "huawei", "lg cns", "samsung",
-    "ge", "general electric", "abb", "honeywell", "philips",
-    "thoughtworks", "globant", "epam", "endava",
-    "spotify", "netflix", "uber",
+    "nextel", "algar", "algar telecom", "embratel", "sercomtel", "brisanet",
+    "desktop", "americanet", "copel telecom", "unifique", "vero internet",
+    "hughes", "gvt", "cemig telecom",
+    # ISPs / data centers / infra de rede
+    "v.tal", "vtal", "ascenty", "equinix", "ativas data center", "diveo",
+    "eletronet",
+    # Fabricantes / plataformas VoIP, PABX, SBC, UC
+    "khomp", "digitro", "leucotron", "intelbras", "grandstream", "yealink",
+    "cisco", "avaya", "genesys", "3cx", "ringcentral", "zoom",
+    "broadsoft", "huawei", "nec", "zte", "ericsson", "nokia", "microsoft",
+    # CPaaS / comunicação / contact center
+    "twilio", "zenvia", "movidesk", "totvs", "vonage",
+    # Consultoria / integradores com forte atuação em telecom
+    "ntt data", "ntt", "stefanini", "compass uol",
 }
 
 # ─── Skills prioritárias do candidato ─────────────────────────────────────────
-# Skills com prioridade (ex.: GCP — candidato vai ter certificação).
-# Vagas que mencionam essas skills recebem boost extra de +1 cada (cap +10).
+# Áreas de crescimento declaradas pelo candidato (redes, segurança, cloud e
+# comunicações unificadas). Vagas que mencionam essas skills recebem boost
+# extra de +1 cada (cap +10).
 PRIORITY_SKILLS = {
-    # GCP — candidato vai ter cert GCP Associate
-    "gcp", "google cloud", "gke", "bigquery", "cloud run",
-    "cloud storage", "cloud functions", "gcs",
-    "google cloud platform", "google kubernetes engine",
-    "cloud sql", "pub/sub", "dataflow", "dataproc",
-    "firestore", "firebase",
+    "redes", "network", "networking", "seguranca da informacao",
+    "cybersecurity", "cyber security", "ciberseguranca",
+    "cloud", "aws", "azure", "gcp", "sd-wan", "zero trust",
+    "unified communications", "comunicacoes unificadas",
 }
 
 SALARY_PATTERN = re.compile(r"r\$\s*([\d.,]+)", re.IGNORECASE)
@@ -207,28 +150,26 @@ _TITLE_NON_TECH = re.compile(
     r"|administrativ|secretari|eventos|juridic|logistic|frota|orcamento"
     r"|contratos?\b|planejamento|producao|processos|estagi|aprendiz"
 )
-# Acima do nível-alvo (3 anos de experiência)
+# Acima do nível-alvo (5 anos de experiência)
 _TITLE_TOO_SENIOR = re.compile(
     r"\b(senior|sr|staff|principal|lead|lider|tech lead|head|gerente|manager"
     r"|coordenador|coordinator|diretor|director|supervisor|master|iii)\b"
 )
 # Cargo claramente da área — basta sozinho
 _TITLE_CORE_STRONG = re.compile(
-    r"\b(devops|dev ops|devsecops|sre|site reliability|kubernetes|k8s"
-    r"|observabilidade|observability|sysadmin|system administrator"
-    r"|administrador de sistemas|cloud engineer|cloud ops|cloudops"
-    r"|cloud operations|cloud analyst|cloud platform|analista (de )?cloud"
-    r"|engenheir[oa] (de )?(cloud|nuvem)|release engineer|build engineer"
-    r"|finops|platform engineer|engenheir[oa] de plataforma|platform|plataforma"
-    r"|infraestrutura|infrastructure|infra)\b"
+    r"\b(voip|sip|broadworks|sbc|session border controller|telefonia ip"
+    r"|ip telephony|unified communications|comunicacoes unificadas"
+    r"|comunicacao unificada|ip pbx|pabx|telecomunicacoes|telecom|noc"
+    r"|analista de voz|engenheir[oa] de voz|voz sobre ip)\b"
 )
-# Termos fortes, porém genéricos: "Plataforma de Dados", "Software Engineer,
-# Infrastructure". Sozinhos contam; ao lado de outra carreira, só adjacente.
-_TITLE_CORE_GENERIC = re.compile(
-    r"\b(platform|plataforma|infraestrutura|infrastructure|infra)\b"
+# Termos fortes, porém genéricos: podem aparecer em cargos de outra carreira
+# de TI que só citam telecom como domínio da empresa. Sozinhos contam; ao
+# lado de outra carreira, só adjacente.
+_TITLE_CORE_GENERIC = re.compile(r"\b(telecom|noc|pabx)\b")
+# Termos da área que sozinhos são ambíguos (aparecem em cargos de suporte geral)
+_TITLE_CORE_WEAK = re.compile(
+    r"\b(redes|network|networking|telefonia|suporte tecnico|nivel 2|n2)\b"
 )
-# Termos da área que sozinhos são ambíguos (aparecem em cargos de dados/dev)
-_TITLE_CORE_WEAK = re.compile(r"\b(cloud|nuvem|aws|gcp|azure|linux|terraform)\b")
 # Outra carreira de TI — descarta mesmo com termo fraco da área
 _TITLE_OTHER_TECH = re.compile(
     r"\b(full ?stack|front ?end|back ?end|desenvolvedor|developer|programador"
@@ -239,20 +180,25 @@ _TITLE_OTHER_TECH = re.compile(
     r"|banco de dados|database|mobile|ios|android|ux|ui|produto|product"
     r"|scrum|agile)\b"
 )
-# Carreira vizinha (redes, segurança, telecom): próxima, mas não é DevOps.
+# Carreira vizinha (DevOps, Cloud, segurança): área de interesse futuro do
+# candidato, mas ainda não é o foco atual — próxima, mas não é Telecom/VoIP.
 # É classificada à parte só para o log dizer o motivo — também é rejeitada.
 _TITLE_ADJACENT = re.compile(
-    r"\b(redes|network|networking|noc|telecom|telecomunicacoes|it operations"
-    r"|tech ops|operacoes de ti|virtualizacao|vmware|seguranca da informacao"
-    r"|cyber ?security|ciberseguranca|security engineer|suporte linux)\b"
+    r"\b(devops|dev ops|sre|site reliability|kubernetes|k8s|cloud engineer"
+    r"|cloud ops|cloudops|cloud operations|cloud analyst|cloud platform"
+    r"|analista (de )?cloud|engenheir[oa] (de )?(cloud|nuvem)|platform engineer"
+    r"|engenheir[oa] de plataforma|platform|plataforma|infraestrutura"
+    r"|infrastructure|infra|seguranca da informacao|cyber ?security"
+    r"|ciberseguranca|security engineer|sysadmin|system administrator"
+    r"|administrador de sistemas)\b"
 )
 
 
 def classify_title(title: str) -> str:
     """
     Classifica o cargo pelo título:
-      'core'     — DevOps / SRE / Cloud / Platform / Infra
-      'adjacent' — carreira vizinha (redes, NOC, telecom, segurança)
+      'core'     — Telecom / VoIP / SIP / BroadWorks / NOC / Unified Comms
+      'adjacent' — carreira de interesse futuro (DevOps, Cloud, segurança)
       'senior'   — nível acima do alvo
       'off'      — fora da área
     """
@@ -367,8 +313,8 @@ def score_job(job_dict: dict) -> ScoreResult:
     if title_class != "core":
         motivo = {
             "senior": "Cargo acima do nível-alvo",
-            "adjacent": "Carreira vizinha (redes/segurança/telecom), não é DevOps",
-        }.get(title_class, "Cargo fora da área (DevOps/Cloud/Platform/Infra)")
+            "adjacent": "Carreira de interesse futuro (DevOps/Cloud/segurança), não é Telecom/VoIP",
+        }.get(title_class, "Cargo fora da área (Telecom/VoIP/SIP/NOC/Unified Communications)")
         return ScoreResult(
             total=0, skills=0, location=0, level=0, keywords=0, salary=0,
             skills_match=[], skills_gap=[], fit_level="baixo", rejected=True,
