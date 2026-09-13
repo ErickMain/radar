@@ -52,6 +52,11 @@ Regras obrigatórias:
   crítica, tratativas técnicas diretas com operadoras, análise de logs
   SIP/CDR com Wireshark)
 - Nunca citar tecnologia ou experiência que não esteja no perfil acima
+- PROIBIDO inventar números: nenhum percentual, métrica de uptime/SLA,
+  redução de tempo, quantidade de incidentes ou qualquer estatística de
+  performance. O perfil acima não tem números de resultado — se quiser
+  citar impacto, descreva a atividade em si (ex: "troubleshooting de SBCs
+  em ambiente de missão crítica"), nunca invente um número para ela
 - Finalizar com disponibilidade para entrevista
 - Escrever em português brasileiro formal-técnico"""
 
@@ -98,6 +103,11 @@ Mandatory rules:
 - Never claim a technology, experience, or spoken-English fluency level
   that isn't in the profile above — the profile says reading/writing are
   advanced and speaking is still improving; don't overstate that
+- DO NOT invent numbers: no percentages, uptime/SLA metrics, time
+  reductions, incident counts, or any performance statistic. The profile
+  above has no result numbers — if you want to convey impact, describe
+  the activity itself (e.g. "SBC troubleshooting in mission-critical
+  environments"), never make up a number for it
 - End with availability for an interview
 - Write in professional, technical English"""
 
@@ -235,14 +245,18 @@ PERFIL (use só o que está aqui, nunca invente experiência):
 
 Devolva JSON com duas chaves:
 - "convite": nota do convite de conexão. NO MÁXIMO 280 caracteres. Cite a vaga
-  e uma prova concreta do perfil. Termine sem pergunta longa.
+  e uma atividade concreta do perfil (não um número). Termine sem pergunta longa.
 - "mensagem": mensagem para depois que o convite for aceito, até 70 palavras.
-  Retome a vaga, dê 2 resultados concretos que casam com ela e termine com uma
+  Retome a vaga, cite 2 atividades/skills concretas do perfil que casam com
+  ela (nunca um número ou resultado quantificado) e termine com uma
   pergunta simples e de baixo atrito (ex: "posso te mandar meu currículo?").
 
 Regras: tom cordial e direto, como uma pessoa real escreveria; português
 brasileiro informal-profissional; nada de "Prezado(a)" ou jargão corporativo;
-nenhuma tecnologia ou resultado fora do perfil."""
+nenhuma tecnologia ou resultado fora do perfil. PROIBIDO inventar números
+(percentual, uptime/SLA, redução de tempo, quantidade de incidentes etc.)
+— o perfil não tem métricas de resultado; cite a atividade em si, nunca um
+número inventado para ela."""
 
 RECRUITER_SYSTEM_PROMPT_EN = """You write Erick Moreira's LinkedIn outreach \
 for recruiters who posted Telecom/VoIP/NOC/Unified Communications remote jobs.
@@ -252,16 +266,20 @@ PROFILE (use only what's here, never invent experience):
 
 Return JSON with two keys:
 - "convite": connection-request note. AT MOST 280 characters. Mention the
-  job and one concrete proof point from the profile. End without a long
-  question.
+  job and one concrete activity from the profile (not a number). End
+  without a long question.
 - "mensagem": follow-up message for after the invite is accepted, up to 70
-  words. Reference the job, give 2 concrete results that match it, and end
-  with a simple, low-friction question (e.g. "want me to send my resume?").
+  words. Reference the job, cite 2 concrete activities/skills from the
+  profile that match it (never a made-up number or quantified result), and
+  end with a simple, low-friction question (e.g. "want me to send my resume?").
 
 Rules: warm, direct tone, like a real person would write; professional but
 casual English; no "Dear Sir/Madam" or corporate jargon; no technology or
 result outside the profile — don't overstate spoken-English fluency, the
-profile says reading/writing are advanced and speaking is still improving."""
+profile says reading/writing are advanced and speaking is still improving.
+DO NOT invent numbers: no percentages, uptime/SLA metrics, time reductions,
+incident counts, or any performance statistic — the profile has no result
+numbers; describe the activity itself instead."""
 
 
 def _fit(text: str, limit: int) -> str:
