@@ -149,8 +149,9 @@ a esta vaga. Foque nas skills coincidentes e no valor que ele pode agregar à em
 
     response = client.chat.completions.create(
         model=GROQ_MODEL,
-        max_tokens=600,
+        max_tokens=2000,
         temperature=0.7,
+        reasoning_effort="low",
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt},
@@ -319,8 +320,9 @@ Escreva o JSON com "convite" e "mensagem"."""
               "EN" if overseas else "PT-BR")
     response = client.chat.completions.create(
         model=GROQ_MODEL,
-        max_tokens=400,
+        max_tokens=1500,
         temperature=0.7,
+        reasoning_effort="low",
         response_format={"type": "json_object"},
         messages=[
             {"role": "system", "content": system_prompt},
