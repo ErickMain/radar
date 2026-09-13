@@ -23,8 +23,10 @@
       ],
       "first_seen": "2026-09-11T21:23:44.989092+00:00",
       "last_seen": "2026-09-11T21:23:44.989092+00:00",
-      "message": null,
-      "priority": 58
+      "message": "Oi Gaëtan, obrigado por aceitar!\n\nSobre a vaga de Unified Communications engineer (M/F) na CNS Communications: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
+      "priority": 58,
+      "invite_note": "Oi Gaëtan! Vi sua vaga de Unified Communications engineer (M/F) na CNS Communications. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
+      "outreach_source": "fallback"
     },
     {
       "id": "6c6425bf68593f14",
@@ -49,8 +51,10 @@
       ],
       "first_seen": "2026-09-11T21:23:44.989092+00:00",
       "last_seen": "2026-09-11T21:23:44.989092+00:00",
-      "message": null,
-      "priority": 56
+      "message": "Oi Federica, obrigado por aceitar!\n\nSobre a vaga de Core Network Voice Engineer (IMS/VoLTE) na VmWay S.r.l.: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
+      "priority": 56,
+      "invite_note": "Oi Federica! Vi sua vaga de Core Network Voice Engineer (IMS/VoLTE) na VmWay S.r.l.. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
+      "outreach_source": "fallback"
     },
     {
       "id": "e4b407aa96181af0",
@@ -75,8 +79,10 @@
       ],
       "first_seen": "2026-09-11T21:23:44.989092+00:00",
       "last_seen": "2026-09-11T21:23:44.989092+00:00",
-      "message": null,
-      "priority": 56
+      "message": "Oi Kalyani, obrigado por aceitar!\n\nSobre a vaga de Network Operations Center Engineer na Technomine: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
+      "priority": 56,
+      "invite_note": "Oi Kalyani! Vi sua vaga de Network Operations Center Engineer na Technomine. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
+      "outreach_source": "fallback"
     },
     {
       "id": "7029c26d196d85ce",
@@ -101,8 +107,10 @@
       ],
       "first_seen": "2026-09-11T21:23:44.989092+00:00",
       "last_seen": "2026-09-11T21:23:44.989092+00:00",
-      "message": null,
-      "priority": 52
+      "message": "Oi Jonathan, obrigado por aceitar!\n\nSobre a vaga de Network Operations Center Engineer na Experis UK: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
+      "priority": 52,
+      "invite_note": "Oi Jonathan! Vi sua vaga de Network Operations Center Engineer na Experis UK. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
+      "outreach_source": "fallback"
     },
     {
       "id": "6ccc71f4e2447f71",
@@ -127,8 +135,10 @@
       ],
       "first_seen": "2026-09-11T21:23:44.989092+00:00",
       "last_seen": "2026-09-11T21:23:44.989092+00:00",
-      "message": null,
-      "priority": 35
+      "message": "Oi Nataliia, obrigado por aceitar!\n\nSobre a vaga de IP Telephony Engineer (VoIP Engineer) na ABCommunication: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
+      "priority": 35,
+      "invite_note": "Oi Nataliia! Vi sua vaga de IP Telephony Engineer (VoIP Engineer) na ABCommunication. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
+      "outreach_source": "fallback"
     },
     {
       "id": "786a6a6ab29636e2",
@@ -153,8 +163,10 @@
       ],
       "first_seen": "2026-09-11T21:23:44.989092+00:00",
       "last_seen": "2026-09-11T21:23:44.989092+00:00",
-      "message": null,
-      "priority": 29
+      "message": "Oi Jasmin, obrigado por aceitar!\n\nSobre a vaga de Network Operations Centre (NOC) Engineer na ViewQwest: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
+      "priority": 29,
+      "invite_note": "Oi Jasmin! Vi sua vaga de Network Operations Centre (NOC) Engineer na ViewQwest. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
+      "outreach_source": "fallback"
     },
     {
       "id": "02dd3b4eb40a179c",
@@ -179,9 +191,39 @@
       ],
       "first_seen": "2026-09-11T21:23:44.989092+00:00",
       "last_seen": "2026-09-11T21:23:44.989092+00:00",
-      "message": null,
-      "priority": 29
+      "message": "Oi Ted, obrigado por aceitar!\n\nSobre a vaga de Network Operations Center Engineer na The Edge Partnership - The Edge in Asia: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
+      "priority": 29,
+      "invite_note": "Oi Ted! Vi sua vaga de Network Operations Center Engineer na The Edge Partnership - The Edge in Asia. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
+      "outreach_source": "fallback"
+    },
+    {
+      "id": "441cdc7eed0be668",
+      "name": "Lisa-Marie Barth",
+      "profile_url": "https://at.linkedin.com/in/lisa-marie-barth",
+      "headline": "Vermittlung von Experten I Mein Steckenpferd: Netzwerk | Security & Infrastruktur",
+      "is_recruiter": false,
+      "country": "AT",
+      "companies": [
+        "Computer Futures"
+      ],
+      "jobs": [
+        {
+          "id": "3cf384ddb5293b0c",
+          "title": "Microsoft 365 & Unified Communications Engineer (m/w/d)",
+          "company": "Computer Futures",
+          "url": "https://at.linkedin.com/jobs/view/microsoft-365-unified-communications-engineer-m-w-d-at-computer-futures-4463394405",
+          "score": 70,
+          "fit_level": "alto",
+          "found_at": "2026-09-13T07:33:21.045435+00:00"
+        }
+      ],
+      "first_seen": "2026-09-13T07:33:26.477584+00:00",
+      "last_seen": "2026-09-13T07:33:26.477584+00:00",
+      "message": "Oi Lisa-Marie, obrigado por aceitar!\n\nSobre a vaga de Microsoft 365 & Unified Communications Engineer (m/w/d) na Computer Futures: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
+      "priority": 25,
+      "invite_note": "Oi Lisa-Marie! Vi sua vaga de Microsoft 365 & Unified Communications Engineer (m/w/d) na Computer Futures. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
+      "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-09-11T21:23:44.989092+00:00"
+  "last_updated": "2026-09-13T07:33:26.477584+00:00"
 }
