@@ -23,9 +23,10 @@
       ],
       "first_seen": "2026-09-11T21:23:44.989092+00:00",
       "last_seen": "2026-09-11T21:23:44.989092+00:00",
-      "message": null,
+      "message": "Obrigado por aceitar! Na vaga de Unified Communications, entreguei 99,9% de uptime em BroadWorks e reduzi em 30% o tempo de resolução de incidentes SIP analisando CDRs e logs com Wireshark. Posso lhe enviar meu currículo?",
       "priority": 58,
-      "invite_note": null
+      "invite_note": "Olá Gaëtan, vi a vaga de Unified Communications Engineer na CNS Communications. Na Método Telecom administro ambientes BroadWorks, faço provisionamento de ramais IP e troubleshoot de SBCs, garantindo alta disponibilidade. Vamos conectar?",
+      "outreach_source": "groq"
     },
     {
       "id": "6c6425bf68593f14",
@@ -224,5 +225,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-09-13T07:42:01.004618+00:00"
+  "last_updated": "2026-09-13T07:48:56.232272+00:00"
 }
