@@ -19,6 +19,7 @@ DATA_DIR = Path(__file__).parent.parent / "data"
 SENT_FILE = DATA_DIR / "sent.json"
 ASSETS_DIR = Path(__file__).parent.parent / "assets"
 RESUME_PATH = ASSETS_DIR / "curriculo.pdf"
+RESUME_PATH_EN = ASSETS_DIR / "resume_en.pdf"
 
 GMAIL_USER = os.environ.get("GMAIL_USER", "")
 GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "")
@@ -132,28 +133,32 @@ Score:   {job.get('score', 0)}/100 ({(job.get('fit_level') or '').upper()} FIT)
 
     msg.attach(MIMEText(body, "plain", "utf-8"))
 
-    if RESUME_PATH.exists():
-        with open(RESUME_PATH, "rb") as f:
+    # Vaga overseas leva o currículo em inglês; se ainda não existir, cai
+    # para o em português (melhor anexar algo do que nada).
+    if job.get("is_overseas") and RESUME_PATH_EN.exists():
+        resume_path = RESUME_PATH_EN
+        resume_filename = "resume_erick_moreira.pdf"
+    else:
+        resume_path = RESUME_PATH
+        resume_filename = "curriculo_erick_moreira.pdf"
+
+    if resume_path.exists():
+        with open(resume_path, "rb") as f:
             part = MIMEBase("application", "octet-stream")
             part.set_payload(f.read())
         encoders.encode_base64(part)
-        # Conteúdo do PDF é o mesmo (currículo em português) — só o nome do
-        # arquivo muda. Ver limitação conhecida: sem versão do currículo em
-        # inglês ainda, então a vaga overseas recebe um currículo em PT-BR.
-        resume_filename = ("resume_erick_telecom.pdf" if job.get("is_overseas")
-                            else "curriculo_erick_telecom.pdf")
         part.add_header(
             "Content-Disposition",
             "attachment",
             filename=resume_filename,
         )
         msg.attach(part)
-        log.info("Currículo anexado")
+        log.info("Currículo anexado: %s", resume_path.name)
     else:
         log.warning(
             "⚠️  Currículo não encontrado em %s — email enviado SEM anexo!\n"
-            "    Para anexar: faça commit do arquivo assets/curriculo.pdf no repo.",
-            RESUME_PATH,
+            "    Para anexar: faça commit do arquivo em assets/ no repo.",
+            resume_path,
         )
 
     return msg
