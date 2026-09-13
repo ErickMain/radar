@@ -1,6 +1,9 @@
 """
 Job Radar — Geração de carta de apresentação via Groq (gratuito)
-Modelo: llama-3.3-70b-versatile (substituto do 3.1-70b descontinuado)
+Modelo: openai/gpt-oss-120b — os llama-3.x saíram do plano gratuito da Groq
+em 2026-09 (llama-3.3-70b-versatile virou 404 "model_not_found" pra quem
+não tem acesso enterprise); os modelos que sobraram no free tier são
+groq/compound(-mini), openai/gpt-oss-120b/20b e qwen3.6/3.8-27b.
 """
 
 import json
@@ -98,7 +101,7 @@ Mandatory rules:
 - End with availability for an interview
 - Write in professional, technical English"""
 
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-120b"
 
 
 def generate_cover_letter(job: dict) -> str:
