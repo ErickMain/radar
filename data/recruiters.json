@@ -23,9 +23,10 @@
       ],
       "first_seen": "2026-09-11T21:23:44.989092+00:00",
       "last_seen": "2026-09-11T21:23:44.989092+00:00",
-      "message": null,
+      "message": "Oi Gaëtan, obrigado por aceitar!\n\nSobre a vaga de Unified Communications engineer (M/F) na CNS Communications: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
       "priority": 58,
-      "invite_note": null
+      "invite_note": "Oi Gaëtan! Vi sua vaga de Unified Communications engineer (M/F) na CNS Communications. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
+      "outreach_source": "fallback"
     },
     {
       "id": "6c6425bf68593f14",
@@ -224,5 +225,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-09-13T07:38:01.934151+00:00"
+  "last_updated": "2026-09-13T07:42:01.004618+00:00"
 }
