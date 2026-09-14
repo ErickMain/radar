@@ -7099,9 +7099,9 @@
         "zoom phone"
       ],
       "fit_level": "alto",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
+      "status": "enviada",
+      "applied_at": "2026-09-14T17:37:53.097819+00:00",
+      "cover_letter": "I am a Telecommunications Analyst with five years of experience supporting IP‑telephony and VoIP infrastructures in mission‑critical environments. My daily work involves SIP and RTP protocol analysis, SBC troubleshooting, and detailed CDR/log examination using Wireshark—activities that align directly with the Tier 1 NOC focus on alert triage and first‑level incident resolution.\n\nIn my current role at Método Telecom I handle end‑to‑end device provisioning, configure IP phones and ATAs, and maintain Windows Server platforms while interfacing directly with carriers such as Oi and TIP. This background gives me solid exposure to network fundamentals, DNS, and firewall/NAT considerations, as well as disciplined ticket management and documentation practices required for accurate knowledge‑base updates.\n\nI am comfortable following structured support processes, communicating clearly through email, chat, and ticketing systems, and escalating issues to Tier 2/3 teams when needed. My advanced reading and writing proficiency in English supports precise written communication, while I continue to improve spoken interaction.\n\nI am available for an interview at your convenience to discuss how my technical expertise and disciplined support approach can contribute to the Magna5 NOC team.",
       "contact_email": null,
       "recruiter": null,
       "valid_through": null,
@@ -7508,12 +7508,12 @@
       "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
     }
   ],
-  "last_updated": "2026-09-14T17:35:32.092884+00:00",
+  "last_updated": "2026-09-14T17:37:53.097828+00:00",
   "stats": {
     "total": 58,
     "alto_fit": 42,
     "medio_fit": 15,
     "baixo_fit": 1,
-    "enviadas": 3
+    "enviadas": 4
   }
 }

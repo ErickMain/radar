@@ -131,6 +131,45 @@
       },
       "cover_letter": "I am a Telecommunications Analyst with five years of hands‑on experience in IP‑telephony, currently supporting BroadWorks‑based environments at Método Telecom. My daily responsibilities include SIP and RTP protocol analysis, provisioning of IP phones and ATAs, and troubleshooting Session Border Controllers in mission‑critical settings, which aligns directly with the core tasks of administering and supporting IP‑PBX systems at ABCommunication.\n\nI regularly perform CDR and SIP‑log analysis using Wireshark, capture and interpret traffic to resolve registration, NAT, firewall and codec issues (including G.711 and G.729). This experience matches your requirement for detailed log analysis and audio‑codec optimization, and my work with carriers such as Oi, Algar and TIP has refined my ability to manage SIP trunks and ensure stable VoIP operation.\n\nMy technical toolkit includes SIP, RTP, SBCs, IP‑PBX, Windows Server, and network fundamentals (TCP/IP, NAT, VLAN, DHCP, DNS). I produce clear technical documentation and operational procedures, supporting smooth hand‑offs and client meetings. Although my spoken English is still improving, I have advanced reading and writing proficiency, enabling effective asynchronous communication and accurate interpretation of technical documentation.\n\nI am available for an interview at your convenience and look forward to discussing how my expertise can contribute to your large‑scale VoIP projects.",
       "description": "ABC — надійний IT-інтегратор із багаторічним досвідом побудови та підтримки IT-інфраструктури для клієнтів національного та міжнародного рівня. Ми працюємо з провідними світовими вендорами: Cisco, HPE, Dell, Lenovo, Oracle, IBM, Microsoft, VMware, Fortinet, Check Point та ін. Зараз ми розширюємо команду та шукаємо інженера з IP-телефонії, який долучиться до реалізації масштабних проєктів. 🔧 Що потрібно робити: -Адміністрування та підтримка IP-АТС -Налаштування SIP-транків, маршрутизація дзвінків -Забезпечення стабільної роботи VoIP-інфраструктури -Аналіз логів, troubleshooting (Wireshark, tcpdump) -Діагностика SIP-сесій -Оптимізація аудіокодеків (G.711, G.729, OPUS тощо) -Документування та робота з технічною документацією -Участь у зустрічах із замовниками ✅ Наші очікування: -Досвід роботи з IP-телефонією -Знання SIP, RTP, RTCP -Досвід роботи з IP-АТС та VoIP шлюзами -Розуміння SIP-транків -Базові знання мереж (TCP/IP, NAT, VLAN, DHCP, DNS) -Досвід troubleshooting (логи, трафік) -Англійська — на рівні читання технічної документації ➕ Буде плюсом: Досвід з Cisco (якщо ні — допоможемо з навчанням) 💼 Ми пропонуємо: -Офіційне працевлаштування -Графік: пн–чт 9:00–18:00, пт до 17:00 -Бронювання -Корпоративна англійська -24 дні відпустки + лікарняні -Навчання та сертифікації від світових вендорів -Роботу в команді сильних інженерів та участь у масштабних проєктах 💬 Ready to join? Надсилайте резюме — будемо раді познайомитись! Show more Show less"
+    },
+    {
+      "job_id": "315d21c5cbcccfd5",
+      "title": "Tier 1 Engineer, Network Operations Center",
+      "company": "Magna5",
+      "location": "Estados Unidos",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/tier-1-engineer-network-operations-center-at-magna5-4466754384",
+      "sent_at": "2026-09-14T17:37:53.096951+00:00",
+      "score": 94,
+      "fit_level": "alto",
+      "target_company": false,
+      "contact_email": null,
+      "to_email": "napmusicbot@gmail.com",
+      "skills_match": [
+        "active directory",
+        "azure",
+        "cloud",
+        "cybersecurity",
+        "dns",
+        "network",
+        "sql server",
+        "troubleshooting",
+        "vmware",
+        "windows server"
+      ],
+      "score_breakdown": {
+        "skills": 20,
+        "location": 20,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 4,
+        "title": 10,
+        "overseas": 15
+      },
+      "cover_letter": "I am a Telecommunications Analyst with five years of experience supporting IP‑telephony and VoIP infrastructures in mission‑critical environments. My daily work involves SIP and RTP protocol analysis, SBC troubleshooting, and detailed CDR/log examination using Wireshark—activities that align directly with the Tier 1 NOC focus on alert triage and first‑level incident resolution.\n\nIn my current role at Método Telecom I handle end‑to‑end device provisioning, configure IP phones and ATAs, and maintain Windows Server platforms while interfacing directly with carriers such as Oi and TIP. This background gives me solid exposure to network fundamentals, DNS, and firewall/NAT considerations, as well as disciplined ticket management and documentation practices required for accurate knowledge‑base updates.\n\nI am comfortable following structured support processes, communicating clearly through email, chat, and ticketing systems, and escalating issues to Tier 2/3 teams when needed. My advanced reading and writing proficiency in English supports precise written communication, while I continue to improve spoken interaction.\n\nI am available for an interview at your convenience to discuss how my technical expertise and disciplined support approach can contribute to the Magna5 NOC team.",
+      "description": "Description Title: Tier 1 Engineer, Network Operations Center About The Role As a Tier 1 Engineer, Network Operations Center, you will monitor, triage, and respond to system-generated alerts across client environments during after-hours support operations. This role is well suited for someone who works steadily within established procedures, communicates clearly during issue handling, and takes a thorough, service-oriented approach to resolving or escalating technical events. Core Responsibilities Respond to monitoring alerts and support requests received through phone, email, ticketing systems, and remote monitoring platforms Triage infrastructure, endpoint, and cybersecurity alerts using established workflows and escalation procedures Troubleshoot first-level issues involving servers, networks, PCs, and cloud environments, resolving incidents when possible and escalating when needed Collaborate with Tier 2 and Tier 3 technicians on escalated issues to support timely resolution Document troubleshooting steps, resolutions, and recurring issues in the ticketing system and knowledge base Track time, activity, and ticket updates accurately within the PSA and RMM platforms Maintain service quality through prompt, professional communication with clients and internal team members Participate in ongoing technical training and certification development to strengthen support capabilities Requirements Required Skills & Abilities Ability to follow structured support processes and escalation paths with consistency Comfortable managing recurring monitoring activity and sustained ticket-based work over the course of a shift Clear written communication for documentation, ticket updates, and knowledge base contributions Working knowledge of troubleshooting across server, network, endpoint, and cloud support environments Collaborative approach to issue resolution within a tiered support model Other Requirements Minimum of 1 year of experience supporting or administering one or more "
     }
   ]
 }
