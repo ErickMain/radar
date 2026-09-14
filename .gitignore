@@ -1,8 +1,11 @@
 # Secrets — nunca commitar
 .env
 
-# Perfil do Playwright (apply_local.py) — guarda sua sessão logada do
+# Perfil do Chrome usado por apply_local.py — guarda sua sessão logada do
 # LinkedIn (cookies). Jamais commitar, é equivalente a uma credencial.
+# (.playwright-profile/ é o nome antigo, de antes de trocar pra conexão
+# via CDP no Chrome real — mantido aqui também por segurança.)
+.chrome-automation-profile/
 .playwright-profile/
 
 # Currículo — arquivo pessoal, não vai pro repo público

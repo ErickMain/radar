@@ -180,11 +180,17 @@ python -m playwright install chromium
 python scripts/apply_local.py
 ```
 
-Na primeira execução abre um Chromium visível pedindo login no LinkedIn —
-a sessão fica salva em `.playwright-profile/` (no `.gitignore`, nunca vai
-pro repo) e é reaproveitada depois. Pra cada vaga: `[s]` marca como
-enviada, `[n]` pula por agora, `[b]` nunca mais mostra (some pro
-`blacklist.json`), `[q]` para a fila e salva o progresso.
+O script abre o **Chrome de verdade** (não um Chromium do Playwright) num
+perfil próprio e separado do seu Chrome do dia a dia, e só depois se
+conecta nele — LinkedIn e Google bloqueiam login em navegador marcado como
+automatizado, então o login precisa acontecer numa janela "normal" como
+essa. Na primeira vez, faça login no LinkedIn manualmente nessa janela;
+a sessão fica salva em `.chrome-automation-profile/` (no `.gitignore`,
+nunca vai pro repo) e é reaproveitada depois — não precisa logar de novo.
+
+Pra cada vaga: `[s]` marca como enviada, `[n]` pula por agora, `[b]` nunca
+mais mostra (some pro `blacklist.json`), `[q]` para a fila e salva o
+progresso.
 
 ---
 

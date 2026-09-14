@@ -4,14 +4,23 @@ Job Radar — Fila de candidaturas manuais (LOCAL — não roda no GitHub Action
 O robô encontra e qualifica vagas sozinho, mas a candidatura de verdade no
 LinkedIn (ou no site da empresa) continua sendo você que faz — esse script
 só organiza isso: abre cada vaga elegível numa aba de um navegador de
-verdade, usando sua própria sessão já logada no LinkedIn, mostra a carta
-já gerada (se tiver), e depois que você aplicar manualmente, registra o
-status e sincroniza de volta pro dashboard.
+verdade, mostra a carta já gerada (se tiver), e depois que você aplicar
+manualmente, registra o status e sincroniza de volta pro dashboard.
 
 Não mexe no formulário de "Candidatura simplificada" — só abre a vaga e
 espera você. Isso é proposital: preencher/quase-enviar formulário por
 script é mais "robótico" aos olhos do LinkedIn (risco de restrição de
 conta) e os seletores deles mudam com frequência.
+
+Por que conecta no Chrome de verdade em vez de abrir um Chromium próprio:
+o Playwright `launch()` marca o navegador como controlado por automação
+(navigator.webdriver=true, infobar "Chrome is being controlled by
+automated test software"), e tanto o LinkedIn quanto o login do Google
+bloqueiam login nesse tipo de sessão. Solução: o script abre o chrome.exe
+de verdade como um processo normal (não via API do Playwright) com um
+perfil próprio e a porta de depuração remota, e só DEPOIS se conecta nele
+via CDP — o login acontece 100% humano, numa janela que nunca foi marcada
+como automatizada.
 
 Setup (uma vez):
     .venv\\Scripts\\pip install playwright
@@ -20,15 +29,16 @@ Setup (uma vez):
 Uso:
     .venv\\Scripts\\python scripts\\apply_local.py
 
-Na primeira execução abre um Chromium visível e pede pra você logar no
-LinkedIn manualmente ali dentro — a sessão fica salva em
-.playwright-profile/ (fora do git, ver .gitignore) e é reaproveitada nas
-próximas vezes, sem precisar logar de novo.
+Na primeira execução abre uma janela do Chrome (perfil próprio, separado
+do seu Chrome do dia a dia — fica em .chrome-automation-profile/, fora do
+git) pedindo login no LinkedIn. Faça o login normalmente; a sessão fica
+salva e é reaproveitada nas próximas vezes.
 """
 
 import json
 import subprocess
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -47,8 +57,60 @@ except ImportError:
     sys.exit(1)
 
 ROOT = Path(__file__).parent.parent
-PROFILE_DIR = ROOT / ".playwright-profile"
+PROFILE_DIR = ROOT / ".chrome-automation-profile"
 DONE_STATUSES = {"enviada", "rejeitada", "arquivada"}
+CDP_PORT = 9222
+
+CHROME_CANDIDATES = [
+    r"C:\Program Files\Google\Chrome\Application\chrome.exe",
+    r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
+    str(Path.home() / r"AppData\Local\Google\Chrome\Application\chrome.exe"),
+]
+
+
+def find_chrome() -> str:
+    for path in CHROME_CANDIDATES:
+        if Path(path).exists():
+            return path
+    print(
+        "Não encontrei o Chrome nos caminhos padrão do Windows. "
+        "Se estiver instalado em outro lugar, edite CHROME_CANDIDATES no topo "
+        "de scripts/apply_local.py com o caminho certo."
+    )
+    sys.exit(1)
+
+
+def connect_browser(p):
+    """
+    Conecta num Chrome real via CDP. Se não tiver um escutando na porta,
+    sobe um novo (processo normal, sem marca de automação) com perfil
+    próprio e espera ficar pronto.
+    """
+    try:
+        return p.chromium.connect_over_cdp(f"http://localhost:{CDP_PORT}")
+    except Exception:
+        pass
+
+    chrome_path = find_chrome()
+    PROFILE_DIR.mkdir(exist_ok=True)
+    print("Abrindo o Chrome (perfil separado, só pra essa ferramenta)...")
+    subprocess.Popen([
+        chrome_path,
+        f"--remote-debugging-port={CDP_PORT}",
+        f"--user-data-dir={PROFILE_DIR}",
+        "--no-first-run",
+        "--no-default-browser-check",
+    ])
+
+    for _ in range(20):
+        time.sleep(0.5)
+        try:
+            return p.chromium.connect_over_cdp(f"http://localhost:{CDP_PORT}")
+        except Exception:
+            continue
+
+    print("Não consegui conectar no Chrome depois de abrir. Tente rodar de novo.")
+    sys.exit(1)
 
 
 def eligible_jobs(jobs: list[dict]) -> list[dict]:
@@ -136,16 +198,23 @@ def main() -> None:
     print("Cada uma abre numa aba — aplique manualmente do jeito que sempre fez,")
     print("depois volte aqui pra registrar.\n")
 
-    PROFILE_DIR.mkdir(exist_ok=True)
     changed = False
     with sync_playwright() as p:
-        context = p.chromium.launch_persistent_context(
-            str(PROFILE_DIR), headless=False, viewport={"width": 1280, "height": 900},
-        )
-        page = context.pages[0] if context.pages else context.new_page()
+        browser = connect_browser(p)
+        context = browser.contexts[0] if browser.contexts else browser.new_context()
+        page = context.new_page()
 
         try:
+            first = True
             for i, job in enumerate(queue, 1):
+                if first:
+                    print(
+                        "\nSe essa for a primeira vez, faça login no LinkedIn na "
+                        "janela do Chrome que abriu antes de continuar."
+                    )
+                    input("Pressione ENTER quando estiver logado (ou já estava): ")
+                    first = False
+
                 print_job(job, i, len(queue))
                 page.goto(job["url"], wait_until="domcontentloaded")
 
@@ -173,7 +242,9 @@ def main() -> None:
         except KeyboardInterrupt:
             print("\nParando por aqui.")
         finally:
-            context.close()
+            page.close()
+            # Não fecha o browser/context: é o Chrome real do usuário, ele
+            # decide quando fechar a janela.
 
     if changed:
         sync_and_offer_push(data)
