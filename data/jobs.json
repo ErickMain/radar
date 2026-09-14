@@ -5668,9 +5668,9 @@
         "zoom phone"
       ],
       "fit_level": "alto",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
+      "status": "enviada",
+      "applied_at": "2026-09-14T17:35:14.190228+00:00",
+      "cover_letter": "I am a Telecommunications Analyst with five years of experience in IP‑telephony environments, currently supporting BroadWorks and VoIP services at Método Telecom. My daily work includes provisioning IP devices, configuring SBCs, and performing SIP/RTP analysis with Wireshark to resolve signaling and media issues in mission‑critical contexts.\n\nI have extensive hands‑on experience troubleshooting SBCs and voice gateways, manipulating SIP headers, and creating routing rules that align closely with the responsibilities for configuring Khomp and Aligera equipment. Direct technical interactions with carriers such as Oi and TIP have sharpened my ability to integrate SIP routes and manage NAP configurations reliably.\n\nMy routine includes CDR and SIP log analysis, packet capture interpretation, and diagnosing NAT, firewall, and codec problems (including G.711/G.729). These skills translate directly to the required analysis of SIP/RTP traffic, dial‑plan management, and integration with contact‑center platforms.\n\nI am available for a remote interview at your convenience and look forward to discussing how my background can contribute to Stefanini’s telecom solutions.",
       "contact_email": null,
       "recruiter": null,
       "valid_through": null,
@@ -7508,12 +7508,12 @@
       "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
     }
   ],
-  "last_updated": "2026-09-14T17:34:50.948700+00:00",
+  "last_updated": "2026-09-14T17:35:14.190236+00:00",
   "stats": {
     "total": 58,
     "alto_fit": 42,
     "medio_fit": 15,
     "baixo_fit": 1,
-    "enviadas": 1
+    "enviadas": 2
   }
 }
