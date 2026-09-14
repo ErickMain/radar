@@ -1,3 +1,48 @@
 {
-  "sent": []
+  "sent": [
+    {
+      "job_id": "2f1f19fb46443275",
+      "title": "VoIP Engineer",
+      "company": "MicroSourcing",
+      "location": "Manila, Grande Manila, Filipinas",
+      "source": "LinkedIn",
+      "url": "https://ph.linkedin.com/jobs/view/voip-engineer-at-microsourcing-4440088799",
+      "sent_at": "2026-09-14T17:34:50.948045+00:00",
+      "score": 100,
+      "fit_level": "alto",
+      "target_company": false,
+      "contact_email": null,
+      "to_email": "napmusicbot@gmail.com",
+      "skills_match": [
+        "asterisk",
+        "avaya",
+        "cisco",
+        "cloud",
+        "network",
+        "networking",
+        "qos",
+        "rtp",
+        "sip",
+        "teams",
+        "troubleshooting",
+        "unified communications",
+        "voip",
+        "wireshark",
+        "zoom phone"
+      ],
+      "score_breakdown": {
+        "skills": 33,
+        "location": 20,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 4,
+        "title": 10,
+        "overseas": 15
+      },
+      "cover_letter": "I am a Telecommunications Analyst with five years of experience supporting IP‑telephony environments, currently at Método Telecom. My daily work includes SIP and RTP protocol analysis, SBC troubleshooting, and provisioning of IP phones and ATAs within BroadWorks deployments—activities that align directly with the design, implementation, and maintenance responsibilities of the VoIP Engineer role.\n\nI have extensive hands‑on experience diagnosing audio issues, SIP registration problems, NAT/firewall interactions, and codec mismatches, using Wireshark for packet capture and CDR/SIP log analysis. This background equips me to monitor VoIP performance, resolve latency, jitter, and packet‑loss incidents, and optimize network quality of service in mission‑critical settings.\n\nMy responsibilities also involve direct technical coordination with carriers such as Oi, Algar, and TIP, and managing tier‑2 service tickets under strict incident‑response procedures. These interactions have honed my ability to collaborate with network and infrastructure teams to ensure seamless communication services.\n\nI am available for an interview at your convenience and can contribute immediately to MicroSourcing’s VoIP engineering initiatives.",
+      "description": "Discover your 100% YOU with MicroSourcing! Position: VoIP Engineer Location: Philippines Work setup & shift: Remote Why join MicroSourcing? You'll Have Competitive Rewards: Enjoy above-market compensation, healthcare coverage on day one, plus one or more dependents, paid time-off with cash conversion, group life insurance, and performance bonuses A Collaborative Spirit: Contribute to a positive and engaging work environment by participating in company-sponsored events and activities. Work-Life Harmony: Enjoy the balance between work and life that suits you with flexible work arrangements. Career Growth: Take advantage of opportunities for continuous learning and career advancement. Inclusive Teamwork: Be part of a team that celebrates diversity and fosters an inclusive culture. Your Role As a VoIP Engineer, you will: Design, implement, and maintain VoIP and unified communications systems. Configure and support SIP, PBX, and call routing systems to ensure reliable voice services. Monitor VoIP performance, troubleshoot call quality issues (latency, jitter, packet loss), and optimize network performance. Integrate VoIP systems with other platforms such as CRM, helpdesk, or collaboration tools. Collaborate with network and infrastructure teams to ensure seamless communication services. What You Need Non-negotiables Bachelor’s degree in Information Technology, Computer Engineering, or a related field 3+ years of experience in VoIP, telecommunications, or network engineering roles Strong knowledge of VoIP protocols (SIP, RTP, H.323) and PBX systems (e.g., Asterisk, Cisco, Avaya) Experience troubleshooting VoIP and network-related issues Understanding of networking fundamentals (TCP/IP, QoS, VLANs, routing, and switching) Preferred Skills/expertise Experience with cloud-based VoIP solutions (e.g., Microsoft Teams, Zoom Phone, RingCentral) Relevant certifications (e.g., CCNA, CCNP Collaboration, or equivalent) Familiarity with network monitoring and packet analysis tools (e"
+    }
+  ]
 }

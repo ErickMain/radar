@@ -2924,9 +2924,9 @@
         "yealink"
       ],
       "fit_level": "alto",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
+      "status": "enviada",
+      "applied_at": "2026-09-14T17:34:50.948691+00:00",
+      "cover_letter": "I am a Telecommunications Analyst with five years of experience supporting IP‑telephony environments, currently at Método Telecom. My daily work includes SIP and RTP protocol analysis, SBC troubleshooting, and provisioning of IP phones and ATAs within BroadWorks deployments—activities that align directly with the design, implementation, and maintenance responsibilities of the VoIP Engineer role.\n\nI have extensive hands‑on experience diagnosing audio issues, SIP registration problems, NAT/firewall interactions, and codec mismatches, using Wireshark for packet capture and CDR/SIP log analysis. This background equips me to monitor VoIP performance, resolve latency, jitter, and packet‑loss incidents, and optimize network quality of service in mission‑critical settings.\n\nMy responsibilities also involve direct technical coordination with carriers such as Oi, Algar, and TIP, and managing tier‑2 service tickets under strict incident‑response procedures. These interactions have honed my ability to collaborate with network and infrastructure teams to ensure seamless communication services.\n\nI am available for an interview at your convenience and can contribute immediately to MicroSourcing’s VoIP engineering initiatives.",
       "contact_email": null,
       "recruiter": null,
       "valid_through": "2026-10-11T21:33:59.000Z",
@@ -7508,12 +7508,12 @@
       "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
     }
   ],
-  "last_updated": "2026-09-13T07:53:36.923904+00:00",
+  "last_updated": "2026-09-14T17:34:50.948700+00:00",
   "stats": {
     "total": 58,
     "alto_fit": 42,
     "medio_fit": 15,
     "baixo_fit": 1,
-    "enviadas": 0
+    "enviadas": 1
   }
 }
