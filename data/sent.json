@@ -90,6 +90,47 @@
       },
       "cover_letter": "I am a Telecommunications Analyst with five years of experience in IP‑telephony environments, currently supporting BroadWorks and VoIP services at Método Telecom. My daily work includes provisioning IP devices, configuring SBCs, and performing SIP/RTP analysis with Wireshark to resolve signaling and media issues in mission‑critical contexts.\n\nI have extensive hands‑on experience troubleshooting SBCs and voice gateways, manipulating SIP headers, and creating routing rules that align closely with the responsibilities for configuring Khomp and Aligera equipment. Direct technical interactions with carriers such as Oi and TIP have sharpened my ability to integrate SIP routes and manage NAP configurations reliably.\n\nMy routine includes CDR and SIP log analysis, packet capture interpretation, and diagnosing NAT, firewall, and codec problems (including G.711/G.729). These skills translate directly to the required analysis of SIP/RTP traffic, dial‑plan management, and integration with contact‑center platforms.\n\nI am available for a remote interview at your convenience and look forward to discussing how my background can contribute to Stefanini’s telecom solutions.",
       "description": "Descrição da vaga Na Stefanini, acreditamos no poder da colaboração. Co-criamos soluções inovadoras em parceria com nossos clientes, combinando tecnologia de ponta, inteligência artificial e a criatividade humana. Estamos na vanguarda da resolução de problemas de negócios, proporcionando impacto real em escala global. Ao se juntar à Stefanini, você se torna parte de uma jornada global de transformação. Estamos empenhados em criar impacto positivo não apenas nos negócios, mas também na vida de nossos colaboradores. Se você procura uma oportunidade de crescimento profissional em uma empresa que valoriza inovação, respeito, autonomia e parceria, você encontra aqui! Junte-se a nós e seja parte da mudança! Home office - horário comercial Responsabilidades e atribuições Configurar e manter plataformas de telefonia baseadas em Asterisk (planos de discagem/dialplan, troncos, rotas de entrada e saída, URAs e gerenciamento de áudios). Administrar e configurar SBCs e Gateways de voz (Khomp e Aligera), incluindo criação de NAPs, manipulação de cabeçalhos SIP e regras de roteamento. Realizar homologação e integração de rotas SIP com operadoras de telecomunicações. Diagnosticar e solucionar falhas de sinalização, mídia e rede em ambiente Linux. Analisar tráfego e capturas de pacotes com Wireshark para identificar gargalos em fluxos SIP e RTP. Requisitos Técnicos Conhecimento prático em plataformas Asterisk e integração com sistemas de Contact Center. Domínio de protocolos e conceitos de voz sobre IP e redes: SIP, RTP, VoIP, TCP/IP, TLS, DNS, NAT e codecs (G.711, G.729, Opus). Conhecimento em troncos digitais E1 (sinalizações R2D e ISDN). Vivência com SBCs (Khomp) e Gateways (Aligera). Experiência com ferramentas de análise de tráfego (Wireshark) e leitura de logs de sinalização. Conhecimentos básicos a intermediários no sistema operacional Linux para troubleshooting de serviços e conectividade. 🍛 Vale-alimentação ou vale-refeição; 👨🏼 🎓 Desconto em cursos, universidades e institui"
+    },
+    {
+      "job_id": "96a0cc1e68810ac0",
+      "title": "IP Telephony Engineer (VoIP Engineer)",
+      "company": "ABCommunication",
+      "location": "Kiev, Ucrânia",
+      "source": "LinkedIn",
+      "url": "https://ua.linkedin.com/jobs/view/ip-telephony-engineer-voip-engineer-at-abcommunication-4459919704",
+      "sent_at": "2026-09-14T17:35:32.091965+00:00",
+      "score": 97,
+      "fit_level": "alto",
+      "target_company": false,
+      "contact_email": null,
+      "to_email": "napmusicbot@gmail.com",
+      "skills_match": [
+        "cisco",
+        "dns",
+        "g.711",
+        "g.729",
+        "nat",
+        "rtp",
+        "sip",
+        "troubleshooting",
+        "vlan",
+        "vmware",
+        "voip",
+        "wireshark"
+      ],
+      "score_breakdown": {
+        "skills": 27,
+        "location": 20,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 0,
+        "title": 10,
+        "overseas": 15
+      },
+      "cover_letter": "I am a Telecommunications Analyst with five years of hands‑on experience in IP‑telephony, currently supporting BroadWorks‑based environments at Método Telecom. My daily responsibilities include SIP and RTP protocol analysis, provisioning of IP phones and ATAs, and troubleshooting Session Border Controllers in mission‑critical settings, which aligns directly with the core tasks of administering and supporting IP‑PBX systems at ABCommunication.\n\nI regularly perform CDR and SIP‑log analysis using Wireshark, capture and interpret traffic to resolve registration, NAT, firewall and codec issues (including G.711 and G.729). This experience matches your requirement for detailed log analysis and audio‑codec optimization, and my work with carriers such as Oi, Algar and TIP has refined my ability to manage SIP trunks and ensure stable VoIP operation.\n\nMy technical toolkit includes SIP, RTP, SBCs, IP‑PBX, Windows Server, and network fundamentals (TCP/IP, NAT, VLAN, DHCP, DNS). I produce clear technical documentation and operational procedures, supporting smooth hand‑offs and client meetings. Although my spoken English is still improving, I have advanced reading and writing proficiency, enabling effective asynchronous communication and accurate interpretation of technical documentation.\n\nI am available for an interview at your convenience and look forward to discussing how my expertise can contribute to your large‑scale VoIP projects.",
+      "description": "ABC — надійний IT-інтегратор із багаторічним досвідом побудови та підтримки IT-інфраструктури для клієнтів національного та міжнародного рівня. Ми працюємо з провідними світовими вендорами: Cisco, HPE, Dell, Lenovo, Oracle, IBM, Microsoft, VMware, Fortinet, Check Point та ін. Зараз ми розширюємо команду та шукаємо інженера з IP-телефонії, який долучиться до реалізації масштабних проєктів. 🔧 Що потрібно робити: -Адміністрування та підтримка IP-АТС -Налаштування SIP-транків, маршрутизація дзвінків -Забезпечення стабільної роботи VoIP-інфраструктури -Аналіз логів, troubleshooting (Wireshark, tcpdump) -Діагностика SIP-сесій -Оптимізація аудіокодеків (G.711, G.729, OPUS тощо) -Документування та робота з технічною документацією -Участь у зустрічах із замовниками ✅ Наші очікування: -Досвід роботи з IP-телефонією -Знання SIP, RTP, RTCP -Досвід роботи з IP-АТС та VoIP шлюзами -Розуміння SIP-транків -Базові знання мереж (TCP/IP, NAT, VLAN, DHCP, DNS) -Досвід troubleshooting (логи, трафік) -Англійська — на рівні читання технічної документації ➕ Буде плюсом: Досвід з Cisco (якщо ні — допоможемо з навчанням) 💼 Ми пропонуємо: -Офіційне працевлаштування -Графік: пн–чт 9:00–18:00, пт до 17:00 -Бронювання -Корпоративна англійська -24 дні відпустки + лікарняні -Навчання та сертифікації від світових вендорів -Роботу в команді сильних інженерів та участь у масштабних проєктах 💬 Ready to join? Надсилайте резюме — будемо раді познайомитись! Show more Show less"
     }
   ]
 }

@@ -6055,9 +6055,9 @@
         "zoom phone"
       ],
       "fit_level": "alto",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
+      "status": "enviada",
+      "applied_at": "2026-09-14T17:35:32.092871+00:00",
+      "cover_letter": "I am a Telecommunications Analyst with five years of hands‑on experience in IP‑telephony, currently supporting BroadWorks‑based environments at Método Telecom. My daily responsibilities include SIP and RTP protocol analysis, provisioning of IP phones and ATAs, and troubleshooting Session Border Controllers in mission‑critical settings, which aligns directly with the core tasks of administering and supporting IP‑PBX systems at ABCommunication.\n\nI regularly perform CDR and SIP‑log analysis using Wireshark, capture and interpret traffic to resolve registration, NAT, firewall and codec issues (including G.711 and G.729). This experience matches your requirement for detailed log analysis and audio‑codec optimization, and my work with carriers such as Oi, Algar and TIP has refined my ability to manage SIP trunks and ensure stable VoIP operation.\n\nMy technical toolkit includes SIP, RTP, SBCs, IP‑PBX, Windows Server, and network fundamentals (TCP/IP, NAT, VLAN, DHCP, DNS). I produce clear technical documentation and operational procedures, supporting smooth hand‑offs and client meetings. Although my spoken English is still improving, I have advanced reading and writing proficiency, enabling effective asynchronous communication and accurate interpretation of technical documentation.\n\nI am available for an interview at your convenience and look forward to discussing how my expertise can contribute to your large‑scale VoIP projects.",
       "contact_email": null,
       "recruiter": {
         "name": "Nataliia Rudakova",
@@ -7508,12 +7508,12 @@
       "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
     }
   ],
-  "last_updated": "2026-09-14T17:35:14.190236+00:00",
+  "last_updated": "2026-09-14T17:35:32.092884+00:00",
   "stats": {
     "total": 58,
     "alto_fit": 42,
     "medio_fit": 15,
     "baixo_fit": 1,
-    "enviadas": 2
+    "enviadas": 3
   }
 }
