@@ -2,15 +2,18 @@
 Job Radar — Scraper de vagas Telecom/VoIP (Brasil + remoto internacional)
 Fontes validadas:
   - LinkedIn     (HTML — guest API pública; Brasil e Worldwide/remoto)
-  - Vagas.com    (HTML — busca nacional)
+  - Vagas.com    (HTML — busca nacional; inventário fraco pra nicho telecom,
+                  a maioria das queries retorna ruído filtrado no scoring)
   - Programathor (RSS feed /jobs.rss)
-  - Gupy         (API JSON portal.api.gupy.io)
   - Remotive     (API JSON — vagas 100% remotas internacionais)
 
 Fontes removidas (sem feed/API pública acessível):
   - Indeed    → 403 em IPs de datacenter
   - Catho     → 404 em sitemap/robots, sem RSS
   - InfoJobs  → robots.txt sem sitemap, sem RSS
+  - Gupy      → portal.api.gupy.io descontinuado (404 até na raiz do
+                domínio desde 2026-09). scrape_gupy() ficou no código caso
+                um endpoint novo apareça, mas não é mais chamada.
 """
 
 import hashlib
@@ -970,16 +973,10 @@ def run_scraper() -> list[Job]:
         except Exception as e:
             log.error("[Programathor] Falha em query=%r: %s", query, e)
 
-        # Gupy — API JSON agregada
-        try:
-            for job in scrape_gupy(query):
-                if _is_new(job, existing_ids, seen_signatures, blacklist_ids):
-                    new_jobs.append(job)
-                    _register(job, existing_ids, seen_signatures)
-                elif job.id in blacklist_ids:
-                    rejected_by_blacklist += 1
-        except Exception as e:
-            log.error("[Gupy] Falha em query=%r: %s", query, e)
+        # Gupy — DESATIVADO: portal.api.gupy.io não responde mais (404 até na
+        # raiz do domínio, não é só mudança de rota — endpoint descontinuado).
+        # scrape_gupy() continua definida caso um endpoint novo apareça, só
+        # não é mais chamada aqui pra não queimar ~19 requests por scan à toa.
 
         _sleep(1.0, 2.0)
 

@@ -15,7 +15,7 @@ job-radar/
 │   └── manual-apply.yml      # Candidatura avulsa pelo dashboard
 ├── scripts/
 │   ├── main.py               # Orquestrador (entry point)
-│   ├── scraper.py            # Busca vagas (Indeed/LinkedIn/Gupy/Vagas.com)
+│   ├── scraper.py            # Busca vagas (LinkedIn/Vagas.com/Remotive)
 │   ├── scorer.py             # Calcula fit score 0–100
 │   ├── letter_gen.py         # Gera carta via Groq (gratuito)
 │   └── mailer.py             # Envia email com currículo
@@ -154,12 +154,18 @@ PYTHONPATH=scripts python scripts/main.py apply <job_id>
 ## Fontes de vagas
 
 - **LinkedIn Jobs** — API pública guest (sem login); busca no Brasil (BH/MG)
-  e Worldwide/remoto (sem restrição de país)
-- **Vagas.com** — vagas.com.br (Brasil)
+  e Worldwide/remoto (sem restrição de país). De longe a fonte principal —
+  full-text search melhor que a busca por categoria do Vagas.com
+- **Vagas.com** — vagas.com.br (Brasil). Inventário fraco pro nicho de
+  telecom/VoIP: a busca deles é frouxa, a maioria das queries retorna ruído
+  (analista de atendimento, administrativo etc.) que o portão de cargo do
+  scorer descarta — por isso "0 vagas encontradas" é o resultado normal na
+  maior parte das buscas, não um bug
 - **Programathor** — RSS feed (Brasil)
-- **Gupy** — portal.gupy.io API (Brasil) — atualmente retornando 404 em todas
-  as queries, possível mudança no endpoint público
 - **Remotive** — remotive.com API, vagas 100% remotas internacionais
+- ~~**Gupy**~~ — desativado em 2026-09: portal.api.gupy.io descontinuado
+  (404 até na raiz do domínio). `scrape_gupy()` ficou no código caso um
+  endpoint novo apareça, mas não é mais chamada em `run_scraper()`
 
 Rate limiting e user-agents rotativos estão configurados para evitar bloqueio.
 Cada fonte tem fallback gracioso — se uma estiver indisponível, as demais continuam.
