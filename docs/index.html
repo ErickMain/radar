@@ -1927,13 +1927,19 @@ function renderCard(job) {
   const deleteBtn = `<button class="btn btn-ghost" onclick="deleteJob('${job.id}')" title="Apagar vaga" style="color:var(--red)">🗑</button>`;
 
   const actionButtons = status === 'enviada'
-    ? `<span style="color:var(--green);font-size:0.78rem">✅ Enviada</span>`
+    ? (job.application_method === 'manual_browser'
+        ? `<span style="color:var(--green);font-size:0.78rem">✔️ Candidatada (manual, sem email)</span>`
+        : `<span style="color:var(--green);font-size:0.78rem">✅ Enviada por email</span>`)
     : status === 'arquivada'
     ? `<span style="color:var(--text-muted);font-size:0.78rem">🗂 Arquivada</span>`
     : `
       <button class="btn btn-ghost" onclick="rejectJob('${job.id}')" title="Rejeitar">❌</button>
       <button class="btn btn-ghost" onclick="approveJob('${job.id}')" title="Aprovar">✅</button>
-      <button class="btn btn-blue" onclick="openApplyModal('${job.id}')">📤 Candidatar</button>
+      <button class="btn btn-ghost" onclick="markAppliedManually('${job.id}')"
+        title="Você já abriu a vaga e se candidatou direto no LinkedIn/site — só registra aqui, não manda email nenhum">
+        ✔️ Já candidatei
+      </button>
+      <button class="btn btn-blue" onclick="openApplyModal('${job.id}')" title="Gera carta e ENVIA EMAIL (pro recrutador, se tiver contato coletado, ou só pra sua revisão)">📤 Candidatar por email</button>
     `;
 
   const targetBonus = job.score_breakdown?.target_company || 0;
@@ -2012,6 +2018,21 @@ function approveJob(jobId) {
 function rejectJob(jobId) {
   updateJobStatus(jobId, 'rejeitada');
   toast('Vaga rejeitada.', 'info');
+}
+
+function markAppliedManually(jobId) {
+  const job = allJobs.find(j => j.id === jobId);
+  if (!job) { toast('Vaga não encontrada.', 'error'); return; }
+  if (!confirm(`Marcar "${job.title}" como candidatada?\n\nIsso só registra o status — NENHUM email é enviado. Use depois de já ter aplicado você mesmo no LinkedIn/site da empresa.`)) return;
+
+  job.status = 'enviada';
+  job.applied_at = new Date().toISOString();
+  job.application_method = 'manual_browser';
+  applyFilters();
+
+  _enqueueSave(() => saveJobsToGitHub())
+    .then(() => toast('Marcada como candidatada (manual, sem email).', 'success'))
+    .catch(e => toast('Erro ao salvar: ' + e.message + ' — mudança só local.', 'error'));
 }
 
 function updateJobStatus(jobId, status) {

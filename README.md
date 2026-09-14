@@ -149,55 +149,28 @@ GROQ_API_KEY=... GMAIL_USER=... GMAIL_APP_PASSWORD=... \
 PYTHONPATH=scripts python scripts/main.py apply <job_id>
 ```
 
-### Fila de candidaturas manuais (`apply_local.py`)
+### Candidatura manual, registrada no dashboard
 
 **Importante:** o Job Radar encontra e qualifica vagas automaticamente, mas
 a candidatura em si (clicar em "Candidatar" no LinkedIn, preencher o
 formulário do site da empresa) continua sendo manual — o sistema não
 interage com o LinkedIn nem com nenhum site de vaga pra aplicar de verdade.
-O botão "Candidatar" do dashboard e o comando `main.py apply` só **enviam
-um email** (direto pro recrutador, se a vaga tinha contato coletado, ou só
-pra sua revisão).
 
-`apply_local.py` é uma ferramenta **local**, que não roda no GitHub
-Actions, pra organizar a parte manual: abre cada vaga elegível (LinkedIn,
-alto/médio fit) numa aba de um navegador de verdade, usando sua própria
-sessão já logada — você aplica manualmente do jeito que sempre fez, e o
-script registra o status e sincroniza de volta pro `data/jobs.json` (e
-pro dashboard, via commit opcional).
+Cada card de vaga no dashboard tem três ações:
+- **👁 Ver** — abre a vaga no seu navegador normal, sem nada especial
+- **✔️ Já candidatei** — você já aplicou por conta própria (LinkedIn, site
+  da empresa); só registra o status como enviada, commitado no repo pra
+  aparecer em qualquer dispositivo — **não manda email nenhum**
+- **📤 Candidatar por email** — gera a carta via IA e **envia um email de
+  verdade** (direto pro recrutador, se a vaga tinha contato coletado na
+  descrição, ou só pra sua revisão em `CANDIDATE_EMAIL`)
 
-Ele **não preenche nem envia** o formulário de candidatura simplificada —
-só abre a vaga e espera você confirmar. Isso é proposital: automatizar
-esse último passo esbarra nos Termos de Uso do LinkedIn (proíbem uso de
-"software de automação" pra aplicar em vagas) e arrisca restrição de
-conta; abrir a aba e deixar você aplicar de verdade fica indistinguível de
-navegação manual normal.
-
-```bash
-pip install -r requirements.txt -r requirements-local.txt
-python -m playwright install chromium
-
-# Só na primeira vez (ou se a sessão expirar): login sem nenhuma automação
-# ativa, numa janela "normal" do Chrome. Faça login e feche a janela.
-python scripts/apply_local.py --login
-
-# Uso normal, depois de logado uma vez
-python scripts/apply_local.py
-```
-
-O script conecta no **Chrome de verdade** (não um Chromium do Playwright)
-via protocolo de depuração remota (CDP), num perfil próprio e separado do
-seu Chrome do dia a dia. O login é deliberadamente um passo separado
-(`--login`, sem CDP envolvido): Google recusa login em qualquer navegador
-com o CDP ativo no momento — não é só o navigator.webdriver, é uma
-checagem específica deles — então o jeito de nunca esbarrar nisso é nunca
-tentar logar enquanto a automação está conectada. A sessão fica salva em
-`.chrome-automation-profile/` (no `.gitignore`, nunca vai pro repo) e é
-reaproveitada — não precisa logar de novo a cada execução.
-
-Pra cada vaga: `[s]` marca como enviada, `[n]` pula por agora, `[b]` nunca
-mais mostra (some pro `blacklist.json`), `[q]` para a fila e salva o
-progresso.
+> Havia uma ferramenta local (`apply_local.py`) que tentava automatizar
+> parte disso abrindo um Chrome controlado — foi removida por não valer a
+> fricção (setup de Python/Playwright, e login do Google/LinkedIn bloqueia
+> sessões com o protocolo de depuração ativo). O botão no dashboard resolve
+> o mesmo problema com bem menos passos: um clique, no navegador que você
+> já usa.
 
 ---
 

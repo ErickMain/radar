@@ -1,10 +1,9 @@
 # Secrets — nunca commitar
 .env
 
-# Perfil do Chrome usado por apply_local.py — guarda sua sessão logada do
-# LinkedIn (cookies). Jamais commitar, é equivalente a uma credencial.
-# (.playwright-profile/ é o nome antigo, de antes de trocar pra conexão
-# via CDP no Chrome real — mantido aqui também por segurança.)
+# Perfis de Chrome de tentativas anteriores de automação local (retirado —
+# ver histórico do git). Se algo recriar essas pastas, guardam sessão do
+# LinkedIn (cookies) e jamais devem ser commitadas.
 .chrome-automation-profile/
 .playwright-profile/
 
