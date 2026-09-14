@@ -6316,9 +6316,9 @@
         "yealink"
       ],
       "fit_level": "alto",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
+      "status": "enviada",
+      "applied_at": "2026-09-14T17:40:10.361936+00:00",
+      "cover_letter": "I am a Telecommunications Analyst with five years of hands‑on experience in IP telephony and unified communications, currently supporting BroadWorks deployments at Método Telecom. My daily responsibilities include SIP and RTP protocol analysis, SBC troubleshooting in mission‑critical environments, and provisioning of IP phones and ATAs—activities directly aligned with CNS’s focus on automated networks and collaboration platforms.\n\nI have worked closely with carriers such as Oi, Algar and TIP, handling CDR and SIP‑log analysis using Wireshark to resolve registration, NAT, firewall and codec issues. This background equips me to contribute to CNS’s cloud‑based contact‑center and unified‑communications projects, where precise packet‑level diagnostics and carrier coordination are essential.\n\nMy technical toolkit includes SIP, RTP, BroadWorks, SBCs, Windows Server and extensive log‑analysis workflows, complemented by an advanced level of written and reading English. I am comfortable with asynchronous communication and can integrate smoothly with distributed teams across Europe, North America and Asia.\n\nI am available for an interview at your convenience to discuss how my expertise in VoIP, SBC troubleshooting and carrier interfacing can support CNS’s transformation initiatives.",
       "contact_email": null,
       "recruiter": {
         "name": "Gaëtan Travailleur",
@@ -7508,12 +7508,12 @@
       "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
     }
   ],
-  "last_updated": "2026-09-14T17:37:53.097828+00:00",
+  "last_updated": "2026-09-14T17:40:10.361945+00:00",
   "stats": {
     "total": 58,
     "alto_fit": 42,
     "medio_fit": 15,
     "baixo_fit": 1,
-    "enviadas": 4
+    "enviadas": 5
   }
 }

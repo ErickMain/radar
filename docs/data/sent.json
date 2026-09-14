@@ -170,6 +170,44 @@
       },
       "cover_letter": "I am a Telecommunications Analyst with five years of experience supporting IP‑telephony and VoIP infrastructures in mission‑critical environments. My daily work involves SIP and RTP protocol analysis, SBC troubleshooting, and detailed CDR/log examination using Wireshark—activities that align directly with the Tier 1 NOC focus on alert triage and first‑level incident resolution.\n\nIn my current role at Método Telecom I handle end‑to‑end device provisioning, configure IP phones and ATAs, and maintain Windows Server platforms while interfacing directly with carriers such as Oi and TIP. This background gives me solid exposure to network fundamentals, DNS, and firewall/NAT considerations, as well as disciplined ticket management and documentation practices required for accurate knowledge‑base updates.\n\nI am comfortable following structured support processes, communicating clearly through email, chat, and ticketing systems, and escalating issues to Tier 2/3 teams when needed. My advanced reading and writing proficiency in English supports precise written communication, while I continue to improve spoken interaction.\n\nI am available for an interview at your convenience to discuss how my technical expertise and disciplined support approach can contribute to the Magna5 NOC team.",
       "description": "Description Title: Tier 1 Engineer, Network Operations Center About The Role As a Tier 1 Engineer, Network Operations Center, you will monitor, triage, and respond to system-generated alerts across client environments during after-hours support operations. This role is well suited for someone who works steadily within established procedures, communicates clearly during issue handling, and takes a thorough, service-oriented approach to resolving or escalating technical events. Core Responsibilities Respond to monitoring alerts and support requests received through phone, email, ticketing systems, and remote monitoring platforms Triage infrastructure, endpoint, and cybersecurity alerts using established workflows and escalation procedures Troubleshoot first-level issues involving servers, networks, PCs, and cloud environments, resolving incidents when possible and escalating when needed Collaborate with Tier 2 and Tier 3 technicians on escalated issues to support timely resolution Document troubleshooting steps, resolutions, and recurring issues in the ticketing system and knowledge base Track time, activity, and ticket updates accurately within the PSA and RMM platforms Maintain service quality through prompt, professional communication with clients and internal team members Participate in ongoing technical training and certification development to strengthen support capabilities Requirements Required Skills & Abilities Ability to follow structured support processes and escalation paths with consistency Comfortable managing recurring monitoring activity and sustained ticket-based work over the course of a shift Clear written communication for documentation, ticket updates, and knowledge base contributions Working knowledge of troubleshooting across server, network, endpoint, and cloud support environments Collaborative approach to issue resolution within a tiered support model Other Requirements Minimum of 1 year of experience supporting or administering one or more "
+    },
+    {
+      "job_id": "1f2aae3bd71a7e60",
+      "title": "Unified Communications engineer (M/F)",
+      "company": "CNS Communications",
+      "location": "Bucareste e Região",
+      "source": "LinkedIn",
+      "url": "https://ro.linkedin.com/jobs/view/unified-communications-engineer-m-f-at-cns-communications-4464190419",
+      "sent_at": "2026-09-14T17:40:10.361041+00:00",
+      "score": 92,
+      "fit_level": "alto",
+      "target_company": false,
+      "contact_email": null,
+      "to_email": "napmusicbot@gmail.com",
+      "skills_match": [
+        "cisco",
+        "cloud",
+        "contact center",
+        "cybersecurity",
+        "sbc",
+        "teams",
+        "unified communications",
+        "webex",
+        "zoom phone"
+      ],
+      "score_breakdown": {
+        "skills": 19,
+        "location": 20,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 3,
+        "title": 10,
+        "overseas": 15
+      },
+      "cover_letter": "I am a Telecommunications Analyst with five years of hands‑on experience in IP telephony and unified communications, currently supporting BroadWorks deployments at Método Telecom. My daily responsibilities include SIP and RTP protocol analysis, SBC troubleshooting in mission‑critical environments, and provisioning of IP phones and ATAs—activities directly aligned with CNS’s focus on automated networks and collaboration platforms.\n\nI have worked closely with carriers such as Oi, Algar and TIP, handling CDR and SIP‑log analysis using Wireshark to resolve registration, NAT, firewall and codec issues. This background equips me to contribute to CNS’s cloud‑based contact‑center and unified‑communications projects, where precise packet‑level diagnostics and carrier coordination are essential.\n\nMy technical toolkit includes SIP, RTP, BroadWorks, SBCs, Windows Server and extensive log‑analysis workflows, complemented by an advanced level of written and reading English. I am comfortable with asynchronous communication and can integrate smoothly with distributed teams across Europe, North America and Asia.\n\nI am available for an interview at your convenience to discuss how my expertise in VoIP, SBC troubleshooting and carrier interfacing can support CNS’s transformation initiatives.",
+      "description": "Welcome to CNS ! CNS Communications is an independent consulting and expertise firm that has specialized for more than 20 years in IT infrastructures (networks, automation, cloud, observability, AI, data, collaboration, and cybersecurity). As a leading player in automated networks and an orchestrator of our clients’ infrastructures, we support large enterprises, mid-sized companies, and public organizations in France and internationally with their IT transformation projects. We combine independent consulting with the recognized expertise of our architects, making CNS a key partner capable of supporting end‑to‑end projects with high technological and business impact—from decision‑making through to implementation. CNS brings together more than 200 employees across 8 offices: Paris, Lyon, Toulouse, Nice, Marseille, Kuala Lumpur, Bucharest, and Montreal. The company achieved €22M in revenue in 2025, supported by an average annual growth rate of 22% over the past three years. Headquartered in France, CNS is providing technical expertise to local, regional, and global MNCs on their critical IT infrastructure transformation initiatives. To sustain our growth and ambitions in Europe, we are seeking our next talent to join our Bucharest team, working closely with our headquarters in France and international offices in North America and Asia. Context and goals In the coming years, we aim to keep innovating in DevOps, Automation and Observability, while expanding further into strategic consulting and exploring how AI can enhance our clients’ SI. Our ambition over the coming years is to continue to innovate in DevOps, Automation and Observability, while expanding into strategic Consulting Who are you? You have at least 2 years of experience working on Unified Communications projects. You have expertise in telephony on at least one of the following solutions: Microsoft Teams, Cisco, Zoom Phone, RingCentral, etc. You have experience with at least one interoperability solution and"
     }
   ]
 }
