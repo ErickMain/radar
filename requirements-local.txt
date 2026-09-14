@@ -1,0 +1,6 @@
+# Dependências extras só pra ferramentas locais (não rodam no GitHub Actions).
+# Instale por cima do requirements.txt normal:
+#   pip install -r requirements.txt -r requirements-local.txt
+#   python -m playwright install chromium
+
+playwright>=1.40.0

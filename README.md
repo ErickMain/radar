@@ -131,8 +131,8 @@ remoto assíncrono: email/chat/ticket, não atendimento telefônico constante).
   para essas vagas (`letter_gen.py` decide o idioma pelo campo `is_overseas`),
   sempre com base só no perfil real — nunca inventa fluência que o candidato
   não tem.
-- ⚠️ Limitação conhecida: o currículo anexado (`assets/curriculo.pdf`) está em
-  português mesmo para vagas overseas — ainda não há uma versão em inglês.
+- Vaga overseas anexa `assets/resume_en.pdf` (currículo em inglês) em vez do
+  `curriculo.pdf` em português — ver `RESUME_PATH_EN` em `mailer.py`.
 
 ---
 
@@ -148,6 +148,43 @@ PYTHONPATH=scripts python scripts/main.py scan --no-auto-apply
 GROQ_API_KEY=... GMAIL_USER=... GMAIL_APP_PASSWORD=... \
 PYTHONPATH=scripts python scripts/main.py apply <job_id>
 ```
+
+### Fila de candidaturas manuais (`apply_local.py`)
+
+**Importante:** o Job Radar encontra e qualifica vagas automaticamente, mas
+a candidatura em si (clicar em "Candidatar" no LinkedIn, preencher o
+formulário do site da empresa) continua sendo manual — o sistema não
+interage com o LinkedIn nem com nenhum site de vaga pra aplicar de verdade.
+O botão "Candidatar" do dashboard e o comando `main.py apply` só **enviam
+um email** (direto pro recrutador, se a vaga tinha contato coletado, ou só
+pra sua revisão).
+
+`apply_local.py` é uma ferramenta **local**, que não roda no GitHub
+Actions, pra organizar a parte manual: abre cada vaga elegível (LinkedIn,
+alto/médio fit) numa aba de um navegador de verdade, usando sua própria
+sessão já logada — você aplica manualmente do jeito que sempre fez, e o
+script registra o status e sincroniza de volta pro `data/jobs.json` (e
+pro dashboard, via commit opcional).
+
+Ele **não preenche nem envia** o formulário de candidatura simplificada —
+só abre a vaga e espera você confirmar. Isso é proposital: automatizar
+esse último passo esbarra nos Termos de Uso do LinkedIn (proíbem uso de
+"software de automação" pra aplicar em vagas) e arrisca restrição de
+conta; abrir a aba e deixar você aplicar de verdade fica indistinguível de
+navegação manual normal.
+
+```bash
+pip install -r requirements.txt -r requirements-local.txt
+python -m playwright install chromium
+
+python scripts/apply_local.py
+```
+
+Na primeira execução abre um Chromium visível pedindo login no LinkedIn —
+a sessão fica salva em `.playwright-profile/` (no `.gitignore`, nunca vai
+pro repo) e é reaproveitada depois. Pra cada vaga: `[s]` marca como
+enviada, `[n]` pula por agora, `[b]` nunca mais mostra (some pro
+`blacklist.json`), `[q]` para a fila e salva o progresso.
 
 ---
 
