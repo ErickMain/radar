@@ -300,6 +300,20 @@ def _best_job(recruiter: dict) -> dict:
     return max(diretas, key=lambda j: j.get("score", 0)) if diretas else {}
 
 
+# Países de língua portuguesa — únicos onde a abordagem sai em PT-BR mesmo
+# para vaga overseas. Fora deles, vai em inglês: é o idioma que Erick de
+# fato lê/escreve e consegue sustentar se o recrutador responder. Gerar em
+# francês/italiano/etc. pelo país do recrutador pareceria mais "personalizado"
+# mas ele não teria como conferir o texto nem continuar a conversa.
+PORTUGUESE_SPEAKING_COUNTRIES = {"PT", "BR", "AO", "MZ", "CV", "GW", "ST", "TL", "GQ"}
+
+
+def _outreach_uses_english(recruiter: dict, best_job: dict) -> bool:
+    if not best_job.get("is_overseas"):
+        return False
+    return recruiter.get("country") not in PORTUGUESE_SPEAKING_COUNTRIES
+
+
 def generate_recruiter_outreach(recruiter: dict) -> dict:
     """Gera {'invite_note', 'message'} via Groq para um recruiter."""
     api_key = os.environ.get("GROQ_API_KEY")
@@ -307,7 +321,7 @@ def generate_recruiter_outreach(recruiter: dict) -> dict:
         raise ValueError("GROQ_API_KEY não configurada")
 
     best = _best_job(recruiter)
-    overseas = bool(best.get("is_overseas"))
+    overseas = _outreach_uses_english(recruiter, best)
     jobs = recruiter.get("jobs") or []
     first_name = (recruiter.get("name") or "").split()[0] if recruiter.get("name") else ""
     outras = len(jobs) - 1
@@ -384,7 +398,7 @@ def _fallback_outreach(recruiter: dict) -> dict:
     first_name = (recruiter.get("name") or "").split()[0] if recruiter.get("name") else ""
     empresa = best.get("company", "")
 
-    if best.get("is_overseas"):
+    if _outreach_uses_english(recruiter, best):
         hi = f"Hi {first_name}" if first_name else "Hi"
         vaga = best.get("title", "the Telecom role")
         onde = f" at {empresa}" if empresa and empresa != "N/A" else ""
