@@ -2037,7 +2037,7 @@ function openApplyModal(jobId) {
   if (job.cover_letter) {
     letterField.value = job.cover_letter;
   } else {
-    letterField.value = 'Gerando carta personalizada via Claude API...\n\n(Esta ação ocorrerá ao confirmar o envio via GitHub Actions)';
+    letterField.value = 'Gerando carta personalizada via Groq...\n\n(Esta ação ocorrerá ao confirmar o envio via GitHub Actions)';
   }
 
   const breakdown = job.score_breakdown || {};
