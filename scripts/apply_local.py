@@ -13,28 +13,37 @@ script é mais "robótico" aos olhos do LinkedIn (risco de restrição de
 conta) e os seletores deles mudam com frequência.
 
 Por que conecta no Chrome de verdade em vez de abrir um Chromium próprio:
-o Playwright `launch()` marca o navegador como controlado por automação
-(navigator.webdriver=true, infobar "Chrome is being controlled by
-automated test software"), e tanto o LinkedIn quanto o login do Google
-bloqueiam login nesse tipo de sessão. Solução: o script abre o chrome.exe
-de verdade como um processo normal (não via API do Playwright) com um
-perfil próprio e a porta de depuração remota, e só DEPOIS se conecta nele
-via CDP — o login acontece 100% humano, numa janela que nunca foi marcada
-como automatizada.
+o Playwright `launch()` marca o navegador como controlado por automação, e
+tanto o LinkedIn quanto (principalmente) o Google bloqueiam login nesse
+tipo de sessão. Mas isso vai além do navigator.webdriver: Google recusa
+login em QUALQUER navegador com o protocolo de depuração remota (CDP)
+ativo no momento do login, não importa como o Chrome foi aberto — é uma
+medida de segurança deles, deliberada, e essa ferramenta não tenta
+contornar isso.
+
+Por isso o login é um passo SEPARADO, sem CDP nenhum envolvido:
+
+    python scripts\\apply_local.py --login
+
+Abre o Chrome (perfil próprio, .chrome-automation-profile/, fora do git)
+do jeito mais normal possível — sem porta de depuração, sem Playwright
+tocando nele. Faça login no LinkedIn ali (e-mail/senha ou Google) e feche
+a janela quando terminar. A sessão fica salva no perfil.
+
+SÓ DEPOIS disso, o uso normal:
+
+    python scripts\\apply_local.py
+
+Agora sim conecta via CDP nesse MESMO perfil — como o login já foi feito
+antes, sem CDP ativo, não tem tela de login pra abrir durante a automação,
+então o bloqueio do Google/LinkedIn nunca chega a ser testado.
 
 Setup (uma vez):
     .venv\\Scripts\\pip install playwright
     .venv\\Scripts\\python -m playwright install chromium
-
-Uso:
-    .venv\\Scripts\\python scripts\\apply_local.py
-
-Na primeira execução abre uma janela do Chrome (perfil próprio, separado
-do seu Chrome do dia a dia — fica em .chrome-automation-profile/, fora do
-git) pedindo login no LinkedIn. Faça o login normalmente; a sessão fica
-salva e é reaproveitada nas próximas vezes.
 """
 
+import argparse
 import json
 import subprocess
 import sys
@@ -113,6 +122,26 @@ def connect_browser(p):
     sys.exit(1)
 
 
+def run_login_flow() -> None:
+    """
+    Abre o Chrome sem NENHUM envolvimento de automação — sem porta de
+    depuração, sem Playwright — só pra você logar no LinkedIn normalmente.
+    Bloqueia até você fechar a janela (subprocess.run espera o processo).
+    """
+    chrome_path = find_chrome()
+    PROFILE_DIR.mkdir(exist_ok=True)
+    print("Abrindo o Chrome pra você logar no LinkedIn (sem automação ativa)...")
+    print("Faça o login normalmente e FECHE a janela do Chrome quando terminar.\n")
+    subprocess.run([
+        chrome_path,
+        f"--user-data-dir={PROFILE_DIR}",
+        "--no-first-run",
+        "--no-default-browser-check",
+        "https://www.linkedin.com/login",
+    ])
+    print("Chrome fechado. Sessão salva — agora rode sem --login pra usar a fila.")
+
+
 def eligible_jobs(jobs: list[dict]) -> list[dict]:
     """Vagas do LinkedIn, alto/médio fit, ainda sem decisão tomada."""
     elig = [
@@ -186,6 +215,17 @@ def sync_and_offer_push(data: dict) -> None:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Job Radar — fila de candidaturas manuais")
+    parser.add_argument(
+        "--login", action="store_true",
+        help="Abre o Chrome sem automação só pra você logar no LinkedIn (rode isso primeiro)",
+    )
+    args = parser.parse_args()
+
+    if args.login:
+        run_login_flow()
+        return
+
     data = load_existing_jobs()
     jobs = data.get("jobs", [])
     queue = eligible_jobs(jobs)
@@ -204,17 +244,18 @@ def main() -> None:
         context = browser.contexts[0] if browser.contexts else browser.new_context()
         page = context.new_page()
 
-        try:
-            first = True
-            for i, job in enumerate(queue, 1):
-                if first:
-                    print(
-                        "\nSe essa for a primeira vez, faça login no LinkedIn na "
-                        "janela do Chrome que abriu antes de continuar."
-                    )
-                    input("Pressione ENTER quando estiver logado (ou já estava): ")
-                    first = False
+        page.goto("https://www.linkedin.com/feed/", wait_until="domcontentloaded")
+        if "/login" in page.url or "/authwall" in page.url:
+            print(
+                "\nVocê não está logado no LinkedIn nesse perfil ainda.\n"
+                "Feche o Chrome que acabou de abrir e rode primeiro:\n"
+                "  python scripts\\apply_local.py --login\n"
+            )
+            page.close()
+            return
 
+        try:
+            for i, job in enumerate(queue, 1):
                 print_job(job, i, len(queue))
                 page.goto(job["url"], wait_until="domcontentloaded")
 

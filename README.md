@@ -177,16 +177,23 @@ navegação manual normal.
 pip install -r requirements.txt -r requirements-local.txt
 python -m playwright install chromium
 
+# Só na primeira vez (ou se a sessão expirar): login sem nenhuma automação
+# ativa, numa janela "normal" do Chrome. Faça login e feche a janela.
+python scripts/apply_local.py --login
+
+# Uso normal, depois de logado uma vez
 python scripts/apply_local.py
 ```
 
-O script abre o **Chrome de verdade** (não um Chromium do Playwright) num
-perfil próprio e separado do seu Chrome do dia a dia, e só depois se
-conecta nele — LinkedIn e Google bloqueiam login em navegador marcado como
-automatizado, então o login precisa acontecer numa janela "normal" como
-essa. Na primeira vez, faça login no LinkedIn manualmente nessa janela;
-a sessão fica salva em `.chrome-automation-profile/` (no `.gitignore`,
-nunca vai pro repo) e é reaproveitada depois — não precisa logar de novo.
+O script conecta no **Chrome de verdade** (não um Chromium do Playwright)
+via protocolo de depuração remota (CDP), num perfil próprio e separado do
+seu Chrome do dia a dia. O login é deliberadamente um passo separado
+(`--login`, sem CDP envolvido): Google recusa login em qualquer navegador
+com o CDP ativo no momento — não é só o navigator.webdriver, é uma
+checagem específica deles — então o jeito de nunca esbarrar nisso é nunca
+tentar logar enquanto a automação está conectada. A sessão fica salva em
+`.chrome-automation-profile/` (no `.gitignore`, nunca vai pro repo) e é
+reaproveitada — não precisa logar de novo a cada execução.
 
 Pra cada vaga: `[s]` marca como enviada, `[n]` pula por agora, `[b]` nunca
 mais mostra (some pro `blacklist.json`), `[q]` para a fila e salva o
