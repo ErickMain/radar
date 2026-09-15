@@ -126,7 +126,8 @@
         "cloud",
         "redes"
       ],
-      "last_seen_at": "2026-09-11T21:23:44.807591+00:00"
+      "last_seen_at": "2026-09-11T21:23:44.807591+00:00",
+      "verified_at": "2026-09-15T15:23:20.511865+00:00"
     },
     {
       "id": "a36805bb8cde8e17",
@@ -254,7 +255,8 @@
         "cloud",
         "redes"
       ],
-      "last_seen_at": "2026-09-11T21:23:44.807591+00:00"
+      "last_seen_at": "2026-09-11T21:23:44.807591+00:00",
+      "verified_at": "2026-09-15T15:23:20.511865+00:00"
     },
     {
       "id": "b165f9e451e54272",
@@ -381,7 +383,8 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-11T21:23:44.807591+00:00"
+      "last_seen_at": "2026-09-11T21:23:44.807591+00:00",
+      "verified_at": "2026-09-15T15:23:20.511865+00:00"
     },
     {
       "id": "52fc50ecd2436a0e",
@@ -508,7 +511,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "3ed561e69b8a309c",
@@ -635,7 +638,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "ace4090aed558a31",
@@ -764,7 +767,7 @@
         "networking",
         "redes"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "7baa4ac05e85f9f0",
@@ -891,7 +894,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "32658e215c789aec",
@@ -1018,7 +1021,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "4b1073c24535f082",
@@ -1145,7 +1148,8 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-11T21:23:44.807591+00:00"
+      "last_seen_at": "2026-09-11T21:23:44.807591+00:00",
+      "verified_at": "2026-09-15T15:23:20.511865+00:00"
     },
     {
       "id": "bbd51f2a64a9ddd3",
@@ -1272,7 +1276,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "1495c7bd9854f516",
@@ -1399,7 +1403,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "dce559f1ffe79e3c",
@@ -1526,7 +1530,8 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-11T21:23:44.807591+00:00"
+      "last_seen_at": "2026-09-11T21:23:44.807591+00:00",
+      "verified_at": "2026-09-15T15:23:20.511865+00:00"
     },
     {
       "id": "ec7aa2a2594d0db9",
@@ -1653,7 +1658,8 @@
       "priority_skills": [
         "cloud"
       ],
-      "last_seen_at": "2026-09-11T21:23:44.807591+00:00"
+      "last_seen_at": "2026-09-11T21:23:44.807591+00:00",
+      "verified_at": "2026-09-15T15:23:20.511865+00:00"
     },
     {
       "id": "c70eeab6d09657b4",
@@ -1784,7 +1790,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "8d107535979c5887",
@@ -1911,7 +1917,8 @@
       "priority_skills": [
         "cloud"
       ],
-      "last_seen_at": "2026-09-11T21:23:44.807591+00:00"
+      "last_seen_at": "2026-09-11T21:23:44.807591+00:00",
+      "verified_at": "2026-09-15T15:23:20.511865+00:00"
     },
     {
       "id": "ee08c6f88e49f3e1",
@@ -2038,7 +2045,8 @@
       "priority_skills": [
         "cloud"
       ],
-      "last_seen_at": "2026-09-11T21:23:44.807591+00:00"
+      "last_seen_at": "2026-09-11T21:23:44.807591+00:00",
+      "verified_at": "2026-09-15T15:23:20.511865+00:00"
     },
     {
       "id": "bf4cddfdd119fb9c",
@@ -2165,7 +2173,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "206b64a66029ea26",
@@ -2292,7 +2300,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "3794e0fb2e8c1559",
@@ -2419,7 +2427,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "4c6f2009f81c814f",
@@ -2549,7 +2557,7 @@
         "network",
         "unified communications"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "08d9adfe5e7c3ad1",
@@ -2679,7 +2687,7 @@
         "network",
         "unified communications"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "5a356fed11fecb46",
@@ -2808,7 +2816,7 @@
       "priority_skills": [
         "unified communications"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "2f1f19fb46443275",
@@ -2940,7 +2948,7 @@
         "networking",
         "unified communications"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "16e4584d16ed20b7",
@@ -3202,7 +3210,7 @@
       "priority_skills": [
         "unified communications"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "b43ff604c0da06c3",
@@ -3332,7 +3340,7 @@
         "cloud",
         "network"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "9491a71e37d3ac5a",
@@ -3597,7 +3605,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "6bb002b911acfdf5",
@@ -3727,7 +3735,7 @@
         "cloud",
         "network"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "141feb228fc85662",
@@ -3856,7 +3864,8 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-09-11T21:23:44.807591+00:00"
+      "last_seen_at": "2026-09-11T21:23:44.807591+00:00",
+      "verified_at": "2026-09-15T15:23:20.511865+00:00"
     },
     {
       "id": "8146ea4c288d6e2b",
@@ -3986,7 +3995,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "5a12297adfcd66fb",
@@ -4115,7 +4124,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "6f5da00319ccae88",
@@ -4244,7 +4253,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "5dec49d5d166719c",
@@ -4376,7 +4385,8 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-09-11T21:23:44.807591+00:00"
+      "last_seen_at": "2026-09-11T21:23:44.807591+00:00",
+      "verified_at": "2026-09-15T15:23:20.511865+00:00"
     },
     {
       "id": "54db00ee1ef5d594",
@@ -4506,7 +4516,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "614bec2f935212bd",
@@ -4635,7 +4645,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "c9daf12a82f59d78",
@@ -4768,7 +4778,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "d1ee52c31ee31306",
@@ -5031,7 +5041,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "8e8e9e38da1a261a",
@@ -5165,7 +5175,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "af6b235068807258",
@@ -5294,7 +5304,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "70cf4e7e2ebaed7f",
@@ -5423,7 +5433,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "c7a8305dca9f035a",
@@ -5552,7 +5562,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "e64dfde3036d5291",
@@ -5681,7 +5691,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "760c17a0bf33e978",
@@ -5939,7 +5949,7 @@
       "priority_skills": [
         "unified communications"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "96a0cc1e68810ac0",
@@ -6070,7 +6080,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "26a093c34935f763",
@@ -6335,7 +6345,7 @@
         "cybersecurity",
         "unified communications"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "2fc6abb77591708b",
@@ -6464,7 +6474,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "cd2d9cc3fb381c8d",
@@ -6852,7 +6862,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "76a245fb2a4385d0",
@@ -6983,7 +6993,7 @@
         "cybersecurity",
         "network"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "315d21c5cbcccfd5",
@@ -7242,7 +7252,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "de4e426d38334e86",
@@ -7371,7 +7381,7 @@
       "priority_skills": [
         "unified communications"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     },
     {
       "id": "3cf384ddb5293b0c",
@@ -7505,14 +7515,933 @@
         "azure",
         "unified communications"
       ],
-      "last_seen_at": "2026-09-13T07:53:36.396377+00:00"
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
+    },
+    {
+      "id": "3537821786b20eae",
+      "title": "Analista de Redes Corporativas e Segurança Pleno",
+      "company": "N/A",
+      "location": "Guarulhos / SP A empresa aceita candidaturas de qualquer cidade do Brasil",
+      "salary": "",
+      "description": "Faixa salarial a combinar Guarulhos A empresa aceita candidaturas de qualquer cidade do Brasil Regime CLT Benefícios Descrição Empresa Assistência médica Assistência odontológica Auxílio estacionamento Convênio com empresas parceiras Previdência privada Refeitório Seguro de vida Vale-alimentação Vale-refeição Ver todos Ver menos Descrição : Cabeamento Estruturado • Conhecimento em identificação de pontos de rede e organização de racks. • Conectorização • Manuseio de patch panel e aplicação de padrões de certificação. • Apoio em testes de conectividade e documentação de infraestrutura física. Infraestrutura de Redes e Telecomunicações • Conhecimento em topologias de rede LAN/WAN/WLAN. • Experiência com switches gerenciáveis das marcas Aruba, Cisco, HP. • Conhecimento em restauração de switches via TFTP e SFTP, incluindo backup e recuperação de configurações. • Atualização de firmware e IOS em equipamentos de rede, conforme necessidade de segurança ou compatibilidade. • Configuração e troubleshooting de VLANs, STP, LACP, QoS e roteamento estático/dinâmico. Configuração e administração de recursos avançados de segurança em switches, como: • Port-Security: controle de acesso por MAC address. • BPDU Guard: proteção contra loops de rede. • DHCP Snooping: prevenção contra servidores DHCP não autorizados. • 802.1X: autenticação de dispositivos via servidor RADIUS. • MAC Authentication: autenticação baseada no endereço MAC para dispositivos sem suporte a 802.1X. Controladoras Wi-Fi Cisco, Fortinet e Aruba incluindo: • Criação e gestão de SSIDs, com políticas de acesso e segmentação. • Provisionamento de access points. • Políticas de acesso e segmentação. • Monitoramento de desempenho e cobertura. • Troubleshooting de interferências e problemas de conectividade. Telefonia IP e Comunicação Unificada • Experiência com plataformas de telefonia IP Cisco. • Conhecimento em PABX com tronco E1, incluindo configuração de ramais, grupos de atendimento e integração com operadoras. • Experiência com PABX em nuvem, incluindo gestão de usuários, políticas de chamadas, integração com ferramentas de colaboração e suporte remoto. • Conhecimento em protocolos de sinalização (SIP, H.323, MGCP). • Monitoramento e troubleshooting de qualidade de chamadas (MOS, jitter, latência). Firewall e Segurança de Rede • Criação e gestão de políticas de segurança (Policies). • Configuração e operação de SD-WAN para otimização de links. • Implementação de VPNs (IPSec, SSL) para acesso remoto e interconexão de filiais. • Monitoramento de tráfego, logs e aplicação de boas práticas de segurança. • Noções gerais de segurança em redes corporativas: ACLs, NAC, autenticação 802.1X. • Segmentação de rede e controle de acesso. Ferramentas de monitoramento de rede e desempenho como: • Zabbix e Grafana: aplicação de filtros, análise de métricas e correlação de eventos para fins de troubleshooting. • Desejável conhecimento em outras ferramentas como Cisco ThousandEyes, PRTG, SolarWinds. • Capacidade ",
+      "url": "https://www.vagas.com.br/vagas/v2829249/analista-de-redes-corporativas-e-seguranca-pleno",
+      "source": "Vagas.com",
+      "published_at": "06/08/2026",
+      "found_at": "2026-09-15T15:21:04.831518+00:00",
+      "score": 85,
+      "score_breakdown": {
+        "skills": 23,
+        "location": 20,
+        "level": 15,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 2,
+        "title": 10,
+        "overseas": 0
+      },
+      "skills_match": [
+        "cisco",
+        "e1",
+        "firewall",
+        "pabx",
+        "qos",
+        "ramais",
+        "rede",
+        "redes",
+        "sd-wan",
+        "sip",
+        "troubleshooting"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "embratel",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "noc",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx ip",
+        "ramal",
+        "rtp",
+        "sbc",
+        "seguranca da informacao",
+        "session border controller",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "alto",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": null,
+      "company_logo": null,
+      "is_overseas": false,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "redes",
+        "sd-wan"
+      ],
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
+    },
+    {
+      "id": "c1d81b48dfd2e20f",
+      "title": "Analista de Redes - Mercado de Trabalho - Carreiras Disponíveis",
+      "company": "Espaço Crescerh",
+      "location": "Belo Horizonte e Região",
+      "salary": "",
+      "description": "Sobre a Empresa Espaço Crescerh Localização: Belo Horizonte-MG Detalhes da Vaga Área de Atuação: Informática / TI / Tecnologia Principais Responsabilidades Principais Atividades: * Administrar e monitorar redes LAN, WAN e Wi-Fi * Configurar e gerenciar roteadores, switches e firewalls * Identificar e solucionar problemas de conectividade e desempenho * Implementar e gerenciar VPNs para acesso remoto * Realizar backups e garantir a segurança das configurações de rede * Gerenciar servidores de impressão e apoiar melhorias na infraestrutura Requisitos e Qualificações Requisitos Mínimos: * Ensino Superior completo na área de TI * Experiência com VMware, Windows Server e VPNs, TOLTS * Conhecimento em Scripting * Vivência em administração de redes Diferenciais: * Perfil analítico e habilidade para resolução de problemas complexos * Experiência com infraestrutura corporativa Jornada de Trabalho: Carga horária: Segunda a sexta-feira | 07:00 às 17:00 Salário: 5.191,00 Informações Adicionais Benefícios: * Vale-transporte * Vale-refeição – R$ 35,00/dia Show more Show less",
+      "url": "https://br.linkedin.com/jobs/view/analista-de-redes-mercado-de-trabalho-carreiras-dispon%C3%ADveis-at-espa%C3%A7o-crescerh-4464291895",
+      "source": "LinkedIn",
+      "published_at": "2026-09-12",
+      "found_at": "2026-09-15T15:21:17.858801+00:00",
+      "score": 60,
+      "score_breakdown": {
+        "skills": 8,
+        "location": 20,
+        "level": 10,
+        "keywords": 6,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 1,
+        "title": 10,
+        "overseas": 0
+      },
+      "skills_match": [
+        "rede",
+        "redes",
+        "vmware",
+        "windows server"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "noc",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "troubleshooting",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "voip",
+        "vpn",
+        "webex",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "medio",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2026-10-12T19:43:24.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHYfACGo2PM8Q/company-logo_100_100/company-logo_100_100/0/1641256920518?e=2147483647&v=beta&t=bSVdBktuMpW7-uvlrl4bVtUUEL43LoEEKbaiPxBWHfc",
+      "is_overseas": false,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "redes"
+      ],
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
+    },
+    {
+      "id": "c38f3a4a043f2919",
+      "title": "L1 Support Engineer - Voice ( SIP, SBC & VOIP)",
+      "company": "HookZ.ai",
+      "location": "Madras, Tamil Nadu, Índia",
+      "salary": "",
+      "description": "📢 We’re hiring: Junior L1 Voice Support Engineer – SIP, SBC and VoIP HookZ India Private Limited is looking for a junior engineer with hands-on experience in SIP trunking, VoIP and enterprise voice environments. 📍 Location: Chennai or Thanjavur (Hybrid) 💼 Experience: 1–2 years 🏢 Employer: HookZ.ai India Private Limited Essential requirement: Candidates must have 1–2 years of practical experience supporting or troubleshooting SIP trunks. Applications without relevant SIP trunking experience will not be considered. Key responsibilities: • Provide L1 support for AudioCodes and Ribbon SBCs, voice gateways and SIP infrastructure • Monitor SBC health, alarms, availability and SIP trunk status • Troubleshoot failed calls, one-way or no-way audio, call routing, codecs, DTMF and caller ID issues • Review basic SIP traces, packet captures, SBC logs and call detail records • Investigate network, DNS, NTP, firewall, NAT and TLS-related issues • Support Microsoft Teams Direct Routing connectivity • Record and manage incidents in line with SLA and escalation procedures • Escalate complex issues to L2/L3 engineers with complete diagnostic information • Assist with maintenance, configuration backups, upgrades and health checks What we’re looking for: • Diploma or bachelor’s degree in Telecommunications, IT, Computer Science, Electronics or a related discipline • 1–2 years of hands-on SIP trunking experience • Good understanding of SIP, SDP, RTP, TCP/UDP, TLS and VoIP call flows • Basic knowledge of IP networking, VLANs, routing, NAT, DNS and firewalls • Exposure to AudioCodes or Ribbon SBCs is strongly preferred • Familiarity with Wireshark and SIP analysis tools • Clear communication, documentation and troubleshooting skills • Willingness to participate in shift or on-call support when required Exposure to Microsoft Teams Direct Routing, Genesys Cloud, NICE CXone, Amazon Connect or Zoom Phone would be an advantage. This is an excellent opportunity for an early-career voice engineer who wants to build deeper expertise in SBCs, cloud communications and enterprise voice technologies. Interested candidates can apply through LinkedIn or send their CV with the subject line “Junior SBC L1 Support Engineer” to hr@hookz.ai #Hiring #SIP #SIPTrunking #VoIP #SBC #AudioCodes #RibbonSBC #MicrosoftTeams #DirectRouting #TelecomJobs #ChennaiJobs #ThanjavurJobs #HookZAI Show more Show less",
+      "url": "https://in.linkedin.com/jobs/view/l1-support-engineer-voice-sip-sbc-voip-at-hookz-ai-4465524324",
+      "source": "LinkedIn",
+      "published_at": "2026-09-15",
+      "found_at": "2026-09-15T15:22:45.109005+00:00",
+      "score": 100,
+      "score_breakdown": {
+        "skills": 38,
+        "location": 20,
+        "level": 20,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 3,
+        "title": 10,
+        "overseas": 15
+      },
+      "skills_match": [
+        "cloud",
+        "codecs",
+        "dns",
+        "firewall",
+        "genesys",
+        "nat",
+        "network",
+        "networking",
+        "rtp",
+        "sbc",
+        "sip",
+        "sip trunk",
+        "teams",
+        "troubleshooting",
+        "voip",
+        "wireshark",
+        "zoom phone"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "codec",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nivel 2",
+        "noc",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "redes",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "tim brasil",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "yealink"
+      ],
+      "fit_level": "alto",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2027-03-14T07:41:43.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGehrQu9zjNAw/company-logo_100_100/company-logo_100_100/0/1732731095576/hookzai_logo?e=2147483647&v=beta&t=SJOY3HKO9A128X8tVAYqKpfwTQyvhrhqV1llDgu1uHQ",
+      "is_overseas": true,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "cloud",
+        "network",
+        "networking"
+      ],
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
+    },
+    {
+      "id": "5d410f0422f66c3c",
+      "title": "NOC Engineer",
+      "company": "Cato Networks",
+      "location": "Manila, Grande Manila, Filipinas",
+      "salary": "",
+      "description": "Welcome to the future of cloud networking and security! Cato Networks is the first company to converge enterprise networking and security into one centralized and global service that is delivered by cloud. It is led by networking and security pioneer Shlomo Kramer (Check Point, Imperva) and early investor (Palo Alto Networks, Exabeam, Trusteer and more). Cato’s unique technology inspired a brand-new product category, later named “SASE” by Gartner and a market expected to reach $28.5 billion by 2028. This is your opportunity to get on the rocket ship and join a company that is building a cutting-edge enterprise network and secure cloud platform, and is on a fast track to becoming the worldwide market leader – don’t miss it! Cato Networks is seeking a NOC Engineer to join the team. In this critical role, you will be monitoring, supporting, and providing advanced troubleshooting of a large complex data network infrastructure by using network monitoring and management tools. You will work closely with teams from our business areas, network engineering, and management as a team representative on major incident bridges. This is a remote position based in the Philippines. Key Responsibilities Own and manage the uptime, stability, and overall functionality of the company’s production systems. This includes troubleshooting and resolving system and network issues end-to-end. Monitor and respond to NetOps alerts during working hours, and review/follow up on alerts triggered outside business hours as required. Continuously track and analyze system performance to identify risks, bottlenecks, capacity constraints, and opportunities for optimization. Proactively mitigate outages and system malfunctions to prevent customer impact. When necessary, prepare clear and prioritized escalations to the relevant Development teams. Coordinate with third-party service providers (e.g., carriers, SMS providers, IX providers, and other vendors) to resolve network and system-related issues. Provide advanced (higher-tier) technical support to internal Customer Support teams (T1–T3). Design, implement, and maintain dashboards and alerting mechanisms to ensure system visibility and operational awareness. Serve as a technical focal point for Customer Support and Field Engineering teams by understanding business use cases and translating them into operational requirements. Contribute to building, improving, and expanding NetOps ownership, processes, documentation, and operational best practices. Role Scope The role is primarily driven by automated system alerts requiring investigation, troubleshooting, and escalation when necessary. The role also involves handling customer-impacting issues escalated by the Customer Support organization. In addition to reactive tasks, the position includes ongoing projects and operational initiatives to be managed during working hours. Required Skills & Experience Strong experience in network architecture, cloud architecture, and security architectu",
+      "url": "https://ph.linkedin.com/jobs/view/noc-engineer-at-cato-networks-4465246957",
+      "source": "LinkedIn",
+      "published_at": "2026-09-14",
+      "found_at": "2026-09-15T15:22:56.963277+00:00",
+      "score": 85,
+      "score_breakdown": {
+        "skills": 12,
+        "location": 20,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 3,
+        "title": 10,
+        "overseas": 15
+      },
+      "skills_match": [
+        "cloud",
+        "network",
+        "networking",
+        "noc",
+        "teams",
+        "troubleshooting"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "nivel 2",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "redes",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "tim brasil",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "alto",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2026-10-14T23:16:23.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFddLlrWivKAQ/company-logo_100_100/B4DaBcf.U9KUAI-/0/1788258281126/cato_networks_logo?e=2147483647&v=beta&t=wzuBu8_-7Xblk7Xpz3N7y5gyDeminun0XHo-tsUivJU",
+      "is_overseas": true,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "cloud",
+        "network",
+        "networking"
+      ],
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
+    },
+    {
+      "id": "b62c398eb20b3e36",
+      "title": "NOC Engineer",
+      "company": "Spectrum IT Recruitment",
+      "location": "Midlands Ocidentais, Inglaterra, Reino Unido",
+      "salary": "",
+      "description": "NOC Engineer + AWS | Kubernetes Fully Remote (UK) 24/7 Shift Pattern (28-day rota including days & nights) £ Competitive + Bonus + Excellent Benefits Build resilient cloud platforms that support critical national services. This is far more than a traditional NOC role. You'll be joining an engineering-led organisation where reliability, automation and continuous improvement sit at the heart of the platform. Rather than simply responding to incidents, you'll work to prevent them by improving systems, automating operational processes and helping shape the future of highly resilient cloud services. If you're passionate about building reliable cloud platforms and enjoy solving complex technical problems in large-scale production environments, we'd love to hear from you. What you'll be doing Monitoring and maintaining highly available production platforms running in AWS Responding to and managing production incidents across a 24/7 service Investigating complex technical issues and restoring services quickly and effectively Developing automation to reduce manual operational tasks and improve platform resilience Building and improving monitoring, alerting and observability across cloud environments Working alongside Software, Platform, Cloud and Security Engineers to improve reliability and operational excellence Contributing to post-incident reviews and driving continuous service improvements Supporting containerised workloads using Kubernetes and Docker What we're looking for You'll ideally have experience in a Production Engineering, Cloud Operations or NOC environment with exposure to: Linux systems administration AWS cloud infrastructure Kubernetes and Docker Production support and incident management Python, Bash or Go scripting Monitoring and observability platforms such as Grafana, Prometheus, Datadog, Splunk or CloudWatch Networking fundamentals including DNS, TCP/IP and load balancing A passion for automation, continuous improvement and operational excellence Experience with Infrastructure as Code (Terraform), SRE principles (SLIs, SLOs), or regulated environments would be beneficial but isn't essential. Why join? Apply today or contact Dave Carlisle at Spectrum IT Recruitment for a confidential discussion. Spectrum IT Recruitment (South) Limited is acting as an Employment Agency in relation to this vacancy. Show more Show less",
+      "url": "https://uk.linkedin.com/jobs/view/noc-engineer-at-spectrum-it-recruitment-4465768365",
+      "source": "LinkedIn",
+      "published_at": "2026-09-14",
+      "found_at": "2026-09-15T15:22:56.963282+00:00",
+      "score": 83,
+      "score_breakdown": {
+        "skills": 12,
+        "location": 20,
+        "level": 10,
+        "keywords": 8,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 3,
+        "title": 10,
+        "overseas": 15
+      },
+      "skills_match": [
+        "aws",
+        "cloud",
+        "dns",
+        "linux",
+        "networking",
+        "noc"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "mikrotik",
+        "nat",
+        "network",
+        "nivel 2",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "redes",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "troubleshooting",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "alto",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": {
+        "name": "Dave Carlisle",
+        "profile_url": "https://uk.linkedin.com/in/dave-carlisle-5004338b",
+        "headline": "Senior Account Manager @ Spectrum IT | Recruitment, Customer Service"
+      },
+      "valid_through": "2026-10-05T12:35:27.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHbghHkuerybA/company-logo_100_100/company-logo_100_100/0/1699970227344/spectrum_it_recruitment_logo?e=2147483647&v=beta&t=M4Lg3Bbj0eVWyuPYHWB3LA-XVsjnj0XgexeYcaENvpI",
+      "is_overseas": true,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "aws",
+        "cloud",
+        "networking"
+      ],
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
+    },
+    {
+      "id": "f379db82ae4a47eb",
+      "title": "TX Network Operations Engineer (L2)",
+      "company": "Neotalent Conclusion",
+      "location": "Espanha",
+      "salary": "",
+      "description": "Who are we? Neotalent Conclusion is one of the largest specialists in the Iberian market for IT and engineering talent acquisition and management. As part of the Dutch Conclusion group, which consists of an ecosystem of 25 companies and 3,600 employees, we focus on increasing our clients' technological capabilities and accelerating their digital transformation. At Neotalent Conclusion , we are talent specialists. We attract the best professionals and match them with the most ambitious projects at the right time. Our success is built on investment in innovation, results orientation, and above all, ensuring that people have fulfilling and rewarding careers. With more than 25 years of experience, Neotalent Conclusion has offices in Madrid, Lisbon, and Porto. Our company is made up of a team of more than 850 professionals across different areas of operation. Neotalent, the responsive people. More information at www.neotalent.pt/en and https://neotalent.pt/en/careers/. We are looking for a TX Network Operations Engineer (L2) to join our teams and work with a major client in the Telecommunications sector. What will your responsibilities be? Be responsible for the operation and maintenance of Transport Networks (TX). Manage Level 2 (L2) technical incidents, performing analysis, diagnosis, and resolution of network issues. Carry out troubleshooting activities and root cause analysis within telecommunications networks. Monitor network performance through monitoring and alarm management tools. Operate and manage infrastructures based on MPLS, MPLS-VPN, OSPF, BGP, QoS, and Traffic Engineering technologies. Provide support and maintenance for equipment from vendors such as Cisco, Huawei, Juniper, and, in some environments, Nokia/Alcatel-Lucent. Support and manage transport technologies including MSTP, SDH, DWDM/WDM, Microwave TX, and IP Transport. Collaborate with different operational teams to ensure service availability and continuity. Participate in the 24x7 on-call support rotation when required. What profile are we looking for? University degree, Higher Vocational Training, or equivalent experience in Telecommunications Engineering, Computer Science, Electronics, Information Technologies, or Data Communications. Minimum 3 years of experience in Transport Network (TX) operations and maintenance. Previous experience in NOC, Back Office (BO), or Telecommunications Operations Center environments. Experience providing Level 2 (L2) technical support. Proven experience in telecommunications network operations, maintenance, and troubleshooting. Knowledge of routers, switches, and remote access systems/servers for network equipment management. Experience working with Cisco, Huawei, and/or Juniper equipment. Strong knowledge of routing protocols and technologies, including OSPF, BGP, MPLS, MPLS-VPN, QoS, and Traffic Engineering. Experience with network monitoring, alarm management, and performance analysis tools. Knowledge of transport technologies such as MSTP, ",
+      "url": "https://es.linkedin.com/jobs/view/tx-network-operations-engineer-l2-at-neotalent-conclusion-4467051622",
+      "source": "LinkedIn",
+      "published_at": "2026-09-14",
+      "found_at": "2026-09-15T15:22:56.963291+00:00",
+      "score": 89,
+      "score_breakdown": {
+        "skills": 18,
+        "location": 20,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 1,
+        "title": 10,
+        "overseas": 15
+      },
+      "skills_match": [
+        "bgp",
+        "cisco",
+        "huawei",
+        "network",
+        "noc",
+        "qos",
+        "teams",
+        "troubleshooting",
+        "vpn"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "networking",
+        "nivel 2",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "ramais",
+        "ramal",
+        "rede",
+        "redes",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "tim brasil",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "alto",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": {
+        "name": "Natalia Hernanz",
+        "profile_url": "https://es.linkedin.com/in/nataliahernanz",
+        "headline": "IT Talent Acquisition Team Leader"
+      },
+      "valid_through": null,
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFPg0TIrO53Qw/company-logo_100_100/company-logo_100_100/0/1720087357986/neotalentconclusion_logo?e=2147483647&v=beta&t=mWfJnoFMzAWqHjhfv6rj2nG6zTHvHUiRxMPwqzgIRZQ",
+      "is_overseas": true,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "network"
+      ],
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
+    },
+    {
+      "id": "29882621a31f53ac",
+      "title": "Network Operations Engineer",
+      "company": "Aussie Broadband",
+      "location": "Dandenong do Sul, Vitória, Austrália",
+      "salary": "",
+      "description": "About Us At Aussie Broadband, things are done a little bit differently. Our goal is to be the telco people love – customers, team members, shareholders and all stakeholders. We do this by living and breathing our values in everything we do, that's the Aussie way. As a B Corp Certified company , we hold ourselves to the highest standards for social and environmental performance, transparency, and accountability. We're proud to have been named one of Australia's Top Employers by HRD magazine . Listed on the Australian Stock Exchange (ASX: ABB), the Aussie Broadband Group collectively supplies more than 1 million telecommunications services, operates two Tier 1 voice providers in Australia and owns fibre infrastructure. Our culture is built on five values that guide everything we do: Don't be ordinary, be awesome | Think BIG | No bullsh*t | Be good to people | Have fun About The Role Due to an internal move, we’re looking for a Network Operations Engineer to join our Network Operations Centre on a 24/7 rotating roster. In this critical role, you’ll help ensure our network and key service platforms continue to perform reliably, keeping our customers connected to the people, services and moments that matter most. As part of our NOC, you’ll help keep Aussie Broadband’s network and critical service platforms performing reliably for our customers. You’ll monitor network health, respond to incidents, support planned changes and maintenance, manage operational risks, and work closely with teams across the business to deliver a resilient, high-quality digital experience. What you’ll be doing Monitoring network and systems events to proactively identify issues. Managing incidents through troubleshooting, escalation, stakeholder communication and post-incident reviews. Supporting planned changes, maintenance and upgrades while managing risk to the network and customers. Identifying and treating problems proactively and reactively. Actioning service requests within agreed operational targets. Spotting risks and threats to network security and resiliency, then working cross-functionally to resolve them. Creating and updating technical knowledge documents, including playbooks, work instructions and knowledge articles. Working with stakeholders across Engineering, Platforms, Provisioning, Products, Customer Support and other teams on incidents, changes, projects and new product rollouts. What we’re looking for Sound technical networking experience, ideally in an ISP or large enterprise environment. Strong understanding of networking protocols and technologies such as IPv4, IPv6, CG-NAT, MPLS, IPSEC, Segment Routing, BGP, OSPF, IS-IS, VLANs, EVPN, VXLAN, VRF, DNS, DHCP, PPPoE and RADIUS. Good active and passive network troubleshooting skills. Understanding of network design, service dependencies, ISP service platforms and operational support functions. Experience with monitoring, alerting and observability concepts including logs, metrics, dashboards and event cor",
+      "url": "https://au.linkedin.com/jobs/view/network-operations-engineer-at-aussie-broadband-4467027325",
+      "source": "LinkedIn",
+      "published_at": "2026-09-14",
+      "found_at": "2026-09-15T15:23:00.301002+00:00",
+      "score": 88,
+      "score_breakdown": {
+        "skills": 16,
+        "location": 20,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 2,
+        "title": 10,
+        "overseas": 15
+      },
+      "skills_match": [
+        "bgp",
+        "dns",
+        "nat",
+        "network",
+        "networking",
+        "noc",
+        "teams",
+        "troubleshooting"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nivel 2",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "redes",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "tim brasil",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "alto",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2026-10-14T04:54:38.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/D560BAQGmEl8hGi-HQQ/company-logo_100_100/company-logo_100_100/0/1685921169461/aussie_broadband_logo?e=2147483647&v=beta&t=bT8pR-IJ9-nqCOBpwEMpYrPMFlsnimjHlH7dUctsadY",
+      "is_overseas": true,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "network",
+        "networking"
+      ],
+      "last_seen_at": "2026-09-15T15:23:19.091846+00:00"
     }
   ],
-  "last_updated": "2026-09-14T17:40:10.361945+00:00",
+  "last_updated": "2026-09-15T15:23:22.788842+00:00",
   "stats": {
-    "total": 58,
-    "alto_fit": 42,
-    "medio_fit": 15,
+    "total": 65,
+    "alto_fit": 48,
+    "medio_fit": 16,
     "baixo_fit": 1,
     "enviadas": 5
   }
