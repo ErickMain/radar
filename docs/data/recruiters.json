@@ -180,6 +180,15 @@
       ],
       "jobs": [
         {
+          "id": "3b2547aa4eb39f55",
+          "title": "IP Telephony Engineer",
+          "company": "ABCommunication",
+          "url": "https://ua.linkedin.com/jobs/view/ip-telephony-engineer-at-abcommunication-4468380717",
+          "score": 97,
+          "fit_level": "alto",
+          "found_at": "2026-09-17T15:24:47.940658+00:00"
+        },
+        {
           "id": "96a0cc1e68810ac0",
           "title": "IP Telephony Engineer (VoIP Engineer)",
           "company": "ABCommunication",
@@ -190,9 +199,9 @@
         }
       ],
       "first_seen": "2026-09-11T21:23:44.989092+00:00",
-      "last_seen": "2026-09-11T21:23:44.989092+00:00",
+      "last_seen": "2026-09-17T15:24:52.213904+00:00",
       "message": "Oi Nataliia, obrigado por aceitar!\n\nSobre a vaga de IP Telephony Engineer (VoIP Engineer) na ABCommunication: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
-      "priority": 35,
+      "priority": 43,
       "invite_note": "Oi Nataliia! Vi sua vaga de IP Telephony Engineer (VoIP Engineer) na ABCommunication. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
       "outreach_source": "fallback"
     },
@@ -281,5 +290,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-09-16T15:15:42.051527+00:00"
+  "last_updated": "2026-09-17T15:24:52.213904+00:00"
 }

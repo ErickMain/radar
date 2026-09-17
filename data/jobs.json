@@ -511,7 +511,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "3ed561e69b8a309c",
@@ -638,7 +638,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "ace4090aed558a31",
@@ -767,134 +767,7 @@
         "networking",
         "redes"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
-    },
-    {
-      "id": "7baa4ac05e85f9f0",
-      "title": "Analista de Redes e Segurança Júnior",
-      "company": "IT-ONE",
-      "location": "Belo Horizonte e Região",
-      "salary": "",
-      "description": "Transforme sua carreira com a IT-ONE! Com mais de 20 anos no mercado, somos referência em tecnologia, entregando soluções que fazem a diferença no negócio dos nossos clientes e na vida das pessoas. Na IT-ONE, inovação é vivida no dia a dia. Trabalhamos lado a lado com os maiores provedores de tecnologia do mundo, com um time talentoso, certificado e em constante evolução. Aqui, você encontra um ambiente que valoriza o aprendizado contínuo, a colaboração e a paixão por resultados. Muito além de tecnologia, entregamos histórias. Histórias de crescimento, de superação e de conquistas. Sabemos onde queremos chegar e estamos prontos para seguir em frente com agilidade, propósito e pessoas que compartilham dos nossos sonhos. E você, já sabe onde quer chegar? Se está em busca de uma oportunidade para crescer, inovar e fazer parte de algo maior, essa vaga é para você. Vem com a gente construir o futuro da tecnologia! Vaga: Analista de Redes e Segurança Júnior O que você fará no dia a dia? Apoiar no atendimento e acompanhamento de chamados relacionados a redes e segurança. Auxiliar na análise e tratativa inicial de incidentes de conectividade, acesso e segurança. Prestar suporte básico em ambientes de rede, identificando possíveis problemas de comunicação e acesso. Apoiar atividades relacionadas à configuração e operação de switches, roteadores e firewalls, seguindo procedimentos técnicos estabelecidos. Acompanhar alertas, eventos e incidentes do ambiente, realizando os primeiros direcionamentos conforme os procedimentos definidos. Apoiar na análise de problemas relacionados a DNS, DHCP e VPN. Realizar o acompanhamento de chamados, ocorrências e solicitações relacionadas ao ambiente de redes e segurança. Apoiar a equipe técnica na identificação de possíveis causas de indisponibilidades e falhas de conectividade. Auxiliar na atualização de documentações, procedimentos, registros e evidências dos ambientes. Contribuir para a organização e melhoria contínua dos processos e rotinas da área. Apoiar a equipe técnica em atividades operacionais relacionadas à infraestrutura de redes e segurança. O que esperamos de você: Curso técnico ou superior em andamento em Tecnologia da Informação, Redes, Sistemas de Informação, Ciência da Computação ou áreas correlatas. Conhecimento básico de redes e dos conceitos de TCP/IP. Conhecimento básico sobre switches, roteadores e firewalls. Noções de DNS, DHCP e VPN. Capacidade de seguir procedimentos técnicos e atuar na identificação e tratativa inicial de incidentes. Organização e atenção aos detalhes para acompanhamento de chamados e atualização de documentações. Boa capacidade de comunicação e interesse em atuar em um ambiente colaborativo. Interesse em desenvolver conhecimentos na área de redes, infraestrutura e segurança da informação. O que não é obrigatório mas seria legal se tivesse: Cursos ou certificações relacionados a Redes, Infraestrutura ou Segurança da Informação. Contato prévio com soluções de firewall. Conhecimen",
-      "url": "https://br.linkedin.com/jobs/view/analista-de-redes-e-seguran%C3%A7a-j%C3%BAnior-at-it-one-information-technology-4455534987",
-      "source": "LinkedIn",
-      "published_at": "2026-08-18",
-      "found_at": "2026-09-11T20:32:46.806399+00:00",
-      "score": 74,
-      "score_breakdown": {
-        "skills": 10,
-        "location": 20,
-        "level": 20,
-        "keywords": 8,
-        "salary": 5,
-        "target_company": 0,
-        "priority_skills": 1,
-        "title": 10
-      },
-      "skills_match": [
-        "dns",
-        "firewall",
-        "rede",
-        "redes",
-        "vpn"
-      ],
-      "skills_gap": [
-        "3cx",
-        "active directory",
-        "algar",
-        "algar telecom",
-        "analise de logs",
-        "asterisk",
-        "atendimento tecnico",
-        "avaya",
-        "aws",
-        "azure",
-        "bgp",
-        "broadworks",
-        "call center",
-        "cdr",
-        "cisco",
-        "cloud",
-        "codec",
-        "codecs",
-        "comunicacoes unificadas",
-        "contact center",
-        "cybersecurity",
-        "digitro",
-        "documentacao tecnica",
-        "e1",
-        "embratel",
-        "fortigate",
-        "freeswitch",
-        "g.711",
-        "g.729",
-        "gateway",
-        "gcp",
-        "genesys",
-        "grandstream",
-        "huawei",
-        "intelbras",
-        "ip pbx",
-        "isdn",
-        "khomp",
-        "leucotron",
-        "linux",
-        "mikrotik",
-        "nat",
-        "network",
-        "networking",
-        "nivel 2",
-        "noc",
-        "olt",
-        "operadora",
-        "ordem de servico",
-        "pabx",
-        "pabx ip",
-        "qos",
-        "ramais",
-        "ramal",
-        "rtp",
-        "sbc",
-        "sd-wan",
-        "seguranca da informacao",
-        "session border controller",
-        "sip",
-        "sip trunk",
-        "sql server",
-        "srtp",
-        "stun",
-        "suporte nivel 2",
-        "suporte tecnico",
-        "teams",
-        "tim brasil",
-        "troubleshooting",
-        "turn",
-        "unified communications",
-        "ura",
-        "vlan",
-        "vmware",
-        "voip",
-        "webex",
-        "windows server",
-        "wireguard",
-        "wireshark",
-        "yealink",
-        "zoom phone"
-      ],
-      "fit_level": "alto",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
-      "contact_email": null,
-      "recruiter": null,
-      "valid_through": "2026-09-17T00:51:25.000Z",
-      "company_logo": "https://media.licdn.com/dms/image/v2/D4D0BAQF9KdhPC3nPBA/company-logo_100_100/company-logo_100_100/0/1710270158612/it_one_information_technology_logo?e=2147483647&v=beta&t=smsgfvboSqPS8wyM5liOdTfuRoMCo0xv4T_XfKA3a88",
-      "title_class": "core",
-      "target_company": false,
-      "priority_skills": [
-        "redes"
-      ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "32658e215c789aec",
@@ -1276,7 +1149,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "1495c7bd9854f516",
@@ -1403,7 +1276,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "dce559f1ffe79e3c",
@@ -1790,7 +1663,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "8d107535979c5887",
@@ -2173,7 +2046,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "206b64a66029ea26",
@@ -2300,7 +2173,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "3794e0fb2e8c1559",
@@ -2427,7 +2300,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "4c6f2009f81c814f",
@@ -2557,7 +2430,7 @@
         "network",
         "unified communications"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "08d9adfe5e7c3ad1",
@@ -2687,7 +2560,7 @@
         "network",
         "unified communications"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "5a356fed11fecb46",
@@ -2816,7 +2689,7 @@
       "priority_skills": [
         "unified communications"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "2f1f19fb46443275",
@@ -2948,7 +2821,7 @@
         "networking",
         "unified communications"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "16e4584d16ed20b7",
@@ -3211,7 +3084,7 @@
       "priority_skills": [
         "unified communications"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "b43ff604c0da06c3",
@@ -3341,7 +3214,7 @@
         "cloud",
         "network"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "ff2bffde35e64031",
@@ -3474,7 +3347,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "6bb002b911acfdf5",
@@ -3604,7 +3477,7 @@
         "cloud",
         "network"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "141feb228fc85662",
@@ -3864,7 +3737,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "5a12297adfcd66fb",
@@ -3993,7 +3866,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "6f5da00319ccae88",
@@ -4122,7 +3995,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "5dec49d5d166719c",
@@ -4385,7 +4258,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "614bec2f935212bd",
@@ -4514,7 +4387,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "c9daf12a82f59d78",
@@ -4647,7 +4520,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "d1ee52c31ee31306",
@@ -4911,7 +4784,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "8e8e9e38da1a261a",
@@ -5174,7 +5047,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "70cf4e7e2ebaed7f",
@@ -5303,7 +5176,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "c7a8305dca9f035a",
@@ -5432,7 +5305,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "e64dfde3036d5291",
@@ -5561,7 +5434,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "760c17a0bf33e978",
@@ -5820,7 +5693,7 @@
       "priority_skills": [
         "unified communications"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "96a0cc1e68810ac0",
@@ -6086,7 +5959,7 @@
         "cybersecurity",
         "unified communications"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "2fc6abb77591708b",
@@ -6736,7 +6609,7 @@
         "cybersecurity",
         "network"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "9de6406f39008a56",
@@ -6863,7 +6736,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "de4e426d38334e86",
@@ -6992,7 +6865,7 @@
       "priority_skills": [
         "unified communications"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "3cf384ddb5293b0c",
@@ -7256,7 +7129,7 @@
         "redes",
         "sd-wan"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "c1d81b48dfd2e20f",
@@ -7516,7 +7389,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "5d410f0422f66c3c",
@@ -7782,7 +7655,7 @@
         "cloud",
         "networking"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "f379db82ae4a47eb",
@@ -7915,7 +7788,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "29882621a31f53ac",
@@ -8045,7 +7918,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     },
     {
       "id": "40ac7da4e0928135",
@@ -8175,14 +8048,532 @@
         "redes",
         "sd-wan"
       ],
-      "last_seen_at": "2026-09-16T15:15:42.041467+00:00"
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
+    },
+    {
+      "id": "e7f317f4e1844164",
+      "title": "Analista de Redes - Mercado de Trabalho - Oportunidades de Trabalho",
+      "company": "Espaço Crescerh",
+      "location": "Belo Horizonte e Região",
+      "salary": "",
+      "description": "Sobre a Empresa Espaço Crescerh Localização: Belo Horizonte-MG Detalhes da Vaga Área de Atuação: Informática / TI / Tecnologia Principais Responsabilidades Principais Atividades: * Administrar e monitorar redes LAN, WAN e Wi-Fi * Configurar e gerenciar roteadores, switches e firewalls * Identificar e solucionar problemas de conectividade e desempenho * Implementar e gerenciar VPNs para acesso remoto * Realizar backups e garantir a segurança das configurações de rede * Gerenciar servidores de impressão e apoiar melhorias na infraestrutura Requisitos e Qualificações Requisitos Mínimos: * Ensino Superior completo na área de TI * Experiência com VMware, Windows Server e VPNs, TOLTS * Conhecimento em Scripting * Vivência em administração de redes Diferenciais: * Perfil analítico e habilidade para resolução de problemas complexos * Experiência com infraestrutura corporativa Jornada de Trabalho: Carga horária: Segunda a sexta-feira | 07:00 às 17:00 Salário: 5.191,00 Informações Adicionais Benefícios: * Vale-transporte * Vale-refeição – R$ 35,00/dia Show more Show less",
+      "url": "https://br.linkedin.com/jobs/view/analista-de-redes-mercado-de-trabalho-oportunidades-de-trabalho-at-espa%C3%A7o-crescerh-4468389266",
+      "source": "LinkedIn",
+      "published_at": "2026-09-17",
+      "found_at": "2026-09-17T15:22:55.091231+00:00",
+      "score": 60,
+      "score_breakdown": {
+        "skills": 8,
+        "location": 20,
+        "level": 10,
+        "keywords": 6,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 1,
+        "title": 10,
+        "overseas": 0
+      },
+      "skills_match": [
+        "rede",
+        "redes",
+        "vmware",
+        "windows server"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "noc",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "troubleshooting",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "voip",
+        "vpn",
+        "webex",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "medio",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2026-10-17T07:44:51.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHYfACGo2PM8Q/company-logo_100_100/company-logo_100_100/0/1641256920518?e=2147483647&v=beta&t=bSVdBktuMpW7-uvlrl4bVtUUEL43LoEEKbaiPxBWHfc",
+      "is_overseas": false,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "redes"
+      ],
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
+    },
+    {
+      "id": "69da92f0d27b6e12",
+      "title": "Analista de Suporte Técnico",
+      "company": "LogsUp",
+      "location": "Nova Lima, MG",
+      "salary": "",
+      "description": "DESCRIÇÃO Descrição Da Vaga Buscamos um(a) Analista de Suporte Técnico IoT | RFID para atuar no atendimento e suporte técnico aos clientes, garantindo o funcionamento das soluções de hardware, software, RFID e IoT. Principais Atividades Prestar suporte técnico remoto e presencial aos clientes; Diagnosticar e solucionar problemas em hardware, software, redes e dispositivos IoT/RFID; Instalar, configurar e realizar manutenção preventiva e corretiva de equipamentos; Registrar, acompanhar e documentar chamados técnicos; Apoiar implantações, homologações e projetos de tecnologia; Atuar em conjunto com as equipes de Desenvolvimento, Infraestrutura e Operações; Garantir um atendimento ágil, de qualidade e com foco na satisfação do cliente. Requisitos Formação técnica ou superior em TI, Sistemas de Informação, Redes, Engenharia da Computação, Engenharia Elétrica, Automação ou áreas correlatas; Experiência com suporte técnico de hardware e software; Conhecimento em redes, sistemas operacionais, banco de dados e ferramentas de chamados; Desejável conhecimento em RFID e IoT; Boa comunicação, organização e perfil analítico. Diferenciais Experiência com implantação de soluções tecnológicas; Conhecimento em plataformas de monitoramento e integrações. Disponibilidade Disponibilidade para viagens e atendimento em campo em diferentes estados do Brasil, quando necessário. Disponibilidade para atuação presencial em projetos, implantações e treinamentos. Local de trabalho: Nova Lima, MG Regime de contratação de tipo: Efetivo – CLT Jornada: Período Integral Área e especialização profissional: Informática, TI, Telecomunicações - Suporte Técnico Nível hierárquico: Analista REQUISITOS Escolaridade Mínima: Ensino Superior Disponibilidade para viajar Show more Show less",
+      "url": "https://br.linkedin.com/jobs/view/analista-de-suporte-t%C3%A9cnico-at-logsup-4468288645",
+      "source": "LinkedIn",
+      "published_at": "2026-09-16",
+      "found_at": "2026-09-17T15:24:11.264658+00:00",
+      "score": 54,
+      "score_breakdown": {
+        "skills": 2,
+        "location": 20,
+        "level": 10,
+        "keywords": 6,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 1,
+        "title": 10,
+        "overseas": 0
+      },
+      "skills_match": [
+        "redes"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "noc",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "troubleshooting",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "medio",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": null,
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4D0BAQF_IDMI_CdR6Q/company-logo_100_100/B4DZwjh0LPHwAQ-/0/1770122593786/logsup_logstica_e_transporte_logo?e=2147483647&v=beta&t=k1pk72LVXx_Z-vf8KRX34j7G8qfh0x_-3PXC2zDa2I8",
+      "is_overseas": false,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "redes"
+      ],
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
+    },
+    {
+      "id": "01108ab28019b019",
+      "title": "1st Shift NOC Technician",
+      "company": "WebstaurantStore",
+      "location": "Smoketown, Pensilvânia, Estados Unidos",
+      "salary": "",
+      "description": "Job Summary The IT Network Operations Center (NOC) is responsible for monitoring and supporting the technical systems and infrastructure that power all companies under the Clark umbrella, including WebstaurantStore, a leading global ecommerce platform serving foodservice professionals worldwide. The NOC serves as the front line of IT Operations, proactively identifying issues, responding to incidents, and partnering with specialized teams to ensure the reliability, security, and performance of the company's technical resources. As a NOC Technician, you will monitor network, server, application, and security platforms, respond to alerts and outages, troubleshoot technical issues, and coordinate resolution efforts while acting as the central point of communication between support teams and impacted business users. We are seeking driven IT professionals who are looking to gain insight into and experience with the full scope of IT systems that make up an enterprise-level company. The ideal candidate is eager to learn, embraces new challenges, and is committed to continuous improvement. We are looking for individuals who are excited to grow their technical skills while also helping improve the tools, processes, documentation, and operational practices that support the team. Successful candidates are proactive problem solvers who enjoy learning, sharing knowledge, and contributing to a culture of innovation and continuous improvement. This position will require weekend shifts on a rotational basis. Responsibilities Actively monitor a wide variety of dashboards, alerts, and software to identify issues as they arise. Identify and document trends to proactively prevent problems before they occur. Maintain reporting of network data; such as bandwidth usage, hardware utilization and uptime. Work closely with other IT teams (Developers, Systems Administrators, Database, etc.) to establish troubleshooting protocols and solve problems. Actively monitor IT Security Dashboards and respond to IT Security events such as Phishing Attacks. Act as the first point of contact and resolution for all client network issues. Quickly respond to, and properly escalate downtime events with the proper level of urgency. Bridge Communication between IT teams and end users while facilitating issue resolution. Physical Requirements Work is performed while sitting/standing and interfacing with a personal computer. Requires the ability to communicate effectively using speech, vision, and hearing. Requires the regular use of hands for simple grasping and fine manipulations. Requires occasional bending, squatting, crawling, climbing, and reaching. Requires the ability to occasionally lift, carry, push, or pull medium weights, up to 50lbs. Remote Work Qualifications Access to a reliable and secure high-speed internet connection. Cable or fiber internet connections (at least 75mbps download/10mbps upload) are preferred, as satellite connections often cannot support the technologies used",
+      "url": "https://www.linkedin.com/jobs/view/1st-shift-noc-technician-at-webstaurantstore-4467547733",
+      "source": "LinkedIn",
+      "published_at": "2026-09-17",
+      "found_at": "2026-09-17T15:24:30.243979+00:00",
+      "score": 79,
+      "score_breakdown": {
+        "skills": 8,
+        "location": 20,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 1,
+        "title": 10,
+        "overseas": 15
+      },
+      "skills_match": [
+        "network",
+        "noc",
+        "teams",
+        "troubleshooting"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "networking",
+        "nivel 2",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "redes",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "tim brasil",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "alto",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2026-10-17T14:29:09.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFsSqHw2kV9og/company-logo_100_100/company-logo_100_100/0/1724769253948/webstaurantstore_com_logo?e=2147483647&v=beta&t=N4c6kYZW9BN719m-NWQybeeWok-xcScZArTCeo7a3YU",
+      "is_overseas": true,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "network"
+      ],
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
+    },
+    {
+      "id": "3b2547aa4eb39f55",
+      "title": "IP Telephony Engineer",
+      "company": "ABCommunication",
+      "location": "Kiev, Ucrânia",
+      "salary": "",
+      "description": "ABC — надійний IT-інтегратор із багаторічним досвідом побудови та підтримки IT-інфраструктури для клієнтів національного та міжнародного рівня. Ми працюємо з провідними світовими вендорами: Cisco, HPE, Dell, Lenovo, Oracle, IBM, Microsoft, VMware, Fortinet, Check Point та ін. Зараз ми розширюємо команду та шукаємо інженера з IP-телефонії, який долучиться до реалізації масштабних проєктів. 🔧 Що потрібно робити: Адміністрування та підтримка IP-АТС Налаштування SIP-транків, маршрутизація дзвінків Забезпечення стабільної роботи VoIP-інфраструктури Аналіз логів, troubleshooting (Wireshark, tcpdump) Діагностика SIP-сесій Оптимізація аудіокодеків (G.711, G.729, OPUS тощо) Документування та робота з технічною документацією Участь у зустрічах із замовниками ✅ Наші очікування: Досвід роботи з IP-телефонією Знання SIP, RTP, RTCP Досвід роботи з IP-АТС та VoIP шлюзами Розуміння SIP-транків Базові знання мереж (TCP/IP, NAT, VLAN, DHCP, DNS) Досвід troubleshooting (логи, трафік) Англійська — на рівні читання технічної документації ➕ Буде плюсом: Досвід з Cisco (якщо ні — допоможемо з навчанням) 💼 Ми пропонуємо: Офіційне працевлаштування Графік: пн–чт 9:00–18:00, пт до 17:00 Бронювання Корпоративна англійська 24 дні відпустки + лікарняні Навчання та сертифікації від світових вендорів Роботу в команді сильних інженерів та участь у масштабних проєктах 💬 Ready to join? Надсилайте резюме — будемо раді познайомитись! Show more Show less",
+      "url": "https://ua.linkedin.com/jobs/view/ip-telephony-engineer-at-abcommunication-4468380717",
+      "source": "LinkedIn",
+      "published_at": "2026-09-17",
+      "found_at": "2026-09-17T15:24:47.940658+00:00",
+      "score": 97,
+      "score_breakdown": {
+        "skills": 27,
+        "location": 20,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 0,
+        "title": 10,
+        "overseas": 15
+      },
+      "skills_match": [
+        "cisco",
+        "dns",
+        "g.711",
+        "g.729",
+        "nat",
+        "rtp",
+        "sip",
+        "troubleshooting",
+        "vlan",
+        "vmware",
+        "voip",
+        "wireshark"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "network",
+        "networking",
+        "nivel 2",
+        "noc",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "redes",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "turn",
+        "unified communications",
+        "ura",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "alto",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": {
+        "name": "Nataliia Rudakova",
+        "profile_url": "https://ua.linkedin.com/in/nataliia-rudakova",
+        "headline": "Digital Marketing Manager | Email Marketing | Content Marketing | Social Media Strategy | B2B | B2C | Helping Brands Connect & Convert"
+      },
+      "valid_through": "2026-10-17T08:39:35.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4D0BAQHOwPs1OQ1_XQ/company-logo_100_100/B4DZp91DQgJcAQ-/0/1763047650841/abc_active_business_communication_logo?e=2147483647&v=beta&t=7ccpwCNzFPN7QWRWDYt9h41E5YY3v3WhRZ3Q2CYlgr8",
+      "is_overseas": true,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [],
+      "last_seen_at": "2026-09-17T15:24:52.193708+00:00"
     }
   ],
-  "last_updated": "2026-09-16T15:15:43.701942+00:00",
+  "last_updated": "2026-09-17T15:24:52.216913+00:00",
   "stats": {
-    "total": 63,
-    "alto_fit": 45,
-    "medio_fit": 17,
+    "total": 66,
+    "alto_fit": 46,
+    "medio_fit": 19,
     "baixo_fit": 1,
     "enviadas": 4
   }
