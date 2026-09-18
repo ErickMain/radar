@@ -1,6 +1,34 @@
 {
   "recruiters": [
     {
+      "id": "ff2dbcf762d34240",
+      "name": "Camila Oliveira Camargos",
+      "profile_url": "https://br.linkedin.com/in/camila-oliveira-camargos-pcd",
+      "headline": "PCD | Analista de Gente e Gestão | Analista de DP|Recrutador | Analista de Treinamento e Desenvolvimento| Recursos Humanos| Departamento pessoal",
+      "is_recruiter": true,
+      "country": "BR",
+      "companies": [
+        "BOT Internet"
+      ],
+      "jobs": [
+        {
+          "id": "c45e60ba3e358727",
+          "title": "Ajudante de Instalação/Reparação de Redes",
+          "company": "BOT Internet",
+          "url": "https://br.linkedin.com/jobs/view/ajudante-de-instala%C3%A7%C3%A3o-repara%C3%A7%C3%A3o-de-redes-at-bot-internet-4466693051",
+          "score": 60,
+          "fit_level": "medio",
+          "found_at": "2026-09-18T14:43:58.151644+00:00"
+        }
+      ],
+      "first_seen": "2026-09-18T14:44:45.849509+00:00",
+      "last_seen": "2026-09-18T14:44:45.849509+00:00",
+      "message": "Obrigado por aceitar, Camila! A vaga de Ajudante de Instalação/Reparação de Redes parece combinar com minha prática em provisionamento de ramais e dispositivos IP e no diagnóstico de tráfego usando Wireshark. Posso enviar meu currículo?",
+      "priority": 61,
+      "invite_note": "Oi Camila, vi a vaga de Ajudante de Instalação/Reparação de Redes na BOT Internet. Tenho experiência em provisionamento de dispositivos IP e diagnóstico de problemas de áudio e NAT, que podem ser úteis no suporte de redes. Vamos conectar?",
+      "outreach_source": "groq"
+    },
+    {
       "id": "d2d4ea4e66627032",
       "name": "Gaëtan Travailleur",
       "profile_url": "https://fr.linkedin.com/in/ga%C3%ABtan-travailleur",
@@ -206,6 +234,34 @@
       "outreach_source": "fallback"
     },
     {
+      "id": "3e4166bf66645485",
+      "name": "Qun He",
+      "profile_url": "https://cn.linkedin.com/in/qun-he-b21988325",
+      "headline": "--",
+      "is_recruiter": false,
+      "country": "CN",
+      "companies": [
+        "ZTE CONGO SARL"
+      ],
+      "jobs": [
+        {
+          "id": "8592a9ce379733c6",
+          "title": "Core Network Engineer----CS/IMS",
+          "company": "ZTE CONGO SARL",
+          "url": "https://cg.linkedin.com/jobs/view/core-network-engineer-cs-ims-4465972818",
+          "score": 91,
+          "fit_level": "alto",
+          "found_at": "2026-09-18T14:44:31.234450+00:00"
+        }
+      ],
+      "first_seen": "2026-09-18T14:44:45.849509+00:00",
+      "last_seen": "2026-09-18T14:44:45.849509+00:00",
+      "message": "Obrigado por aceitar, Qun! A posição de Core Network Engineer combina com meu trabalho de análise de protocolos SIP/RTP e com a resolução de problemas em SBCs. Como posso enviar meu currículo para avançarmos?",
+      "priority": 33,
+      "invite_note": "Olá Qun, vi a vaga de Core Network Engineer‑CS/IMS na ZTE CONGO SARL e achei interessante. Tenho experiência em análise de protocolos SIP e RTP, além de troubleshooting de SBCs em ambientes BroadWorks. Vamos conectar?",
+      "outreach_source": "groq"
+    },
+    {
       "id": "786a6a6ab29636e2",
       "name": "Jasmin Loh",
       "profile_url": "https://my.linkedin.com/in/jasmin-loh-29baa747",
@@ -262,6 +318,34 @@
       "outreach_source": "fallback"
     },
     {
+      "id": "f2f414b9c6532e43",
+      "name": "Magda Heichman",
+      "profile_url": "https://uk.linkedin.com/in/magda-heichman",
+      "headline": "Shape the future of our network - join us in Limerick",
+      "is_recruiter": false,
+      "country": "UK",
+      "companies": [
+        "Verizon"
+      ],
+      "jobs": [
+        {
+          "id": "5144a1bee3a62c64",
+          "title": "Voice and Video Network Engineer",
+          "company": "Verizon",
+          "url": "https://ie.linkedin.com/jobs/view/voice-and-video-network-engineer-at-verizon-4440085756",
+          "score": 74,
+          "fit_level": "alto",
+          "found_at": "2026-09-18T14:44:41.380901+00:00"
+        }
+      ],
+      "first_seen": "2026-09-18T14:44:45.849509+00:00",
+      "last_seen": "2026-09-18T14:44:45.849509+00:00",
+      "message": "Obrigado por aceitar, Magda! Vejo que a posição exige expertise em redes de voz e vídeo; meu trabalho com BroadWorks e troubleshooting de SBCs, além da análise de CDRs e logs SIP, se alinha bem. Posso enviar meu currículo?",
+      "priority": 26,
+      "invite_note": "Oi Magda, vi a vaga de Voice and Video Network Engineer na Verizon e notei que minha experiência com suporte a telefonia IP e análise de protocolos SIP e RTP pode agregar ao time. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
       "id": "441cdc7eed0be668",
       "name": "Lisa-Marie Barth",
       "profile_url": "https://at.linkedin.com/in/lisa-marie-barth",
@@ -290,5 +374,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-09-17T15:24:52.213904+00:00"
+  "last_updated": "2026-09-18T14:44:45.849509+00:00"
 }
