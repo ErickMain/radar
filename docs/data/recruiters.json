@@ -29,34 +29,6 @@
       "outreach_source": "groq"
     },
     {
-      "id": "d2d4ea4e66627032",
-      "name": "Gaëtan Travailleur",
-      "profile_url": "https://fr.linkedin.com/in/ga%C3%ABtan-travailleur",
-      "headline": "IT Talent Acquisition Specialist",
-      "is_recruiter": true,
-      "country": "FR",
-      "companies": [
-        "CNS Communications"
-      ],
-      "jobs": [
-        {
-          "id": "1f2aae3bd71a7e60",
-          "title": "Unified Communications engineer (M/F)",
-          "company": "CNS Communications",
-          "url": "https://ro.linkedin.com/jobs/view/unified-communications-engineer-m-f-at-cns-communications-4464190419",
-          "score": 92,
-          "fit_level": "alto",
-          "found_at": "2026-09-11T21:23:38.493208+00:00"
-        }
-      ],
-      "first_seen": "2026-09-11T21:23:44.989092+00:00",
-      "last_seen": "2026-09-11T21:23:44.989092+00:00",
-      "message": "Obrigado por aceitar, Gaëtan! A posição de Unified Communications Engineer combina bem com minha experiência em administração de ambientes BroadWorks e análise de protocolos SIP/RTP. Posso enviar meu currículo para avançarmos?",
-      "priority": 58,
-      "invite_note": "Olá Gaëtan, vi a vaga de Unified Communications Engineer na CNS Communications e me identifiquei pelo trabalho com BroadWorks e configuração de dispositivos IP. Vamos nos conectar?",
-      "outreach_source": "groq"
-    },
-    {
       "id": "fb11a9c0185124ea",
       "name": "Natalia Hernanz",
       "profile_url": "https://es.linkedin.com/in/nataliahernanz",
@@ -83,62 +55,6 @@
       "priority": 57,
       "invite_note": "Oi Natalia, vi a vaga de TX Network Operations Engineer (L2) e achei que minha experiência com troubleshooting de SBCs e análise de protocolos SIP/RTP seria muito útil. Vamos nos conectar?",
       "outreach_source": "groq"
-    },
-    {
-      "id": "6c6425bf68593f14",
-      "name": "Federica Piccioni",
-      "profile_url": "https://it.linkedin.com/in/federica-piccioni-a18025109",
-      "headline": "Recruiting Vmway srl",
-      "is_recruiter": true,
-      "country": "IT",
-      "companies": [
-        "VmWay S.r.l."
-      ],
-      "jobs": [
-        {
-          "id": "16e4584d16ed20b7",
-          "title": "Core Network Voice Engineer (IMS/VoLTE)",
-          "company": "VmWay S.r.l.",
-          "url": "https://it.linkedin.com/jobs/view/core-network-voice-engineer-ims-volte-at-vmway-4460478202",
-          "score": 87,
-          "fit_level": "alto",
-          "found_at": "2026-09-11T21:23:00.938753+00:00"
-        }
-      ],
-      "first_seen": "2026-09-11T21:23:44.989092+00:00",
-      "last_seen": "2026-09-11T21:23:44.989092+00:00",
-      "message": "Oi Federica, obrigado por aceitar!\n\nSobre a vaga de Core Network Voice Engineer (IMS/VoLTE) na VmWay S.r.l.: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
-      "priority": 56,
-      "invite_note": "Oi Federica! Vi sua vaga de Core Network Voice Engineer (IMS/VoLTE) na VmWay S.r.l.. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
-      "outreach_source": "fallback"
-    },
-    {
-      "id": "e4b407aa96181af0",
-      "name": "Kalyani Vajpayee",
-      "profile_url": "https://in.linkedin.com/in/kalyani-vajpayee-241173a6",
-      "headline": "💡 Talent Matchmaker | IT & Non-IT Recruitment Lead | Making Careers Happen to work for UK, USA, Canada & Australia 🌟",
-      "is_recruiter": true,
-      "country": "IN",
-      "companies": [
-        "Technomine"
-      ],
-      "jobs": [
-        {
-          "id": "8e8e9e38da1a261a",
-          "title": "Network Operations Center Engineer",
-          "company": "Technomine",
-          "url": "https://in.linkedin.com/jobs/view/network-operations-center-engineer-at-technomine-4460729327",
-          "score": 88,
-          "fit_level": "alto",
-          "found_at": "2026-09-11T21:23:17.836068+00:00"
-        }
-      ],
-      "first_seen": "2026-09-11T21:23:44.989092+00:00",
-      "last_seen": "2026-09-11T21:23:44.989092+00:00",
-      "message": "Oi Kalyani, obrigado por aceitar!\n\nSobre a vaga de Network Operations Center Engineer na Technomine: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
-      "priority": 56,
-      "invite_note": "Oi Kalyani! Vi sua vaga de Network Operations Center Engineer na Technomine. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
-      "outreach_source": "fallback"
     },
     {
       "id": "28c5093b7cfa2955",
@@ -169,6 +85,90 @@
       "outreach_source": "groq"
     },
     {
+      "id": "d2d4ea4e66627032",
+      "name": "Gaëtan Travailleur",
+      "profile_url": "https://fr.linkedin.com/in/ga%C3%ABtan-travailleur",
+      "headline": "IT Talent Acquisition Specialist",
+      "is_recruiter": true,
+      "country": "FR",
+      "companies": [
+        "CNS Communications"
+      ],
+      "jobs": [
+        {
+          "id": "1f2aae3bd71a7e60",
+          "title": "Unified Communications engineer (M/F)",
+          "company": "CNS Communications",
+          "url": "https://ro.linkedin.com/jobs/view/unified-communications-engineer-m-f-at-cns-communications-4464190419",
+          "score": 92,
+          "fit_level": "alto",
+          "found_at": "2026-09-11T21:23:38.493208+00:00"
+        }
+      ],
+      "first_seen": "2026-09-11T21:23:44.989092+00:00",
+      "last_seen": "2026-09-11T21:23:44.989092+00:00",
+      "message": "Obrigado por aceitar, Gaëtan! A posição de Unified Communications Engineer combina bem com minha experiência em administração de ambientes BroadWorks e análise de protocolos SIP/RTP. Posso enviar meu currículo para avançarmos?",
+      "priority": 51,
+      "invite_note": "Olá Gaëtan, vi a vaga de Unified Communications Engineer na CNS Communications e me identifiquei pelo trabalho com BroadWorks e configuração de dispositivos IP. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
+      "id": "6c6425bf68593f14",
+      "name": "Federica Piccioni",
+      "profile_url": "https://it.linkedin.com/in/federica-piccioni-a18025109",
+      "headline": "Recruiting Vmway srl",
+      "is_recruiter": true,
+      "country": "IT",
+      "companies": [
+        "VmWay S.r.l."
+      ],
+      "jobs": [
+        {
+          "id": "16e4584d16ed20b7",
+          "title": "Core Network Voice Engineer (IMS/VoLTE)",
+          "company": "VmWay S.r.l.",
+          "url": "https://it.linkedin.com/jobs/view/core-network-voice-engineer-ims-volte-at-vmway-4460478202",
+          "score": 87,
+          "fit_level": "alto",
+          "found_at": "2026-09-11T21:23:00.938753+00:00"
+        }
+      ],
+      "first_seen": "2026-09-11T21:23:44.989092+00:00",
+      "last_seen": "2026-09-11T21:23:44.989092+00:00",
+      "message": "Oi Federica, obrigado por aceitar!\n\nSobre a vaga de Core Network Voice Engineer (IMS/VoLTE) na VmWay S.r.l.: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
+      "priority": 49,
+      "invite_note": "Oi Federica! Vi sua vaga de Core Network Voice Engineer (IMS/VoLTE) na VmWay S.r.l.. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
+      "outreach_source": "fallback"
+    },
+    {
+      "id": "e4b407aa96181af0",
+      "name": "Kalyani Vajpayee",
+      "profile_url": "https://in.linkedin.com/in/kalyani-vajpayee-241173a6",
+      "headline": "💡 Talent Matchmaker | IT & Non-IT Recruitment Lead | Making Careers Happen to work for UK, USA, Canada & Australia 🌟",
+      "is_recruiter": true,
+      "country": "IN",
+      "companies": [
+        "Technomine"
+      ],
+      "jobs": [
+        {
+          "id": "8e8e9e38da1a261a",
+          "title": "Network Operations Center Engineer",
+          "company": "Technomine",
+          "url": "https://in.linkedin.com/jobs/view/network-operations-center-engineer-at-technomine-4460729327",
+          "score": 88,
+          "fit_level": "alto",
+          "found_at": "2026-09-11T21:23:17.836068+00:00"
+        }
+      ],
+      "first_seen": "2026-09-11T21:23:44.989092+00:00",
+      "last_seen": "2026-09-11T21:23:44.989092+00:00",
+      "message": "Oi Kalyani, obrigado por aceitar!\n\nSobre a vaga de Network Operations Center Engineer na Technomine: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
+      "priority": 49,
+      "invite_note": "Oi Kalyani! Vi sua vaga de Network Operations Center Engineer na Technomine. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
+      "outreach_source": "fallback"
+    },
+    {
       "id": "7029c26d196d85ce",
       "name": "Jonathan Wells",
       "profile_url": "https://uk.linkedin.com/in/jonwellstechrecruitment",
@@ -192,7 +192,7 @@
       "first_seen": "2026-09-11T21:23:44.989092+00:00",
       "last_seen": "2026-09-11T21:23:44.989092+00:00",
       "message": "Oi Jonathan, obrigado por aceitar!\n\nSobre a vaga de Network Operations Center Engineer na Experis UK: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
-      "priority": 52,
+      "priority": 45,
       "invite_note": "Oi Jonathan! Vi sua vaga de Network Operations Center Engineer na Experis UK. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
       "outreach_source": "fallback"
     },
@@ -262,62 +262,6 @@
       "outreach_source": "groq"
     },
     {
-      "id": "786a6a6ab29636e2",
-      "name": "Jasmin Loh",
-      "profile_url": "https://my.linkedin.com/in/jasmin-loh-29baa747",
-      "headline": "Regional HR Leader | Passionate about Culture, Performance & Growth | Focused on Building Fair, Positive & Sustainable Work Environment",
-      "is_recruiter": false,
-      "country": "MY",
-      "companies": [
-        "ViewQwest"
-      ],
-      "jobs": [
-        {
-          "id": "c9daf12a82f59d78",
-          "title": "Network Operations Centre (NOC) Engineer",
-          "company": "ViewQwest",
-          "url": "https://sg.linkedin.com/jobs/view/network-operations-centre-noc-engineer-at-viewqwest-4465682005",
-          "score": 81,
-          "fit_level": "alto",
-          "found_at": "2026-09-11T21:23:17.836068+00:00"
-        }
-      ],
-      "first_seen": "2026-09-11T21:23:44.989092+00:00",
-      "last_seen": "2026-09-11T21:23:44.989092+00:00",
-      "message": "Oi Jasmin, obrigado por aceitar!\n\nSobre a vaga de Network Operations Centre (NOC) Engineer na ViewQwest: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
-      "priority": 29,
-      "invite_note": "Oi Jasmin! Vi sua vaga de Network Operations Centre (NOC) Engineer na ViewQwest. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
-      "outreach_source": "fallback"
-    },
-    {
-      "id": "02dd3b4eb40a179c",
-      "name": "Ted Tan",
-      "profile_url": "https://sg.linkedin.com/in/tedtanszeming",
-      "headline": "Associate Director -  Real Estate, Technology & Engineering",
-      "is_recruiter": false,
-      "country": "SG",
-      "companies": [
-        "The Edge Partnership - The Edge in Asia"
-      ],
-      "jobs": [
-        {
-          "id": "f41fdf198100aa72",
-          "title": "Network Operations Center Engineer",
-          "company": "The Edge Partnership - The Edge in Asia",
-          "url": "https://sg.linkedin.com/jobs/view/network-operations-center-engineer-at-the-edge-partnership-the-edge-in-asia-4457694671",
-          "score": 81,
-          "fit_level": "alto",
-          "found_at": "2026-09-11T21:23:17.836068+00:00"
-        }
-      ],
-      "first_seen": "2026-09-11T21:23:44.989092+00:00",
-      "last_seen": "2026-09-11T21:23:44.989092+00:00",
-      "message": "Oi Ted, obrigado por aceitar!\n\nSobre a vaga de Network Operations Center Engineer na The Edge Partnership - The Edge in Asia: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
-      "priority": 29,
-      "invite_note": "Oi Ted! Vi sua vaga de Network Operations Center Engineer na The Edge Partnership - The Edge in Asia. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
-      "outreach_source": "fallback"
-    },
-    {
       "id": "f2f414b9c6532e43",
       "name": "Magda Heichman",
       "profile_url": "https://uk.linkedin.com/in/magda-heichman",
@@ -346,6 +290,62 @@
       "outreach_source": "groq"
     },
     {
+      "id": "786a6a6ab29636e2",
+      "name": "Jasmin Loh",
+      "profile_url": "https://my.linkedin.com/in/jasmin-loh-29baa747",
+      "headline": "Regional HR Leader | Passionate about Culture, Performance & Growth | Focused on Building Fair, Positive & Sustainable Work Environment",
+      "is_recruiter": false,
+      "country": "MY",
+      "companies": [
+        "ViewQwest"
+      ],
+      "jobs": [
+        {
+          "id": "c9daf12a82f59d78",
+          "title": "Network Operations Centre (NOC) Engineer",
+          "company": "ViewQwest",
+          "url": "https://sg.linkedin.com/jobs/view/network-operations-centre-noc-engineer-at-viewqwest-4465682005",
+          "score": 81,
+          "fit_level": "alto",
+          "found_at": "2026-09-11T21:23:17.836068+00:00"
+        }
+      ],
+      "first_seen": "2026-09-11T21:23:44.989092+00:00",
+      "last_seen": "2026-09-11T21:23:44.989092+00:00",
+      "message": "Oi Jasmin, obrigado por aceitar!\n\nSobre a vaga de Network Operations Centre (NOC) Engineer na ViewQwest: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
+      "priority": 22,
+      "invite_note": "Oi Jasmin! Vi sua vaga de Network Operations Centre (NOC) Engineer na ViewQwest. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
+      "outreach_source": "fallback"
+    },
+    {
+      "id": "02dd3b4eb40a179c",
+      "name": "Ted Tan",
+      "profile_url": "https://sg.linkedin.com/in/tedtanszeming",
+      "headline": "Associate Director -  Real Estate, Technology & Engineering",
+      "is_recruiter": false,
+      "country": "SG",
+      "companies": [
+        "The Edge Partnership - The Edge in Asia"
+      ],
+      "jobs": [
+        {
+          "id": "f41fdf198100aa72",
+          "title": "Network Operations Center Engineer",
+          "company": "The Edge Partnership - The Edge in Asia",
+          "url": "https://sg.linkedin.com/jobs/view/network-operations-center-engineer-at-the-edge-partnership-the-edge-in-asia-4457694671",
+          "score": 81,
+          "fit_level": "alto",
+          "found_at": "2026-09-11T21:23:17.836068+00:00"
+        }
+      ],
+      "first_seen": "2026-09-11T21:23:44.989092+00:00",
+      "last_seen": "2026-09-11T21:23:44.989092+00:00",
+      "message": "Oi Ted, obrigado por aceitar!\n\nSobre a vaga de Network Operations Center Engineer na The Edge Partnership - The Edge in Asia: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
+      "priority": 22,
+      "invite_note": "Oi Ted! Vi sua vaga de Network Operations Center Engineer na The Edge Partnership - The Edge in Asia. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
+      "outreach_source": "fallback"
+    },
+    {
       "id": "441cdc7eed0be668",
       "name": "Lisa-Marie Barth",
       "profile_url": "https://at.linkedin.com/in/lisa-marie-barth",
@@ -369,10 +369,10 @@
       "first_seen": "2026-09-13T07:33:26.477584+00:00",
       "last_seen": "2026-09-13T07:33:26.477584+00:00",
       "message": "Oi Lisa-Marie, obrigado por aceitar!\n\nSobre a vaga de Microsoft 365 & Unified Communications Engineer (m/w/d) na Computer Futures: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
-      "priority": 25,
+      "priority": 18,
       "invite_note": "Oi Lisa-Marie! Vi sua vaga de Microsoft 365 & Unified Communications Engineer (m/w/d) na Computer Futures. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-09-18T14:44:45.849509+00:00"
+  "last_updated": "2026-09-21T16:45:27.929488+00:00"
 }
