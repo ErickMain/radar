@@ -1,6 +1,34 @@
 {
   "recruiters": [
     {
+      "id": "9c898442a6fd235f",
+      "name": "Ninna D.",
+      "profile_url": "https://ph.linkedin.com/in/ninna-d-0883b2160",
+      "headline": "Senior Recruitment Consultant | Hiring for an MSP Company | L1, L2, and L3 IT Service Desk | Cloud Engineer | NOC | message me for opportunities",
+      "is_recruiter": true,
+      "country": "PH",
+      "companies": [
+        "IT BY DESIGN"
+      ],
+      "jobs": [
+        {
+          "id": "92b9f241544595e3",
+          "title": "Network Operations Center Engineer",
+          "company": "IT BY DESIGN",
+          "url": "https://ph.linkedin.com/jobs/view/network-operations-center-engineer-at-it-by-design-4468727100",
+          "score": 100,
+          "fit_level": "alto",
+          "found_at": "2026-09-22T15:19:17.102133+00:00"
+        }
+      ],
+      "first_seen": "2026-09-22T15:19:33.322917+00:00",
+      "last_seen": "2026-09-22T15:19:33.322917+00:00",
+      "message": "Obrigado por aceitar, Ninna! A posição de NOC Engineer combina com minha experiência em troubleshooting de SBCs e captura de tráfego com Wireshark, além do provisionamento de dispositivos IP. Gostaria de saber mais detalhes da oportunidade. Posso te mandar meu currículo?",
+      "priority": 61,
+      "invite_note": "Olá Ninna, vi a vaga de Network Operations Center Engineer na IT BY DESIGN e me identifiquei pelo suporte especializado em telefonia IP e análise de protocolos SIP/RTP que realizo na Método Telecom. Vamos conectar?",
+      "outreach_source": "groq"
+    },
+    {
       "id": "ff2dbcf762d34240",
       "name": "Camila Oliveira Camargos",
       "profile_url": "https://br.linkedin.com/in/camila-oliveira-camargos-pcd",
@@ -374,5 +402,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-09-21T16:45:27.929488+00:00"
+  "last_updated": "2026-09-22T15:19:33.322917+00:00"
 }
