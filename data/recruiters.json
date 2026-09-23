@@ -85,6 +85,34 @@
       "outreach_source": "groq"
     },
     {
+      "id": "8c15afcbcc89ea54",
+      "name": "Nicole G.",
+      "profile_url": "https://za.linkedin.com/in/nicolegsa",
+      "headline": "(Currently Hiring Locals Only for ICT opportunities in Africa) Strategic Talent Acquisition Partner | Regional Hiring Architect | Cloud & Digital…",
+      "is_recruiter": true,
+      "country": "ZA",
+      "companies": [
+        "Beijing Foreign Enterprise Management Consultants Co.,Ltd."
+      ],
+      "jobs": [
+        {
+          "id": "c689e81637ff25f0",
+          "title": "Core Network Maintenance Engineer",
+          "company": "Beijing Foreign Enterprise Management Consultants Co.,Ltd.",
+          "url": "https://bw.linkedin.com/jobs/view/core-network-maintenance-engineer-at-beijing-foreign-enterprise-management-consultants-co-ltd-4470956544",
+          "score": 88,
+          "fit_level": "alto",
+          "found_at": "2026-09-23T15:16:32.541791+00:00"
+        }
+      ],
+      "first_seen": "2026-09-23T15:16:39.547281+00:00",
+      "last_seen": "2026-09-23T15:16:39.547281+00:00",
+      "message": "Obrigado por aceitar! A vaga de Core Network Maintenance Engineer combina com minha atuação em troubleshooting de SBCs e análise de protocolos SIP/RTP. Também já administro ambientes BroadWorks com foco em alta disponibilidade. Posso enviar meu currículo?",
+      "priority": 56,
+      "invite_note": "Oi Nicole, vi sua vaga de Core Network Maintenance Engineer e achei interessante. Tenho experiência prática em diagnóstico de problemas SIP e configuração de SBCs, que são essenciais para manutenção de redes de voz. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
       "id": "28c5093b7cfa2955",
       "name": "Dave Carlisle",
       "profile_url": "https://uk.linkedin.com/in/dave-carlisle-5004338b",
@@ -402,5 +430,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-09-22T15:19:33.322917+00:00"
+  "last_updated": "2026-09-23T15:16:39.547281+00:00"
 }
