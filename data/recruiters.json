@@ -57,34 +57,6 @@
       "outreach_source": "groq"
     },
     {
-      "id": "fb11a9c0185124ea",
-      "name": "Natalia Hernanz",
-      "profile_url": "https://es.linkedin.com/in/nataliahernanz",
-      "headline": "IT Talent Acquisition Team Leader",
-      "is_recruiter": true,
-      "country": "ES",
-      "companies": [
-        "Neotalent Conclusion"
-      ],
-      "jobs": [
-        {
-          "id": "f379db82ae4a47eb",
-          "title": "TX Network Operations Engineer (L2)",
-          "company": "Neotalent Conclusion",
-          "url": "https://es.linkedin.com/jobs/view/tx-network-operations-engineer-l2-at-neotalent-conclusion-4467051622",
-          "score": 89,
-          "fit_level": "alto",
-          "found_at": "2026-09-15T15:22:56.963291+00:00"
-        }
-      ],
-      "first_seen": "2026-09-15T15:23:19.121612+00:00",
-      "last_seen": "2026-09-15T15:23:19.121612+00:00",
-      "message": "Obrigado por aceitar, Natalia! Vejo que a posição exige forte atuação em NOC e suporte a VoIP. Tenho amplo contato com análise de CDRs, logs SIP e diagnóstico de áudio e NAT, além de suporte a ambientes BroadWorks. Posso enviar meu currículo?",
-      "priority": 57,
-      "invite_note": "Oi Natalia, vi a vaga de TX Network Operations Engineer (L2) e achei que minha experiência com troubleshooting de SBCs e análise de protocolos SIP/RTP seria muito útil. Vamos nos conectar?",
-      "outreach_source": "groq"
-    },
-    {
       "id": "8c15afcbcc89ea54",
       "name": "Nicole G.",
       "profile_url": "https://za.linkedin.com/in/nicolegsa",
@@ -113,34 +85,6 @@
       "outreach_source": "groq"
     },
     {
-      "id": "28c5093b7cfa2955",
-      "name": "Dave Carlisle",
-      "profile_url": "https://uk.linkedin.com/in/dave-carlisle-5004338b",
-      "headline": "Senior Account Manager @ Spectrum IT | Recruitment, Customer Service",
-      "is_recruiter": true,
-      "country": "UK",
-      "companies": [
-        "Spectrum IT Recruitment"
-      ],
-      "jobs": [
-        {
-          "id": "b62c398eb20b3e36",
-          "title": "NOC Engineer",
-          "company": "Spectrum IT Recruitment",
-          "url": "https://uk.linkedin.com/jobs/view/noc-engineer-at-spectrum-it-recruitment-4465768365",
-          "score": 83,
-          "fit_level": "alto",
-          "found_at": "2026-09-15T15:22:56.963282+00:00"
-        }
-      ],
-      "first_seen": "2026-09-15T15:23:19.121612+00:00",
-      "last_seen": "2026-09-15T15:23:19.121612+00:00",
-      "message": "Oi Dave, agradeço por aceitar! A vaga de NOC Engineer combina com minha atuação em análise de protocolos SIP/RTP e no provisionamento de dispositivos IP, além do suporte técnico de nível 2 em ambientes críticos. Posso te enviar meu currículo?",
-      "priority": 55,
-      "invite_note": "Olá Dave, vi a vaga de NOC Engineer na Spectrum IT e achei interessante. Tenho experiência em análise de protocolos SIP e RTP e no troubleshooting de SBCs em ambientes de telefonia IP. Vamos nos conectar?",
-      "outreach_source": "groq"
-    },
-    {
       "id": "d2d4ea4e66627032",
       "name": "Gaëtan Travailleur",
       "profile_url": "https://fr.linkedin.com/in/ga%C3%ABtan-travailleur",
@@ -166,6 +110,34 @@
       "message": "Obrigado por aceitar, Gaëtan! A posição de Unified Communications Engineer combina bem com minha experiência em administração de ambientes BroadWorks e análise de protocolos SIP/RTP. Posso enviar meu currículo para avançarmos?",
       "priority": 51,
       "invite_note": "Olá Gaëtan, vi a vaga de Unified Communications Engineer na CNS Communications e me identifiquei pelo trabalho com BroadWorks e configuração de dispositivos IP. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
+      "id": "fb11a9c0185124ea",
+      "name": "Natalia Hernanz",
+      "profile_url": "https://es.linkedin.com/in/nataliahernanz",
+      "headline": "IT Talent Acquisition Team Leader",
+      "is_recruiter": true,
+      "country": "ES",
+      "companies": [
+        "Neotalent Conclusion"
+      ],
+      "jobs": [
+        {
+          "id": "f379db82ae4a47eb",
+          "title": "TX Network Operations Engineer (L2)",
+          "company": "Neotalent Conclusion",
+          "url": "https://es.linkedin.com/jobs/view/tx-network-operations-engineer-l2-at-neotalent-conclusion-4467051622",
+          "score": 89,
+          "fit_level": "alto",
+          "found_at": "2026-09-15T15:22:56.963291+00:00"
+        }
+      ],
+      "first_seen": "2026-09-15T15:23:19.121612+00:00",
+      "last_seen": "2026-09-15T15:23:19.121612+00:00",
+      "message": "Obrigado por aceitar, Natalia! Vejo que a posição exige forte atuação em NOC e suporte a VoIP. Tenho amplo contato com análise de CDRs, logs SIP e diagnóstico de áudio e NAT, além de suporte a ambientes BroadWorks. Posso enviar meu currículo?",
+      "priority": 50,
+      "invite_note": "Oi Natalia, vi a vaga de TX Network Operations Engineer (L2) e achei que minha experiência com troubleshooting de SBCs e análise de protocolos SIP/RTP seria muito útil. Vamos nos conectar?",
       "outreach_source": "groq"
     },
     {
@@ -223,6 +195,34 @@
       "priority": 49,
       "invite_note": "Oi Kalyani! Vi sua vaga de Network Operations Center Engineer na Technomine. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
       "outreach_source": "fallback"
+    },
+    {
+      "id": "28c5093b7cfa2955",
+      "name": "Dave Carlisle",
+      "profile_url": "https://uk.linkedin.com/in/dave-carlisle-5004338b",
+      "headline": "Senior Account Manager @ Spectrum IT | Recruitment, Customer Service",
+      "is_recruiter": true,
+      "country": "UK",
+      "companies": [
+        "Spectrum IT Recruitment"
+      ],
+      "jobs": [
+        {
+          "id": "b62c398eb20b3e36",
+          "title": "NOC Engineer",
+          "company": "Spectrum IT Recruitment",
+          "url": "https://uk.linkedin.com/jobs/view/noc-engineer-at-spectrum-it-recruitment-4465768365",
+          "score": 83,
+          "fit_level": "alto",
+          "found_at": "2026-09-15T15:22:56.963282+00:00"
+        }
+      ],
+      "first_seen": "2026-09-15T15:23:19.121612+00:00",
+      "last_seen": "2026-09-15T15:23:19.121612+00:00",
+      "message": "Oi Dave, agradeço por aceitar! A vaga de NOC Engineer combina com minha atuação em análise de protocolos SIP/RTP e no provisionamento de dispositivos IP, além do suporte técnico de nível 2 em ambientes críticos. Posso te enviar meu currículo?",
+      "priority": 48,
+      "invite_note": "Olá Dave, vi a vaga de NOC Engineer na Spectrum IT e achei interessante. Tenho experiência em análise de protocolos SIP e RTP e no troubleshooting de SBCs em ambientes de telefonia IP. Vamos nos conectar?",
+      "outreach_source": "groq"
     },
     {
       "id": "7029c26d196d85ce",
@@ -430,5 +430,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-09-23T15:16:39.547281+00:00"
+  "last_updated": "2026-09-24T15:39:00.656934+00:00"
 }
