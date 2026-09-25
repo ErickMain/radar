@@ -85,6 +85,34 @@
       "outreach_source": "groq"
     },
     {
+      "id": "1a9bbb588559d30e",
+      "name": "sravan pratap",
+      "profile_url": "https://in.linkedin.com/in/sravan-pratap-44699b1b6",
+      "headline": "Technical Recruiter at COVET IT inc",
+      "is_recruiter": true,
+      "country": "IN",
+      "companies": [
+        "COVET IT INC"
+      ],
+      "jobs": [
+        {
+          "id": "3c93b69d98bdaed0",
+          "title": "Telecom BSSe Engineer",
+          "company": "COVET IT INC",
+          "url": "https://www.linkedin.com/jobs/view/telecom-bsse-engineer-at-covet-it-inc-4470320104",
+          "score": 76,
+          "fit_level": "alto",
+          "found_at": "2026-09-25T15:43:46.662402+00:00"
+        }
+      ],
+      "first_seen": "2026-09-25T15:43:53.432252+00:00",
+      "last_seen": "2026-09-25T15:43:53.432252+00:00",
+      "message": "Obrigado por aceitar! A posição Telecom BSS Engineer combina bem com minha prática em análise de SIP/RTP e troubleshooting de SBCs, além do provisionamento de ambientes BroadWorks. Como posso enviar meu currículo para avançarmos?",
+      "priority": 52,
+      "invite_note": "Olá Sravan, vi a vaga Telecom BSS Engineer na Covet IT e achei interessante. Tenho experiência com suporte especializado em telefonia IP e análise de protocolos SIP, além de provisionamento de ramais e dispositivos IP. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
       "id": "d2d4ea4e66627032",
       "name": "Gaëtan Travailleur",
       "profile_url": "https://fr.linkedin.com/in/ga%C3%ABtan-travailleur",
@@ -285,7 +313,7 @@
       "first_seen": "2026-09-11T21:23:44.989092+00:00",
       "last_seen": "2026-09-17T15:24:52.213904+00:00",
       "message": "Oi Nataliia, obrigado por aceitar!\n\nSobre a vaga de IP Telephony Engineer (VoIP Engineer) na ABCommunication: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
-      "priority": 43,
+      "priority": 36,
       "invite_note": "Oi Nataliia! Vi sua vaga de IP Telephony Engineer (VoIP Engineer) na ABCommunication. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
       "outreach_source": "fallback"
     },
@@ -430,5 +458,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-09-24T15:39:00.656934+00:00"
+  "last_updated": "2026-09-25T15:43:53.432252+00:00"
 }
