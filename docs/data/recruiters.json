@@ -1,31 +1,59 @@
 {
   "recruiters": [
     {
-      "id": "8c15afcbcc89ea54",
-      "name": "Nicole G.",
-      "profile_url": "https://za.linkedin.com/in/nicolegsa",
-      "headline": "(Currently Hiring Locals Only for ICT opportunities in Africa) Strategic Talent Acquisition Partner | Regional Hiring Architect | Cloud & Digital…",
+      "id": "5333a65688c1eb32",
+      "name": "Ana Paula Ribeiro",
+      "profile_url": "https://br.linkedin.com/in/ana-paula-ribeiro-55899a168",
+      "headline": "Tech Recruiter Sênior | Talent Acquisition & Tech Hiring | Hunting Estratégico | Data Driven Recruiting | Technology & Digital",
       "is_recruiter": true,
-      "country": "ZA",
+      "country": "BR",
       "companies": [
-        "Beijing Foreign Enterprise Management Consultants Co.,Ltd."
+        "V8.TECH"
       ],
       "jobs": [
         {
-          "id": "c689e81637ff25f0",
-          "title": "Core Network Maintenance Engineer",
-          "company": "Beijing Foreign Enterprise Management Consultants Co.,Ltd.",
-          "url": "https://bw.linkedin.com/jobs/view/core-network-maintenance-engineer-at-beijing-foreign-enterprise-management-consultants-co-ltd-4470956544",
-          "score": 88,
+          "id": "017a3370f38beec7",
+          "title": "Analista de Redes Pleno",
+          "company": "V8.TECH",
+          "url": "https://br.linkedin.com/jobs/view/analista-de-redes-pleno-at-v8-tech-4472934860",
+          "score": 95,
           "fit_level": "alto",
-          "found_at": "2026-09-23T15:16:32.541791+00:00"
+          "found_at": "2026-10-01T17:14:26.061529+00:00"
         }
       ],
-      "first_seen": "2026-09-23T15:16:39.547281+00:00",
-      "last_seen": "2026-09-23T15:16:39.547281+00:00",
-      "message": "Obrigado por aceitar! A vaga de Core Network Maintenance Engineer combina com minha atuação em troubleshooting de SBCs e análise de protocolos SIP/RTP. Também já administro ambientes BroadWorks com foco em alta disponibilidade. Posso enviar meu currículo?",
-      "priority": 56,
-      "invite_note": "Oi Nicole, vi sua vaga de Core Network Maintenance Engineer e achei interessante. Tenho experiência prática em diagnóstico de problemas SIP e configuração de SBCs, que são essenciais para manutenção de redes de voz. Vamos nos conectar?",
+      "first_seen": "2026-10-01T17:14:36.867204+00:00",
+      "last_seen": "2026-10-01T17:14:36.867204+00:00",
+      "message": "Obrigado por aceitar! A vaga de Analista de Redes Pleno combina com minha experiência em análise de protocolos SIP/RTP e provisionamento de dispositivos IP. Também atuo com troubleshooting de SBCs e configuração de telefones IP. Posso enviar meu currículo?",
+      "priority": 74,
+      "invite_note": "Oi Ana, vi a vaga de Analista de Redes Pleno na V8.TECH e achei interessante. Tenho experiência com suporte especializado em telefonia IP e VoIP, além de análise de protocolos SIP e RTP. Gostaria de conectar para conversar.",
+      "outreach_source": "groq"
+    },
+    {
+      "id": "668f36c6fd01c64e",
+      "name": "Mindy Wendt",
+      "profile_url": "https://www.linkedin.com/in/mindy-wendt-586923135",
+      "headline": "Senior Talent Acquisition Partner at Koch Engineered Solutions | Supporting Diverse Recruiting Efforts",
+      "is_recruiter": true,
+      "country": "?",
+      "companies": [
+        "Koch"
+      ],
+      "jobs": [
+        {
+          "id": "ab5487ce0db21c64",
+          "title": "Network Operations Engineer",
+          "company": "Koch",
+          "url": "https://www.linkedin.com/jobs/view/network-operations-engineer-at-koch-4472675922",
+          "score": 99,
+          "fit_level": "alto",
+          "found_at": "2026-10-01T17:14:16.288689+00:00"
+        }
+      ],
+      "first_seen": "2026-10-01T17:14:36.867204+00:00",
+      "last_seen": "2026-10-01T17:14:36.867204+00:00",
+      "message": "Obrigado por aceitar, Mindy! Vejo que a posição exige forte atuação em redes e monitoramento de tráfego. Tenho amplo background em análise de protocolos SIP/RTP e diagnóstico de áudio e NAT usando Wireshark, além de provisionamento de dispositivos IP. Posso enviar meu currículo?",
+      "priority": 61,
+      "invite_note": "Oi Mindy, vi a vaga de Network Operations Engineer na Koch e achei que minha experiência com suporte especializado em telefonia IP/VoIP e análise de protocolos SIP e RTP pode agregar ao time. Vamos nos conectar?",
       "outreach_source": "groq"
     },
     {
@@ -166,6 +194,34 @@
       "message": "Obrigado por aceitar, Natalia! Vejo que a posição exige forte atuação em NOC e suporte a VoIP. Tenho amplo contato com análise de CDRs, logs SIP e diagnóstico de áudio e NAT, além de suporte a ambientes BroadWorks. Posso enviar meu currículo?",
       "priority": 50,
       "invite_note": "Oi Natalia, vi a vaga de TX Network Operations Engineer (L2) e achei que minha experiência com troubleshooting de SBCs e análise de protocolos SIP/RTP seria muito útil. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
+      "id": "8c15afcbcc89ea54",
+      "name": "Nicole G.",
+      "profile_url": "https://za.linkedin.com/in/nicolegsa",
+      "headline": "(Currently Hiring Locals Only for ICT opportunities in Africa) Strategic Talent Acquisition Partner | Regional Hiring Architect | Cloud & Digital…",
+      "is_recruiter": true,
+      "country": "ZA",
+      "companies": [
+        "Beijing Foreign Enterprise Management Consultants Co.,Ltd."
+      ],
+      "jobs": [
+        {
+          "id": "c689e81637ff25f0",
+          "title": "Core Network Maintenance Engineer",
+          "company": "Beijing Foreign Enterprise Management Consultants Co.,Ltd.",
+          "url": "https://bw.linkedin.com/jobs/view/core-network-maintenance-engineer-at-beijing-foreign-enterprise-management-consultants-co-ltd-4470956544",
+          "score": 88,
+          "fit_level": "alto",
+          "found_at": "2026-09-23T15:16:32.541791+00:00"
+        }
+      ],
+      "first_seen": "2026-09-23T15:16:39.547281+00:00",
+      "last_seen": "2026-09-23T15:16:39.547281+00:00",
+      "message": "Obrigado por aceitar! A vaga de Core Network Maintenance Engineer combina com minha atuação em troubleshooting de SBCs e análise de protocolos SIP/RTP. Também já administro ambientes BroadWorks com foco em alta disponibilidade. Posso enviar meu currículo?",
+      "priority": 49,
+      "invite_note": "Oi Nicole, vi sua vaga de Core Network Maintenance Engineer e achei interessante. Tenho experiência prática em diagnóstico de problemas SIP e configuração de SBCs, que são essenciais para manutenção de redes de voz. Vamos nos conectar?",
       "outreach_source": "groq"
     },
     {
@@ -458,5 +514,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-09-30T16:35:59.961802+00:00"
+  "last_updated": "2026-10-01T17:14:36.867204+00:00"
 }
