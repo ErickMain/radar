@@ -113,6 +113,34 @@
       "outreach_source": "groq"
     },
     {
+      "id": "95b9d474cc12530f",
+      "name": "Bridget Rikhotso",
+      "profile_url": "https://za.linkedin.com/in/bridget-rikhotso-a74655b3",
+      "headline": "Talent Acquisition Partner - Middle East & Africa",
+      "is_recruiter": true,
+      "country": "ZA",
+      "companies": [
+        "Beijing Foreign Enterprise Management Consultants Co.,Ltd."
+      ],
+      "jobs": [
+        {
+          "id": "29757099b4654e02",
+          "title": "Core Network Engineer",
+          "company": "Beijing Foreign Enterprise Management Consultants Co.,Ltd.",
+          "url": "https://mw.linkedin.com/jobs/view/core-network-engineer-at-beijing-foreign-enterprise-management-consultants-co-ltd-4474718979",
+          "score": 77,
+          "fit_level": "alto",
+          "found_at": "2026-10-02T16:27:40.843018+00:00"
+        }
+      ],
+      "first_seen": "2026-10-02T16:27:47.898530+00:00",
+      "last_seen": "2026-10-02T16:27:47.898530+00:00",
+      "message": "Bridget, a posição de Core Network Engineer me chamou atenção porque lido diariamente com análise de protocolos SIP e RTP e com provisionamento e configuração de dispositivos IP. Essas competências se alinham ao foco da vaga. Posso enviar meu currículo?",
+      "priority": 52,
+      "invite_note": "Oi Bridget, vi a vaga de Core Network Engineer e notei que meu trabalho com suporte avançado a telefonia IP, análise de protocolos SIP/RTP e troubleshooting de SBCs pode agregar ao time. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
       "id": "1a9bbb588559d30e",
       "name": "sravan pratap",
       "profile_url": "https://in.linkedin.com/in/sravan-pratap-44699b1b6",
@@ -514,5 +542,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-10-01T17:14:36.867204+00:00"
+  "last_updated": "2026-10-02T16:27:47.898530+00:00"
 }
