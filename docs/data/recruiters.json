@@ -57,6 +57,62 @@
       "outreach_source": "groq"
     },
     {
+      "id": "5867c30d16f0430e",
+      "name": "Mikee del Prado",
+      "profile_url": "https://ph.linkedin.com/in/mikeedelprado",
+      "headline": "Tech Talent Partner 💻 Morgan McKinley",
+      "is_recruiter": true,
+      "country": "PH",
+      "companies": [
+        "Morgan McKinley"
+      ],
+      "jobs": [
+        {
+          "id": "3f67a3bdc9152f5c",
+          "title": "Network Operations Center Engineer",
+          "company": "Morgan McKinley",
+          "url": "https://ph.linkedin.com/jobs/view/network-operations-center-engineer-at-morgan-mckinley-4474255783",
+          "score": 89,
+          "fit_level": "alto",
+          "found_at": "2026-10-06T17:02:03.026911+00:00"
+        }
+      ],
+      "first_seen": "2026-10-06T17:02:19.124531+00:00",
+      "last_seen": "2026-10-06T17:02:19.124531+00:00",
+      "message": "Obrigado por aceitar, Mikee! A posição de NOC Engineer combina com meu trabalho de diagnóstico de áudio e registro SIP, além do provisionamento de dispositivos IP em ambientes críticos. Posso enviar meu currículo?",
+      "priority": 57,
+      "invite_note": "Oi Mikee, vi a vaga de Network Operations Center Engineer na Morgan McKinley e achei interessante. Tenho experiência em troubleshooting de SBCs e análise de protocolos SIP/RTP, que são essenciais para um NOC. Vamos conectar?",
+      "outreach_source": "groq"
+    },
+    {
+      "id": "298fc9af7811dd50",
+      "name": "Suchi Aggarwal",
+      "profile_url": "https://in.linkedin.com/in/suchi-aggarwal-00085179",
+      "headline": "Director-Sales I GCC Sales I Talent Acquisition - ICT- Europe",
+      "is_recruiter": true,
+      "country": "IN",
+      "companies": [
+        "Indovision Services Private Limited"
+      ],
+      "jobs": [
+        {
+          "id": "a145bb090de9a07a",
+          "title": "Network Operations Center Engineer",
+          "company": "Indovision Services Private Limited",
+          "url": "https://de.linkedin.com/jobs/view/network-operations-center-engineer-at-indovision-services-private-limited-4474688279",
+          "score": 84,
+          "fit_level": "alto",
+          "found_at": "2026-10-06T17:02:03.026906+00:00"
+        }
+      ],
+      "first_seen": "2026-10-06T17:02:19.124531+00:00",
+      "last_seen": "2026-10-06T17:02:19.124531+00:00",
+      "message": "Obrigado por aceitar, Suchi! Na minha atuação na Método Telecom, faço provisionamento de ramais e dispositivos IP e realizo diagnóstico de problemas de áudio, registro SIP e NAT usando Wireshark. Acredito que essas competências se alinham bem ao NOC Engineer. Posso te enviar meu currículo?",
+      "priority": 55,
+      "invite_note": "Olá Suchi, vi a vaga de Network Operations Center Engineer na Indovision. Meu background em suporte especializado de telefonia IP e análise de protocolos SIP/RTP pode agregar ao seu time. Vamos conectar?",
+      "outreach_source": "groq"
+    },
+    {
       "id": "9c898442a6fd235f",
       "name": "Ninna D.",
       "profile_url": "https://ph.linkedin.com/in/ninna-d-0883b2160",
@@ -138,34 +194,6 @@
       "message": "Bridget, a posição de Core Network Engineer me chamou atenção porque lido diariamente com análise de protocolos SIP e RTP e com provisionamento e configuração de dispositivos IP. Essas competências se alinham ao foco da vaga. Posso enviar meu currículo?",
       "priority": 52,
       "invite_note": "Oi Bridget, vi a vaga de Core Network Engineer e notei que meu trabalho com suporte avançado a telefonia IP, análise de protocolos SIP/RTP e troubleshooting de SBCs pode agregar ao time. Vamos nos conectar?",
-      "outreach_source": "groq"
-    },
-    {
-      "id": "1a9bbb588559d30e",
-      "name": "sravan pratap",
-      "profile_url": "https://in.linkedin.com/in/sravan-pratap-44699b1b6",
-      "headline": "Technical Recruiter at COVET IT inc",
-      "is_recruiter": true,
-      "country": "IN",
-      "companies": [
-        "COVET IT INC"
-      ],
-      "jobs": [
-        {
-          "id": "3c93b69d98bdaed0",
-          "title": "Telecom BSSe Engineer",
-          "company": "COVET IT INC",
-          "url": "https://www.linkedin.com/jobs/view/telecom-bsse-engineer-at-covet-it-inc-4470320104",
-          "score": 76,
-          "fit_level": "alto",
-          "found_at": "2026-09-25T15:43:46.662402+00:00"
-        }
-      ],
-      "first_seen": "2026-09-25T15:43:53.432252+00:00",
-      "last_seen": "2026-09-25T15:43:53.432252+00:00",
-      "message": "Obrigado por aceitar! A posição Telecom BSS Engineer combina bem com minha prática em análise de SIP/RTP e troubleshooting de SBCs, além do provisionamento de ambientes BroadWorks. Como posso enviar meu currículo para avançarmos?",
-      "priority": 52,
-      "invite_note": "Olá Sravan, vi a vaga Telecom BSS Engineer na Covet IT e achei interessante. Tenho experiência com suporte especializado em telefonia IP e análise de protocolos SIP, além de provisionamento de ramais e dispositivos IP. Vamos nos conectar?",
       "outreach_source": "groq"
     },
     {
@@ -334,6 +362,34 @@
       "message": "Oi Dave, agradeço por aceitar! A vaga de NOC Engineer combina com minha atuação em análise de protocolos SIP/RTP e no provisionamento de dispositivos IP, além do suporte técnico de nível 2 em ambientes críticos. Posso te enviar meu currículo?",
       "priority": 48,
       "invite_note": "Olá Dave, vi a vaga de NOC Engineer na Spectrum IT e achei interessante. Tenho experiência em análise de protocolos SIP e RTP e no troubleshooting de SBCs em ambientes de telefonia IP. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
+      "id": "1a9bbb588559d30e",
+      "name": "sravan pratap",
+      "profile_url": "https://in.linkedin.com/in/sravan-pratap-44699b1b6",
+      "headline": "Technical Recruiter at COVET IT inc",
+      "is_recruiter": true,
+      "country": "IN",
+      "companies": [
+        "COVET IT INC"
+      ],
+      "jobs": [
+        {
+          "id": "3c93b69d98bdaed0",
+          "title": "Telecom BSSe Engineer",
+          "company": "COVET IT INC",
+          "url": "https://www.linkedin.com/jobs/view/telecom-bsse-engineer-at-covet-it-inc-4470320104",
+          "score": 76,
+          "fit_level": "alto",
+          "found_at": "2026-09-25T15:43:46.662402+00:00"
+        }
+      ],
+      "first_seen": "2026-09-25T15:43:53.432252+00:00",
+      "last_seen": "2026-09-25T15:43:53.432252+00:00",
+      "message": "Obrigado por aceitar! A posição Telecom BSS Engineer combina bem com minha prática em análise de SIP/RTP e troubleshooting de SBCs, além do provisionamento de ambientes BroadWorks. Como posso enviar meu currículo para avançarmos?",
+      "priority": 45,
+      "invite_note": "Olá Sravan, vi a vaga Telecom BSS Engineer na Covet IT e achei interessante. Tenho experiência com suporte especializado em telefonia IP e análise de protocolos SIP, além de provisionamento de ramais e dispositivos IP. Vamos nos conectar?",
       "outreach_source": "groq"
     },
     {
@@ -542,5 +598,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-10-02T16:27:47.898530+00:00"
+  "last_updated": "2026-10-06T17:02:19.124531+00:00"
 }
