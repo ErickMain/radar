@@ -375,7 +375,7 @@
       "cover_letter": null,
       "contact_email": null,
       "recruiter": null,
-      "valid_through": "2026-10-09T19:52:38.000Z",
+      "valid_through": "2026-11-05T19:52:47.000Z",
       "company_logo": "https://media.licdn.com/dms/image/v2/D4D0BAQEUwreILeGS7Q/company-logo_100_100/B4DZ5wJQzAG4AM-/0/1779997937122/jobbol_empregos_logo?e=2147483647&v=beta&t=47i8HzJ8kSKiMu7089w8KVQJJkXRPs0z7qrtMet3AcA",
       "title_class": "core",
       "target_company": false,
@@ -383,7 +383,7 @@
         "redes"
       ],
       "last_seen_at": "2026-09-11T21:23:44.807591+00:00",
-      "verified_at": "2026-10-02T16:27:48.646363+00:00"
+      "verified_at": "2026-10-07T17:39:05.853665+00:00"
     },
     {
       "id": "bf4cddfdd119fb9c",
@@ -510,7 +510,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "5a356fed11fecb46",
@@ -639,7 +639,7 @@
       "priority_skills": [
         "unified communications"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "2f1f19fb46443275",
@@ -771,7 +771,7 @@
         "networking",
         "unified communications"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "1f1a270a540112cc",
@@ -1031,7 +1031,7 @@
         "cloud",
         "network"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "6bb002b911acfdf5",
@@ -1163,136 +1163,6 @@
       ],
       "last_seen_at": "2026-09-30T16:35:59.948615+00:00",
       "verified_at": "2026-10-06T17:02:20.652771+00:00"
-    },
-    {
-      "id": "141feb228fc85662",
-      "title": "Network Administrator Tier 2 (Network Operations Center) (REMOTE)",
-      "company": "Koniag Government Services",
-      "location": "Colorado, Estados Unidos",
-      "salary": "",
-      "description": "Koniag Technology Solutions, LLC, a Koniag Government Services company, is seeking a Network Administrator Tier 2 (Network Operations Center) to support KTS and our government customer. This is a remote opportunity, but 1 PM to 9 PM Mountain shift. This position requires the candidate to be able to obtain a Public Trust. We offer competitive compensation and an extraordinary benefits package including health, dental and vision insurance, 401K with company matching, flexible spending accounts, paid holidays, three weeks paid time off, and more. The Tier 2 Network Administrator supports the Tier 3 Network team by assisting in the maintenance, monitoring, and basic troubleshooting of network systems. This role is responsible for verifying configurations, managing vendor communications, and coordinating with internal teams to resolve network-related issues. The Tier 2 Network Administrator plays a key role in ensuring network reliability and performance while escalating complex issues to Tier 3 or Tier 4 staff as needed. Essential Functions, Responsibilities & Duties may include, but are not limited to: Assist in network assessments and documentation of requirements Verify network hardware/software configurations against approved standards Perform basic troubleshooting of routers, switches, firewalls, and other network devices Monitor network performance and escalate anomalies to Tier 3 staff Coordinate with vendors and internal teams to resolve service issues Maintain accurate records of network incidents, changes, and resolutions Support user account administration and access control Assist with client device setup and connectivity issues Monitor system logs and report authentication or hardware anomalies Apply routine security patches under guidance from Tier 3 staff Utilize network monitoring tools to identify performance or security issues Maintain clear and professional communication with technical and non-technical stakeholders Skills And Abilities Basic understanding of network protocols and troubleshooting techniques Familiarity with network hardware (routers, switches, and firewalls) Ability to follow documented procedures and escalate appropriately Strong organizational and documentation skills Exposure to network monitoring and ticketing systems Interest in learning network automation and scripting Education And Experience Associate's degree in Computer Science, Information Technology, or related field (Bachelor's) preferred 2-3 years of experience in network support or administration Exposure to regulated or secure environments is a plus Entry-level certification (Cisco CCNA or CompTIA Network+) Security Requirement Ability to obtain a Public Trust. Our Equal Employment Opportunity Policy The company is an equal opportunity employer. The company shall not discriminate against any employee or applicant because of race, color, religion, creed, ethnicity, sex, sexual orientation, gender or gender identity (except where gender is a bona fide",
-      "url": "https://www.linkedin.com/jobs/view/network-administrator-tier-2-network-operations-center-remote-at-koniag-government-services-4445176201",
-      "source": "LinkedIn",
-      "published_at": "2026-09-09",
-      "found_at": "2026-09-11T21:23:11.536423+00:00",
-      "score": 79,
-      "score_breakdown": {
-        "skills": 8,
-        "location": 20,
-        "level": 10,
-        "keywords": 10,
-        "salary": 5,
-        "target_company": 0,
-        "priority_skills": 1,
-        "title": 10,
-        "overseas": 15
-      },
-      "skills_match": [
-        "cisco",
-        "network",
-        "teams",
-        "troubleshooting"
-      ],
-      "skills_gap": [
-        "3cx",
-        "active directory",
-        "algar",
-        "algar telecom",
-        "analise de logs",
-        "asterisk",
-        "atendimento tecnico",
-        "avaya",
-        "aws",
-        "azure",
-        "bgp",
-        "broadworks",
-        "call center",
-        "cdr",
-        "cloud",
-        "codec",
-        "codecs",
-        "comunicacoes unificadas",
-        "contact center",
-        "cybersecurity",
-        "digitro",
-        "dns",
-        "documentacao tecnica",
-        "e1",
-        "embratel",
-        "firewall",
-        "fortigate",
-        "freeswitch",
-        "g.711",
-        "g.729",
-        "gateway",
-        "gcp",
-        "genesys",
-        "grandstream",
-        "huawei",
-        "intelbras",
-        "ip pbx",
-        "isdn",
-        "khomp",
-        "leucotron",
-        "linux",
-        "mikrotik",
-        "nat",
-        "networking",
-        "nivel 2",
-        "noc",
-        "olt",
-        "operadora",
-        "ordem de servico",
-        "pabx",
-        "pabx ip",
-        "qos",
-        "ramais",
-        "ramal",
-        "rede",
-        "redes",
-        "rtp",
-        "sbc",
-        "sd-wan",
-        "seguranca da informacao",
-        "session border controller",
-        "sip",
-        "sip trunk",
-        "sql server",
-        "srtp",
-        "stun",
-        "suporte nivel 2",
-        "suporte tecnico",
-        "tim brasil",
-        "turn",
-        "unified communications",
-        "ura",
-        "vlan",
-        "vmware",
-        "voip",
-        "vpn",
-        "webex",
-        "windows server",
-        "wireguard",
-        "wireshark",
-        "yealink",
-        "zoom phone"
-      ],
-      "fit_level": "alto",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
-      "contact_email": null,
-      "recruiter": null,
-      "valid_through": "2026-10-25T19:02:11.000Z",
-      "company_logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHsUAeKgLVHbQ/company-logo_100_100/B4EZkWTxY4HEAQ-/0/1757015906174/koniag_government_services_logo?e=2147483647&v=beta&t=uySSvSic595YFAYm5hbVamH9qwZS_KD2RdgZ9lrsjVQ",
-      "is_overseas": true,
-      "title_class": "core",
-      "target_company": false,
-      "priority_skills": [
-        "network"
-      ],
-      "last_seen_at": "2026-09-11T21:23:44.807591+00:00",
-      "verified_at": "2026-10-02T16:27:48.646363+00:00"
     },
     {
       "id": "8146ea4c288d6e2b",
@@ -1556,7 +1426,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "af6b235068807258",
@@ -1816,7 +1686,7 @@
         "network"
       ],
       "last_seen_at": "2026-09-13T07:33:26.441400+00:00",
-      "verified_at": "2026-10-02T16:27:48.646363+00:00"
+      "verified_at": "2026-10-07T17:39:05.853665+00:00"
     },
     {
       "id": "1aee7fdf835947a7",
@@ -2082,7 +1952,7 @@
         "unified communications"
       ],
       "last_seen_at": "2026-09-17T15:24:52.193708+00:00",
-      "verified_at": "2026-10-02T16:27:48.646363+00:00"
+      "verified_at": "2026-10-07T17:39:05.853665+00:00"
     },
     {
       "id": "76a245fb2a4385d0",
@@ -2214,7 +2084,7 @@
         "network"
       ],
       "last_seen_at": "2026-09-25T15:43:53.421941+00:00",
-      "verified_at": "2026-10-02T16:27:48.646363+00:00"
+      "verified_at": "2026-10-07T17:39:05.853665+00:00"
     },
     {
       "id": "de4e426d38334e86",
@@ -2606,7 +2476,7 @@
         "networking"
       ],
       "last_seen_at": "2026-09-15T15:23:19.091846+00:00",
-      "verified_at": "2026-10-02T16:27:48.646363+00:00"
+      "verified_at": "2026-10-07T17:39:05.853665+00:00"
     },
     {
       "id": "f379db82ae4a47eb",
@@ -2871,7 +2741,7 @@
         "networking"
       ],
       "last_seen_at": "2026-09-25T15:43:53.421941+00:00",
-      "verified_at": "2026-10-02T16:27:48.646363+00:00"
+      "verified_at": "2026-10-07T17:39:05.853665+00:00"
     },
     {
       "id": "40ac7da4e0928135",
@@ -3001,7 +2871,7 @@
         "redes",
         "sd-wan"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "69da92f0d27b6e12",
@@ -3393,7 +3263,7 @@
       "target_company": false,
       "priority_skills": [],
       "last_seen_at": "2026-09-23T15:16:39.515222+00:00",
-      "verified_at": "2026-10-02T16:27:48.646363+00:00"
+      "verified_at": "2026-10-07T17:39:05.853665+00:00"
     },
     {
       "id": "ce032ee4a80103a9",
@@ -3791,7 +3661,7 @@
         "network",
         "unified communications"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "57672a2d6d136e38",
@@ -3920,7 +3790,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "f6903d1826b3343c",
@@ -4046,7 +3916,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00",
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00",
       "verified_at": "2026-09-28T18:21:57.953441+00:00"
     },
     {
@@ -4177,7 +4047,7 @@
         "network"
       ],
       "last_seen_at": "2026-09-28T18:21:57.916502+00:00",
-      "verified_at": "2026-10-02T16:27:48.646363+00:00"
+      "verified_at": "2026-10-07T17:39:05.853665+00:00"
     },
     {
       "id": "92b9f241544595e3",
@@ -4316,7 +4186,7 @@
         "networking"
       ],
       "last_seen_at": "2026-09-22T15:19:33.301397+00:00",
-      "verified_at": "2026-10-02T16:27:48.646363+00:00"
+      "verified_at": "2026-10-07T17:39:05.853665+00:00"
     },
     {
       "id": "69eff02572aaa5a6",
@@ -4575,7 +4445,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "a086c31cfd59b183",
@@ -4704,7 +4574,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "f1bd1b4a10f8ea5e",
@@ -4833,7 +4703,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "c689e81637ff25f0",
@@ -4966,7 +4836,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "1cdb6c08a0dafb96",
@@ -5098,7 +4968,7 @@
         "networking",
         "unified communications"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "c8b25e9082d68c9f",
@@ -5227,7 +5097,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "dae7040133a8b9ad",
@@ -5615,7 +5485,7 @@
         "cyber security",
         "cybersecurity"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "228fd4ba5137e96d",
@@ -5745,269 +5615,7 @@
         "cloud",
         "redes"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
-    },
-    {
-      "id": "4092aa6aac824863",
-      "title": "NOC Analyst II",
-      "company": "I.T. Right, Inc - A VC3 Company",
-      "location": "Montreal e Região",
-      "salary": "",
-      "description": "Careers at NOC Analyst II At VC3, we don’t just solve IT problems — we own them. We serve hundreds of municipalities and organizations across the United States and Canada, bringing IT to the people who need it most. We believe in earning trust, having a growth mindset, and delivering excellence every single time. We're a team of doers, builders, and tech whisperers who live by 4 core values: Go Beyond | Own It | Be Curious | Serve as One We pride ourselves on making IT personal, making IT easy, and getting IT right. And it all starts with our talented team that is committed to raising the bar. The Impact You Will Have We are seeking a NOC Analyst II to join our Network Operations Center (NOC) team. The successful candidate will be responsible for monitoring and maintaining our network and systems to ensure optimal performance and uptime. This mid-level position offers the opportunity to take on additional responsibilities and help mentor junior analysts within our organization. Department Technology Operations Employment Type Full Time Location Canada - Remote Workplace type Fully remote Reporting To Adnan Shahzad What You Will Be Doing Monitor network and system performance using various monitoring tools and software. Identify and troubleshoot complex network and system issues, escalating as necessary. Perform and assist identification and troubleshooting of complex network and system issues, acting as a point of escalation as necessary. Perform system and network device configurations and deployments, as coordinated with the Backup Specialists and Toolset Orchestration Specialists. Maintain accurate documentation of network and system configurations and changes. Collaborate with cross-functional teams to resolve issues and implement solutions. Monitor and respond to alerts and notifications generated by our network and system monitoring tools. Provide timely and effective communication of network and system issues to internal and external stakeholders. Participate in on-call rotation and respond to after-hours incidents as needed. Mentor and train Analyst I on network and system monitoring best practices. Ensure Tickets are properly created and notated to account for time Manage personal workload and ensure that service level agreements (SLAs) are met. Additional duties as required. The Tools You Bring Associate's degree in Computer Science or related field, or equivalent work experience. 3+ years of experience in network and system monitoring or related field. Experience with network and system monitoring tools; ConnectWise Ticketing, OpenDNS, Kaseya VSA, and PRTG a plus. Knowledge of advanced networking concepts such as load balancing, VPN, and firewalls. Advanced understanding of server and operating system concepts, including Windows and Linux. Strong analytical and problem-solving skills. Excellent communication and interpersonal skills. Ability to work independently and in a team-oriented environment. Attention to detail and ability to pr",
-      "url": "https://ca.linkedin.com/jobs/view/noc-analyst-ii-at-i-t-right-inc-a-vc3-company-4472234092",
-      "source": "LinkedIn",
-      "published_at": "2026-09-26",
-      "found_at": "2026-09-28T18:21:37.959026+00:00",
-      "score": 96,
-      "score_breakdown": {
-        "skills": 14,
-        "location": 20,
-        "level": 20,
-        "keywords": 10,
-        "salary": 5,
-        "target_company": 0,
-        "priority_skills": 2,
-        "title": 10,
-        "overseas": 15
-      },
-      "skills_match": [
-        "linux",
-        "network",
-        "networking",
-        "noc",
-        "teams",
-        "troubleshooting",
-        "vpn"
-      ],
-      "skills_gap": [
-        "3cx",
-        "active directory",
-        "algar",
-        "algar telecom",
-        "analise de logs",
-        "asterisk",
-        "atendimento tecnico",
-        "avaya",
-        "aws",
-        "azure",
-        "bgp",
-        "broadworks",
-        "call center",
-        "cdr",
-        "cisco",
-        "cloud",
-        "codec",
-        "codecs",
-        "comunicacoes unificadas",
-        "contact center",
-        "cybersecurity",
-        "digitro",
-        "dns",
-        "documentacao tecnica",
-        "e1",
-        "embratel",
-        "firewall",
-        "fortigate",
-        "freeswitch",
-        "g.711",
-        "g.729",
-        "gateway",
-        "gcp",
-        "genesys",
-        "grandstream",
-        "huawei",
-        "intelbras",
-        "ip pbx",
-        "isdn",
-        "khomp",
-        "leucotron",
-        "mikrotik",
-        "nat",
-        "nivel 2",
-        "olt",
-        "operadora",
-        "ordem de servico",
-        "pabx",
-        "pabx ip",
-        "qos",
-        "ramais",
-        "ramal",
-        "rede",
-        "redes",
-        "rtp",
-        "sbc",
-        "sd-wan",
-        "seguranca da informacao",
-        "session border controller",
-        "sip",
-        "sip trunk",
-        "sql server",
-        "srtp",
-        "stun",
-        "suporte nivel 2",
-        "suporte tecnico",
-        "tim brasil",
-        "turn",
-        "unified communications",
-        "ura",
-        "vlan",
-        "vmware",
-        "voip",
-        "webex",
-        "windows server",
-        "wireguard",
-        "wireshark",
-        "yealink",
-        "zoom phone"
-      ],
-      "fit_level": "alto",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
-      "contact_email": null,
-      "recruiter": null,
-      "valid_through": "2026-10-26T00:23:20.000Z",
-      "company_logo": "https://media.licdn.com/dms/image/v2/D560BAQGSRdjY01Fk-w/company-logo_100_100/company-logo_100_100/0/1686326733980/i_t_right_inc_logo?e=2147483647&v=beta&t=279rahYUju-Ec4FHf_Ftif8s510LC5WQstiAGGNt7R4",
-      "is_overseas": true,
-      "title_class": "core",
-      "target_company": false,
-      "priority_skills": [
-        "network",
-        "networking"
-      ],
-      "last_seen_at": "2026-09-28T18:21:57.916502+00:00",
-      "verified_at": "2026-10-02T16:27:48.646363+00:00"
-    },
-    {
-      "id": "6d0b481bf9a9f23f",
-      "title": "NOC Analyst I",
-      "company": "I.T. Right, Inc - A VC3 Company",
-      "location": "Montreal e Região",
-      "salary": "",
-      "description": "Careers at NOC Analyst I At VC3, we don’t just solve IT problems — we own them. We serve hundreds of municipalities and organizations across the United States and Canada, bringing IT to the people who need it most. We believe in earning trust, having a growth mindset, and delivering excellence every single time. We're a team of doers, builders, and tech whisperers who live by 4 core values: Go Beyond | Own It | Be Curious | Serve as One We pride ourselves on making IT personal, making IT easy, and getting IT right. And it all starts with our talented team that is committed to raising the bar. The Impact You Will Have We are seeking a NOC Analyst I to join our Network Operations Center (NOC) team. The successful candidate will be responsible for monitoring and maintaining our network and systems to ensure optimal performance and uptime. This entry-level position offers the opportunity for growth and development within our organization. Department Technology Operations Employment Type Full Time Location Canada - Remote Workplace type Fully remote Reporting To Adnan Shahzad What You Will Be Doing Monitor network and system performance using various monitoring tools and software. Identify and troubleshoot network and system issues, escalating as necessary. Perform basic system and network configurations and deployments. Maintain accurate documentation of network and system configurations and changes. Collaborate with cross-functional teams to resolve issues and implement solutions. Monitor and respond to alerts and notifications generated by our network and system monitoring tools. Provide timely and effective communication of network and system issues to internal and external stakeholders. Participate in on-call rotation and respond to after-hours incidents as needed. Ensure Tickets are properly created and notated to account for time Manage personal workload and ensure that service level agreements (SLAs) are met. Additional duties as required The Tools You Bring Associate's degree in Computer Science or related field, or equivalent work experience. Experience with network and system monitoring tools; ConnectWise Ticketing, OpenDNS, Kaseya VSA, and PRTG a plus. Knowledge of networking concepts such as TCP/IP, routing, and switching. Basic understanding of server and operating system concepts, including Windows and Linux. Strong analytical and problem-solving skills. Excellent communication and interpersonal skills. Ability to work independently and in a team-oriented environment. Attention to detail and ability to prioritize multiple tasks. Willingness to learn and adapt to new technologies and processes. What's In It For You Well-being & Support - Caring for our team goes beyond the workday. We offer a range of benefits to support your overall well-being, from mental health and leave support through our Employee and Family Assistance Program, to financial wellness through company-matched 401(k)/RRSP plans. Whether it’s today’s needs or tomorrow’s ",
-      "url": "https://ca.linkedin.com/jobs/view/noc-analyst-i-at-i-t-right-inc-a-vc3-company-4472218606",
-      "source": "LinkedIn",
-      "published_at": "2026-09-26",
-      "found_at": "2026-09-28T18:21:37.959064+00:00",
-      "score": 78,
-      "score_breakdown": {
-        "skills": 10,
-        "location": 20,
-        "level": 10,
-        "keywords": 6,
-        "salary": 5,
-        "target_company": 0,
-        "priority_skills": 2,
-        "title": 10,
-        "overseas": 15
-      },
-      "skills_match": [
-        "linux",
-        "network",
-        "networking",
-        "noc",
-        "teams"
-      ],
-      "skills_gap": [
-        "3cx",
-        "active directory",
-        "algar",
-        "algar telecom",
-        "analise de logs",
-        "asterisk",
-        "atendimento tecnico",
-        "avaya",
-        "aws",
-        "azure",
-        "bgp",
-        "broadworks",
-        "call center",
-        "cdr",
-        "cisco",
-        "cloud",
-        "codec",
-        "codecs",
-        "comunicacoes unificadas",
-        "contact center",
-        "cybersecurity",
-        "digitro",
-        "dns",
-        "documentacao tecnica",
-        "e1",
-        "embratel",
-        "firewall",
-        "fortigate",
-        "freeswitch",
-        "g.711",
-        "g.729",
-        "gateway",
-        "gcp",
-        "genesys",
-        "grandstream",
-        "huawei",
-        "intelbras",
-        "ip pbx",
-        "isdn",
-        "khomp",
-        "leucotron",
-        "mikrotik",
-        "nat",
-        "nivel 2",
-        "olt",
-        "operadora",
-        "ordem de servico",
-        "pabx",
-        "pabx ip",
-        "qos",
-        "ramais",
-        "ramal",
-        "rede",
-        "redes",
-        "rtp",
-        "sbc",
-        "sd-wan",
-        "seguranca da informacao",
-        "session border controller",
-        "sip",
-        "sip trunk",
-        "sql server",
-        "srtp",
-        "stun",
-        "suporte nivel 2",
-        "suporte tecnico",
-        "tim brasil",
-        "troubleshooting",
-        "turn",
-        "unified communications",
-        "ura",
-        "vlan",
-        "vmware",
-        "voip",
-        "vpn",
-        "webex",
-        "windows server",
-        "wireguard",
-        "wireshark",
-        "yealink",
-        "zoom phone"
-      ],
-      "fit_level": "alto",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
-      "contact_email": null,
-      "recruiter": null,
-      "valid_through": "2026-10-26T00:23:24.000Z",
-      "company_logo": "https://media.licdn.com/dms/image/v2/D560BAQGSRdjY01Fk-w/company-logo_100_100/company-logo_100_100/0/1686326733980/i_t_right_inc_logo?e=2147483647&v=beta&t=279rahYUju-Ec4FHf_Ftif8s510LC5WQstiAGGNt7R4",
-      "is_overseas": true,
-      "title_class": "core",
-      "target_company": false,
-      "priority_skills": [
-        "network",
-        "networking"
-      ],
-      "last_seen_at": "2026-09-28T18:21:57.916502+00:00",
-      "verified_at": "2026-10-02T16:27:48.646363+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "4c8a40a2cf4ea378",
@@ -6397,7 +6005,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "521bb86d9a651af9",
@@ -6786,7 +6394,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "3aed244eb93f77c8",
@@ -7053,7 +6661,7 @@
         "networking",
         "zero trust"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "5b175d3612d37f6a",
@@ -7443,7 +7051,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "29757099b4654e02",
@@ -7576,7 +7184,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "e74bc61ab76846ce",
@@ -7705,7 +7313,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "672f4ac7aef3f226",
@@ -7834,7 +7442,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "80d51fb65e8c7289",
@@ -8092,7 +7700,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "a145bb090de9a07a",
@@ -8226,7 +7834,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     },
     {
       "id": "3f67a3bdc9152f5c",
@@ -8361,14 +7969,534 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-06T17:02:19.103324+00:00"
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
+    },
+    {
+      "id": "5aef8572b0093283",
+      "title": "Analista de Telecomunicações",
+      "company": "Jobbol",
+      "location": "São Gotardo, MG",
+      "salary": "",
+      "description": "Consultoria de recrutamento e seleção busca profissional Analista de Telecomunicações em São Gotardo (Centro). A JP&F Consultoria é especializada em recrutamento, seleção e gestão estratégica de RH. Apoiam empresas na atração, seleção e recursos humanos. Seu compromisso é contribuir fornecendo suporte à gestão estratégica em recursos humanos por meio de soluções inteligentes e personalizadas voltadas inteiramente para a necessidade de cada Cliente, tornando o serviço prestado muito mais assertivo. Responsabilidades Será responsável por realizar a instalação e manutenção preventiva e corretiva de infraestrutura de telecomunicações e redes de dados. Identificar e solucionar falhas em sistemas e redes. Realizar atendimento técnico em campo, em ambientes residenciais e empresariais. Apoiar na implantação de novos projetos e na elaboração de relatórios técnicos. Atualizar a documentação técnica e plantas, quando necessário. Cumprir as normas de segurança do trabalho, utilizando EPIs, e os prazos de chamados (SLA). Atuações anteriores em Especialista em Redes, Analista de Sistemas de Comunicação, Engenheiro de Telecomunicações ou Consultor de Tecnologia da Informação podem indicar afinidade com algumas das atividades desta posição. Requisitos Desejáveis Escolaridade: Ensino médio completo Experiência: Necessário experiência Remuneração e Benefícios Salário: 4.500,00 Vale Alimentação Vale Refeição Auxílio Combustível Reembolso de km Gympass Happy Hour Plano de Internet Treinamentos Benefício Swile Food no valor diário de R$ 32,93, e ajuda de custo para alimentação no valor de R$ 9,31. Assistência Médica SulAmérica Saúde – Plano Exato Enfermaria, sem coparticipação e com a mensalidade do titular 100% custeada pela empresa. Para dependentes, o plano de saúde é opcional. A empresa custeará 50% da mensalidade do plano de saúde para o 1º dependente de 0 a 18 anos. Para o 2º dependente de 0 a 18 anos, o custeio da Biomtech será de 25% da mensalidade. Assistência Odontológica SulAmérica. Informações Adicionais Contrato: Efetivo. Presencial. Candidatos de Matutina, Rio Paranaíba ou Santa Rosa da Serra também são considerados para esta vaga. Período: Tempo integral Jornada: Segunda a Sexta-feira. Horário comercial. Show more Show less",
+      "url": "https://br.linkedin.com/jobs/view/analista-de-telecomunica%C3%A7%C3%B5es-at-jobbol-4476364712",
+      "source": "LinkedIn",
+      "published_at": "2026-10-06",
+      "found_at": "2026-10-07T17:36:53.275476+00:00",
+      "score": 56,
+      "score_breakdown": {
+        "skills": 2,
+        "location": 20,
+        "level": 10,
+        "keywords": 8,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 1,
+        "title": 10,
+        "overseas": 0
+      },
+      "skills_match": [
+        "redes"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "noc",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "troubleshooting",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "medio",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2026-11-05T19:53:08.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4D0BAQEUwreILeGS7Q/company-logo_100_100/B4DZ5wJQzAG4AM-/0/1779997937122/jobbol_empregos_logo?e=2147483647&v=beta&t=47i8HzJ8kSKiMu7089w8KVQJJkXRPs0z7qrtMet3AcA",
+      "is_overseas": false,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "redes"
+      ],
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
+    },
+    {
+      "id": "88db1cce17150dbf",
+      "title": "TECNICO DE TELECOM CLIENTE",
+      "company": "Algar",
+      "location": "Pouso Alegre, MG",
+      "salary": "",
+      "description": "Responsabilidades e Atividades Conhecimento dos produtos e serviços de TIC, com foco nas tecnologias: GPON e xDSL. Instalação e manutenção dos produtos de comunicação entregues em rede GPON e xDSL. Benefícios Vale Transporte: Sim, Vale Refeição: Sim, Auxílio Alimentação: Sim, Assistência Médica: Sim, Assistência Odontológica: Sim, Seguro de Vida: Sim, Outros Benefícios: Auxílio academia- Gympass; Psicoterapia gratuita - Psicologia Viva; Algar Mais Saúde - 0800 Dr. Mais Saúde Show more Show less",
+      "url": "https://br.linkedin.com/jobs/view/tecnico-de-telecom-cliente-at-algar-4475455418",
+      "source": "LinkedIn",
+      "published_at": "2026-10-07",
+      "found_at": "2026-10-07T17:38:21.007133+00:00",
+      "score": 66,
+      "score_breakdown": {
+        "skills": 4,
+        "location": 20,
+        "level": 10,
+        "keywords": 2,
+        "salary": 5,
+        "target_company": 15,
+        "priority_skills": 0,
+        "title": 10,
+        "overseas": 0
+      },
+      "skills_match": [
+        "algar",
+        "rede"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "noc",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "redes",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "troubleshooting",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "alto",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2026-10-21T15:43:37.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHEZazT5M2tVw/company-logo_100_100/B4EZ5g0elYHcAI-/0/1779740830319/algar_oficial_logo?e=2147483647&v=beta&t=50fhR_UDxLLEZV9UwK6Qf5oOKJmT4_IFNdllFAxExbo",
+      "is_overseas": false,
+      "title_class": "core",
+      "target_company": true,
+      "priority_skills": [],
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
+    },
+    {
+      "id": "e99e720291fa3c5e",
+      "title": "Application Support Engineer - UCaaS / VOIP",
+      "company": "Cytracom",
+      "location": "Mckinney, Texas, Estados Unidos",
+      "salary": "",
+      "description": "About Us Cytracom delivers infrastructure software purpose-built to empower managed service providers (MSPs) and IT professionals (ITSPs) with cloud solutions that connect and secure both traditional and hybrid workforces. Our secure access service edge (SASE) solution provides identity-based network security and connectivity within a single platform that enables businesses to deploy zero-trust networks, enforce compliance and eliminate traditional firewalls and VPNs. Our unified communications suite (UCaaS) uniquely aligns with the operating needs of MSPs and enables their customers to experience seamless communication and collaboration regardless of physical location. Here's a Closer Look At This Key Role The Application Support Engineer serves as a frontline technical expert for our UCaaS and VoIP platform, delivering fast, accurate, and customer-focused support to end-users and partners. This role plays a critical part in customer retention, product adoption, and overall experience by resolving issues efficiently and ensuring seamless communication services. You will be the first technical voice customers interact with, setting the tone for trust, clarity, and confidence in our platform. Success in this role directly impacts customer satisfaction, churn prevention, and long-term growth. Responsibilities Provide world-class technical support through clear troubleshooting, proactive communication, and efficient resolution of voice, networking, and platform-related issues. You Will Diagnose and resolve VoIP, PBX, SIP, networking, and hardware-related issues Support customer onboarding and technical implementations Collaborate cross-functionally to resolve complex cases Follow structured escalation paths while owning customer outcomes This role requires technical curiosity, accountability, and a strong customer-first mindset. Technical Support & Troubleshooting Diagnose and resolve VoIP call quality issues (latency, jitter, packet loss, QoS, SIP signaling) Troubleshoot PBX configurations, call routing, device provisioning, and number management Support hardware setup including IP phones, routers, and networking equipment Assist with fax (Cfax) troubleshooting and integrations Work with third-party vendors and carriers when necessary to drive resolution Analyze logs, traces, and system behavior to determine root cause Ticket & Queue Management Manage Zendesk tickets, calls, and chats with strong prioritization skills Meet and exceed SLAs while maintaining high-quality documentation Own your backlog and proactively escalate risks to SLA compliance Maintain accurate case notes and technical documentation Customer Experience & Communication Communicate technical concepts clearly to both technical and non-technical customers Set expectations effectively and follow through until resolution Turn escalations into opportunities to reinforce trust Deliver high CSAT through professionalism and empathy Collaboration & Escalation Triage and escalate complex i",
+      "url": "https://www.linkedin.com/jobs/view/application-support-engineer-ucaas-voip-at-cytracom-4476717950",
+      "source": "LinkedIn",
+      "published_at": "2026-10-06",
+      "found_at": "2026-10-07T17:38:35.291431+00:00",
+      "score": 94,
+      "score_breakdown": {
+        "skills": 20,
+        "location": 20,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 4,
+        "title": 10,
+        "overseas": 15
+      },
+      "skills_match": [
+        "cloud",
+        "network",
+        "networking",
+        "qos",
+        "sip",
+        "troubleshooting",
+        "turn",
+        "unified communications",
+        "voip"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "nivel 2",
+        "noc",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "ramais",
+        "ramal",
+        "rede",
+        "redes",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "ura",
+        "vlan",
+        "vmware",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "alto",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2026-11-06T12:49:33.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/C4E0BAQEeQzkUCYam1w/company-logo_100_100/company-logo_100_100/0/1630629297309/cytracom_communications_logo?e=2147483647&v=beta&t=hvhVqyI6q1Z7Bn3pbxaCJuZsXdpJmstihkT-7X9JQRA",
+      "is_overseas": true,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "cloud",
+        "network",
+        "networking",
+        "unified communications"
+      ],
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
+    },
+    {
+      "id": "ebf7423c1df19114",
+      "title": "Network Operations Centre Engineer",
+      "company": "Thales",
+      "location": "Cingapura, Cingapura",
+      "salary": "",
+      "description": "Location: Singapore Suntec 2 Temasek Blv, Singapore Thales is a global technology leader trusted by governments, institutions, and enterprises to tackle their most demanding challenges. From quantum applications and artificial intelligence to cybersecurity and 6G innovation, our solutions empower critical decisions rooted in human intelligence. Operating at the forefront of aerospace and space, cybersecurity and digital identity, we’re driven by a mission to build a future we can all trust. In Singapore, Thales has been a trusted partner since 1973, originally focused on aerospace activities in the Asia-Pacific region. With 2,000 employees across three local sites, we deliver cutting-edge solutions across aerospace (including air traffic management), defence and security, and digital identity and cybersecurity sectors. Together, we’re shaping the future by enabling customers to make pivotal decisions that safeguard communities and power progress. Job Description We are seeking a collaborative and diligent individual with a passion for infrastructure to work as a Network Operations Center (NOC) Engineer within our global NOC. The NOC is a 24x7x365 follow-the-sun monitoring and response team responsible for the overall health and operational success of our cloud infrastructure. This function plays a key role in our commitment to customer success. As a NOC Engineer, you will apply networking and operational knowledge to respond to and remediate alerts from network equipment and related systems across our global datacenters. You will work daytime hours, including weekend and holiday shift rotations, in our Singapore office, responding in real-time to alerts and events, and taking an active part in incident management. At times, you will also participate in projects that directly impact the reliability and performance of the Thales network. Key Areas of Responsibility: Actively engage in incident response: triage and remediation Follow standard operating procedures while recommending improvements based on experience and observations Serve as a point of escalation for critical customer issues Contribute to improving Imperva's global network performance and stability Build and maintain technical knowledge as you develop expertise Train and mentor new NOC engineers Assist on long-term projects and operational issues as needed Analyze operational data to produce reports and insights on network performance Demonstrate willingness to grow in knowledge and span of responsibility Minimum Qualifications: Networking certification such as CCNA, JNCIA, or equivalent Background in Linux scripting is an advantage Working knowledge of internet routing (BGP) Excellent knowledge of TCP/IP fundamentals, HTTP/S, and DNS Basic knowledge of Linux and scripting languages Ability to collaborate effectively and meet deadlines in time-sensitive situations Ability to stay organized in a multitasking environment Ability to work independently with minimal supervision Experience ",
+      "url": "https://sg.linkedin.com/jobs/view/network-operations-centre-engineer-at-thales-4476390693",
+      "source": "LinkedIn",
+      "published_at": "2026-10-06",
+      "found_at": "2026-10-07T17:38:49.032250+00:00",
+      "score": 90,
+      "score_breakdown": {
+        "skills": 16,
+        "location": 20,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 4,
+        "title": 10,
+        "overseas": 15
+      },
+      "skills_match": [
+        "bgp",
+        "cloud",
+        "cybersecurity",
+        "dns",
+        "linux",
+        "network",
+        "networking",
+        "noc"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "digitro",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "mikrotik",
+        "nat",
+        "nivel 2",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "redes",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "troubleshooting",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "alto",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2026-11-05T22:47:16.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/C4D0BAQEmnUAXTuLkJQ/company-logo_100_100/company-logo_100_100/0/1631366051478/thales_logo?e=2147483647&v=beta&t=5Fjph8Uvqt0JzMLDdQwZUvfp1ylQY1jAxb6MS59uuwE",
+      "is_overseas": true,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "cloud",
+        "cybersecurity",
+        "network",
+        "networking"
+      ],
+      "last_seen_at": "2026-10-07T17:39:05.828387+00:00"
     }
   ],
-  "last_updated": "2026-10-06T17:02:26.014459+00:00",
+  "last_updated": "2026-10-07T17:39:07.869664+00:00",
   "stats": {
-    "total": 64,
+    "total": 65,
     "alto_fit": 45,
-    "medio_fit": 18,
+    "medio_fit": 19,
     "baixo_fit": 1,
     "enviadas": 2
   }
