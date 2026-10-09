@@ -24,36 +24,8 @@
       "first_seen": "2026-10-01T17:14:36.867204+00:00",
       "last_seen": "2026-10-01T17:14:36.867204+00:00",
       "message": "Obrigado por aceitar! A vaga de Analista de Redes Pleno combina com minha experiência em análise de protocolos SIP/RTP e provisionamento de dispositivos IP. Também atuo com troubleshooting de SBCs e configuração de telefones IP. Posso enviar meu currículo?",
-      "priority": 74,
+      "priority": 67,
       "invite_note": "Oi Ana, vi a vaga de Analista de Redes Pleno na V8.TECH e achei interessante. Tenho experiência com suporte especializado em telefonia IP e VoIP, além de análise de protocolos SIP e RTP. Gostaria de conectar para conversar.",
-      "outreach_source": "groq"
-    },
-    {
-      "id": "668f36c6fd01c64e",
-      "name": "Mindy Wendt",
-      "profile_url": "https://www.linkedin.com/in/mindy-wendt-586923135",
-      "headline": "Senior Talent Acquisition Partner at Koch Engineered Solutions | Supporting Diverse Recruiting Efforts",
-      "is_recruiter": true,
-      "country": "?",
-      "companies": [
-        "Koch"
-      ],
-      "jobs": [
-        {
-          "id": "ab5487ce0db21c64",
-          "title": "Network Operations Engineer",
-          "company": "Koch",
-          "url": "https://www.linkedin.com/jobs/view/network-operations-engineer-at-koch-4472675922",
-          "score": 99,
-          "fit_level": "alto",
-          "found_at": "2026-10-01T17:14:16.288689+00:00"
-        }
-      ],
-      "first_seen": "2026-10-01T17:14:36.867204+00:00",
-      "last_seen": "2026-10-01T17:14:36.867204+00:00",
-      "message": "Obrigado por aceitar, Mindy! Vejo que a posição exige forte atuação em redes e monitoramento de tráfego. Tenho amplo background em análise de protocolos SIP/RTP e diagnóstico de áudio e NAT usando Wireshark, além de provisionamento de dispositivos IP. Posso enviar meu currículo?",
-      "priority": 61,
-      "invite_note": "Oi Mindy, vi a vaga de Network Operations Engineer na Koch e achei que minha experiência com suporte especializado em telefonia IP/VoIP e análise de protocolos SIP e RTP pode agregar ao time. Vamos nos conectar?",
       "outreach_source": "groq"
     },
     {
@@ -110,6 +82,34 @@
       "message": "Obrigado por aceitar, Suchi! Na minha atuação na Método Telecom, faço provisionamento de ramais e dispositivos IP e realizo diagnóstico de problemas de áudio, registro SIP e NAT usando Wireshark. Acredito que essas competências se alinham bem ao NOC Engineer. Posso te enviar meu currículo?",
       "priority": 55,
       "invite_note": "Olá Suchi, vi a vaga de Network Operations Center Engineer na Indovision. Meu background em suporte especializado de telefonia IP e análise de protocolos SIP/RTP pode agregar ao seu time. Vamos conectar?",
+      "outreach_source": "groq"
+    },
+    {
+      "id": "668f36c6fd01c64e",
+      "name": "Mindy Wendt",
+      "profile_url": "https://www.linkedin.com/in/mindy-wendt-586923135",
+      "headline": "Senior Talent Acquisition Partner at Koch Engineered Solutions | Supporting Diverse Recruiting Efforts",
+      "is_recruiter": true,
+      "country": "?",
+      "companies": [
+        "Koch"
+      ],
+      "jobs": [
+        {
+          "id": "ab5487ce0db21c64",
+          "title": "Network Operations Engineer",
+          "company": "Koch",
+          "url": "https://www.linkedin.com/jobs/view/network-operations-engineer-at-koch-4472675922",
+          "score": 99,
+          "fit_level": "alto",
+          "found_at": "2026-10-01T17:14:16.288689+00:00"
+        }
+      ],
+      "first_seen": "2026-10-01T17:14:36.867204+00:00",
+      "last_seen": "2026-10-01T17:14:36.867204+00:00",
+      "message": "Obrigado por aceitar, Mindy! Vejo que a posição exige forte atuação em redes e monitoramento de tráfego. Tenho amplo background em análise de protocolos SIP/RTP e diagnóstico de áudio e NAT usando Wireshark, além de provisionamento de dispositivos IP. Posso enviar meu currículo?",
+      "priority": 54,
+      "invite_note": "Oi Mindy, vi a vaga de Network Operations Engineer na Koch e achei que minha experiência com suporte especializado em telefonia IP/VoIP e análise de protocolos SIP e RTP pode agregar ao time. Vamos nos conectar?",
       "outreach_source": "groq"
     },
     {
@@ -194,6 +194,34 @@
       "message": "Bridget, a posição de Core Network Engineer me chamou atenção porque lido diariamente com análise de protocolos SIP e RTP e com provisionamento e configuração de dispositivos IP. Essas competências se alinham ao foco da vaga. Posso enviar meu currículo?",
       "priority": 52,
       "invite_note": "Oi Bridget, vi a vaga de Core Network Engineer e notei que meu trabalho com suporte avançado a telefonia IP, análise de protocolos SIP/RTP e troubleshooting de SBCs pode agregar ao time. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
+      "id": "69aaef78cabe686a",
+      "name": "Balaji V",
+      "profile_url": "https://au.linkedin.com/in/balaji-v-b32879194",
+      "headline": "HR IT Recruiter",
+      "is_recruiter": true,
+      "country": "AU",
+      "companies": [
+        "Tata Consultancy Services"
+      ],
+      "jobs": [
+        {
+          "id": "e5bea9fe68f20575",
+          "title": "Network Operations Control Center (NOCC)",
+          "company": "Tata Consultancy Services",
+          "url": "https://au.linkedin.com/jobs/view/network-operations-control-center-nocc-at-tata-consultancy-services-4476253734",
+          "score": 73,
+          "fit_level": "alto",
+          "found_at": "2026-10-09T17:17:16.883695+00:00"
+        }
+      ],
+      "first_seen": "2026-10-09T17:17:37.985943+00:00",
+      "last_seen": "2026-10-09T17:17:37.985943+00:00",
+      "message": "Obrigado por aceitar, Balaji! A posição de NOCC parece combinar com meu trabalho em análise de SIP e RTP e no provisionamento de dispositivos IP em ambientes críticos. Como posso enviar meu currículo para avançarmos?",
+      "priority": 51,
+      "invite_note": "Olá Balaji, vi a vaga de Network Operations Control Center na TCS e achei interessante. Tenho experiência com suporte especializado em telefonia IP, análise de protocolos SIP e troubleshooting de SBCs, que se alinham ao ambiente de NOC. Vamos conectar?",
       "outreach_source": "groq"
     },
     {
@@ -598,5 +626,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-10-08T17:42:13.450984+00:00"
+  "last_updated": "2026-10-09T17:17:37.985943+00:00"
 }
