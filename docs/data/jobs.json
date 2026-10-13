@@ -255,7 +255,7 @@
       "priority_skills": [
         "unified communications"
       ],
-      "last_seen_at": "2026-10-12T20:05:47.399641+00:00"
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
     },
     {
       "id": "b43ff604c0da06c3",
@@ -648,7 +648,7 @@
         "networking"
       ],
       "last_seen_at": "2026-09-29T16:44:28.439665+00:00",
-      "verified_at": "2026-10-09T17:17:38.601201+00:00"
+      "verified_at": "2026-10-13T17:54:34.336523+00:00"
     },
     {
       "id": "af6b235068807258",
@@ -778,7 +778,7 @@
         "network"
       ],
       "last_seen_at": "2026-10-01T17:14:36.833531+00:00",
-      "verified_at": "2026-10-09T17:17:38.601201+00:00"
+      "verified_at": "2026-10-13T17:54:34.336523+00:00"
     },
     {
       "id": "760c17a0bf33e978",
@@ -1563,7 +1563,7 @@
         "networking"
       ],
       "last_seen_at": "2026-09-15T15:23:19.091846+00:00",
-      "verified_at": "2026-10-07T17:39:05.853665+00:00"
+      "verified_at": "2026-10-13T17:54:34.336523+00:00"
     },
     {
       "id": "f379db82ae4a47eb",
@@ -1828,7 +1828,7 @@
         "networking"
       ],
       "last_seen_at": "2026-09-25T15:43:53.421941+00:00",
-      "verified_at": "2026-10-07T17:39:05.853665+00:00"
+      "verified_at": "2026-10-13T17:54:34.336523+00:00"
     },
     {
       "id": "40ac7da4e0928135",
@@ -1958,7 +1958,7 @@
         "redes",
         "sd-wan"
       ],
-      "last_seen_at": "2026-10-12T20:05:47.399641+00:00"
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
     },
     {
       "id": "69da92f0d27b6e12",
@@ -2087,7 +2087,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-12T20:05:47.399641+00:00",
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00",
       "verified_at": "2026-10-06T17:02:20.652771+00:00"
     },
     {
@@ -2218,7 +2218,7 @@
         "network"
       ],
       "last_seen_at": "2026-09-18T14:44:45.821650+00:00",
-      "verified_at": "2026-10-09T17:17:38.601201+00:00"
+      "verified_at": "2026-10-13T17:54:34.336523+00:00"
     },
     {
       "id": "3b2547aa4eb39f55",
@@ -2748,7 +2748,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-12T20:05:47.399641+00:00"
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
     },
     {
       "id": "f6903d1826b3343c",
@@ -3273,7 +3273,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-12T20:05:47.399641+00:00",
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00",
       "verified_at": "2026-10-09T17:17:38.601201+00:00"
     },
     {
@@ -3403,7 +3403,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-12T20:05:47.399641+00:00"
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
     },
     {
       "id": "a086c31cfd59b183",
@@ -3662,7 +3662,8 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-09T17:17:37.964079+00:00"
+      "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
+      "verified_at": "2026-10-13T17:54:34.336523+00:00"
     },
     {
       "id": "c689e81637ff25f0",
@@ -3795,7 +3796,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-12T20:05:47.399641+00:00"
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
     },
     {
       "id": "1cdb6c08a0dafb96",
@@ -3927,7 +3928,8 @@
         "networking",
         "unified communications"
       ],
-      "last_seen_at": "2026-10-09T17:17:37.964079+00:00"
+      "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
+      "verified_at": "2026-10-13T17:54:34.336523+00:00"
     },
     {
       "id": "c8b25e9082d68c9f",
@@ -4056,7 +4058,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-12T20:05:47.399641+00:00"
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
     },
     {
       "id": "dae7040133a8b9ad",
@@ -4187,7 +4189,7 @@
         "redes"
       ],
       "last_seen_at": "2026-10-06T17:02:19.103324+00:00",
-      "verified_at": "2026-10-09T17:17:38.601201+00:00"
+      "verified_at": "2026-10-13T17:54:34.336523+00:00"
     },
     {
       "id": "c1b0098524efd941",
@@ -4576,7 +4578,7 @@
         "cloud",
         "redes"
       ],
-      "last_seen_at": "2026-10-12T20:05:47.399641+00:00"
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
     },
     {
       "id": "4502a4a005871491",
@@ -4706,7 +4708,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-09T17:17:37.964079+00:00"
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
     },
     {
       "id": "521bb86d9a651af9",
@@ -4966,7 +4968,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-12T20:05:47.399641+00:00"
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
     },
     {
       "id": "3aed244eb93f77c8",
@@ -5096,7 +5098,7 @@
         "network"
       ],
       "last_seen_at": "2026-10-02T16:27:47.882939+00:00",
-      "verified_at": "2026-10-09T17:17:38.601201+00:00"
+      "verified_at": "2026-10-13T17:54:34.336523+00:00"
     },
     {
       "id": "ab5487ce0db21c64",
@@ -5233,7 +5235,7 @@
         "networking",
         "zero trust"
       ],
-      "last_seen_at": "2026-10-09T17:17:37.964079+00:00"
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
     },
     {
       "id": "5b175d3612d37f6a",
@@ -5623,7 +5625,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-09T17:17:37.964079+00:00"
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
     },
     {
       "id": "29757099b4654e02",
@@ -5756,7 +5758,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-12T20:05:47.399641+00:00"
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
     },
     {
       "id": "e74bc61ab76846ce",
@@ -5885,7 +5887,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-12T20:05:47.399641+00:00"
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
     },
     {
       "id": "672f4ac7aef3f226",
@@ -6014,7 +6016,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-12T20:05:47.399641+00:00"
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
     },
     {
       "id": "80d51fb65e8c7289",
@@ -6280,7 +6282,8 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-09T17:17:37.964079+00:00"
+      "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
+      "verified_at": "2026-10-13T17:54:34.336523+00:00"
     },
     {
       "id": "3f67a3bdc9152f5c",
@@ -6939,7 +6942,8 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-09T17:17:37.964079+00:00"
+      "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
+      "verified_at": "2026-10-13T17:54:34.336523+00:00"
     },
     {
       "id": "8fd4624dc70f57e3",
@@ -7068,7 +7072,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-12T20:05:47.399641+00:00"
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
     },
     {
       "id": "2b24c8b27c02c88a",
@@ -7197,7 +7201,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-09T17:17:37.964079+00:00"
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
     },
     {
       "id": "7ce3ea34b891586f",
@@ -7326,7 +7330,8 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-09T17:17:37.964079+00:00"
+      "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
+      "verified_at": "2026-10-13T17:54:34.336523+00:00"
     },
     {
       "id": "3d8134939cbabbff",
@@ -7459,7 +7464,8 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-09T17:17:37.964079+00:00"
+      "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
+      "verified_at": "2026-10-13T17:54:34.336523+00:00"
     },
     {
       "id": "6ad0368bee50e974",
@@ -7588,7 +7594,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-12T20:05:47.399641+00:00"
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
     },
     {
       "id": "8b76fd3282dcf5a2",
@@ -7718,7 +7724,8 @@
         "cloud",
         "networking"
       ],
-      "last_seen_at": "2026-10-09T17:17:37.964079+00:00"
+      "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
+      "verified_at": "2026-10-13T17:54:34.336523+00:00"
     },
     {
       "id": "e5bea9fe68f20575",
@@ -7980,7 +7987,7 @@
       "priority_skills": [
         "unified communications"
       ],
-      "last_seen_at": "2026-10-09T17:17:37.964079+00:00"
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
     },
     {
       "id": "381b474030d1adb9",
@@ -8113,7 +8120,8 @@
         "networking",
         "unified communications"
       ],
-      "last_seen_at": "2026-10-09T17:17:37.964079+00:00"
+      "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
+      "verified_at": "2026-10-13T17:54:34.336523+00:00"
     },
     {
       "id": "9defe2ce9cf1fd1f",
@@ -8242,7 +8250,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-12T20:05:47.399641+00:00"
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
     },
     {
       "id": "1492fc5e208eb4c0",
@@ -8370,14 +8378,398 @@
       "target_company": false,
       "priority_skills": [],
       "last_seen_at": "2026-10-12T20:05:47.399641+00:00"
+    },
+    {
+      "id": "5c06d802e90873c2",
+      "title": "Analista de suporte técnico",
+      "company": "Tyna Host - Datacenter no Brasil",
+      "location": "Muriaé, MG",
+      "salary": "",
+      "description": "",
+      "url": "https://br.linkedin.com/jobs/view/analista-de-suporte-t%C3%A9cnico-at-tyna-host-datacenter-no-brasil-4476417850",
+      "source": "LinkedIn",
+      "published_at": "2026-10-13",
+      "found_at": "2026-10-13T17:53:55.857082+00:00",
+      "score": 45,
+      "score_breakdown": {
+        "skills": 0,
+        "location": 20,
+        "level": 10,
+        "keywords": 0,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 0,
+        "title": 10,
+        "overseas": 0
+      },
+      "skills_match": [],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "noc",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "redes",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "troubleshooting",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "baixo",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": null,
+      "company_logo": "https://media.licdn.com/dms/image/v2/C4E0BAQF0NFz-aA_zPQ/company-logo_100_100/company-logo_100_100/0/1637075954301?e=2147483647&v=beta&t=RS3FmpaJi7Z_0JsgRPDo1CU7thWKu2i8Z-vCloc43AE",
+      "is_overseas": false,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [],
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
+    },
+    {
+      "id": "e7f7d9fe04178d03",
+      "title": "Network Operations Center Engineer",
+      "company": "ITcare",
+      "location": "Kishinev (Chisinau), Quixinau, Moldávia",
+      "salary": "",
+      "description": "ITcare is growing its Network Operations Center team in Chișinău, and we're looking for a NOC Engineer who wants to work on real production networks: ISPs, data centers and enterprises across Europe, North America, Asia and Africa, built on many different vendors. Full job description (PDF) and application form: itcare.net/careers Prefer LinkedIn? Use Easy Apply on this post. About ITcare ITcare is a managed network services company founded in 2021 in the Republic of Moldova, built on a team of engineers with more than 15 years of hands-on telecom experience. Our in-house engineers manage customer infrastructure across Europe, North America, Asia and Africa, and we work with well-known partners on both the local and international market. What you'll do - Monitor network devices, servers, security systems, databases and services in 8-hour shifts, 24/7 - Receive alarms, analyze, troubleshoot and act according to our internal processes - Perform routine work on routers, switches, firewalls and access points, and implement changes requested by L2/L3 engineers - Prioritize and escalate service-affecting faults to L2/L3 engineers - Run problem management and reporting together with other teams - Watch usage and capacity, spot problems early and suggest fixes - Help build new monitoring checks, automations, alarms and dashboards - Keep technical documentation current and make sure change control is followed What we're looking for - NOC experience and a strong grasp of monitoring tools and network analysis (Zabbix, Grafana and SNMP are a plus) - Network and Linux administration skills, including routing and switching (LXD/LXC is a plus) - Solid Layer 2 knowledge: Ethernet, ARP, STP, LACP - Basic Layer 3 and routing knowledge is a must - Hands-on troubleshooting and technical support experience - Clear written and verbal communication, and you work well in a team - English at A2 to B1 level or higher Nice to have - VRRP, OSPF, IS-IS, BGP and/or MPLS - Security fundamentals: firewalls, VPN, SSL, IPsec - Experience with Cisco, Juniper, Arista, Nokia or MikroTik, and other vendors such as Huawei, Dell or Edgecore - Certifications such as CCNA, CCNP, JNCIA, JNCIS or JNCIP What we offer - Competitive salary aligned with EU industry standards, based on your skills and experience - Performance-based bonuses on top of the base salary, based on sales and marketing results - A welcome package so you feel at home from day one - Hybrid work: office in Chișinău or remote How to apply Use Easy Apply here on LinkedIn, or send your CV through the form at itcare.net/careers and enter \"NOC Engineer\" as the position. The full job description is there too, under See Job Details. Show more Show less",
+      "url": "https://md.linkedin.com/jobs/view/network-operations-center-engineer-at-itcare-4476426624",
+      "source": "LinkedIn",
+      "published_at": "2026-10-13",
+      "found_at": "2026-10-13T17:54:14.282493+00:00",
+      "score": 91,
+      "score_breakdown": {
+        "skills": 20,
+        "location": 20,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 1,
+        "title": 10,
+        "overseas": 15
+      },
+      "skills_match": [
+        "bgp",
+        "cisco",
+        "huawei",
+        "linux",
+        "mikrotik",
+        "network",
+        "noc",
+        "teams",
+        "troubleshooting",
+        "vpn"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "nat",
+        "networking",
+        "nivel 2",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "redes",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "tim brasil",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "alto",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2027-04-11T12:51:58.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFQ6qadIV48eg/company-logo_100_100/company-logo_100_100/0/1713511694688/itcaregroup_logo?e=2147483647&v=beta&t=9hwvrlzSxlDzcputBnLi3_vAhg8DCt8SujxSYUmSrK8",
+      "is_overseas": true,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "network"
+      ],
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
+    },
+    {
+      "id": "9963ab34bef8654d",
+      "title": "Unified Communications Engineer (m/w/d)",
+      "company": "Rocken®",
+      "location": "Olten, Soleura, Suíça",
+      "salary": "",
+      "description": "",
+      "url": "https://ch.linkedin.com/jobs/view/unified-communications-engineer-m-w-d-at-rocken%C2%AE-4477989907",
+      "source": "LinkedIn",
+      "published_at": "2026-10-13",
+      "found_at": "2026-10-13T17:54:28.833787+00:00",
+      "score": 67,
+      "score_breakdown": {
+        "skills": 2,
+        "location": 20,
+        "level": 10,
+        "keywords": 4,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 1,
+        "title": 10,
+        "overseas": 15
+      },
+      "skills_match": [
+        "unified communications"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "noc",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "redes",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "troubleshooting",
+        "turn",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "alto",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": null,
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGgjK_sw5ZMzw/company-logo_100_100/company-logo_100_100/0/1712041036099/rockenjobs_logo?e=2147483647&v=beta&t=v24Ii-eKnqwrnhJqNVlIZfsaIVs9SB3cXMzpK9ZsG3w",
+      "is_overseas": true,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "unified communications"
+      ],
+      "last_seen_at": "2026-10-13T17:54:34.322706+00:00"
     }
   ],
-  "last_updated": "2026-10-12T20:05:52.316882+00:00",
+  "last_updated": "2026-10-13T17:54:37.177610+00:00",
   "stats": {
-    "total": 64,
-    "alto_fit": 46,
+    "total": 67,
+    "alto_fit": 48,
     "medio_fit": 17,
-    "baixo_fit": 1,
+    "baixo_fit": 2,
     "enviadas": 0
   }
 }
