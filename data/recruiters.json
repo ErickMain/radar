@@ -85,6 +85,34 @@
       "outreach_source": "groq"
     },
     {
+      "id": "d38469a6348b6994",
+      "name": "Brigitte Cooney",
+      "profile_url": "https://au.linkedin.com/in/brigittecooney",
+      "headline": "Talent Acquisition & People Experience",
+      "is_recruiter": true,
+      "country": "AU",
+      "companies": [
+        "SUBCO"
+      ],
+      "jobs": [
+        {
+          "id": "0a1e53555d6f2503",
+          "title": "NOC Engineer",
+          "company": "SUBCO",
+          "url": "https://au.linkedin.com/jobs/view/noc-engineer-at-subco-4468874973",
+          "score": 80,
+          "fit_level": "alto",
+          "found_at": "2026-10-14T15:40:54.462303+00:00"
+        }
+      ],
+      "first_seen": "2026-10-14T15:41:11.496831+00:00",
+      "last_seen": "2026-10-14T15:41:11.496831+00:00",
+      "message": "Obrigado por aceitar! A posição de NOC Engineer combina com minha experiência em troubleshooting de SBCs e na captura/interpretção de tráfego via Wireshark. Posso enviar meu currículo?",
+      "priority": 54,
+      "invite_note": "Oi Brigitte, vi a vaga de NOC Engineer na SUBCO e me identifiquei pelo suporte especializado em telefonia IP e análise de protocolos SIP/RTP que realizo na Método Telecom. Vamos conectar?",
+      "outreach_source": "groq"
+    },
+    {
       "id": "668f36c6fd01c64e",
       "name": "Mindy Wendt",
       "profile_url": "https://www.linkedin.com/in/mindy-wendt-586923135",
@@ -542,34 +570,6 @@
       "outreach_source": "groq"
     },
     {
-      "id": "441cdc7eed0be668",
-      "name": "Lisa-Marie Barth",
-      "profile_url": "https://at.linkedin.com/in/lisa-marie-barth",
-      "headline": "Vermittlung von Experten I Mein Steckenpferd: Netzwerk | Security & Infrastruktur",
-      "is_recruiter": false,
-      "country": "AT",
-      "companies": [
-        "Computer Futures"
-      ],
-      "jobs": [
-        {
-          "id": "3cf384ddb5293b0c",
-          "title": "Microsoft 365 & Unified Communications Engineer (m/w/d)",
-          "company": "Computer Futures",
-          "url": "https://at.linkedin.com/jobs/view/microsoft-365-unified-communications-engineer-m-w-d-at-computer-futures-4463394405",
-          "score": 70,
-          "fit_level": "alto",
-          "found_at": "2026-09-13T07:33:21.045435+00:00"
-        }
-      ],
-      "first_seen": "2026-09-13T07:33:26.477584+00:00",
-      "last_seen": "2026-09-13T07:33:26.477584+00:00",
-      "message": "Oi Lisa-Marie, obrigado por aceitar!\n\nSobre a vaga de Microsoft 365 & Unified Communications Engineer (m/w/d) na Computer Futures: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
-      "priority": 18,
-      "invite_note": "Oi Lisa-Marie! Vi sua vaga de Microsoft 365 & Unified Communications Engineer (m/w/d) na Computer Futures. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
-      "outreach_source": "fallback"
-    },
-    {
       "id": "786a6a6ab29636e2",
       "name": "Jasmin Loh",
       "profile_url": "https://my.linkedin.com/in/jasmin-loh-29baa747",
@@ -624,7 +624,35 @@
       "priority": 16,
       "invite_note": "Oi Ted! Vi sua vaga de Network Operations Center Engineer na The Edge Partnership - The Edge in Asia. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
       "outreach_source": "fallback"
+    },
+    {
+      "id": "441cdc7eed0be668",
+      "name": "Lisa-Marie Barth",
+      "profile_url": "https://at.linkedin.com/in/lisa-marie-barth",
+      "headline": "Vermittlung von Experten I Mein Steckenpferd: Netzwerk | Security & Infrastruktur",
+      "is_recruiter": false,
+      "country": "AT",
+      "companies": [
+        "Computer Futures"
+      ],
+      "jobs": [
+        {
+          "id": "3cf384ddb5293b0c",
+          "title": "Microsoft 365 & Unified Communications Engineer (m/w/d)",
+          "company": "Computer Futures",
+          "url": "https://at.linkedin.com/jobs/view/microsoft-365-unified-communications-engineer-m-w-d-at-computer-futures-4463394405",
+          "score": 70,
+          "fit_level": "alto",
+          "found_at": "2026-09-13T07:33:21.045435+00:00"
+        }
+      ],
+      "first_seen": "2026-09-13T07:33:26.477584+00:00",
+      "last_seen": "2026-09-13T07:33:26.477584+00:00",
+      "message": "Oi Lisa-Marie, obrigado por aceitar!\n\nSobre a vaga de Microsoft 365 & Unified Communications Engineer (m/w/d) na Computer Futures: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
+      "priority": 12,
+      "invite_note": "Oi Lisa-Marie! Vi sua vaga de Microsoft 365 & Unified Communications Engineer (m/w/d) na Computer Futures. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
+      "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-10-13T17:54:34.334809+00:00"
+  "last_updated": "2026-10-14T15:41:11.496831+00:00"
 }
