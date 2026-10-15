@@ -29,62 +29,6 @@
       "outreach_source": "groq"
     },
     {
-      "id": "5867c30d16f0430e",
-      "name": "Mikee del Prado",
-      "profile_url": "https://ph.linkedin.com/in/mikeedelprado",
-      "headline": "Tech Talent Partner 💻 Morgan McKinley",
-      "is_recruiter": true,
-      "country": "PH",
-      "companies": [
-        "Morgan McKinley"
-      ],
-      "jobs": [
-        {
-          "id": "3f67a3bdc9152f5c",
-          "title": "Network Operations Center Engineer",
-          "company": "Morgan McKinley",
-          "url": "https://ph.linkedin.com/jobs/view/network-operations-center-engineer-at-morgan-mckinley-4474255783",
-          "score": 89,
-          "fit_level": "alto",
-          "found_at": "2026-10-06T17:02:03.026911+00:00"
-        }
-      ],
-      "first_seen": "2026-10-06T17:02:19.124531+00:00",
-      "last_seen": "2026-10-06T17:02:19.124531+00:00",
-      "message": "Obrigado por aceitar, Mikee! A posição de NOC Engineer combina com meu trabalho de diagnóstico de áudio e registro SIP, além do provisionamento de dispositivos IP em ambientes críticos. Posso enviar meu currículo?",
-      "priority": 57,
-      "invite_note": "Oi Mikee, vi a vaga de Network Operations Center Engineer na Morgan McKinley e achei interessante. Tenho experiência em troubleshooting de SBCs e análise de protocolos SIP/RTP, que são essenciais para um NOC. Vamos conectar?",
-      "outreach_source": "groq"
-    },
-    {
-      "id": "298fc9af7811dd50",
-      "name": "Suchi Aggarwal",
-      "profile_url": "https://in.linkedin.com/in/suchi-aggarwal-00085179",
-      "headline": "Director-Sales I GCC Sales I Talent Acquisition - ICT- Europe",
-      "is_recruiter": true,
-      "country": "IN",
-      "companies": [
-        "Indovision Services Private Limited"
-      ],
-      "jobs": [
-        {
-          "id": "a145bb090de9a07a",
-          "title": "Network Operations Center Engineer",
-          "company": "Indovision Services Private Limited",
-          "url": "https://de.linkedin.com/jobs/view/network-operations-center-engineer-at-indovision-services-private-limited-4474688279",
-          "score": 84,
-          "fit_level": "alto",
-          "found_at": "2026-10-06T17:02:03.026906+00:00"
-        }
-      ],
-      "first_seen": "2026-10-06T17:02:19.124531+00:00",
-      "last_seen": "2026-10-06T17:02:19.124531+00:00",
-      "message": "Obrigado por aceitar, Suchi! Na minha atuação na Método Telecom, faço provisionamento de ramais e dispositivos IP e realizo diagnóstico de problemas de áudio, registro SIP e NAT usando Wireshark. Acredito que essas competências se alinham bem ao NOC Engineer. Posso te enviar meu currículo?",
-      "priority": 55,
-      "invite_note": "Olá Suchi, vi a vaga de Network Operations Center Engineer na Indovision. Meu background em suporte especializado de telefonia IP e análise de protocolos SIP/RTP pode agregar ao seu time. Vamos conectar?",
-      "outreach_source": "groq"
-    },
-    {
       "id": "d38469a6348b6994",
       "name": "Brigitte Cooney",
       "profile_url": "https://au.linkedin.com/in/brigittecooney",
@@ -225,6 +169,34 @@
       "outreach_source": "groq"
     },
     {
+      "id": "5867c30d16f0430e",
+      "name": "Mikee del Prado",
+      "profile_url": "https://ph.linkedin.com/in/mikeedelprado",
+      "headline": "Tech Talent Partner 💻 Morgan McKinley",
+      "is_recruiter": true,
+      "country": "PH",
+      "companies": [
+        "Morgan McKinley"
+      ],
+      "jobs": [
+        {
+          "id": "3f67a3bdc9152f5c",
+          "title": "Network Operations Center Engineer",
+          "company": "Morgan McKinley",
+          "url": "https://ph.linkedin.com/jobs/view/network-operations-center-engineer-at-morgan-mckinley-4474255783",
+          "score": 89,
+          "fit_level": "alto",
+          "found_at": "2026-10-06T17:02:03.026911+00:00"
+        }
+      ],
+      "first_seen": "2026-10-06T17:02:19.124531+00:00",
+      "last_seen": "2026-10-06T17:02:19.124531+00:00",
+      "message": "Obrigado por aceitar, Mikee! A posição de NOC Engineer combina com meu trabalho de diagnóstico de áudio e registro SIP, além do provisionamento de dispositivos IP em ambientes críticos. Posso enviar meu currículo?",
+      "priority": 50,
+      "invite_note": "Oi Mikee, vi a vaga de Network Operations Center Engineer na Morgan McKinley e achei interessante. Tenho experiência em troubleshooting de SBCs e análise de protocolos SIP/RTP, que são essenciais para um NOC. Vamos conectar?",
+      "outreach_source": "groq"
+    },
+    {
       "id": "fb11a9c0185124ea",
       "name": "Natalia Hernanz",
       "profile_url": "https://es.linkedin.com/in/nataliahernanz",
@@ -278,6 +250,34 @@
       "message": "Obrigado por aceitar! A vaga de Core Network Maintenance Engineer combina com minha atuação em troubleshooting de SBCs e análise de protocolos SIP/RTP. Também já administro ambientes BroadWorks com foco em alta disponibilidade. Posso enviar meu currículo?",
       "priority": 49,
       "invite_note": "Oi Nicole, vi sua vaga de Core Network Maintenance Engineer e achei interessante. Tenho experiência prática em diagnóstico de problemas SIP e configuração de SBCs, que são essenciais para manutenção de redes de voz. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
+      "id": "298fc9af7811dd50",
+      "name": "Suchi Aggarwal",
+      "profile_url": "https://in.linkedin.com/in/suchi-aggarwal-00085179",
+      "headline": "Director-Sales I GCC Sales I Talent Acquisition - ICT- Europe",
+      "is_recruiter": true,
+      "country": "IN",
+      "companies": [
+        "Indovision Services Private Limited"
+      ],
+      "jobs": [
+        {
+          "id": "a145bb090de9a07a",
+          "title": "Network Operations Center Engineer",
+          "company": "Indovision Services Private Limited",
+          "url": "https://de.linkedin.com/jobs/view/network-operations-center-engineer-at-indovision-services-private-limited-4474688279",
+          "score": 84,
+          "fit_level": "alto",
+          "found_at": "2026-10-06T17:02:03.026906+00:00"
+        }
+      ],
+      "first_seen": "2026-10-06T17:02:19.124531+00:00",
+      "last_seen": "2026-10-06T17:02:19.124531+00:00",
+      "message": "Obrigado por aceitar, Suchi! Na minha atuação na Método Telecom, faço provisionamento de ramais e dispositivos IP e realizo diagnóstico de problemas de áudio, registro SIP e NAT usando Wireshark. Acredito que essas competências se alinham bem ao NOC Engineer. Posso te enviar meu currículo?",
+      "priority": 48,
+      "invite_note": "Olá Suchi, vi a vaga de Network Operations Center Engineer na Indovision. Meu background em suporte especializado de telefonia IP e análise de protocolos SIP/RTP pode agregar ao seu time. Vamos conectar?",
       "outreach_source": "groq"
     },
     {
@@ -654,5 +654,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-10-14T15:41:11.496831+00:00"
+  "last_updated": "2026-10-15T15:27:15.845033+00:00"
 }
