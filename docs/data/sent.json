@@ -239,6 +239,44 @@
       },
       "cover_letter": "Prezado(a) recrutador(a),\n\nAtuo como Analista de Telecomunicações na Método Telecom desde 2021, com foco em suporte de telefonia IP e VoIP em ambientes de missão crítica. Minha experiência inclui troubleshooting de Session Border Controllers e configuração de dispositivos IP, atividades que exigem diagnóstico preciso de protocolos SIP/RTP e ajustes de NAT, firewall e codecs – competências diretamente aplicáveis à configuração e manutenção de equipamentos CFTV e rastreadores.\n\nAlém disso, realizo análise detalhada de CDRs e logs SIP utilizando Wireshark, o que me permite identificar rapidamente falhas de comunicação e propor soluções eficazes. Essa habilidade de interpretação de tráfego de rede complementa o conhecimento em redes que a vaga requer, garantindo a integração correta dos sistemas de internet, rastreamento e câmeras oferecidos pela Civil X.\n\nTenho histórico de tratativas técnicas diretas com operadoras (Oi, Algar, TIP) e de elaboração de documentação técnica e procedimentos operacionais, o que facilita a padronização de processos de suporte e a entrega de serviços consistentes aos clientes. Estou habituado a gerenciar ordens de serviço em ambientes de alta disponibilidade, assegurando que as soluções sejam entregues funcionando plenamente.\n\nColoco-me à disposição para entrevista e para discutir como minhas competências em redes, diagnóstico de tráfego e suporte técnico podem contribuir para a excelência operacional da Civil X.",
       "description": "🚀 Vaga: Analista de Suporte Técnico (TI / CFTV / Redes) Sobre nós: A Civil Log está evoluindo e agora é Civil X! Somos uma empresa de tecnologia focada em automação e CFTV, buscando sempre entregar inovação e diferencial ao mercado. Nosso objetivo é facilitar a vida do cliente oferecendo um pacote de soluções completo, que integra internet, chips, rastreamento, câmeras e automações, através de serviços próprios e parceiros estratégicos. O seu papel na Civil X: Buscamos um(a) novo(a) colaborador(a) para somar ao nosso time de Suporte. Você terá um papel fundamental para garantir que nossas soluções cheguem funcionando perfeitamente aos nossos clientes, atuando diretamente na configuração e manutenção dos nossos equipamentos. O que você vai fazer no dia a dia: Configuração e suporte de equipamentos de CFTV (câmeras) e rastreadores; Configurações básicas de rede para garantir o funcionamento das soluções; Suporte de TI básico, incluindo formatação de máquinas e auxílio técnico; Garantir a entrega de serviços funcionais e de alta qualidade aos nossos clientes. O que buscamos em você: Conhecimento prévio em CFTV, redes e suporte de TI; Perfil de resolução de problemas e vontade de aprender novas tecnologias; (Adicione aqui se precisa de CNH, formação técnica, etc.) O que oferecemos: Auxilio Transporte de acordo com a localização de moradia cursos e ensinamentos básicos para a operação do funcionario nas demandas Ambiente inovador e em crescimento vale alimentação Local de Trabalho: Industrial, Contagem, MG Como se candidatar: Envie seu currículo para [central@civillog.com.br] com o assunto \"Vaga Suporte - Civil X\" WhatsApp: 31 9948-5619 https://civilx.com.br/ Show more Show less"
+    },
+    {
+      "job_id": "88f14c8674354eba",
+      "title": "Analista de Redes N2 (Pleno)",
+      "company": "Union Network",
+      "location": "Canoas, RS",
+      "source": "LinkedIn",
+      "url": "https://br.linkedin.com/jobs/view/analista-de-redes-n2-pleno-at-union-network-4479357888",
+      "sent_at": "2026-10-16T15:07:04.116931+00:00",
+      "score": 96,
+      "fit_level": "alto",
+      "target_company": false,
+      "contact_email": "fabio.fernandes@unionnetwork.com.br",
+      "to_email": "fabio.fernandes@unionnetwork.com.br",
+      "skills_match": [
+        "bgp",
+        "cisco",
+        "huawei",
+        "mikrotik",
+        "network",
+        "olt",
+        "redes",
+        "troubleshooting",
+        "wireshark"
+      ],
+      "score_breakdown": {
+        "skills": 19,
+        "location": 20,
+        "level": 15,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 2,
+        "title": 10,
+        "overseas": 15
+      },
+      "cover_letter": "I am a Telecommunications Analyst with five years of experience delivering tier‑2 support for IP‑telephony and VoIP services. My daily responsibilities include SIP and RTP protocol analysis, SBC troubleshooting, and end‑to‑end incident handling in mission‑critical environments, which directly aligns with the advanced troubleshooting focus of the Analista de Redes N2 role.\n\nI have extensive hands‑on experience capturing and interpreting traffic with Wireshark, performing CDR and SIP log analysis, and diagnosing issues related to NAT, firewalls, and codecs. These skills translate to the detailed packet‑level diagnostics required for complex layer‑2/3 incidents and performance monitoring.\n\nMy work involves direct technical coordination with carriers such as Oi, Algar and TIP, handling service tickets, and documenting operational procedures. This background equips me to provide consultative support to customers and to manage change windows and firmware updates across multivendor environments.\n\nI am based in Belo Horizonte and open to fully remote work. I am available for an interview at your convenience to discuss how my expertise can contribute to Union Network’s network operations.",
+      "description": "🚨 VAGA ABERTA | Analista de Redes N2 (Pleno) | 100% Remoto Sobre a vaga A Union Network busca um Analista de Redes N2 para atuar no suporte avançado, na sustentação e na otimização de infraestruturas de telecomunicações e provedores de internet (ISP). Você será responsável pela resolução de incidentes complexos de camada 2 e 3, pela gestão de redes ópticas (GPON/FTTH), pelo roteamento dinâmico, pelos serviços de acesso e pelo monitoramento do ambiente, com atuação consultiva junto aos clientes. Principais responsabilidades Troubleshooting N2: tratar incidentes escalados de camada 2 e 3, identificando e resolvendo falhas de conectividade, degradação de tráfego e problemas de roteamento. Redes ópticas (FTTH/GPON): provisionar, configurar e resolver problemas em OLTs e ONUs/ONTs (Huawei, Nokia, entre outros). Roteamento e borda: configurar e manter sessões BGP (eBGP/iBGP), engenharia de tráfego, OSPF e políticas de roteamento. Acesso e endereçamento: administrar BNG para autenticação de clientes e gerir arquiteturas de CGNAT (pool de IPs públicos, tradução de portas e logs). Monitoramento e performance: criar e acompanhar dashboards e alertas no Zabbix e no Grafana, analisando tráfego, latência e disponibilidade. Sustentação multivendor: atuar em Mikrotik (RouterOS), Huawei (VRP), Cisco (IOS/IOS-XR) e Nokia (SR-OS). Gestão de mudanças (GMUD): executar janelas de manutenção, atualizações de firmware/software e alterações topológicas programadas. Requisitos obrigatórios Mínimo de 2 anos de experiência comprovada em provedores de internet (ISP) ou em infraestrutura/telecomunicações. Experiência comprovada com OLT, GPON Domínio prático de CGNAT e BNG/PPPoE. Sólida experiência em BGP e OSPF. Domínio de comutação e roteamento em Mikrotik, Huawei, Cisco e Nokia. Domínio de Zabbix e Grafana. Competências técnicas Acesso óptico/FTTH: OLT, GPON, ONU/ONT, provisionamento e análise de sinal óptico. Serviços de ISP e borda: BNG (PPPoE/IPoE), CGNAT (Deterministic/NAT444), gestão de "
     }
   ]
 }
