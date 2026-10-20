@@ -255,138 +255,7 @@
       "priority_skills": [
         "unified communications"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
-    },
-    {
-      "id": "b43ff604c0da06c3",
-      "title": "Telecom Support Engineer (Genesys Cloud) - Bilingual",
-      "company": "Concentrix",
-      "location": "Cidade do México, México",
-      "salary": "",
-      "description": "Job Title Telecom Support Engineer (Genesys Cloud) - Bilingual Job Description We're Concentrix. The intelligent transformation partner. Solution-focused. Tech-powered. Intelligence-fueled. The global technology and services leader that powers the world’s best brands, today and into the future. We’re solution-focused, tech-powered, intelligence-fueled. With unique data and insights, deep industry expertise, and advanced technology solutions, we’re the intelligent transformation partner that powers a world that works, helping companies become refreshingly simple to work, interact, and transact with. We shape new game-changing careers in over 70 countries, attracting the best talent. In our Information Technology and Global Security team, you will deliver the latest technology infrastructure, transformative software solutions and industry-leading global security for our staff and clients. You will work with the best in the world to design, implement and strategize IT, security, application development, innovation, and solutions in today’s hyperconnected world. You will be part of the technology team that is core to our vision of develop, build and run the future of Integrated Services. Our game-changers around the world have devoted their careers to ensuring every relationship is exceptional. And we’re proud to be recognized with awards such as \"World's Best Workplaces,\" “Best Companies for Career Growth,” and “Best Company Culture,” year after year. We embrace our game-changers with open arms, people from diverse backgrounds, who are curious and willing to learn. Your natural talent to help others and go beyond WOW for our customers will fit right in with what we do and who we are. Join us and be part of this journey towards greater opportunities and brighter futures. As a Telecom Support Engineer, you will play a critical role in supporting the availability, performance, and integrity of the Concentrix Voice Network and Genesys Cloud environment. This role is ideal for a technically strong, solution-oriented professional who thrives in fast-paced contact center environments and brings deep expertise in cloud telephony, troubleshooting, and platform integrations. You will help deliver reliable voice and digital communication services that power exceptional customer experiences. Responsibilities Ensure the availability and integrity of the Concentrix Voice Network and Genesys Cloud Org. Receive, analyze, monitor, and resolve voice network problems in accordance with published Service Level Agreements. Coordinate and work with users, clients, equipment vendors, and network carriers for on-call repair and testing of network services. Analyze network failures, isolate and repair or re-route network problems in a timely manner; perform root cause analysis and document remedial actions where required. Assist in maintaining system databases, including circuit inventory, toll-free number records, and configuration documentation. Develop and maintain stron",
-      "url": "https://mx.linkedin.com/jobs/view/telecom-support-engineer-genesys-cloud-bilingual-at-concentrix-4454175868",
-      "source": "LinkedIn",
-      "published_at": "2026-09-11",
-      "found_at": "2026-09-11T21:23:05.884843+00:00",
-      "score": 82,
-      "score_breakdown": {
-        "skills": 10,
-        "location": 20,
-        "level": 10,
-        "keywords": 10,
-        "salary": 5,
-        "target_company": 0,
-        "priority_skills": 2,
-        "title": 10,
-        "overseas": 15
-      },
-      "skills_match": [
-        "cloud",
-        "contact center",
-        "genesys",
-        "network",
-        "troubleshooting"
-      ],
-      "skills_gap": [
-        "3cx",
-        "active directory",
-        "algar",
-        "algar telecom",
-        "analise de logs",
-        "asterisk",
-        "atendimento tecnico",
-        "avaya",
-        "aws",
-        "azure",
-        "bgp",
-        "broadworks",
-        "call center",
-        "cdr",
-        "cisco",
-        "codec",
-        "codecs",
-        "comunicacoes unificadas",
-        "cybersecurity",
-        "digitro",
-        "dns",
-        "documentacao tecnica",
-        "e1",
-        "embratel",
-        "firewall",
-        "fortigate",
-        "freeswitch",
-        "g.711",
-        "g.729",
-        "gateway",
-        "gcp",
-        "grandstream",
-        "huawei",
-        "intelbras",
-        "ip pbx",
-        "isdn",
-        "khomp",
-        "leucotron",
-        "linux",
-        "mikrotik",
-        "nat",
-        "networking",
-        "nivel 2",
-        "noc",
-        "olt",
-        "operadora",
-        "ordem de servico",
-        "pabx",
-        "pabx ip",
-        "qos",
-        "ramais",
-        "ramal",
-        "rede",
-        "redes",
-        "rtp",
-        "sbc",
-        "sd-wan",
-        "seguranca da informacao",
-        "session border controller",
-        "sip",
-        "sip trunk",
-        "sql server",
-        "srtp",
-        "stun",
-        "suporte nivel 2",
-        "suporte tecnico",
-        "teams",
-        "tim brasil",
-        "turn",
-        "unified communications",
-        "ura",
-        "vlan",
-        "vmware",
-        "voip",
-        "vpn",
-        "webex",
-        "windows server",
-        "wireguard",
-        "wireshark",
-        "yealink",
-        "zoom phone"
-      ],
-      "fit_level": "alto",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
-      "contact_email": null,
-      "recruiter": null,
-      "valid_through": "2026-10-20T04:46:57.000Z",
-      "company_logo": "https://media.licdn.com/dms/image/v2/D4D0BAQE7MK0289c3WQ/company-logo_100_100/B4DZ48c1XBJUAI-/0/1779130652451/concentrix_logo?e=2147483647&v=beta&t=CdZ0Yg3DL4LwH11dXhnRgc6uIagFF7i1oHfYvffcOC0",
-      "is_overseas": true,
-      "title_class": "core",
-      "target_company": false,
-      "priority_skills": [
-        "cloud",
-        "network"
-      ],
-      "last_seen_at": "2026-10-07T17:39:05.828387+00:00",
-      "verified_at": "2026-10-19T17:18:39.158506+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     },
     {
       "id": "6bb002b911acfdf5",
@@ -517,7 +386,7 @@
         "network"
       ],
       "last_seen_at": "2026-09-30T16:35:59.948615+00:00",
-      "verified_at": "2026-10-15T15:27:15.846445+00:00"
+      "verified_at": "2026-10-20T15:32:02.481233+00:00"
     },
     {
       "id": "8146ea4c288d6e2b",
@@ -778,7 +647,7 @@
         "network"
       ],
       "last_seen_at": "2026-10-01T17:14:36.833531+00:00",
-      "verified_at": "2026-10-13T17:54:34.336523+00:00"
+      "verified_at": "2026-10-20T15:32:02.481233+00:00"
     },
     {
       "id": "760c17a0bf33e978",
@@ -1300,7 +1169,7 @@
         "unified communications"
       ],
       "last_seen_at": "2026-09-18T14:44:45.821650+00:00",
-      "verified_at": "2026-10-12T20:05:47.414438+00:00"
+      "verified_at": "2026-10-20T15:32:02.481233+00:00"
     },
     {
       "id": "3537821786b20eae",
@@ -1695,7 +1564,7 @@
         "redes",
         "sd-wan"
       ],
-      "last_seen_at": "2026-10-16T15:07:01.012659+00:00",
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00"
     },
     {
@@ -1961,7 +1830,7 @@
         "unified communications"
       ],
       "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
-      "verified_at": "2026-10-16T15:07:04.120109+00:00"
+      "verified_at": "2026-10-20T15:32:02.481233+00:00"
     },
     {
       "id": "f6903d1826b3343c",
@@ -2616,7 +2485,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     },
     {
       "id": "a086c31cfd59b183",
@@ -3009,7 +2878,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     },
     {
       "id": "1cdb6c08a0dafb96",
@@ -3271,7 +3140,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     },
     {
       "id": "dae7040133a8b9ad",
@@ -3922,7 +3791,8 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-16T15:07:01.012659+00:00"
+      "last_seen_at": "2026-10-16T15:07:01.012659+00:00",
+      "verified_at": "2026-10-20T15:32:02.481233+00:00"
     },
     {
       "id": "521bb86d9a651af9",
@@ -4182,7 +4052,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     },
     {
       "id": "3aed244eb93f77c8",
@@ -4714,7 +4584,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     },
     {
       "id": "e74bc61ab76846ce",
@@ -4973,7 +4843,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     },
     {
       "id": "80d51fb65e8c7289",
@@ -5094,7 +4964,7 @@
       "cover_letter": null,
       "contact_email": null,
       "recruiter": null,
-      "valid_through": "2026-12-06T14:08:51.000Z",
+      "valid_through": "2027-01-05T14:08:51.000Z",
       "company_logo": "https://media.licdn.com/dms/image/v2/D4E0BAQEaqVHcZRSkzQ/company-logo_100_100/B4EZ6x_11EIcAM-/0/1781102763719/xerox_logo?e=2147483647&v=beta&t=xfNPftVqkwgohDxcHCFhBhusCGImAMHq-onp2V06ooA",
       "is_overseas": true,
       "title_class": "core",
@@ -5105,7 +4975,7 @@
         "networking"
       ],
       "last_seen_at": "2026-10-06T17:02:19.103324+00:00",
-      "verified_at": "2026-10-14T15:41:12.378054+00:00"
+      "verified_at": "2026-10-20T15:32:02.481233+00:00"
     },
     {
       "id": "a145bb090de9a07a",
@@ -5239,7 +5109,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00",
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00",
       "verified_at": "2026-10-13T17:54:34.336523+00:00"
     },
     {
@@ -5375,7 +5245,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00",
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00",
       "verified_at": "2026-10-12T20:05:47.414438+00:00"
     },
     {
@@ -5627,14 +5497,14 @@
       "cover_letter": null,
       "contact_email": null,
       "recruiter": null,
-      "valid_through": "2026-10-21T15:43:37.000Z",
+      "valid_through": "2026-11-17T15:43:53.000Z",
       "company_logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHEZazT5M2tVw/company-logo_100_100/B4EZ5g0elYHcAI-/0/1779740830319/algar_oficial_logo?e=2147483647&v=beta&t=50fhR_UDxLLEZV9UwK6Qf5oOKJmT4_IFNdllFAxExbo",
       "is_overseas": false,
       "title_class": "core",
       "target_company": true,
       "priority_skills": [],
       "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
-      "verified_at": "2026-10-16T15:07:04.120109+00:00"
+      "verified_at": "2026-10-20T15:32:02.481233+00:00"
     },
     {
       "id": "ebf7423c1df19114",
@@ -5767,7 +5637,7 @@
         "networking"
       ],
       "last_seen_at": "2026-10-14T15:41:11.477749+00:00",
-      "verified_at": "2026-10-13T17:54:34.336523+00:00"
+      "verified_at": "2026-10-20T15:32:02.481233+00:00"
     },
     {
       "id": "8fd4624dc70f57e3",
@@ -5896,7 +5766,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     },
     {
       "id": "2b24c8b27c02c88a",
@@ -6025,7 +5895,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     },
     {
       "id": "7ce3ea34b891586f",
@@ -6155,7 +6025,7 @@
         "network"
       ],
       "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
-      "verified_at": "2026-10-13T17:54:34.336523+00:00"
+      "verified_at": "2026-10-20T15:32:02.481233+00:00"
     },
     {
       "id": "3d8134939cbabbff",
@@ -6418,7 +6288,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     },
     {
       "id": "8b76fd3282dcf5a2",
@@ -6549,7 +6419,7 @@
         "networking"
       ],
       "last_seen_at": "2026-10-14T15:41:11.477749+00:00",
-      "verified_at": "2026-10-13T17:54:34.336523+00:00"
+      "verified_at": "2026-10-20T15:32:02.481233+00:00"
     },
     {
       "id": "e5bea9fe68f20575",
@@ -6682,7 +6552,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     },
     {
       "id": "ab648e60745a043e",
@@ -6946,7 +6816,7 @@
         "unified communications"
       ],
       "last_seen_at": "2026-10-16T15:07:01.012659+00:00",
-      "verified_at": "2026-10-13T17:54:34.336523+00:00"
+      "verified_at": "2026-10-20T15:32:02.481233+00:00"
     },
     {
       "id": "9defe2ce9cf1fd1f",
@@ -7075,7 +6945,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     },
     {
       "id": "1492fc5e208eb4c0",
@@ -7462,135 +7332,6 @@
       "last_seen_at": "2026-10-14T15:41:11.477749+00:00"
     },
     {
-      "id": "dfcd27b39db01222",
-      "title": "Analista de Redes - Belo Horizonte - Novas Vagas Hoje",
-      "company": "Espaço Crescerh",
-      "location": "Belo Horizonte e Região",
-      "salary": "",
-      "description": "",
-      "url": "https://br.linkedin.com/jobs/view/analista-de-redes-belo-horizonte-novas-vagas-hoje-at-espa%C3%A7o-crescerh-2148455590",
-      "source": "LinkedIn",
-      "published_at": "2026-10-14",
-      "found_at": "2026-10-14T15:38:43.777761+00:00",
-      "score": 50,
-      "score_breakdown": {
-        "skills": 2,
-        "location": 20,
-        "level": 10,
-        "keywords": 2,
-        "salary": 5,
-        "target_company": 0,
-        "priority_skills": 1,
-        "title": 10,
-        "overseas": 0
-      },
-      "skills_match": [
-        "redes"
-      ],
-      "skills_gap": [
-        "3cx",
-        "active directory",
-        "algar",
-        "algar telecom",
-        "analise de logs",
-        "asterisk",
-        "atendimento tecnico",
-        "avaya",
-        "aws",
-        "azure",
-        "bgp",
-        "broadworks",
-        "call center",
-        "cdr",
-        "cisco",
-        "cloud",
-        "codec",
-        "codecs",
-        "comunicacoes unificadas",
-        "contact center",
-        "cybersecurity",
-        "digitro",
-        "dns",
-        "documentacao tecnica",
-        "e1",
-        "embratel",
-        "firewall",
-        "fortigate",
-        "freeswitch",
-        "g.711",
-        "g.729",
-        "gateway",
-        "gcp",
-        "genesys",
-        "grandstream",
-        "huawei",
-        "intelbras",
-        "ip pbx",
-        "isdn",
-        "khomp",
-        "leucotron",
-        "linux",
-        "mikrotik",
-        "nat",
-        "network",
-        "networking",
-        "nivel 2",
-        "noc",
-        "olt",
-        "operadora",
-        "ordem de servico",
-        "pabx",
-        "pabx ip",
-        "qos",
-        "ramais",
-        "ramal",
-        "rede",
-        "rtp",
-        "sbc",
-        "sd-wan",
-        "seguranca da informacao",
-        "session border controller",
-        "sip",
-        "sip trunk",
-        "sql server",
-        "srtp",
-        "stun",
-        "suporte nivel 2",
-        "suporte tecnico",
-        "teams",
-        "tim brasil",
-        "troubleshooting",
-        "turn",
-        "unified communications",
-        "ura",
-        "vlan",
-        "vmware",
-        "voip",
-        "vpn",
-        "webex",
-        "windows server",
-        "wireguard",
-        "wireshark",
-        "yealink",
-        "zoom phone"
-      ],
-      "fit_level": "medio",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
-      "contact_email": null,
-      "recruiter": null,
-      "valid_through": null,
-      "company_logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHYfACGo2PM8Q/company-logo_100_100/company-logo_100_100/0/1641256920518?e=2147483647&v=beta&t=bSVdBktuMpW7-uvlrl4bVtUUEL43LoEEKbaiPxBWHfc",
-      "is_overseas": false,
-      "title_class": "core",
-      "target_company": false,
-      "priority_skills": [
-        "redes"
-      ],
-      "last_seen_at": "2026-10-14T15:41:11.477749+00:00"
-    },
-    {
       "id": "eb14ccab679fcc24",
       "title": "Auxiliar de Telecomunicações",
       "company": "Sempre Internet",
@@ -7714,7 +7455,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     },
     {
       "id": "d49a6d787d378a70",
@@ -7835,7 +7576,7 @@
       "cover_letter": null,
       "contact_email": null,
       "recruiter": null,
-      "valid_through": null,
+      "valid_through": "2027-03-15T09:00:57.000Z",
       "company_logo": "https://media.licdn.com/dms/image/v2/D4E0BAQEhRMncH-onsg/company-logo_100_100/B4EZZ8JC3vHMAQ-/0/1745839468589/calltek_inc_logo?e=2147483647&v=beta&t=NVTIaWWpRdKwVW8zZ1sFXLyx7EcOyVp54_fc4cvuUBM",
       "is_overseas": true,
       "title_class": "core",
@@ -7843,7 +7584,8 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-15T15:27:11.982252+00:00"
+      "last_seen_at": "2026-10-15T15:27:11.982252+00:00",
+      "verified_at": "2026-10-20T15:32:02.481233+00:00"
     },
     {
       "id": "4798cd515fb68fd3",
@@ -8099,7 +7841,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     },
     {
       "id": "44b421ab0a62ce53",
@@ -8226,7 +7968,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-15T15:27:11.982252+00:00",
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00"
     },
     {
@@ -8745,7 +8487,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     },
     {
       "id": "6400ce5c69762ae9",
@@ -8874,7 +8616,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     },
     {
       "id": "97d85a8d75393577",
@@ -9133,7 +8875,8 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-16T15:07:01.012659+00:00"
+      "last_seen_at": "2026-10-16T15:07:01.012659+00:00",
+      "verified_at": "2026-10-20T15:32:02.481233+00:00"
     },
     {
       "id": "88f14c8674354eba",
@@ -9392,7 +9135,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-16T15:07:01.012659+00:00",
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00"
     },
     {
@@ -9522,7 +9265,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     },
     {
       "id": "768c7f28b592479a",
@@ -9651,7 +9394,7 @@
       "priority_skills": [
         "unified communications"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     },
     {
       "id": "fe77fdfb9c8d2df8",
@@ -9909,7 +9652,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     },
     {
       "id": "80c1ba3809ca9e1f",
@@ -10167,7 +9910,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     },
     {
       "id": "da42a5fa8b6715a9",
@@ -10297,7 +10040,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     },
     {
       "id": "9c5e682e4b255580",
@@ -10427,14 +10170,526 @@
         "cloud",
         "unified communications"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+    },
+    {
+      "id": "cf2166bce113ebc0",
+      "title": "Analista de Redes - Belo Horizonte - Oportunidades de Trabalho",
+      "company": "Espaço Crescerh",
+      "location": "Belo Horizonte e Região",
+      "salary": "",
+      "description": "Espaço Crescerh Belo Horizonte-MG Remoto Área: Informática / TI / Tecnologia Salário: R$ 5.191,00 Requisitos Requisitos Mínimos: * Ensino Superior completo na área de TI * Experiência com VMware, Windows Server e VPNs, TOLTS * Conhecimento em Scripting * Vivência em administração de redes Atividades Principais Atividades: * Administrar e monitorar redes LAN, WAN e Wi-Fi * Configurar e gerenciar roteadores, switches e firewalls * Identificar e solucionar problemas de conectividade e desempenho * Implementar e gerenciar VPNs para acesso remoto * Realizar backups e garantir a segurança das configurações de rede * Gerenciar servidores de impressão e apoiar melhorias na infraestrutura ⏰ Segunda a sexta-feira | 07:00 às 17:00 | ✅ Benefícios: * Vale-transporte * Vale-refeição – R$ 35,00/dia Confira mais vagas em divulgavagas.com.br Show more Show less",
+      "url": "https://br.linkedin.com/jobs/view/analista-de-redes-belo-horizonte-oportunidades-de-trabalho-at-espa%C3%A7o-crescerh-4478669198",
+      "source": "LinkedIn",
+      "published_at": "2026-10-20",
+      "found_at": "2026-10-20T15:29:44.856662+00:00",
+      "score": 60,
+      "score_breakdown": {
+        "skills": 8,
+        "location": 20,
+        "level": 10,
+        "keywords": 6,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 1,
+        "title": 10,
+        "overseas": 0
+      },
+      "skills_match": [
+        "rede",
+        "redes",
+        "vmware",
+        "windows server"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "noc",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "troubleshooting",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "voip",
+        "vpn",
+        "webex",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "medio",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2026-11-19T07:44:12.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHYfACGo2PM8Q/company-logo_100_100/company-logo_100_100/0/1641256920518?e=2147483647&v=beta&t=bSVdBktuMpW7-uvlrl4bVtUUEL43LoEEKbaiPxBWHfc",
+      "is_overseas": false,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "redes"
+      ],
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+    },
+    {
+      "id": "3da922e48da86c75",
+      "title": "Pre-Sales Solutions Engineer – Telecom/FTTH (MG)",
+      "company": "FiberHome Brasil",
+      "location": "Belo Horizonte, MG",
+      "salary": "",
+      "description": "Quem Somos Nós! A Fiberhome é uma das principais referências globais no setor de telecomunicações e tecnologia da informação. Com uma sólida atuação no mercado, somos especialistas no desenvolvimento de soluções de ponta para infraestrutura de redes inteligentes e fibra óptica, conectando operadoras, empresas e pessoas ao redor do mundo. Nossa história é pautada por inovação constante, alta tecnologia e pelo compromisso em entregar soluções que impulsionam a transformação digital. Fazer parte da Fiberhome significa estar no centro do desenvolvimento tecnológico e contribuir diretamente com projetos que movem o futuro da conectividade. Nossa Cultura e Ambiente! Valorizamos um ambiente colaborativo , dinâmico e focado em resultados. Se você busca um espaço com autonomia, aprendizado constante e respeito às ideias de cada um, aqui é o lugar certo. Responsabilidades e atribuições Atuar no suporte técnico e comercial às oportunidades de vendas, apresentando produtos, soluções e serviços de telecomunicações para clientes e ISPs Entender as necessidades técnicas e de negócio dos clientes e propor soluções adequadas ao seu cenário de rede Apoiar o time comercial em reuniões, apresentações, demonstrações técnicas e discussões com clientes Apresentar soluções relacionadas a FTTH, PON, GPON e XG(S)-PON, conectando características técnicas aos benefícios para o cliente Apoiar a elaboração de propostas técnicas, apresentações comerciais, materiais de solução e respostas a demandas dos clientes Realizar visitas a clientes e participar de reuniões presenciais e online, atuando como ponto de contato técnico durante o processo comercial Identificar oportunidades de expansão de negócios, incluindo novos produtos, upgrades de rede, serviços e soluções complementares Desenvolver e manter relacionamento próximo com clientes, entendendo suas necessidades e acompanhando oportunidades de negócio Trabalhar em conjunto com os times de Vendas, Engenharia, Marketing e Produto para desenvolver soluções e estratégias direcionadas ao mercado Apoiar eventos, feiras, workshops, demonstrações de produtos e outras ações de marketing e relacionamento com clientes Contribuir para a produção e adaptação de conteúdos técnicos e comerciais, como apresentações, cases, materiais de produto e demonstrações Acompanhar tendências e necessidades do mercado de telecomunicações, contribuindo para a identificação de novas oportunidades comerciais Apoiar o time na tradução de requisitos técnicos dos clientes em soluções e oportunidades comerciais Requisitos e qualificações Experiência em telecomunicações, provedores de internet (ISPs), operadoras ou fornecedores de equipamentos/soluções de telecom Experiência ou interesse em atuar com Pré-Vendas, Soluções, Vendas Técnicas, Customer Solutions ou funções de interface técnico-comercial Conhecimento básico de tecnologias FTTH e redes PON, especialmente GPON/XG(S)-PON Conhecimento básico de equipamentos e arquitetura de redes de telecomunicações Boa ",
+      "url": "https://br.linkedin.com/jobs/view/pre-sales-solutions-engineer-%E2%80%93-telecom-ftth-mg-at-fiberhome-brasil-4478674652",
+      "source": "LinkedIn",
+      "published_at": "2026-10-20",
+      "found_at": "2026-10-20T15:29:44.856667+00:00",
+      "score": 58,
+      "score_breakdown": {
+        "skills": 4,
+        "location": 20,
+        "level": 10,
+        "keywords": 8,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 1,
+        "title": 10,
+        "overseas": 0
+      },
+      "skills_match": [
+        "rede",
+        "redes"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "noc",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "troubleshooting",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "medio",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2026-11-19T10:37:38.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4E0BAQF4JvOIajxtWQ/company-logo_100_100/B4EZrgXMzzKoAQ-/0/1764700771188/fiberhomebrasil_logo?e=2147483647&v=beta&t=pY_PBGd7I3GpU003F8khpWIZ1DWyJdNxwfiRp8Sf91c",
+      "is_overseas": false,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "redes"
+      ],
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+    },
+    {
+      "id": "af703775b1e11b14",
+      "title": "ANALISTA DE TELECOM II",
+      "company": "Algar",
+      "location": "Uberlândia, MG",
+      "salary": "",
+      "description": "Responsabilidades e Atividades Atuar na operação, sustentação e evolução do CORE de Rede Móvel, com conhecimentos em arquiteturas 2G3G4G5G, EPC, HLRHSS, GGSNPGW, APNs, DNS, SMSC, protocolos de sinalização e conectividade IP. Realizar análises técnicas, troubleshooting, configurações, homologações e tratativas de incidentes, garantindo a disponibilidade e qualidade dos serviços móveis. Atuar também na função de suporte técnico aos serviços IoTM2M, incluindo configuração de APNs, profiles, SIM Cards, VPNs, firewalls, homologação de dispositivos e atendimento às demandas técnicas de clientes, em integração com fornecedores e equipes especialistas. Benefícios Vale Transporte: Sim, Vale Refeição: Sim, Auxílio Alimentação: Sim, Assistência Médica: Sim, Assistência Odontológica: Sim, Seguro de Vida: Sim, Outros Benefícios: Dr Mais Saúde, Gympass, PsicologiaViva, entre outros Show more Show less",
+      "url": "https://br.linkedin.com/jobs/view/analista-de-telecom-ii-at-algar-4480287393",
+      "source": "LinkedIn",
+      "published_at": "2026-10-19",
+      "found_at": "2026-10-20T15:29:46.915882+00:00",
+      "score": 78,
+      "score_breakdown": {
+        "skills": 8,
+        "location": 20,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 15,
+        "priority_skills": 0,
+        "title": 10,
+        "overseas": 0
+      },
+      "skills_match": [
+        "algar",
+        "dns",
+        "rede",
+        "troubleshooting"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "noc",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "redes",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "alto",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2026-11-18T21:43:44.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHEZazT5M2tVw/company-logo_100_100/B4EZ5g0elYHcAI-/0/1779740830319/algar_oficial_logo?e=2147483647&v=beta&t=50fhR_UDxLLEZV9UwK6Qf5oOKJmT4_IFNdllFAxExbo",
+      "is_overseas": false,
+      "title_class": "core",
+      "target_company": true,
+      "priority_skills": [],
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+    },
+    {
+      "id": "89c26b88e1746acf",
+      "title": "Técnico Trainee em Telecomunicações",
+      "company": "Jobbol",
+      "location": "Belo Horizonte, MG",
+      "salary": "",
+      "description": "Empresa de Teleatendimento busca profissional Técnico Trainee em Telecomunicações em Belo Horizonte (Planalto). A Office Telco é uma empresa especialista no mercado de recuperação de crédito. Com mais de 22 anos de experiência, têm em seu DNA a tecnologia, inovação, agilidade e resultados. Responsabilidades Realizar instalações, manutenções e ativações de serviços de internet, TV e telefonia em residências. Prestar atendimento aos clientes durante as visitas técnicas. Garantir a qualidade das instalações e dos serviços executados. Seguir os procedimentos e padrões técnicos estabelecidos pela operadora. Atuações anteriores em Estagiário em Telecomunicações, Assistente Técnico em Telecomunicações, Aprendiz em Telecomunicações ou Analista Júnior em Telecomunicações podem indicar afinidade com algumas das atividades desta posição. Requisitos Desejáveis Escolaridade: Ensino médio completo Experiência: Sem experiência Remuneração e Benefícios Salário: 1.621,00 Vale Refeição Auxílio Combustível Vale Transporte Veículo Adicional Periculosidade Bonificação por Metas Descontos em Parceiros Horas Extras Seguro de Vida Banco de Horas Celular Day Off Aniversário Plano de Carreira Treinamentos Informações Adicionais Contrato: Efetivo. Presencial. Candidatos de Nova Lima, Sabará, Contagem ou Raposos também são considerados para esta vaga. Período: Tempo integral Jornada: Segunda a Sábado, das 08:00 às 16:20. Show more Show less",
+      "url": "https://br.linkedin.com/jobs/view/t%C3%A9cnico-trainee-em-telecomunica%C3%A7%C3%B5es-at-jobbol-4481257653",
+      "source": "LinkedIn",
+      "published_at": "2026-10-19",
+      "found_at": "2026-10-20T15:30:06.415063+00:00",
+      "score": 65,
+      "score_breakdown": {
+        "skills": 2,
+        "location": 20,
+        "level": 20,
+        "keywords": 8,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 0,
+        "title": 10,
+        "overseas": 0
+      },
+      "skills_match": [
+        "operadora"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "noc",
+        "olt",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "redes",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "troubleshooting",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "medio",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2026-11-18T19:52:10.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4D0BAQEUwreILeGS7Q/company-logo_100_100/B4DZ5wJQzAG4AM-/0/1779997937122/jobbol_empregos_logo?e=2147483647&v=beta&t=47i8HzJ8kSKiMu7089w8KVQJJkXRPs0z7qrtMet3AcA",
+      "is_overseas": false,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [],
+      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
     }
   ],
-  "last_updated": "2026-10-19T17:18:45.458276+00:00",
+  "last_updated": "2026-10-20T15:32:05.662280+00:00",
   "stats": {
-    "total": 80,
+    "total": 82,
     "alto_fit": 54,
-    "medio_fit": 23,
+    "medio_fit": 25,
     "baixo_fit": 3,
     "enviadas": 2
   }
