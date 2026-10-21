@@ -255,7 +255,7 @@
       "priority_skills": [
         "unified communications"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
     },
     {
       "id": "6bb002b911acfdf5",
@@ -777,7 +777,7 @@
         "network"
       ],
       "last_seen_at": "2026-09-13T07:33:26.441400+00:00",
-      "verified_at": "2026-10-16T15:07:04.120109+00:00"
+      "verified_at": "2026-10-21T15:47:53.849813+00:00"
     },
     {
       "id": "1aee7fdf835947a7",
@@ -1564,7 +1564,7 @@
         "redes",
         "sd-wan"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00",
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00"
     },
     {
@@ -1833,133 +1833,6 @@
       "verified_at": "2026-10-20T15:32:02.481233+00:00"
     },
     {
-      "id": "f6903d1826b3343c",
-      "title": "Suporte Técnico Operacional",
-      "company": "Jobbol",
-      "location": "Manhuaçu, MG",
-      "salary": "",
-      "description": "Empresa de Tecnologia e Rastreamento busca profissional Suporte Técnico Operacional em Manhuaçu (Sagrada Família). Responsabilidades Atendimento ao cliente por telefone e canais digitais. Monitoramento remoto e testes de campo. Execução de rotinas internas e cumprimento de procedimentos. Organização e gestão de agendas. Atuações anteriores em Analista de Suporte, Técnico de Help Desk, Assistente de Suporte ou Especialista em Atendimento ao Cliente podem indicar afinidade com algumas das atividades desta posição. Requisitos Desejáveis Escolaridade: Técnico completo Experiência: Necessário experiência Remuneração e Benefícios Salário: Faixa salarial será informada na entrevista. Benefícios a combinar Informações Adicionais Contrato: Híbrida. Modalidade de trabalho híbrido. Candidatos de Reduto, Manhumirim, Simonésia ou Martins Soares também são considerados para esta vaga. Período: Tempo Integral Jornada: A combinar Show more Show less",
-      "url": "https://br.linkedin.com/jobs/view/suporte-t%C3%A9cnico-operacional-at-jobbol-4469888844",
-      "source": "LinkedIn",
-      "published_at": "2026-09-21",
-      "found_at": "2026-09-21T16:44:50.419903+00:00",
-      "score": 45,
-      "score_breakdown": {
-        "skills": 0,
-        "location": 20,
-        "level": 10,
-        "keywords": 0,
-        "salary": 5,
-        "target_company": 0,
-        "priority_skills": 0,
-        "title": 10,
-        "overseas": 0
-      },
-      "skills_match": [],
-      "skills_gap": [
-        "3cx",
-        "active directory",
-        "algar",
-        "algar telecom",
-        "analise de logs",
-        "asterisk",
-        "atendimento tecnico",
-        "avaya",
-        "aws",
-        "azure",
-        "bgp",
-        "broadworks",
-        "call center",
-        "cdr",
-        "cisco",
-        "cloud",
-        "codec",
-        "codecs",
-        "comunicacoes unificadas",
-        "contact center",
-        "cybersecurity",
-        "digitro",
-        "dns",
-        "documentacao tecnica",
-        "e1",
-        "embratel",
-        "firewall",
-        "fortigate",
-        "freeswitch",
-        "g.711",
-        "g.729",
-        "gateway",
-        "gcp",
-        "genesys",
-        "grandstream",
-        "huawei",
-        "intelbras",
-        "ip pbx",
-        "isdn",
-        "khomp",
-        "leucotron",
-        "linux",
-        "mikrotik",
-        "nat",
-        "network",
-        "networking",
-        "nivel 2",
-        "noc",
-        "olt",
-        "operadora",
-        "ordem de servico",
-        "pabx",
-        "pabx ip",
-        "qos",
-        "ramais",
-        "ramal",
-        "rede",
-        "redes",
-        "rtp",
-        "sbc",
-        "sd-wan",
-        "seguranca da informacao",
-        "session border controller",
-        "sip",
-        "sip trunk",
-        "sql server",
-        "srtp",
-        "stun",
-        "suporte nivel 2",
-        "suporte tecnico",
-        "teams",
-        "tim brasil",
-        "troubleshooting",
-        "turn",
-        "unified communications",
-        "ura",
-        "vlan",
-        "vmware",
-        "voip",
-        "vpn",
-        "webex",
-        "windows server",
-        "wireguard",
-        "wireshark",
-        "yealink",
-        "zoom phone"
-      ],
-      "fit_level": "baixo",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
-      "contact_email": null,
-      "recruiter": null,
-      "valid_through": "2026-10-21T13:51:30.000Z",
-      "company_logo": "https://media.licdn.com/dms/image/v2/D4D0BAQEUwreILeGS7Q/company-logo_100_100/B4DZ5wJQzAG4AM-/0/1779997937122/jobbol_empregos_logo?e=2147483647&v=beta&t=47i8HzJ8kSKiMu7089w8KVQJJkXRPs0z7qrtMet3AcA",
-      "is_overseas": false,
-      "title_class": "core",
-      "target_company": false,
-      "priority_skills": [],
-      "last_seen_at": "2026-10-07T17:39:05.828387+00:00",
-      "verified_at": "2026-10-16T15:07:04.120109+00:00"
-    },
-    {
       "id": "4108f0ada0fef52e",
       "title": "Network Operation Centre (NOC) Engineer - Telecommunications",
       "company": "1GLOBAL",
@@ -2226,7 +2099,7 @@
         "networking"
       ],
       "last_seen_at": "2026-09-22T15:19:33.301397+00:00",
-      "verified_at": "2026-10-16T15:07:04.120109+00:00"
+      "verified_at": "2026-10-21T15:47:53.849813+00:00"
     },
     {
       "id": "69eff02572aaa5a6",
@@ -2485,7 +2358,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
     },
     {
       "id": "a086c31cfd59b183",
@@ -2615,7 +2488,7 @@
         "redes"
       ],
       "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
-      "verified_at": "2026-10-16T15:07:04.120109+00:00"
+      "verified_at": "2026-10-21T15:47:53.849813+00:00"
     },
     {
       "id": "f1bd1b4a10f8ea5e",
@@ -2878,7 +2751,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
     },
     {
       "id": "1cdb6c08a0dafb96",
@@ -3140,7 +3013,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
     },
     {
       "id": "dae7040133a8b9ad",
@@ -3791,7 +3664,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-16T15:07:01.012659+00:00",
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00",
       "verified_at": "2026-10-20T15:32:02.481233+00:00"
     },
     {
@@ -4319,7 +4192,7 @@
         "networking",
         "zero trust"
       ],
-      "last_seen_at": "2026-10-16T15:07:01.012659+00:00",
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00"
     },
     {
@@ -4450,7 +4323,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-16T15:07:01.012659+00:00",
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00"
     },
     {
@@ -4584,7 +4457,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
     },
     {
       "id": "e74bc61ab76846ce",
@@ -4843,7 +4716,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
     },
     {
       "id": "80d51fb65e8c7289",
@@ -5109,7 +4982,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00",
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00",
       "verified_at": "2026-10-13T17:54:34.336523+00:00"
     },
     {
@@ -5245,7 +5118,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00",
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00",
       "verified_at": "2026-10-12T20:05:47.414438+00:00"
     },
     {
@@ -5376,7 +5249,7 @@
         "redes"
       ],
       "last_seen_at": "2026-10-08T17:42:13.424691+00:00",
-      "verified_at": "2026-10-16T15:07:04.120109+00:00"
+      "verified_at": "2026-10-21T15:47:53.849813+00:00"
     },
     {
       "id": "88db1cce17150dbf",
@@ -5895,7 +5768,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
     },
     {
       "id": "7ce3ea34b891586f",
@@ -6288,7 +6161,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
     },
     {
       "id": "8b76fd3282dcf5a2",
@@ -6552,7 +6425,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
     },
     {
       "id": "ab648e60745a043e",
@@ -6815,7 +6688,7 @@
         "networking",
         "unified communications"
       ],
-      "last_seen_at": "2026-10-16T15:07:01.012659+00:00",
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00",
       "verified_at": "2026-10-20T15:32:02.481233+00:00"
     },
     {
@@ -6945,7 +6818,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
     },
     {
       "id": "1492fc5e208eb4c0",
@@ -7201,135 +7074,6 @@
       "priority_skills": [],
       "last_seen_at": "2026-10-13T17:54:34.322706+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00"
-    },
-    {
-      "id": "9963ab34bef8654d",
-      "title": "Unified Communications Engineer (m/w/d)",
-      "company": "Rocken®",
-      "location": "Olten, Soleura, Suíça",
-      "salary": "",
-      "description": "",
-      "url": "https://ch.linkedin.com/jobs/view/unified-communications-engineer-m-w-d-at-rocken%C2%AE-4477989907",
-      "source": "LinkedIn",
-      "published_at": "2026-10-13",
-      "found_at": "2026-10-13T17:54:28.833787+00:00",
-      "score": 67,
-      "score_breakdown": {
-        "skills": 2,
-        "location": 20,
-        "level": 10,
-        "keywords": 4,
-        "salary": 5,
-        "target_company": 0,
-        "priority_skills": 1,
-        "title": 10,
-        "overseas": 15
-      },
-      "skills_match": [
-        "unified communications"
-      ],
-      "skills_gap": [
-        "3cx",
-        "active directory",
-        "algar",
-        "algar telecom",
-        "analise de logs",
-        "asterisk",
-        "atendimento tecnico",
-        "avaya",
-        "aws",
-        "azure",
-        "bgp",
-        "broadworks",
-        "call center",
-        "cdr",
-        "cisco",
-        "cloud",
-        "codec",
-        "codecs",
-        "comunicacoes unificadas",
-        "contact center",
-        "cybersecurity",
-        "digitro",
-        "dns",
-        "documentacao tecnica",
-        "e1",
-        "embratel",
-        "firewall",
-        "fortigate",
-        "freeswitch",
-        "g.711",
-        "g.729",
-        "gateway",
-        "gcp",
-        "genesys",
-        "grandstream",
-        "huawei",
-        "intelbras",
-        "ip pbx",
-        "isdn",
-        "khomp",
-        "leucotron",
-        "linux",
-        "mikrotik",
-        "nat",
-        "network",
-        "networking",
-        "nivel 2",
-        "noc",
-        "olt",
-        "operadora",
-        "ordem de servico",
-        "pabx",
-        "pabx ip",
-        "qos",
-        "ramais",
-        "ramal",
-        "rede",
-        "redes",
-        "rtp",
-        "sbc",
-        "sd-wan",
-        "seguranca da informacao",
-        "session border controller",
-        "sip",
-        "sip trunk",
-        "sql server",
-        "srtp",
-        "stun",
-        "suporte nivel 2",
-        "suporte tecnico",
-        "teams",
-        "tim brasil",
-        "troubleshooting",
-        "turn",
-        "ura",
-        "vlan",
-        "vmware",
-        "voip",
-        "vpn",
-        "webex",
-        "windows server",
-        "wireguard",
-        "wireshark",
-        "yealink",
-        "zoom phone"
-      ],
-      "fit_level": "alto",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
-      "contact_email": null,
-      "recruiter": null,
-      "valid_through": null,
-      "company_logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGgjK_sw5ZMzw/company-logo_100_100/company-logo_100_100/0/1712041036099/rockenjobs_logo?e=2147483647&v=beta&t=v24Ii-eKnqwrnhJqNVlIZfsaIVs9SB3cXMzpK9ZsG3w",
-      "is_overseas": true,
-      "title_class": "core",
-      "target_company": false,
-      "priority_skills": [
-        "unified communications"
-      ],
-      "last_seen_at": "2026-10-14T15:41:11.477749+00:00"
     },
     {
       "id": "eb14ccab679fcc24",
@@ -7714,7 +7458,8 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-15T15:27:11.982252+00:00"
+      "last_seen_at": "2026-10-15T15:27:11.982252+00:00",
+      "verified_at": "2026-10-21T15:47:53.849813+00:00"
     },
     {
       "id": "be5f44c56453cbad",
@@ -8102,133 +7847,6 @@
       "verified_at": "2026-10-19T17:18:39.158506+00:00"
     },
     {
-      "id": "588c4b18e359cc4d",
-      "title": "IP telephony Engineer / Vicidial Specialist",
-      "company": "Sybrid Private Limited - A Lakson Group Company",
-      "location": "Islamabad, Território da Capital Islamabad, Paquistão",
-      "salary": "",
-      "description": "We are looking for a skilled and proactive IP Telephony Engineer / Vicidial Specialist to manage, optimize, and scale our contact center voice infrastructure. The ideal candidate will have hands-on expertise in Vicidial, SIP technologies, Linux systems, and call center telephony environments. This role plays a critical part in ensuring call quality, uptime, and campaign efficiency across operations. Key Responsibilities: Vicidial & Dialer Operations Configure, manage, and optimize Vicidial (v10 / v11) environments. Support inbound, outbound, and blended contact center campaigns. Tune dial levels , hopper behavior , and performance settings for maximum efficiency. Troubleshoot real-time call issues, including call drops, audio delays, and sound quality problems . Manage SIP trunks , carriers, and interconnections to ensure stable call routing. Troubleshoot and diagnose SIP/RTP issues (latency, jitter, one-way audio, etc.). Work with Asterisk-based VoIP systems for dial-plan and server-level tasks. Integrate and support Kamailio, FreeSWITCH, or similar SIP components (preferred). Linux & Infrastructure Management Administer and maintain Linux servers (Debian, CentOS, Rocky, openSUSE, etc.). Monitor system health, logs, and performance metrics for stability and uptime. Perform basic MySQL/MariaDB maintenance , backups, and routine database operations. Required Skills & Qualifications: Proven experience in Vicidial , VoIP , and SIP-based telephony systems . Strong understanding of SIP, RTP, and Asterisk . Hands-on experience with Linux administration . Ability to troubleshoot call flows, routing issues, and dialer performance. Understanding of call center operations , dialer logic, and campaign mechanics. Familiarity with Kamailio / FreeSWITCH / SBCs is a plus. Strong analytical and problem-solving abilities. Ability to work independently and collaborate with cross-functional teams. Preferred Experience: Previous experience in a contact center / VoIP service provider environment. Exposure to carrier management, load balancing, and voice routing . Why Join Us: Opportunity to own and scale mission-critical voice infrastructure. Collaborative environment with ownership and growth potential. Exposure to modern contact center and VoIP technologies. Show more Show less",
-      "url": "https://pk.linkedin.com/jobs/view/ip-telephony-engineer-vicidial-specialist-at-sybrid-private-limited-a-lakson-group-company-4477061835",
-      "source": "LinkedIn",
-      "published_at": "2026-10-15",
-      "found_at": "2026-10-15T15:26:44.407352+00:00",
-      "score": 90,
-      "score_breakdown": {
-        "skills": 20,
-        "location": 20,
-        "level": 10,
-        "keywords": 10,
-        "salary": 5,
-        "target_company": 0,
-        "priority_skills": 0,
-        "title": 10,
-        "overseas": 15
-      },
-      "skills_match": [
-        "asterisk",
-        "call center",
-        "contact center",
-        "freeswitch",
-        "linux",
-        "rtp",
-        "sip",
-        "teams",
-        "voip"
-      ],
-      "skills_gap": [
-        "3cx",
-        "active directory",
-        "algar",
-        "algar telecom",
-        "analise de logs",
-        "atendimento tecnico",
-        "avaya",
-        "aws",
-        "azure",
-        "bgp",
-        "broadworks",
-        "cdr",
-        "cisco",
-        "cloud",
-        "codec",
-        "codecs",
-        "comunicacoes unificadas",
-        "cybersecurity",
-        "digitro",
-        "dns",
-        "documentacao tecnica",
-        "e1",
-        "embratel",
-        "firewall",
-        "fortigate",
-        "g.711",
-        "g.729",
-        "gateway",
-        "gcp",
-        "genesys",
-        "grandstream",
-        "huawei",
-        "intelbras",
-        "ip pbx",
-        "isdn",
-        "khomp",
-        "leucotron",
-        "mikrotik",
-        "nat",
-        "network",
-        "networking",
-        "nivel 2",
-        "noc",
-        "olt",
-        "operadora",
-        "ordem de servico",
-        "pabx",
-        "pabx ip",
-        "qos",
-        "ramais",
-        "ramal",
-        "rede",
-        "redes",
-        "sbc",
-        "sd-wan",
-        "seguranca da informacao",
-        "session border controller",
-        "sip trunk",
-        "sql server",
-        "srtp",
-        "stun",
-        "suporte nivel 2",
-        "suporte tecnico",
-        "tim brasil",
-        "troubleshooting",
-        "turn",
-        "unified communications",
-        "ura",
-        "vlan",
-        "vmware",
-        "vpn",
-        "webex",
-        "windows server",
-        "wireguard",
-        "wireshark",
-        "yealink",
-        "zoom phone"
-      ],
-      "fit_level": "alto",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
-      "contact_email": null,
-      "recruiter": null,
-      "valid_through": "2027-04-13T15:11:20.000Z",
-      "company_logo": "https://media.licdn.com/dms/image/v2/C510BAQGyfFR50L6xeg/company-logo_100_100/company-logo_100_100/0/1631398554364?e=2147483647&v=beta&t=vLa6KIRIkhi2fQatmWLibNt23pv7l07rnYd5mnkpZMs",
-      "is_overseas": true,
-      "title_class": "core",
-      "target_company": false,
-      "priority_skills": [],
-      "last_seen_at": "2026-10-15T15:27:11.982252+00:00"
-    },
-    {
       "id": "429138ba502b8755",
       "title": "NOC Engineer",
       "company": "8x8",
@@ -8487,7 +8105,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
     },
     {
       "id": "6400ce5c69762ae9",
@@ -8745,7 +8363,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-16T15:07:01.012659+00:00",
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00"
     },
     {
@@ -8879,136 +8497,6 @@
       "verified_at": "2026-10-20T15:32:02.481233+00:00"
     },
     {
-      "id": "88f14c8674354eba",
-      "title": "Analista de Redes N2 (Pleno)",
-      "company": "Union Network",
-      "location": "Canoas, RS",
-      "salary": "",
-      "description": "🚨 VAGA ABERTA | Analista de Redes N2 (Pleno) | 100% Remoto Sobre a vaga A Union Network busca um Analista de Redes N2 para atuar no suporte avançado, na sustentação e na otimização de infraestruturas de telecomunicações e provedores de internet (ISP). Você será responsável pela resolução de incidentes complexos de camada 2 e 3, pela gestão de redes ópticas (GPON/FTTH), pelo roteamento dinâmico, pelos serviços de acesso e pelo monitoramento do ambiente, com atuação consultiva junto aos clientes. Principais responsabilidades Troubleshooting N2: tratar incidentes escalados de camada 2 e 3, identificando e resolvendo falhas de conectividade, degradação de tráfego e problemas de roteamento. Redes ópticas (FTTH/GPON): provisionar, configurar e resolver problemas em OLTs e ONUs/ONTs (Huawei, Nokia, entre outros). Roteamento e borda: configurar e manter sessões BGP (eBGP/iBGP), engenharia de tráfego, OSPF e políticas de roteamento. Acesso e endereçamento: administrar BNG para autenticação de clientes e gerir arquiteturas de CGNAT (pool de IPs públicos, tradução de portas e logs). Monitoramento e performance: criar e acompanhar dashboards e alertas no Zabbix e no Grafana, analisando tráfego, latência e disponibilidade. Sustentação multivendor: atuar em Mikrotik (RouterOS), Huawei (VRP), Cisco (IOS/IOS-XR) e Nokia (SR-OS). Gestão de mudanças (GMUD): executar janelas de manutenção, atualizações de firmware/software e alterações topológicas programadas. Requisitos obrigatórios Mínimo de 2 anos de experiência comprovada em provedores de internet (ISP) ou em infraestrutura/telecomunicações. Experiência comprovada com OLT, GPON Domínio prático de CGNAT e BNG/PPPoE. Sólida experiência em BGP e OSPF. Domínio de comutação e roteamento em Mikrotik, Huawei, Cisco e Nokia. Domínio de Zabbix e Grafana. Competências técnicas Acesso óptico/FTTH: OLT, GPON, ONU/ONT, provisionamento e análise de sinal óptico. Serviços de ISP e borda: BNG (PPPoE/IPoE), CGNAT (Deterministic/NAT444), gestão de blocos IPv4/IPv6. Roteamento e comutação: BGP (peering, transit, eBGP/iBGP), OSPF, MPLS, VLANs, LACP, QinQ. Plataformas: Huawei (VRP), Mikrotik (RouterOS), Cisco, Nokia (SR-OS). Monitoramento e gestão: Zabbix (templates, SNMP, macros), Grafana, Syslog, Wireshark. Diferenciais Certificações como MikroTik (MTCNA/MTCRE), Huawei HCIA/HCIP Datacom, Cisco CCNA/CCNP, vivência em atendimento a clientes e consultoria técnica para provedores. Como se candidatar Envie seu currículo para fabio.fernandes@unionnetwork.com.br com o assunto “Analista N2 - Remoto”. Show more Show less",
-      "url": "https://br.linkedin.com/jobs/view/analista-de-redes-n2-pleno-at-union-network-4479357888",
-      "source": "LinkedIn",
-      "published_at": "2026-10-16",
-      "found_at": "2026-10-16T15:06:50.826550+00:00",
-      "score": 96,
-      "score_breakdown": {
-        "skills": 19,
-        "location": 20,
-        "level": 15,
-        "keywords": 10,
-        "salary": 5,
-        "target_company": 0,
-        "priority_skills": 2,
-        "title": 10,
-        "overseas": 15
-      },
-      "skills_match": [
-        "bgp",
-        "cisco",
-        "huawei",
-        "mikrotik",
-        "network",
-        "olt",
-        "redes",
-        "troubleshooting",
-        "wireshark"
-      ],
-      "skills_gap": [
-        "3cx",
-        "active directory",
-        "algar",
-        "algar telecom",
-        "analise de logs",
-        "asterisk",
-        "atendimento tecnico",
-        "avaya",
-        "aws",
-        "azure",
-        "broadworks",
-        "call center",
-        "cdr",
-        "cloud",
-        "codec",
-        "codecs",
-        "comunicacoes unificadas",
-        "contact center",
-        "cybersecurity",
-        "digitro",
-        "dns",
-        "documentacao tecnica",
-        "e1",
-        "embratel",
-        "firewall",
-        "fortigate",
-        "freeswitch",
-        "g.711",
-        "g.729",
-        "gateway",
-        "gcp",
-        "genesys",
-        "grandstream",
-        "intelbras",
-        "ip pbx",
-        "isdn",
-        "khomp",
-        "leucotron",
-        "linux",
-        "nat",
-        "networking",
-        "nivel 2",
-        "noc",
-        "operadora",
-        "ordem de servico",
-        "pabx",
-        "pabx ip",
-        "qos",
-        "ramais",
-        "ramal",
-        "rede",
-        "rtp",
-        "sbc",
-        "sd-wan",
-        "seguranca da informacao",
-        "session border controller",
-        "sip",
-        "sip trunk",
-        "sql server",
-        "srtp",
-        "stun",
-        "suporte nivel 2",
-        "suporte tecnico",
-        "teams",
-        "tim brasil",
-        "turn",
-        "unified communications",
-        "ura",
-        "vlan",
-        "vmware",
-        "voip",
-        "vpn",
-        "webex",
-        "windows server",
-        "wireguard",
-        "yealink",
-        "zoom phone"
-      ],
-      "fit_level": "alto",
-      "status": "enviada",
-      "applied_at": "2026-10-16T15:07:04.117937+00:00",
-      "cover_letter": "I am a Telecommunications Analyst with five years of experience delivering tier‑2 support for IP‑telephony and VoIP services. My daily responsibilities include SIP and RTP protocol analysis, SBC troubleshooting, and end‑to‑end incident handling in mission‑critical environments, which directly aligns with the advanced troubleshooting focus of the Analista de Redes N2 role.\n\nI have extensive hands‑on experience capturing and interpreting traffic with Wireshark, performing CDR and SIP log analysis, and diagnosing issues related to NAT, firewalls, and codecs. These skills translate to the detailed packet‑level diagnostics required for complex layer‑2/3 incidents and performance monitoring.\n\nMy work involves direct technical coordination with carriers such as Oi, Algar and TIP, handling service tickets, and documenting operational procedures. This background equips me to provide consultative support to customers and to manage change windows and firmware updates across multivendor environments.\n\nI am based in Belo Horizonte and open to fully remote work. I am available for an interview at your convenience to discuss how my expertise can contribute to Union Network’s network operations.",
-      "contact_email": "fabio.fernandes@unionnetwork.com.br",
-      "recruiter": null,
-      "valid_through": "2027-04-14T14:44:50.000Z",
-      "company_logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHLGEtF6NPxNA/company-logo_100_100/company-logo_100_100/0/1641612744400/union_network_logo?e=2147483647&v=beta&t=QAe7rEI4Knhdt4FvkCyrdIJAirQ0ds_ioVZm55y-nFw",
-      "is_overseas": true,
-      "title_class": "core",
-      "target_company": false,
-      "priority_skills": [
-        "network",
-        "redes"
-      ],
-      "last_seen_at": "2026-10-16T15:07:01.012659+00:00"
-    },
-    {
       "id": "baa96cdf232824a2",
       "title": "Network Performance Change Analyst",
       "company": "Point Broadband",
@@ -9135,7 +8623,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00",
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00"
     },
     {
@@ -9265,7 +8753,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
     },
     {
       "id": "768c7f28b592479a",
@@ -9652,7 +9140,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
     },
     {
       "id": "80c1ba3809ca9e1f",
@@ -9781,7 +9269,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-19T17:18:39.126889+00:00"
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
     },
     {
       "id": "b0fc55ca802d4083",
@@ -9910,7 +9398,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
     },
     {
       "id": "da42a5fa8b6715a9",
@@ -10428,7 +9916,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
     },
     {
       "id": "af703775b1e11b14",
@@ -10555,7 +10043,7 @@
       "title_class": "core",
       "target_company": true,
       "priority_skills": [],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
     },
     {
       "id": "89c26b88e1746acf",
@@ -10682,15 +10170,145 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
+    },
+    {
+      "id": "ff052829a66c09d6",
+      "title": "(UK) Network Operations Technician",
+      "company": "NexGen Networks",
+      "location": "Londres, Inglaterra, Reino Unido",
+      "salary": "",
+      "description": "Key role: this position requires a NOC Technician who possesses an understanding of how to build, configure, and troubleshoot carrier class tdm and tcp/ip networks. This is a full-time remote Network Operations Technician role responsible for monitoring, troubleshooting, and resolving network issues. The Network Operations Technician will work with a team of network professionals to maintain and improve network performance and reliability. The role requires experience with a variety of network technologies including routers, switches, and firewalls. Responsibilities Exceptional knowledge of Network Administration and Troubleshooting Experience with routers and other network hardware Experience with WAN and LAN, TCP/IP, switching, routing protocols, and other networking technologies Excellent communication and problem-solving skills Certifications in network technologies such as CCNA, CCNP, or CompTIA Network+ are desirable Exceptional knowledge of Network Administration and Troubleshooting Proficiency in Computer Network Operations and Network Security Experience with routers and other network hardware Experience with Visio and Excel a plus Experience with WAN and LAN, TCP/IP, switching, routing protocols, and other networking technologies Strong written and verbal communication skills Able to work unsupervised, but also to utilize direction, supervision, criticism, and training effectively Strong work ethic and multi-tasking ability Certifications in network technologies such as CCNA, CCNP, or CompTIA Network+ 1-2 years work experience in telecommunications or similar fields (in some cases a 4 year degree would be accepted in lieu of work experience) Bachelor's degree in Computer Science, Information Technology, or related field Show more Show less",
+      "url": "https://uk.linkedin.com/jobs/view/uk-network-operations-technician-at-nexgen-networks-4480555467",
+      "source": "LinkedIn",
+      "published_at": "2026-10-16",
+      "found_at": "2026-10-21T15:47:31.353727+00:00",
+      "score": 80,
+      "score_breakdown": {
+        "skills": 8,
+        "location": 20,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 2,
+        "title": 10,
+        "overseas": 15
+      },
+      "skills_match": [
+        "network",
+        "networking",
+        "noc",
+        "troubleshooting"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "nivel 2",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "redes",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "alto",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2026-11-10T09:37:16.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/C560BAQFNtfK9LcSB_Q/company-logo_100_100/company-logo_100_100/0/1630657135764/nexgen_networks_logo?e=2147483647&v=beta&t=YcqUbTn-PbNMBzjIwSNHvc-dQA4Y_p0qCMF3v-T9NYc",
+      "is_overseas": true,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "network",
+        "networking"
+      ],
+      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
     }
   ],
-  "last_updated": "2026-10-20T15:32:05.662280+00:00",
+  "last_updated": "2026-10-21T15:47:55.323428+00:00",
   "stats": {
-    "total": 82,
-    "alto_fit": 54,
+    "total": 79,
+    "alto_fit": 52,
     "medio_fit": 25,
-    "baixo_fit": 3,
-    "enviadas": 2
+    "baixo_fit": 2,
+    "enviadas": 1
   }
 }
