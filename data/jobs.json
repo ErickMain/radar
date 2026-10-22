@@ -1564,7 +1564,7 @@
         "redes",
         "sd-wan"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00",
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00"
     },
     {
@@ -1963,275 +1963,6 @@
       "verified_at": "2026-10-19T17:18:39.158506+00:00"
     },
     {
-      "id": "92b9f241544595e3",
-      "title": "Network Operations Center Engineer",
-      "company": "IT BY DESIGN",
-      "location": "Taguig, Grande Manila, Filipinas",
-      "salary": "",
-      "description": "NOC Engineer Location: Onsite – BGC, Taguig Shift: : 2 AM to 8AM EST | Rest days - Tuesday and Wednesday Job Summary: Provide technical support and NOC operations for client environments, troubleshooting Windows, Active Directory, servers, networks, firewalls, and infrastructure while ensuring timely incident resolution and system availability. Key Responsibilities Detect and analyze alarms and events to provide basic fault isolation and troubleshooting, and escalations to higher-tiered technical resources, where appropriate. Monitor and process event tickets on a first-come, first-serve basis, while being sensitive to the important of a timely reaction to events Participate in Incident Management by providing situational reports (sitreps) via ticket updates and/or customer-facing communications. Establish effective lines of communication with the NOC and the service delivery teams/management to ensure cases are flagged that require immediate attention. Take ownership of documenting incidents, maintenance, and problem details in near real-time. Provide first level technical resolution for event tickets and alerts. Escalate first level infrastructure alerts to second tier NOC resources. Demonstrate problem solving skills that contribute towards the resolution of any issues that arise. Document solutions, processes, or procedures and present them in writing, verbally on the phone or in-person. Investigate, resolve, and/or escalate matters of significance pertaining to customer alerts and events. Qualifications: 24x7 NOC/SOC experience, working for an MSP, MSSP, or internal enterprise teams. ITILv4 certification. Experience with ITIL Event Management, Incident Management, and Problem Management. A commanding grasp of the OSI model, and the ability to differentiate layers 1-4, including functional examples in each layer The ability to review, assess, and modify basic firewall rules Experience with public cloud networking (I.e. Azure, AWS, Google Cloud, etc) Layer 2 & 3 switching, VLANs, and Static IP routing experience A Bachelor’s degree in Computer Science, Cybersecurity, or other tech-related degree. One, or more, of the following certifications: CompTIA Network+, Cisco CCNA, Cyber Ops, GIAC GSEC. Why Join IT by Design?﻿ Career Growth – Build advanced Windows, AD, networking, and infrastructure skills with opportunities to progress. Global Exposure – Support international MSP clients and enterprise IT environments. Competitive Benefits – Day 1 HMO, life insurance, pet insurance, night differential, and WFO allowance. Show more Show less",
-      "url": "https://ph.linkedin.com/jobs/view/network-operations-center-engineer-at-it-by-design-4468727100",
-      "source": "LinkedIn",
-      "published_at": "2026-09-22",
-      "found_at": "2026-09-22T15:19:17.102133+00:00",
-      "score": 100,
-      "score_breakdown": {
-        "skills": 24,
-        "location": 20,
-        "level": 10,
-        "keywords": 10,
-        "salary": 5,
-        "target_company": 0,
-        "priority_skills": 6,
-        "title": 10,
-        "overseas": 15
-      },
-      "skills_match": [
-        "active directory",
-        "aws",
-        "azure",
-        "cisco",
-        "cloud",
-        "cybersecurity",
-        "firewall",
-        "network",
-        "networking",
-        "noc",
-        "teams",
-        "troubleshooting"
-      ],
-      "skills_gap": [
-        "3cx",
-        "algar",
-        "algar telecom",
-        "analise de logs",
-        "asterisk",
-        "atendimento tecnico",
-        "avaya",
-        "bgp",
-        "broadworks",
-        "call center",
-        "cdr",
-        "codec",
-        "codecs",
-        "comunicacoes unificadas",
-        "contact center",
-        "digitro",
-        "dns",
-        "documentacao tecnica",
-        "e1",
-        "embratel",
-        "fortigate",
-        "freeswitch",
-        "g.711",
-        "g.729",
-        "gateway",
-        "gcp",
-        "genesys",
-        "grandstream",
-        "huawei",
-        "intelbras",
-        "ip pbx",
-        "isdn",
-        "khomp",
-        "leucotron",
-        "linux",
-        "mikrotik",
-        "nat",
-        "nivel 2",
-        "olt",
-        "operadora",
-        "ordem de servico",
-        "pabx",
-        "pabx ip",
-        "qos",
-        "ramais",
-        "ramal",
-        "rede",
-        "redes",
-        "rtp",
-        "sbc",
-        "sd-wan",
-        "seguranca da informacao",
-        "session border controller",
-        "sip",
-        "sip trunk",
-        "sql server",
-        "srtp",
-        "stun",
-        "suporte nivel 2",
-        "suporte tecnico",
-        "tim brasil",
-        "turn",
-        "unified communications",
-        "ura",
-        "vlan",
-        "vmware",
-        "voip",
-        "vpn",
-        "webex",
-        "windows server",
-        "wireguard",
-        "wireshark",
-        "yealink",
-        "zoom phone"
-      ],
-      "fit_level": "alto",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
-      "contact_email": null,
-      "recruiter": {
-        "name": "Ninna D.",
-        "profile_url": "https://ph.linkedin.com/in/ninna-d-0883b2160",
-        "headline": "Senior Recruitment Consultant | Hiring for an MSP Company | L1, L2, and L3 IT Service Desk | Cloud Engineer | NOC | message me for opportunities"
-      },
-      "valid_through": "2026-10-22T13:21:12.000Z",
-      "company_logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGre2r7SoM8BQ/company-logo_100_100/company-logo_100_100/0/1719836702178/it_by_design_logo?e=2147483647&v=beta&t=Wbyl541j5Da9z6m8kHQ9G0MgSzE26AzoN4TvZLS3yj4",
-      "is_overseas": true,
-      "title_class": "core",
-      "target_company": false,
-      "priority_skills": [
-        "aws",
-        "azure",
-        "cloud",
-        "cybersecurity",
-        "network",
-        "networking"
-      ],
-      "last_seen_at": "2026-09-22T15:19:33.301397+00:00",
-      "verified_at": "2026-10-21T15:47:53.849813+00:00"
-    },
-    {
-      "id": "69eff02572aaa5a6",
-      "title": "Ingeniero residente/troubleshooting N2 - Lima",
-      "company": "Servicios de Telecomunicaciones Olitel",
-      "location": "Santiago de Surco, Peru",
-      "salary": "",
-      "description": "Con más de 14 años de experiencia en el campo de las telecomunicaciones. Nuestra presencia se extiende en Chile, Perú y Colombia , respaldada por una amplia trayectoria en las áreas de instalaciones e ingeniería . Nos hemos consolidado como una empresa líder en el rubro, ofreciendo soluciones integrales a nuestros clientes. Tus principales funciones serán: Realizar análisis, diagnóstico (troubleshooting y configuraciones en nivel 2) y/o resolución de incidentes Realizar seguimiento de los incidentes de red del cliente (Entel) que involucran a clientes con servicios Fijos (Entel) Toda atención relacionada a un incidente debe generar un RFO (Reason For Outage) Elaborar informes detallados sobre eventos reportados Realizar el mantenimiento preventivo y correctivo a los clientes de servicios fijos Telco, Telefonía y TI (conectividad) a nivel lógico sobre las configuraciones de firewalls y routers Realizar pruebas y validaciones de servicios de los clientes Atender solicitudes y requerimientos que realizan los clientes fijos directamente al Ingeniero Residente y registrar esto en la plataforma de Remedy Monitoreo continuo del servicio. Gestión y administración de los equipos en tiempo real. Activación de nuevos enlaces MPLS. Despliegue de nuevas configuraciones, incluyendo enrutamiento, calidad de servicio, actualizaciones (upgrades) y revisión del estado de salud de los equipos. ¿Qué Buscamos? Formación académica: Bachiller/Titulado en Ing. Telecomunicaciones, Ing. Sistemas, Redes y/o a fines Experiencia: min. 2 años en un cargo similar en empresas de Telecomunicaciones Conocimientos de configuraciones de capa 2 para routers y switches. Conocimiento de configuración de Firewall CCNA/ CCNP - Cisco (indispensable) Excel (intermedio) Power BI (básico) Programas para elaboración de Flujogramas Disponibilidad para trabajo hibrido lunes a viernes de 8:30 a. m. a 6:00 p. m. y los sábados de 9:00 a. m. a 1:00 p. m. ¿Qué Valoramos? Compromiso con la calidad de trabajo Trabajo a en equipo Flexibilidad y adaptación Orientación a resultados Innovación y creatividad ¿Qué Ofrecemos? Ingreso a planilla con todos los beneficios de ley (gratificaciones, CTS, vacaciones, ESSALUD y Seguro Vida Ley). Capacitaciones certificadas para potenciar tus habilidades. Oportunidades reales de crecimiento y línea de carrera. Acceso a convenios corporativos con descuentos exclusivos. 💙 ¡Sé parte de una empresa que apuesta por tu futuro! Show more Show less",
-      "url": "https://pe.linkedin.com/jobs/view/ingeniero-residente-troubleshooting-n2-lima-at-servicios-de-telecomunicaciones-olitel-4468534557",
-      "source": "LinkedIn",
-      "published_at": "2026-09-22",
-      "found_at": "2026-09-22T15:19:20.970510+00:00",
-      "score": 81,
-      "score_breakdown": {
-        "skills": 10,
-        "location": 20,
-        "level": 10,
-        "keywords": 10,
-        "salary": 5,
-        "target_company": 0,
-        "priority_skills": 1,
-        "title": 10,
-        "overseas": 15
-      },
-      "skills_match": [
-        "cisco",
-        "firewall",
-        "nivel 2",
-        "redes",
-        "troubleshooting"
-      ],
-      "skills_gap": [
-        "3cx",
-        "active directory",
-        "algar",
-        "algar telecom",
-        "analise de logs",
-        "asterisk",
-        "atendimento tecnico",
-        "avaya",
-        "aws",
-        "azure",
-        "bgp",
-        "broadworks",
-        "call center",
-        "cdr",
-        "cloud",
-        "codec",
-        "codecs",
-        "comunicacoes unificadas",
-        "contact center",
-        "cybersecurity",
-        "digitro",
-        "dns",
-        "documentacao tecnica",
-        "e1",
-        "embratel",
-        "fortigate",
-        "freeswitch",
-        "g.711",
-        "g.729",
-        "gateway",
-        "gcp",
-        "genesys",
-        "grandstream",
-        "huawei",
-        "intelbras",
-        "ip pbx",
-        "isdn",
-        "khomp",
-        "leucotron",
-        "linux",
-        "mikrotik",
-        "nat",
-        "network",
-        "networking",
-        "noc",
-        "olt",
-        "operadora",
-        "ordem de servico",
-        "pabx",
-        "pabx ip",
-        "qos",
-        "ramais",
-        "ramal",
-        "rede",
-        "rtp",
-        "sbc",
-        "sd-wan",
-        "seguranca da informacao",
-        "session border controller",
-        "sip",
-        "sip trunk",
-        "sql server",
-        "srtp",
-        "stun",
-        "suporte nivel 2",
-        "suporte tecnico",
-        "teams",
-        "tim brasil",
-        "turn",
-        "unified communications",
-        "ura",
-        "vlan",
-        "vmware",
-        "voip",
-        "vpn",
-        "webex",
-        "windows server",
-        "wireguard",
-        "wireshark",
-        "yealink",
-        "zoom phone"
-      ],
-      "fit_level": "alto",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
-      "contact_email": null,
-      "recruiter": null,
-      "valid_through": "2026-10-22T07:28:57.000Z",
-      "company_logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHnYdzJCf5Qew/company-logo_100_100/company-logo_100_100/0/1692905262813/servicios_de_telecomunicaciones_olitel_limitada_logo?e=2147483647&v=beta&t=xQaualweRR8dUL5iK3mAuD0x8ufS16l6PzXe0QE__qg",
-      "is_overseas": true,
-      "title_class": "core",
-      "target_company": false,
-      "priority_skills": [
-        "redes"
-      ],
-      "last_seen_at": "2026-10-13T17:54:34.322706+00:00",
-      "verified_at": "2026-10-19T17:18:39.158506+00:00"
-    },
-    {
       "id": "a65811f8f9bfceac",
       "title": "Analista Telecomunicações Pl",
       "company": "N/A",
@@ -2358,7 +2089,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     },
     {
       "id": "a086c31cfd59b183",
@@ -2751,7 +2482,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     },
     {
       "id": "1cdb6c08a0dafb96",
@@ -3013,7 +2744,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     },
     {
       "id": "dae7040133a8b9ad",
@@ -3664,7 +3395,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00",
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00",
       "verified_at": "2026-10-20T15:32:02.481233+00:00"
     },
     {
@@ -3925,7 +3656,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     },
     {
       "id": "3aed244eb93f77c8",
@@ -4192,7 +3923,7 @@
         "networking",
         "zero trust"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00",
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00"
     },
     {
@@ -4323,7 +4054,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00",
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00"
     },
     {
@@ -4457,7 +4188,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     },
     {
       "id": "e74bc61ab76846ce",
@@ -4716,7 +4447,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     },
     {
       "id": "80d51fb65e8c7289",
@@ -5118,7 +4849,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00",
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00",
       "verified_at": "2026-10-12T20:05:47.414438+00:00"
     },
     {
@@ -5639,7 +5370,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     },
     {
       "id": "2b24c8b27c02c88a",
@@ -5768,7 +5499,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     },
     {
       "id": "7ce3ea34b891586f",
@@ -6161,7 +5892,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     },
     {
       "id": "8b76fd3282dcf5a2",
@@ -6425,7 +6156,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     },
     {
       "id": "ab648e60745a043e",
@@ -6688,7 +6419,7 @@
         "networking",
         "unified communications"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00",
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00",
       "verified_at": "2026-10-20T15:32:02.481233+00:00"
     },
     {
@@ -6818,7 +6549,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     },
     {
       "id": "1492fc5e208eb4c0",
@@ -7199,7 +6930,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     },
     {
       "id": "d49a6d787d378a70",
@@ -7586,7 +7317,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     },
     {
       "id": "44b421ab0a62ce53",
@@ -8105,7 +7836,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     },
     {
       "id": "6400ce5c69762ae9",
@@ -8234,7 +7965,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-20T15:32:02.467509+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     },
     {
       "id": "97d85a8d75393577",
@@ -8363,7 +8094,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00",
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00"
     },
     {
@@ -8623,7 +8354,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00",
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00"
     },
     {
@@ -8753,7 +8484,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     },
     {
       "id": "768c7f28b592479a",
@@ -9269,7 +9000,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     },
     {
       "id": "b0fc55ca802d4083",
@@ -9398,7 +9129,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     },
     {
       "id": "da42a5fa8b6715a9",
@@ -9916,7 +9647,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     },
     {
       "id": "af703775b1e11b14",
@@ -10043,7 +9774,7 @@
       "title_class": "core",
       "target_company": true,
       "priority_skills": [],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     },
     {
       "id": "89c26b88e1746acf",
@@ -10170,7 +9901,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     },
     {
       "id": "ff052829a66c09d6",
@@ -10300,14 +10031,398 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
+    },
+    {
+      "id": "a95ca8a2fa2b9971",
+      "title": "Analista de Redes - Belo Horizonte - Quadro de Vagas",
+      "company": "Espaço Crescerh",
+      "location": "Belo Horizonte e Região",
+      "salary": "",
+      "description": "Espaço Crescerh Belo Horizonte-MG Remoto Área: Informática / TI / Tecnologia Salário: R$ 5.191,00 Requisitos Requisitos Mínimos: * Ensino Superior completo na área de TI * Experiência com VMware, Windows Server e VPNs, TOLTS * Conhecimento em Scripting * Vivência em administração de redes Atividades Principais Atividades: * Administrar e monitorar redes LAN, WAN e Wi-Fi * Configurar e gerenciar roteadores, switches e firewalls * Identificar e solucionar problemas de conectividade e desempenho * Implementar e gerenciar VPNs para acesso remoto * Realizar backups e garantir a segurança das configurações de rede * Gerenciar servidores de impressão e apoiar melhorias na infraestrutura ⏰ Segunda a sexta-feira | 07:00 às 17:00 | ✅ Benefícios: * Vale-transporte * Vale-refeição – R$ 35,00/dia Confira mais vagas em divulgavagas.com.br Show more Show less",
+      "url": "https://br.linkedin.com/jobs/view/analista-de-redes-belo-horizonte-quadro-de-vagas-at-espa%C3%A7o-crescerh-4479498631",
+      "source": "LinkedIn",
+      "published_at": "2026-10-22",
+      "found_at": "2026-10-22T15:44:40.815907+00:00",
+      "score": 60,
+      "score_breakdown": {
+        "skills": 8,
+        "location": 20,
+        "level": 10,
+        "keywords": 6,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 1,
+        "title": 10,
+        "overseas": 0
+      },
+      "skills_match": [
+        "rede",
+        "redes",
+        "vmware",
+        "windows server"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "noc",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "troubleshooting",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "voip",
+        "vpn",
+        "webex",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "medio",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2026-11-21T07:41:48.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHYfACGo2PM8Q/company-logo_100_100/company-logo_100_100/0/1641256920518?e=2147483647&v=beta&t=bSVdBktuMpW7-uvlrl4bVtUUEL43LoEEKbaiPxBWHfc",
+      "is_overseas": false,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "redes"
+      ],
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
+    },
+    {
+      "id": "9d3a6a93f1c1398e",
+      "title": "Operador de Suporte (NOC) - 12X36 | Noturno",
+      "company": "IT-ONE",
+      "location": "Belo Horizonte e Região",
+      "salary": "",
+      "description": "Transforme sua carreira com a IT-ONE! Com mais de 20 anos no mercado, somos referência em tecnologia, entregando soluções que fazem a diferença no negócio dos nossos clientes e na vida das pessoas. Na IT-ONE, inovação é vivida no dia a dia. Trabalhamos lado a lado com os maiores provedores de tecnologia do mundo, com um time talentoso, certificado e em constante evolução. Aqui, você encontra um ambiente que valoriza o aprendizado contínuo, a colaboração e a paixão por resultados. Muito além de tecnologia, entregamos histórias. Histórias de crescimento, de superação e de conquistas. Sabemos onde queremos chegar e estamos prontos para seguir em frente com agilidade, propósito e pessoas que compartilham dos nossos sonhos. E você, já sabe onde quer chegar? Se está em busca de uma oportunidade para crescer, inovar e fazer parte de algo maior, essa vaga é para você. Vem com a gente construir o futuro da tecnologia! Se você é movido por desafios, tem perfil consultivo e quer crescer em um ambiente dinâmico e inovador, essa oportunidade é para você! Vaga: Operador de Suporte - NOC (Noturno) O que você fará no dia a dia? Monitorar e responder a incidentes em tempo real no ambiente do NOC. Verificar em tempo real os alertas e status dos equipamentos (Up/Down) e performance. Atuar de forma preventiva e proativa na detecção de falhas e incidentes através de Scripts Abertura de chamados e acompanhamento de atuação em operadoras ou prestadores de serviços. Acionar suporte superior quando necessário e adotar uma abordagem preventiva para evitar problemas. Abrir chamados e classificar a severidade dos incidentes de acordo com o catálogo de serviços. Colaborar com outros membros da equipe de TI para garantir o rápido diagnóstico e resolução de problemas. O que esperamos de você: Curso técnico ou superior em andamento em Tecnologia da Informação, Redes de Computadores, Sistemas de Informação, Ciência da Computação ou áreas correlatas. Boa comunicação, disciplina, foco, autogestão, resiliência e proatividade. Conhecimento em sistemas operacionais (Windows e Linux). Conhecimento básico/intermediário em infraestrutura de TI. Conhecimento prévio das ferramentas de monitoramento como Zabbix, Scom, Grafana, Elastic. O que oferecemos para essa posição: Vale alimentação/refeição: R$ 31,43 ao dia (cartão Flash). Vale transporte: de acordo com a necessidade. Benefício Flexível: R$ 250,00 (cartão Flash). Plano de Saúde e Odontológico Sulamerica: coparticipativo. Seguro de Vida. PLR. Day Off no mês do aniversário. Massagem laboral. Convênios e Parcerias em diversos segmentos. Oportunidade de crescimento e apoio para certificações. Informações adicionais: Horário: Escala 12x36 | 19:00h - 07:00h | Local: União - BH Nossas vagas são abertas à diversidade e incentivamos a candidatura de todas as pessoas, independentemente de gênero, identidade de gênero, orientação sexual, raça, etnia, deficiência, idade ou crença. Show more Show less",
+      "url": "https://br.linkedin.com/jobs/view/operador-de-suporte-noc-12x36-noturno-at-it-one-information-technology-4482401424",
+      "source": "LinkedIn",
+      "published_at": "2026-10-22",
+      "found_at": "2026-10-22T15:45:36.702462+00:00",
+      "score": 62,
+      "score_breakdown": {
+        "skills": 6,
+        "location": 20,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 1,
+        "title": 10,
+        "overseas": 0
+      },
+      "skills_match": [
+        "linux",
+        "noc",
+        "redes"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "mikrotik",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "troubleshooting",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "medio",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2026-11-21T00:52:23.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4D0BAQF9KdhPC3nPBA/company-logo_100_100/company-logo_100_100/0/1710270158612/it_one_information_technology_logo?e=2147483647&v=beta&t=smsgfvboSqPS8wyM5liOdTfuRoMCo0xv4T_XfKA3a88",
+      "is_overseas": false,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "redes"
+      ],
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
+    },
+    {
+      "id": "80f54d2972d50231",
+      "title": "Assistente de Suporte Telefonia Móvel",
+      "company": "3AM IT Services",
+      "location": "Belo Horizonte, MG",
+      "salary": "",
+      "description": "DESCRIÇÃO Junte-se a uma empresa que entrega resultados a cada conexão! Desde 2011 a 3AM IT Services, empresa de capital 100% nacional, vem se consolidando no mercado como uma empresa especializada em soluções de TI - com um portfólio de serviços que abrange field support, alocação de profissionais, cabling, projetos de rollout, inventário e moving. Indo além da tecnologia, queremos entregar com agilidade e especialidade cada solução: Em cada ponto de contato com o cliente, acreditamos que podemos criar conexão e em cada trabalho, queremos gerar performance! Assistente de Suporte Telefonia Móvel – Prestador de Serviços Tipo de oportunidade: somente para profissionais com empresas – PJ. Modelo: Atendimento presencial à um cliente da 3AM IT. Período: Indeterminado; Horário Comercial; Centro - Belo Horizonte - MG Responsabilidades e Atribuições: Suporte de telefonia celular ao usuário; Auxílio no controle do Inventário (estoque) dos equipamentos do cliente; Abertura e acompanhamento de protocolos de atendimento junto aos canais e plataformas do cliente; Configuração mobile (e-mail, MDM, Apps); Conhecimento dos produtos/planos do cliente para atuação no mesmo; Qualificações e Requisitos: Fácil acesso ao local de atuação; Conhecimento e experiência atuando com telefonia celular; Experiência com suporte técnico em telefonia ou microinformática. Disponibilidade para início imediato. Demais informações: Trata-se de uma oportunidade PJ com prazo indeterminado. Início imediato, atuando no horário comercial O pagamento será realizado com base nos dias efetivamente prestados. Serão desconsiderados para fins de pagamento os dias em que não houver prestação de serviço, incluindo feriados, ausências e atrasos, conforme controle previamente acordado entre as partes Local de trabalho: Belo Horizonte, MG Regime de contratação de tipo: Prestador de Serviços (PJ) Jornada: Período Integral Área e especialização profissional: Informática, TI, Telecomunicações - Telecomunicações Nível hierárquico: Assistente REQUISITOS Escolaridade Mínima: Ensino Médio (2º Grau) VALORIZADO Tempo de experiência: Menos de 1 ano HABILIDADES Conhecimento técnico Telefonia Show more Show less",
+      "url": "https://br.linkedin.com/jobs/view/assistente-de-suporte-telefonia-m%C3%B3vel-at-3am-it-services-4482179455",
+      "source": "LinkedIn",
+      "published_at": "2026-10-21",
+      "found_at": "2026-10-22T15:46:21.988287+00:00",
+      "score": 51,
+      "score_breakdown": {
+        "skills": 0,
+        "location": 20,
+        "level": 10,
+        "keywords": 6,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 0,
+        "title": 10,
+        "overseas": 0
+      },
+      "skills_match": [],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "noc",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "redes",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "troubleshooting",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "medio",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": null,
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFMqpfEio73BQ/company-logo_100_100/B4DZb0jJQMG8AU-/0/1747859576571/3am_it_services_logo?e=2147483647&v=beta&t=md4pFFa6kpzjlNupal-KxSpdwRk2caR3UAWdIIkuLFw",
+      "is_overseas": false,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [],
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
     }
   ],
-  "last_updated": "2026-10-21T15:47:55.323428+00:00",
+  "last_updated": "2026-10-22T15:47:08.662242+00:00",
   "stats": {
-    "total": 79,
-    "alto_fit": 52,
-    "medio_fit": 25,
+    "total": 80,
+    "alto_fit": 50,
+    "medio_fit": 28,
     "baixo_fit": 2,
     "enviadas": 1
   }
