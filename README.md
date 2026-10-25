@@ -172,6 +172,19 @@ Cada card de vaga no dashboard tem três ações:
 > o mesmo problema com bem menos passos: um clique, no navegador que você
 > já usa.
 
+### Companheiro opcional: CV e carta sob medida (`ai-job-search`)
+
+O Radar acha e pontua vagas; **montar o CV/carta de uma vaga específica** fica
+com o framework [ai-job-search](https://github.com/ai-job-search-dev/ai-job-search)
+(MIT), um workspace de Claude Code que roda **só local**. Ele fica numa pasta
+irmã deste repo (`../ai-job-search`), nunca dentro dele: o `/setup` dele grava
+perfil pessoal em arquivos rastreados, e este repo é público.
+
+A ponte é só-leitura: `/radar` (comando adicionado nessa pasta irmã) lê o
+`data/jobs.json` daqui e entrega a vaga escolhida ao `/apply` do framework.
+Nada é escrito de volta neste repo — depois de candidatar, marque **Já
+candidatei** no dashboard.
+
 ---
 
 ## Fontes de vagas
