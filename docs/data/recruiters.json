@@ -29,6 +29,34 @@
       "outreach_source": "groq"
     },
     {
+      "id": "5f5b38852f1dd7a3",
+      "name": "Thayane Oliveira",
+      "profile_url": "https://br.linkedin.com/in/thayane-oliveira-83ab5b19b",
+      "headline": "Analista de RH | Tech Recruiter | Talent Acquisition | DHO | Clima e Cultura Organizacional | T&D | Employee Experience | Employer Branding",
+      "is_recruiter": true,
+      "country": "BR",
+      "companies": [
+        "IT-ONE"
+      ],
+      "jobs": [
+        {
+          "id": "69e217e9fac62c7f",
+          "title": "Operador de Suporte - NOC (Noturno)",
+          "company": "IT-ONE",
+          "url": "https://br.linkedin.com/jobs/view/operador-de-suporte-noc-noturno-at-it-one-information-technology-4481462316",
+          "score": 62,
+          "fit_level": "medio",
+          "found_at": "2026-10-26T17:04:46.346290+00:00"
+        }
+      ],
+      "first_seen": "2026-10-26T17:06:33.942252+00:00",
+      "last_seen": "2026-10-26T17:06:33.942252+00:00",
+      "message": "Obrigado por aceitar! A vaga de Operador de Suporte - NOC combina com minha prática em troubleshooting de SBCs e na captura e interpretação de tráfego usando Wireshark. Posso enviar meu currículo para avaliarmos a aderência?",
+      "priority": 62,
+      "invite_note": "Oi Thayane, vi a vaga de Operador de Suporte - NOC (Noturno) na IT-ONE e achei que minha experiência com análise de protocolos SIP e RTP pode ser muito útil. Vamos conectar?",
+      "outreach_source": "groq"
+    },
+    {
       "id": "668f36c6fd01c64e",
       "name": "Mindy Wendt",
       "profile_url": "https://www.linkedin.com/in/mindy-wendt-586923135",
@@ -82,34 +110,6 @@
       "message": "Obrigado por aceitar, Mikee! A posição de NOC Engineer combina com meu trabalho de diagnóstico de áudio e registro SIP, além do provisionamento de dispositivos IP em ambientes críticos. Posso enviar meu currículo?",
       "priority": 50,
       "invite_note": "Oi Mikee, vi a vaga de Network Operations Center Engineer na Morgan McKinley e achei interessante. Tenho experiência em troubleshooting de SBCs e análise de protocolos SIP/RTP, que são essenciais para um NOC. Vamos conectar?",
-      "outreach_source": "groq"
-    },
-    {
-      "id": "8c15afcbcc89ea54",
-      "name": "Nicole G.",
-      "profile_url": "https://za.linkedin.com/in/nicolegsa",
-      "headline": "(Currently Hiring Locals Only for ICT opportunities in Africa) Strategic Talent Acquisition Partner | Regional Hiring Architect | Cloud & Digital…",
-      "is_recruiter": true,
-      "country": "ZA",
-      "companies": [
-        "Beijing Foreign Enterprise Management Consultants Co.,Ltd."
-      ],
-      "jobs": [
-        {
-          "id": "c689e81637ff25f0",
-          "title": "Core Network Maintenance Engineer",
-          "company": "Beijing Foreign Enterprise Management Consultants Co.,Ltd.",
-          "url": "https://bw.linkedin.com/jobs/view/core-network-maintenance-engineer-at-beijing-foreign-enterprise-management-consultants-co-ltd-4470956544",
-          "score": 88,
-          "fit_level": "alto",
-          "found_at": "2026-09-23T15:16:32.541791+00:00"
-        }
-      ],
-      "first_seen": "2026-09-23T15:16:39.547281+00:00",
-      "last_seen": "2026-09-23T15:16:39.547281+00:00",
-      "message": "Obrigado por aceitar! A vaga de Core Network Maintenance Engineer combina com minha atuação em troubleshooting de SBCs e análise de protocolos SIP/RTP. Também já administro ambientes BroadWorks com foco em alta disponibilidade. Posso enviar meu currículo?",
-      "priority": 49,
-      "invite_note": "Oi Nicole, vi sua vaga de Core Network Maintenance Engineer e achei interessante. Tenho experiência prática em diagnóstico de problemas SIP e configuração de SBCs, que são essenciais para manutenção de redes de voz. Vamos nos conectar?",
       "outreach_source": "groq"
     },
     {
@@ -253,34 +253,6 @@
       "outreach_source": "groq"
     },
     {
-      "id": "1a9bbb588559d30e",
-      "name": "sravan pratap",
-      "profile_url": "https://in.linkedin.com/in/sravan-pratap-44699b1b6",
-      "headline": "Technical Recruiter at COVET IT inc",
-      "is_recruiter": true,
-      "country": "IN",
-      "companies": [
-        "COVET IT INC"
-      ],
-      "jobs": [
-        {
-          "id": "3c93b69d98bdaed0",
-          "title": "Telecom BSSe Engineer",
-          "company": "COVET IT INC",
-          "url": "https://www.linkedin.com/jobs/view/telecom-bsse-engineer-at-covet-it-inc-4470320104",
-          "score": 76,
-          "fit_level": "alto",
-          "found_at": "2026-09-25T15:43:46.662402+00:00"
-        }
-      ],
-      "first_seen": "2026-09-25T15:43:53.432252+00:00",
-      "last_seen": "2026-09-25T15:43:53.432252+00:00",
-      "message": "Obrigado por aceitar! A posição Telecom BSS Engineer combina bem com minha prática em análise de SIP/RTP e troubleshooting de SBCs, além do provisionamento de ambientes BroadWorks. Como posso enviar meu currículo para avançarmos?",
-      "priority": 45,
-      "invite_note": "Olá Sravan, vi a vaga Telecom BSS Engineer na Covet IT e achei interessante. Tenho experiência com suporte especializado em telefonia IP e análise de protocolos SIP, além de provisionamento de ramais e dispositivos IP. Vamos nos conectar?",
-      "outreach_source": "groq"
-    },
-    {
       "id": "d2d4ea4e66627032",
       "name": "Gaëtan Travailleur",
       "profile_url": "https://fr.linkedin.com/in/ga%C3%ABtan-travailleur",
@@ -362,6 +334,34 @@
       "message": "Obrigado por aceitar, Natalia! Vejo que a posição exige forte atuação em NOC e suporte a VoIP. Tenho amplo contato com análise de CDRs, logs SIP e diagnóstico de áudio e NAT, além de suporte a ambientes BroadWorks. Posso enviar meu currículo?",
       "priority": 44,
       "invite_note": "Oi Natalia, vi a vaga de TX Network Operations Engineer (L2) e achei que minha experiência com troubleshooting de SBCs e análise de protocolos SIP/RTP seria muito útil. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
+      "id": "8c15afcbcc89ea54",
+      "name": "Nicole G.",
+      "profile_url": "https://za.linkedin.com/in/nicolegsa",
+      "headline": "(Currently Hiring Locals Only for ICT opportunities in Africa) Strategic Talent Acquisition Partner | Regional Hiring Architect | Cloud & Digital…",
+      "is_recruiter": true,
+      "country": "ZA",
+      "companies": [
+        "Beijing Foreign Enterprise Management Consultants Co.,Ltd."
+      ],
+      "jobs": [
+        {
+          "id": "c689e81637ff25f0",
+          "title": "Core Network Maintenance Engineer",
+          "company": "Beijing Foreign Enterprise Management Consultants Co.,Ltd.",
+          "url": "https://bw.linkedin.com/jobs/view/core-network-maintenance-engineer-at-beijing-foreign-enterprise-management-consultants-co-ltd-4470956544",
+          "score": 88,
+          "fit_level": "alto",
+          "found_at": "2026-09-23T15:16:32.541791+00:00"
+        }
+      ],
+      "first_seen": "2026-09-23T15:16:39.547281+00:00",
+      "last_seen": "2026-09-23T15:16:39.547281+00:00",
+      "message": "Obrigado por aceitar! A vaga de Core Network Maintenance Engineer combina com minha atuação em troubleshooting de SBCs e análise de protocolos SIP/RTP. Também já administro ambientes BroadWorks com foco em alta disponibilidade. Posso enviar meu currículo?",
+      "priority": 43,
+      "invite_note": "Oi Nicole, vi sua vaga de Core Network Maintenance Engineer e achei interessante. Tenho experiência prática em diagnóstico de problemas SIP e configuração de SBCs, que são essenciais para manutenção de redes de voz. Vamos nos conectar?",
       "outreach_source": "groq"
     },
     {
@@ -449,6 +449,62 @@
       "outreach_source": "groq"
     },
     {
+      "id": "c36f69eb878ae132",
+      "name": "Adriano Morais Oliveira",
+      "profile_url": "https://br.linkedin.com/in/adriano-morais-oliveira-627215269",
+      "headline": "CEO apaixonado por liderar equipes multifuncionais e mentorear.",
+      "is_recruiter": false,
+      "country": "BR",
+      "companies": [
+        "Zapi Internet"
+      ],
+      "jobs": [
+        {
+          "id": "8cfa114085a16703",
+          "title": "Analista de rede de telecomunicações",
+          "company": "Zapi Internet",
+          "url": "https://br.linkedin.com/jobs/view/analista-de-rede-de-telecomunica%C3%A7%C3%B5es-at-zapi-internet-4480693984",
+          "score": 71,
+          "fit_level": "alto",
+          "found_at": "2026-10-26T17:04:31.789110+00:00"
+        }
+      ],
+      "first_seen": "2026-10-26T17:06:33.942252+00:00",
+      "last_seen": "2026-10-26T17:06:33.942252+00:00",
+      "message": "Obrigado por aceitar, Adriano! A vaga de Analista de rede de telecomunicações combina bem com minha prática em troubleshooting de SBCs e análise de CDRs/SIP logs. Também costumo provisionar ramais e dispositivos IP em ambientes BroadWorks. Posso enviar meu currículo?",
+      "priority": 40,
+      "invite_note": "Olá Adriano, vi a vaga de Analista de rede de telecomunicações na Zapi Internet. Tenho experiência em suporte especializado a telefonia IP, configurando ramais e dispositivos IP, e já fiz troubleshooting de SBCs e análise de protocolos SIP. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
+      "id": "1a9bbb588559d30e",
+      "name": "sravan pratap",
+      "profile_url": "https://in.linkedin.com/in/sravan-pratap-44699b1b6",
+      "headline": "Technical Recruiter at COVET IT inc",
+      "is_recruiter": true,
+      "country": "IN",
+      "companies": [
+        "COVET IT INC"
+      ],
+      "jobs": [
+        {
+          "id": "3c93b69d98bdaed0",
+          "title": "Telecom BSSe Engineer",
+          "company": "COVET IT INC",
+          "url": "https://www.linkedin.com/jobs/view/telecom-bsse-engineer-at-covet-it-inc-4470320104",
+          "score": 76,
+          "fit_level": "alto",
+          "found_at": "2026-09-25T15:43:46.662402+00:00"
+        }
+      ],
+      "first_seen": "2026-09-25T15:43:53.432252+00:00",
+      "last_seen": "2026-09-25T15:43:53.432252+00:00",
+      "message": "Obrigado por aceitar! A posição Telecom BSS Engineer combina bem com minha prática em análise de SIP/RTP e troubleshooting de SBCs, além do provisionamento de ambientes BroadWorks. Como posso enviar meu currículo para avançarmos?",
+      "priority": 39,
+      "invite_note": "Olá Sravan, vi a vaga Telecom BSS Engineer na Covet IT e achei interessante. Tenho experiência com suporte especializado em telefonia IP e análise de protocolos SIP, além de provisionamento de ramais e dispositivos IP. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
       "id": "7029c26d196d85ce",
       "name": "Jonathan Wells",
       "profile_url": "https://uk.linkedin.com/in/jonwellstechrecruitment",
@@ -474,6 +530,44 @@
       "message": "Oi Jonathan, obrigado por aceitar!\n\nSobre a vaga de Network Operations Center Engineer na Experis UK: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
       "priority": 39,
       "invite_note": "Oi Jonathan! Vi sua vaga de Network Operations Center Engineer na Experis UK. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
+      "outreach_source": "fallback"
+    },
+    {
+      "id": "786a6a6ab29636e2",
+      "name": "Jasmin Loh",
+      "profile_url": "https://my.linkedin.com/in/jasmin-loh-29baa747",
+      "headline": "Regional HR Leader | Passionate about Culture, Performance & Growth | Focused on Building Fair, Positive & Sustainable Work Environment",
+      "is_recruiter": false,
+      "country": "MY",
+      "companies": [
+        "ViewQwest"
+      ],
+      "jobs": [
+        {
+          "id": "bb2fa303bf75ff2f",
+          "title": "Network Operations Center Engineer",
+          "company": "ViewQwest",
+          "url": "https://sg.linkedin.com/jobs/view/network-operations-center-engineer-at-viewqwest-4482935405",
+          "score": 67,
+          "fit_level": "alto",
+          "found_at": "2026-10-26T17:06:16.669206+00:00",
+          "inferred": true
+        },
+        {
+          "id": "c9daf12a82f59d78",
+          "title": "Network Operations Centre (NOC) Engineer",
+          "company": "ViewQwest",
+          "url": "https://sg.linkedin.com/jobs/view/network-operations-centre-noc-engineer-at-viewqwest-4465682005",
+          "score": 81,
+          "fit_level": "alto",
+          "found_at": "2026-09-11T21:23:17.836068+00:00"
+        }
+      ],
+      "first_seen": "2026-09-11T21:23:44.989092+00:00",
+      "last_seen": "2026-10-26T17:06:33.942252+00:00",
+      "message": "Oi Jasmin, obrigado por aceitar!\n\nSobre a vaga de Network Operations Centre (NOC) Engineer na ViewQwest: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
+      "priority": 37,
+      "invite_note": "Oi Jasmin! Vi sua vaga de Network Operations Centre (NOC) Engineer na ViewQwest. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
       "outreach_source": "fallback"
     },
     {
@@ -540,34 +634,6 @@
       "priority": 20,
       "invite_note": "Olá Qun, vi a vaga de Core Network Engineer‑CS/IMS na ZTE CONGO SARL e achei interessante. Tenho experiência em análise de protocolos SIP e RTP, além de troubleshooting de SBCs em ambientes BroadWorks. Vamos conectar?",
       "outreach_source": "groq"
-    },
-    {
-      "id": "786a6a6ab29636e2",
-      "name": "Jasmin Loh",
-      "profile_url": "https://my.linkedin.com/in/jasmin-loh-29baa747",
-      "headline": "Regional HR Leader | Passionate about Culture, Performance & Growth | Focused on Building Fair, Positive & Sustainable Work Environment",
-      "is_recruiter": false,
-      "country": "MY",
-      "companies": [
-        "ViewQwest"
-      ],
-      "jobs": [
-        {
-          "id": "c9daf12a82f59d78",
-          "title": "Network Operations Centre (NOC) Engineer",
-          "company": "ViewQwest",
-          "url": "https://sg.linkedin.com/jobs/view/network-operations-centre-noc-engineer-at-viewqwest-4465682005",
-          "score": 81,
-          "fit_level": "alto",
-          "found_at": "2026-09-11T21:23:17.836068+00:00"
-        }
-      ],
-      "first_seen": "2026-09-11T21:23:44.989092+00:00",
-      "last_seen": "2026-09-11T21:23:44.989092+00:00",
-      "message": "Oi Jasmin, obrigado por aceitar!\n\nSobre a vaga de Network Operations Centre (NOC) Engineer na ViewQwest: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
-      "priority": 16,
-      "invite_note": "Oi Jasmin! Vi sua vaga de Network Operations Centre (NOC) Engineer na ViewQwest. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
-      "outreach_source": "fallback"
     },
     {
       "id": "02dd3b4eb40a179c",
@@ -654,5 +720,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-10-23T15:40:05.342984+00:00"
+  "last_updated": "2026-10-26T17:06:33.942252+00:00"
 }
