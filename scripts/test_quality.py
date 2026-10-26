@@ -62,6 +62,49 @@ check("carreira de interesse futuro (cloud) e rejeitada", r.rejected)
 r = score_job(dict(base, title="Analista de Telecomunicações - Jr"))
 check("telecom jr aceita", not r.rejected)
 
+print("[vagas no exterior: modo de trabalho]")
+ext = {"title": "NOC Engineer", "company": "Acme Corp", "location": "Berlim, Alemanha", "is_overseas": True}
+skills = "SIP VoIP BroadWorks RTP SBC Wireshark troubleshooting. "
+
+
+def ext_job(desc, **kw):
+    return score_job(dict(ext, description=skills + desc, **kw))
+
+
+r = ext_job("This is a fully remote role open to candidates in Brazil and LATAM, as an independent contractor.")
+check("remota que cita Brasil/contractor -> open e pode ser alto", r.work_mode == "open" and r.fit_level == "alto",
+      f"{r.work_mode} {r.total} {r.fit_level}")
+r = ext_job("Work onsite at our data center in Berlin, 5 days a week.")
+check("presencial no exterior -> onsite, nunca passa de baixo", r.work_mode == "onsite" and r.fit_level == "baixo" and r.total <= 49,
+      f"{r.work_mode} {r.total}")
+r = ext_job("We offer a hybrid working model with 3 days in the office.")
+check("hibrida no exterior -> onsite", r.work_mode == "onsite")
+r = ext_job("Remote monitoring of customer sites from our NOC, based in the Berlin office.")
+check("'remote monitoring' descreve a tarefa, nao o regime", r.work_mode == "onsite", r.work_mode)
+r = ext_job("Location: Remote, US. Must be authorized to work in the United States.")
+check("'Remote, US' -> country_locked, no maximo medio", r.work_mode == "country_locked" and r.total <= 65 and r.fit_level != "alto",
+      f"{r.work_mode} {r.total}")
+r = ext_job("Fully remote position. Hiring in Canada only.", location="Canada - Remote")
+check("'Canada - Remote' -> country_locked", r.work_mode == "country_locked", r.work_mode)
+r = ext_job("Esta posicao e em modalidade teletrabajo, horario estandar.")
+check("remota calada sobre elegibilidade -> remote, nunca alto", r.work_mode == "remote" and r.fit_level != "alto",
+      f"{r.work_mode} {r.total} {r.fit_level}")
+r = ext_job("Join our remote-first team.", latam_ok=True)
+check("remote-first achada na busca Latin America -> open/latam", r.work_mode in ("open", "latam"), r.work_mode)
+r = ext_job("Remote position for the LATAM region.")
+check("texto que cita LATAM -> open", r.work_mode == "open", r.work_mode)
+r = ext_job("We offer 40% home-office and a modern campus.")
+check("'40% home-office' e beneficio de vaga presencial -> onsite", r.work_mode == "onsite", r.work_mode)
+r = ext_job("Work partially at our campus and remotely.")
+check("'partially at our campus and remotely' -> onsite", r.work_mode == "onsite", r.work_mode)
+r = ext_job("Our solutions include remote-working voice solutions for clients.")
+check("'remote-working voice solutions' e produto, nao regime", r.work_mode == "onsite", r.work_mode)
+r = ext_job("This is a fully remote role. Must be able to work rotating shifts.")
+check("turno rotativo nao torna a vaga presencial", r.work_mode != "onsite", r.work_mode)
+loc = score_job({"title": "Analista NOC", "company": "Acme", "location": "Remoto",
+                 "description": skills, "is_overseas": False})
+check("vaga do Brasil nao recebe work_mode", loc.work_mode == "" and loc.location == 20)
+
 print("[diretorio de recruiters]")
 tmp = Path(tempfile.mkdtemp())
 recruiters.RECRUITERS_FILE = tmp / "recruiters.json"

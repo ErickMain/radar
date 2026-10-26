@@ -351,6 +351,34 @@ def backfill_logos(limit: int = 200) -> None:
     log.info("Logos: %d de %d vagas preenchidas", achados, len(alvo))
 
 
+def rescore_existing() -> None:
+    """Recalcula score/fit/work_mode de todas as vagas do banco com as regras atuais.
+
+    Não mexe em status, carta, candidatura nem em quem foi arquivado/enviado:
+    só os campos que o scorer produz. Vaga que agora cairia no portão de
+    cargo/rejeição continua no banco com score 0 e fit baixo (a limpeza
+    retroativa do scan decide se sai).
+    """
+    data = load_existing_jobs()
+    jobs = data.get("jobs", [])
+    mudou = Counter()
+    for job in jobs:
+        status, antes = job.get("status"), job.get("fit_level")
+        apply_scores([job])
+        job["status"] = status  # apply_scores arquiva rejeitadas; aqui o status é do usuário
+        if job.get("fit_level") != antes:
+            mudou[f"{antes}->{job.get('fit_level')}"] += 1
+    data["stats"] = compute_stats(jobs)
+    data["last_updated"] = datetime.now(timezone.utc).isoformat()
+    save_jobs(data)
+    docs_file = DATA_DIR.parent / "docs" / "data" / "jobs.json"
+    if docs_file.parent.exists():
+        docs_file.write_text(JOBS_FILE.read_text(encoding="utf-8"), encoding="utf-8")
+    modos = Counter(j.get("work_mode") for j in jobs if j.get("is_overseas"))
+    log.info("Rescore: %d vagas, mudanças de fit: %s", len(jobs), dict(mudou) or "nenhuma")
+    log.info("Vagas no exterior por modo: %s", dict(modos))
+
+
 def apply_single_job(job_id: str) -> None:
     """Candidatura manual para um job_id específico (workflow manual-apply)."""
     log.info("=== Candidatura manual: job_id=%s ===", job_id)
@@ -400,6 +428,7 @@ if __name__ == "__main__":
 
     sub.add_parser("restore", help="Traz de volta do arquivo as vagas da área ainda abertas")
     sub.add_parser("logos", help="Preenche o logo da empresa nas vagas que não têm")
+    sub.add_parser("rescore", help="Recalcula score e fit das vagas do banco com as regras atuais")
 
     args = parser.parse_args()
 
@@ -411,6 +440,8 @@ if __name__ == "__main__":
         restore_open_from_archive()
     elif args.command == "logos":
         backfill_logos()
+    elif args.command == "rescore":
+        rescore_existing()
     else:
         parser.print_help()
         sys.exit(1)

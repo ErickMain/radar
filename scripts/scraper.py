@@ -138,6 +138,21 @@ ENGLISH_SEARCH_QUERIES = [
     "UCaaS Support Engineer",
 ]
 
+# Locais de busca que restringem a vaga à América Latina. O LinkedIn aceita a
+# região como localização; testado ao vivo, traz remotas que aceitam o Brasil.
+LATAM_LOCATIONS = {"latin america"}
+
+# Consultas extras só para a busca em "Latin America".
+LATAM_SEARCH_QUERIES = [
+    "VoIP Support Engineer",
+    "NOC Engineer",
+    "SIP Engineer",
+    "Telecom Support Engineer",
+    "Unified Communications Engineer",
+    "LATAM remote telecom support",
+    "LATAM remote VoIP",
+]
+
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
@@ -173,6 +188,9 @@ class Job:
     # Usado pelo scorer para o bonus de remoto/internacional e pelo
     # letter_gen para decidir o idioma da carta.
     is_overseas: bool = False
+    # True quando veio da busca LinkedIn na região "Latin America": a vaga está
+    # anunciada para a região, mesmo que o texto não cite Brasil/LATAM.
+    latam_ok: bool = False
 
     @property
     def id(self) -> str:
@@ -204,6 +222,7 @@ class Job:
             "valid_through": self.valid_through,
             "company_logo": self.company_logo,
             "is_overseas": self.is_overseas,
+            "latam_ok": self.latam_ok,
         }
 
 
@@ -320,6 +339,7 @@ def scrape_linkedin(query: str, location: str, overseas: bool = False) -> list[J
             valid_through=_VALID_THROUGH_CACHE.get(c["url"]),
             company_logo=c.get("logo") or _PAGE_LOGO.get(c["url"]),
             is_overseas=overseas,
+            latam_ok=overseas and location.strip().lower() in LATAM_LOCATIONS,
         )
         for c in cards_data
     ]
@@ -722,7 +742,9 @@ def scrape_remotive(query: str, limit: int = 30) -> list[Job]:
             jobs.append(Job(
                 title=title,
                 company=(it.get("company_name") or "N/A").strip(),
-                location=(it.get("candidate_required_location") or "Worldwide").strip(),
+                # "Remote - " na frente deixa o scorer ler o regime (a Remotive só
+                # lista remotas) e a restrição ("USA Only" trava, "Worldwide" abre).
+                location="Remote - " + (it.get("candidate_required_location") or "Worldwide").strip(),
                 url=job_url,
                 source="Remotive",
                 description=description,
@@ -1003,6 +1025,20 @@ def run_scraper() -> list[Job]:
                     rejected_by_blacklist += 1
         except Exception as e:
             log.error("[Remotive] Falha em query=%r: %s", query, e)
+        _sleep(0.5, 1.5)
+
+    # Busca na região Latin America: onde estão as remotas abertas a quem mora
+    # no Brasil (o Worldwide traz muita vaga travada em país ou presencial).
+    for query in LATAM_SEARCH_QUERIES:
+        try:
+            for job in scrape_linkedin(query, "Latin America", overseas=True):
+                if _is_new(job, existing_ids, seen_signatures, blacklist_ids):
+                    new_jobs.append(job)
+                    _register(job, existing_ids, seen_signatures)
+                elif job.id in blacklist_ids:
+                    rejected_by_blacklist += 1
+        except Exception as e:
+            log.error("[LinkedIn/LATAM] Falha em query=%r: %s", query, e)
         _sleep(0.5, 1.5)
 
     log.info("Total de vagas novas encontradas: %d (rejeitadas por blacklist: %d)",

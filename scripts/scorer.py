@@ -102,6 +102,107 @@ OVERSEAS_KEYWORDS = {
     "async", "asynchronous team", "remote, global",
 }
 
+# ─── Modo de trabalho das vagas no exterior ────────────────────────────────────
+# `is_overseas` só diz "achada fora do Brasil". O filtro de remoto do LinkedIn
+# não é confiável (parte das vagas vem presencial, híbrida ou remota só dentro
+# de um país), então vaga no exterior só ganha crédito de remota se o TEXTO
+# provar remoto, e perde se disser presencial/híbrido ou restringir a um país.
+# Calibrado contra 15 vagas reais: 13 eram presenciais/travadas em país.
+#
+#   open           remoto + menciona Brasil/LATAM/contractor/worldwide
+#   latam          remoto, achada pela busca na região Latin America
+#   remote         remoto, sem restrição nem abertura explícita (elegibilidade a verificar)
+#   country_locked remoto, mas só dentro de um país ("Remote, US", exige autorização)
+#   onsite         presencial/híbrido, ou sem nenhuma evidência de remoto
+
+_REMOTE_WORD_RE = re.compile(
+    r"\bremot[eoa]\b|\bremotely\b|\bteletrabaj\w*|\bwork(?:ing)? from home\b|\bhome[- ]office\b"
+    r"|\btrabalho remoto\b|\btrabajo remoto\b|\bwfh\b|\bwork from anywhere\b"
+)
+# "remote monitoring/access/support..." descreve a tarefa, não o regime de trabalho.
+_REMOTE_TASK_RE = re.compile(
+    r"\bremot(?:e|ely)\s+(?:monitor\w*|access\w*|troubleshoot\w*|diagnos\w*|assist\w*|sites?|hands"
+    r"|locations?|devices?|servers?|data|connect\w*|login|desktop|session\w*|customers?|clients?|users?|offices?)\b"
+    r"|\bremote[- ]working\s+(?:\w+\s+)?(?:solutions?|tools?|environments?|capabilit\w+|technolog\w+)\b"
+)
+_STRONG_REMOTE_RE = re.compile(
+    r"\bfully[- ]remote\b|\b100\s?%\s*remote\b|\bremote[- ]first\b|\bremote (?:position|role|job|work)\b"
+    r"|\bwork(?:ing)? remotely\b|\bwork from (?:home|anywhere)\b|\bteletrabaj\w*|\bmodalidad remota\b"
+    r"|\btrabajo remoto\b|\btrabalho remoto\b|\bhome[- ]office\b|\(remote\)|[-–—]\s*remote\b"
+    r"|\bremote\s*[-–—,(:]\s+\S|\blocation:?\s*remote\b|\bremote\s+(?:latam|latin|worldwide|global|brazil|anywhere)"
+)
+_HARD_REMOTE_RE = re.compile(
+    r"\bfully[- ]remote\b|\b100\s?%\s*remote\b|\bremote[- ]first\b|\bwork from anywhere\b"
+)
+# Cláusulas que amarram a vaga a um escritório/cidade (vetam o remoto salvo "fully remote").
+_HYBRID_OFFICE_RE = re.compile(
+    r"\bhybrid\s+(?:work|working|model|role|position|schedule|environment|setup|arrangement|workspace|mode|basis|office)\b"
+    r"|\b(?:work|working)\s+hybrid\b|\bhybrid\b[^.]{0,25}\b(?:days?|office)\b|\bh[ií]brid[oa]\b|\bpresencial\w*"
+    r"|\bin[- ]office\b|\boffice[- ]based\b|\b(?:in|at|from)\s+(?:our|the)\s+[\w'\-, ]{0,40}\boffice\b"
+    r"|\b(?:based|located)\s+in\s+(?:our|the)\s+[\w'\-, ]{0,40}\boffice\b"
+    r"|\b(?:will be|is|are)\s+located\s+in\b|\brelocat\w+"
+    r"|\b(?:partly|partially|part[- ]time)\b[^.]{0,30}\b(?:on[- ]?site|office|campus)\b"
+    r"|\b(?:[1-9]\d?)\s?%\s*(?:home[- ]?office|remote|telework\w*|mobile work)"
+)
+# "on-site"/"in-person" soltos: veta só se não houver remoto explícito (remoto às vezes cita visitas).
+_ONSITE_WORD_RE = re.compile(r"\bon[- ]?site\b|\bin[- ]person\b")
+_COUNTRIES = (
+    r"(?:us|usa|u\.s\.a?\.?|united states|canada|uk|u\.k\.|united kingdom|europe|eu|spain|españa"
+    r"|germany|france|italy|poland|netherlands|ireland|australia|india|mexico|méxico|portugal"
+    r"|philippines|singapore|japan)"
+)
+_LOCKED_RE = re.compile(
+    rf"\b{_COUNTRIES}\s*[-–—,(/:]?\s*remote\b|\bremote\s*[-–—,(/:]\s*{_COUNTRIES}\b"
+    rf"|\bremote\s+(?:in|within|from)\s+(?:the\s+)?{_COUNTRIES}\b"
+    r"|\b(?:must|need to)\s+(?:be|live|reside|work)\s+(?:located\s+)?in\b|\bauthori[sz]ed to work in\b"
+    r"|\bwork authori[sz]ation\b|\bright to work\b|(?<!no )citizenship\b|\bsecurity clearance\b"
+    r"|\bresidents? of\b|\bus[- ]based\b|\bu\.?s\.? (?:only|citizens?)\b"
+)
+# Abertura explícita a quem mora no Brasil / contrata contractor / sem fronteira.
+_OPEN_RE = re.compile(
+    r"\blatam\b|\blatin america\w*|\bam[eé]rica latina\b|\bbrazil\b|\bbrasil\b"
+    r"|\bremote\s*[-–—,(:]?\s*(?:worldwide|global|anywhere)\b|\b(?:worldwide|global)\s+remote\b|\bwork from anywhere\b"
+    r"|\banywhere in the world\b|\bindependent contractors?\b|\bb2b\b|\bcontractor\b|\bemployer of record\b"
+)
+
+
+def _has_remote_evidence(t: str) -> bool:
+    for m in _REMOTE_WORD_RE.finditer(t):
+        if _REMOTE_TASK_RE.match(t, m.start()):
+            continue
+        return True
+    return False
+
+
+def classify_work_mode(job: dict) -> str:
+    """Modo de trabalho de uma vaga do exterior (ver o bloco de comentário acima)."""
+    t = _full_text(job).lower()
+    strong = bool(_STRONG_REMOTE_RE.search(t))
+    if not (strong or _has_remote_evidence(t)):
+        return "onsite"
+    hard = bool(_HARD_REMOTE_RE.search(t))
+    if _HYBRID_OFFICE_RE.search(t) and not hard:
+        return "onsite"
+    if _ONSITE_WORD_RE.search(t) and not (strong or hard):
+        return "onsite"
+    if _OPEN_RE.search(t):
+        return "open"
+    if _LOCKED_RE.search(t):
+        return "country_locked"
+    if job.get("latam_ok"):
+        return "latam"
+    return "remote"
+
+
+# (pontos de localização, bônus overseas, teto do score, limiar de alto fit)
+_MODE_RULES = {
+    "open":           (20, 15, None, 60),
+    "latam":          (14, 10, None, 70),
+    "remote":         (10, 3, 69, 70),   # sem prova de que aceita o Brasil: nunca "alto" (salvo big tech)
+    "country_locked": (3, 0, 65, 70),
+    "onsite":         (0, 0, 49, 70),
+}
+
 # ─── Empresas alvo (operadoras / fabricantes / plataformas de telecom) ────────
 # Vagas dessas empresas recebem +15 no score e threshold mais baixo
 # para alto fit (60 em vez de 70). Match normaliza (lowercase, sem acento).
@@ -317,6 +418,7 @@ class ScoreResult:
     title_class: str = ""
     is_overseas: bool = False
     overseas_bonus: int = 0
+    work_mode: str = ""
 
 
 def score_job(job_dict: dict) -> ScoreResult:
@@ -378,17 +480,22 @@ def score_job(job_dict: dict) -> ScoreResult:
     skills_score = min(skills_score, 40)
 
     # ── Localização (20) ────────────────────────────────────────────────────
-    # Vaga marcada is_overseas (buscada via LinkedIn Worldwide ou Remotive) é
-    # remota por definição — não depende de achar keyword no texto.
+    # Vaga marcada is_overseas só quer dizer "achada fora do Brasil": o modo de
+    # trabalho vem do texto (classify_work_mode), não da origem da busca.
     is_overseas_job = bool(job_dict.get("is_overseas"))
     loc_text = (job_dict.get("location", "") + " " + job_dict.get("description", "")).lower()
-    is_remote = is_overseas_job or any(kw in loc_text for kw in LOCATION_KEYWORDS_REMOTE)
-    location_score = 0
-    if is_remote:
-        location_score = 20
-    elif any(kw in loc_text for kw in LOCATION_KEYWORDS_BH):
-        location_score = 20
-    # outra cidade presencial = 0
+    work_mode = ""
+    score_cap = None
+    if is_overseas_job:
+        work_mode = classify_work_mode(job_dict)
+        location_score, _, score_cap, _ = _MODE_RULES[work_mode]
+        is_remote = work_mode in ("open", "latam", "remote")
+    else:
+        is_remote = any(kw in loc_text for kw in LOCATION_KEYWORDS_REMOTE)
+        location_score = 0
+        if is_remote or any(kw in loc_text for kw in LOCATION_KEYWORDS_BH):
+            location_score = 20
+        # outra cidade presencial = 0
 
     # ── Nível (20) ──────────────────────────────────────────────────────────
     level_score = 10  # padrão: sem menção
@@ -443,10 +550,11 @@ def score_job(job_dict: dict) -> ScoreResult:
     title_bonus = 10 if title_class == "core" else 0
 
     # ── Boost de remoto internacional (cap 15) ──────────────────────────────
-    # Flat +15 se a vaga já veio marcada is_overseas (LinkedIn Worldwide ou
-    # Remotive); senão, +3 por keyword de remoto internacional no texto.
+    # Vaga do exterior: o bônus depende do modo de trabalho (aberta ao Brasil
+    # vale 15, remota sem informação 3, presencial/travada em país 0);
+    # vaga daqui: +3 por keyword de remoto internacional no texto.
     if is_overseas_job:
-        overseas_bonus = 15
+        overseas_bonus = _MODE_RULES[work_mode][1]
     else:
         overseas_kw_found = sum(1 for kw in OVERSEAS_KEYWORDS if kw in text_lower)
         overseas_bonus = min(overseas_kw_found * 3, 15)
@@ -455,10 +563,20 @@ def score_job(job_dict: dict) -> ScoreResult:
              salary_score + target_company_bonus + priority_bonus + title_bonus +
              overseas_bonus)
     total = min(total, 100)
+    # Presencial/híbrida no exterior nunca passa de "baixo"; remota travada em
+    # um país nunca passa de "médio" — o candidato é brasileiro, sem autorização
+    # de trabalho fora.
+    if score_cap is not None:
+        total = min(total, score_cap)
 
-    # Threshold mais baixo de alto fit quando é big tech ou vaga remota
-    # internacional (60 vs 70) — reflete a prioridade atual do candidato.
-    alto_threshold = 60 if (target_company or is_overseas_job) else 70
+    # Threshold mais baixo de alto fit para big tech ou vaga remota aberta ao
+    # Brasil (60 vs 70) — reflete a prioridade atual do candidato.
+    if is_overseas_job:
+        alto_threshold = _MODE_RULES[work_mode][3]
+        if target_company and alto_threshold > 60 and work_mode in ("open", "latam", "remote"):
+            alto_threshold = 60
+    else:
+        alto_threshold = 60 if target_company else 70
     if total >= alto_threshold:
         fit_level = "alto"
     elif total >= 50:
@@ -471,8 +589,8 @@ def score_job(job_dict: dict) -> ScoreResult:
         log.info("🎯 Empresa alvo detectada: %s (boost +%d%s, threshold alto=60)",
                  company, target_company_bonus, combo)
     if is_overseas_job:
-        log.info("🌍 Vaga remota internacional: %s @ %s (boost +%d, threshold alto=60)",
-                 job_dict.get("title", ""), company, overseas_bonus)
+        log.info("🌍 Vaga no exterior [%s]: %s @ %s (boost +%d, threshold alto=%d)",
+                 work_mode, job_dict.get("title", ""), company, overseas_bonus, alto_threshold)
 
     if contact_email:
         log.info("Email de contato detectado: %s → %s", contact_email, job_dict.get("title", ""))
@@ -497,6 +615,7 @@ def score_job(job_dict: dict) -> ScoreResult:
         title_class=title_class,
         is_overseas=is_overseas_job,
         overseas_bonus=overseas_bonus,
+        work_mode=work_mode,
     )
 
 
@@ -541,6 +660,9 @@ def apply_scores(jobs: list[dict]) -> list[dict]:
             job["target_company"] = result.target_company
             job["priority_skills"] = result.priority_skills or []
             job["is_overseas"] = result.is_overseas
+            job["work_mode"] = result.work_mode
+            job.pop("rejected", None)
+            job.pop("rejected_reason", None)
             if job.get("status") == "nova":
                 pass  # mantém "nova"
         scored.append(job)

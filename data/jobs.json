@@ -20,7 +20,8 @@
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
-        "title": 10
+        "title": 10,
+        "overseas": 0
       },
       "skills_match": [
         "operadora",
@@ -126,7 +127,9 @@
         "redes"
       ],
       "last_seen_at": "2026-09-11T21:23:44.807591+00:00",
-      "verified_at": "2026-10-23T15:40:05.344233+00:00"
+      "verified_at": "2026-10-23T15:40:05.344233+00:00",
+      "is_overseas": false,
+      "work_mode": ""
     },
     {
       "id": "8146ea4c288d6e2b",
@@ -139,17 +142,17 @@
       "source": "LinkedIn",
       "published_at": "2026-08-23",
       "found_at": "2026-09-11T21:23:11.536423+00:00",
-      "score": 88,
+      "score": 66,
       "score_breakdown": {
         "skills": 10,
-        "location": 20,
+        "location": 10,
         "level": 20,
         "keywords": 6,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 2,
         "title": 10,
-        "overseas": 15
+        "overseas": 3
       },
       "skills_match": [
         "linux",
@@ -241,7 +244,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "medio",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -257,7 +260,8 @@
         "networking"
       ],
       "last_seen_at": "2026-09-29T16:44:28.439665+00:00",
-      "verified_at": "2026-10-23T15:40:05.344233+00:00"
+      "verified_at": "2026-10-23T15:40:05.344233+00:00",
+      "work_mode": "remote"
     },
     {
       "id": "af6b235068807258",
@@ -270,17 +274,17 @@
       "source": "LinkedIn",
       "published_at": "2026-08-21",
       "found_at": "2026-09-11T21:23:22.894548+00:00",
-      "score": 69,
+      "score": 34,
       "score_breakdown": {
         "skills": 4,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 4,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "network",
@@ -372,7 +376,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -387,7 +391,8 @@
         "network"
       ],
       "last_seen_at": "2026-10-01T17:14:36.833531+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00"
+      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "760c17a0bf33e978",
@@ -400,17 +405,17 @@
       "source": "LinkedIn",
       "published_at": "2026-08-28",
       "found_at": "2026-09-11T21:23:33.158785+00:00",
-      "score": 78,
+      "score": 43,
       "score_breakdown": {
         "skills": 9,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 8,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "cisco",
@@ -502,7 +507,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -517,7 +522,8 @@
         "network"
       ],
       "last_seen_at": "2026-09-13T07:33:26.441400+00:00",
-      "verified_at": "2026-10-21T15:47:53.849813+00:00"
+      "verified_at": "2026-10-21T15:47:53.849813+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "1aee7fdf835947a7",
@@ -530,17 +536,17 @@
       "source": "LinkedIn",
       "published_at": "2026-09-02",
       "found_at": "2026-09-11T21:23:38.493208+00:00",
-      "score": 75,
+      "score": 40,
       "score_breakdown": {
         "skills": 6,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 8,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "cisco",
@@ -632,7 +638,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -647,7 +653,8 @@
         "unified communications"
       ],
       "last_seen_at": "2026-10-01T17:14:36.833531+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00"
+      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "76a245fb2a4385d0",
@@ -660,17 +667,17 @@
       "source": "LinkedIn",
       "published_at": "2026-09-12",
       "found_at": "2026-09-13T07:33:05.844088+00:00",
-      "score": 89,
+      "score": 57,
       "score_breakdown": {
         "skills": 16,
-        "location": 20,
+        "location": 3,
         "level": 10,
         "keywords": 10,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 3,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "bgp",
@@ -762,7 +769,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "medio",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -779,7 +786,8 @@
         "network"
       ],
       "last_seen_at": "2026-09-25T15:43:53.421941+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00"
+      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "work_mode": "country_locked"
     },
     {
       "id": "de4e426d38334e86",
@@ -792,17 +800,17 @@
       "source": "LinkedIn",
       "published_at": "2026-09-09",
       "found_at": "2026-09-13T07:33:21.045429+00:00",
-      "score": 77,
+      "score": 42,
       "score_breakdown": {
         "skills": 10,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 6,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "sip",
@@ -894,7 +902,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -909,7 +917,8 @@
         "unified communications"
       ],
       "last_seen_at": "2026-09-18T14:44:45.821650+00:00",
-      "verified_at": "2026-10-23T15:40:05.344233+00:00"
+      "verified_at": "2026-10-23T15:40:05.344233+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "3537821786b20eae",
@@ -1040,7 +1049,8 @@
         "sd-wan"
       ],
       "last_seen_at": "2026-10-06T17:02:19.103324+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00"
+      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "work_mode": ""
     },
     {
       "id": "40ac7da4e0928135",
@@ -1171,7 +1181,8 @@
         "sd-wan"
       ],
       "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
-      "verified_at": "2026-10-19T17:18:39.158506+00:00"
+      "verified_at": "2026-10-19T17:18:39.158506+00:00",
+      "work_mode": ""
     },
     {
       "id": "69da92f0d27b6e12",
@@ -1301,7 +1312,8 @@
         "redes"
       ],
       "last_seen_at": "2026-10-16T15:07:01.012659+00:00",
-      "verified_at": "2026-10-23T15:40:05.344233+00:00"
+      "verified_at": "2026-10-23T15:40:05.344233+00:00",
+      "work_mode": ""
     },
     {
       "id": "5144a1bee3a62c64",
@@ -1314,17 +1326,17 @@
       "source": "LinkedIn",
       "published_at": "2026-09-18",
       "found_at": "2026-09-18T14:44:41.380901+00:00",
-      "score": 74,
+      "score": 39,
       "score_breakdown": {
         "skills": 4,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 8,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 2,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "network",
@@ -1416,7 +1428,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -1436,7 +1448,8 @@
         "unified communications"
       ],
       "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
-      "verified_at": "2026-10-23T15:40:05.344233+00:00"
+      "verified_at": "2026-10-23T15:40:05.344233+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "4108f0ada0fef52e",
@@ -1449,17 +1462,17 @@
       "source": "LinkedIn",
       "published_at": "2026-09-08",
       "found_at": "2026-09-21T16:45:13.586158+00:00",
-      "score": 82,
+      "score": 47,
       "score_breakdown": {
         "skills": 11,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 10,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "network",
@@ -1551,7 +1564,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -1566,7 +1579,8 @@
         "network"
       ],
       "last_seen_at": "2026-09-28T18:21:57.916502+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00"
+      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "a65811f8f9bfceac",
@@ -1696,7 +1710,8 @@
         "redes"
       ],
       "last_seen_at": "2026-10-22T15:47:08.625121+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00"
+      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "work_mode": ""
     },
     {
       "id": "f1bd1b4a10f8ea5e",
@@ -1709,17 +1724,17 @@
       "source": "LinkedIn",
       "published_at": "2026-09-23",
       "found_at": "2026-09-23T15:16:22.768883+00:00",
-      "score": 99,
+      "score": 49,
       "score_breakdown": {
         "skills": 10,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 8,
         "salary": 5,
-        "target_company": 20,
+        "target_company": 15,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "bgp",
@@ -1811,7 +1826,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -1826,7 +1841,8 @@
         "network"
       ],
       "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00"
+      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "86803dc75c314db1",
@@ -1839,17 +1855,17 @@
       "source": "LinkedIn",
       "published_at": "2026-09-22",
       "found_at": "2026-09-25T15:43:34.897999+00:00",
-      "score": 72,
+      "score": 37,
       "score_breakdown": {
         "skills": 4,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 6,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 2,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "cybersecurity",
@@ -1941,7 +1957,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -1957,7 +1973,8 @@
         "cybersecurity"
       ],
       "last_seen_at": "2026-10-07T17:39:05.828387+00:00",
-      "verified_at": "2026-10-23T15:40:05.344233+00:00"
+      "verified_at": "2026-10-23T15:40:05.344233+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "228fd4ba5137e96d",
@@ -2088,7 +2105,8 @@
         "redes"
       ],
       "last_seen_at": "2026-10-13T17:54:34.322706+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00"
+      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "work_mode": ""
     },
     {
       "id": "4502a4a005871491",
@@ -2101,17 +2119,17 @@
       "source": "LinkedIn",
       "published_at": "2026-09-30",
       "found_at": "2026-09-30T16:35:38.634544+00:00",
-      "score": 78,
+      "score": 46,
       "score_breakdown": {
         "skills": 10,
-        "location": 20,
+        "location": 3,
         "level": 10,
         "keywords": 6,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 2,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "linux",
@@ -2203,7 +2221,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -2219,7 +2237,8 @@
         "networking"
       ],
       "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
-      "verified_at": "2026-10-20T15:32:02.481233+00:00"
+      "verified_at": "2026-10-20T15:32:02.481233+00:00",
+      "work_mode": "country_locked"
     },
     {
       "id": "521bb86d9a651af9",
@@ -2232,17 +2251,17 @@
       "source": "LinkedIn",
       "published_at": "2026-09-29",
       "found_at": "2026-09-30T16:35:46.285217+00:00",
-      "score": 86,
+      "score": 49,
       "score_breakdown": {
         "skills": 4,
-        "location": 20,
+        "location": 0,
         "level": 20,
         "keywords": 10,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 2,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "cloud",
@@ -2334,7 +2353,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -2350,7 +2369,8 @@
         "redes"
       ],
       "last_seen_at": "2026-10-15T15:27:11.982252+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00"
+      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "eb668afe7aa0aed8",
@@ -2479,7 +2499,8 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": ""
     },
     {
       "id": "3aed244eb93f77c8",
@@ -2492,17 +2513,17 @@
       "source": "LinkedIn",
       "published_at": "2026-09-30",
       "found_at": "2026-10-01T17:14:16.288677+00:00",
-      "score": 79,
+      "score": 57,
       "score_breakdown": {
         "skills": 8,
-        "location": 20,
+        "location": 10,
         "level": 10,
         "keywords": 10,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 3
       },
       "skills_match": [
         "network",
@@ -2594,7 +2615,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "medio",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -2609,7 +2630,8 @@
         "network"
       ],
       "last_seen_at": "2026-10-02T16:27:47.882939+00:00",
-      "verified_at": "2026-10-23T15:40:05.344233+00:00"
+      "verified_at": "2026-10-23T15:40:05.344233+00:00",
+      "work_mode": "remote"
     },
     {
       "id": "ab5487ce0db21c64",
@@ -2622,17 +2644,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-01",
       "found_at": "2026-10-01T17:14:16.288689+00:00",
-      "score": 99,
+      "score": 49,
       "score_breakdown": {
         "skills": 24,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 10,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 5,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "active directory",
@@ -2724,7 +2746,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -2747,7 +2769,8 @@
         "zero trust"
       ],
       "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
-      "verified_at": "2026-10-19T17:18:39.158506+00:00"
+      "verified_at": "2026-10-19T17:18:39.158506+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "3c8893a5299de5ef",
@@ -2760,17 +2783,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-02",
       "found_at": "2026-10-02T16:27:26.223435+00:00",
-      "score": 96,
+      "score": 64,
       "score_breakdown": {
         "skills": 14,
-        "location": 20,
+        "location": 3,
         "level": 20,
         "keywords": 10,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 2,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "linux",
@@ -2862,7 +2885,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "medio",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -2878,7 +2901,8 @@
         "networking"
       ],
       "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
-      "verified_at": "2026-10-19T17:18:39.158506+00:00"
+      "verified_at": "2026-10-19T17:18:39.158506+00:00",
+      "work_mode": "country_locked"
     },
     {
       "id": "29757099b4654e02",
@@ -2891,17 +2915,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-02",
       "found_at": "2026-10-02T16:27:40.843018+00:00",
-      "score": 77,
+      "score": 42,
       "score_breakdown": {
         "skills": 8,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 8,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "huawei",
@@ -2993,7 +3017,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -3011,7 +3035,8 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "e74bc61ab76846ce",
@@ -3141,7 +3166,8 @@
         "redes"
       ],
       "last_seen_at": "2026-10-13T17:54:34.322706+00:00",
-      "verified_at": "2026-10-23T15:40:05.344233+00:00"
+      "verified_at": "2026-10-23T15:40:05.344233+00:00",
+      "work_mode": ""
     },
     {
       "id": "672f4ac7aef3f226",
@@ -3270,7 +3296,8 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": ""
     },
     {
       "id": "80d51fb65e8c7289",
@@ -3283,17 +3310,17 @@
       "source": "LinkedIn",
       "published_at": "2026-09-24",
       "found_at": "2026-10-06T17:01:47.530774+00:00",
-      "score": 88,
+      "score": 49,
       "score_breakdown": {
         "skills": 15,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 10,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 3,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "cisco",
@@ -3385,7 +3412,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -3402,7 +3429,8 @@
         "networking"
       ],
       "last_seen_at": "2026-10-06T17:02:19.103324+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00"
+      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "a145bb090de9a07a",
@@ -3415,17 +3443,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-06",
       "found_at": "2026-10-06T17:02:03.026906+00:00",
-      "score": 84,
+      "score": 49,
       "score_breakdown": {
         "skills": 12,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 10,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 2,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "huawei",
@@ -3517,7 +3545,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -3537,7 +3565,8 @@
         "networking"
       ],
       "last_seen_at": "2026-10-21T15:47:53.839666+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00"
+      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "3f67a3bdc9152f5c",
@@ -3550,17 +3579,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-05",
       "found_at": "2026-10-06T17:02:03.026911+00:00",
-      "score": 89,
+      "score": 49,
       "score_breakdown": {
         "skills": 16,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 10,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 3,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "bgp",
@@ -3652,7 +3681,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -3673,7 +3702,8 @@
         "networking"
       ],
       "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
-      "verified_at": "2026-10-12T20:05:47.414438+00:00"
+      "verified_at": "2026-10-12T20:05:47.414438+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "5aef8572b0093283",
@@ -3803,7 +3833,8 @@
         "redes"
       ],
       "last_seen_at": "2026-10-08T17:42:13.424691+00:00",
-      "verified_at": "2026-10-21T15:47:53.849813+00:00"
+      "verified_at": "2026-10-21T15:47:53.849813+00:00",
+      "work_mode": ""
     },
     {
       "id": "88db1cce17150dbf",
@@ -3931,7 +3962,8 @@
       "target_company": true,
       "priority_skills": [],
       "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
-      "verified_at": "2026-10-20T15:32:02.481233+00:00"
+      "verified_at": "2026-10-20T15:32:02.481233+00:00",
+      "work_mode": ""
     },
     {
       "id": "ebf7423c1df19114",
@@ -3944,17 +3976,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-06",
       "found_at": "2026-10-07T17:38:49.032250+00:00",
-      "score": 90,
+      "score": 49,
       "score_breakdown": {
         "skills": 16,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 10,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 4,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "bgp",
@@ -4046,7 +4078,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -4064,7 +4096,8 @@
         "networking"
       ],
       "last_seen_at": "2026-10-14T15:41:11.477749+00:00",
-      "verified_at": "2026-10-20T15:32:02.481233+00:00"
+      "verified_at": "2026-10-20T15:32:02.481233+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "8fd4624dc70f57e3",
@@ -4193,7 +4226,8 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": ""
     },
     {
       "id": "2b24c8b27c02c88a",
@@ -4206,17 +4240,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-08",
       "found_at": "2026-10-08T17:41:48.109561+00:00",
-      "score": 77,
+      "score": 42,
       "score_breakdown": {
         "skills": 10,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 6,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "network",
@@ -4308,7 +4342,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -4322,7 +4356,8 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "7ce3ea34b891586f",
@@ -4335,17 +4370,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-08",
       "found_at": "2026-10-08T17:41:56.508973+00:00",
-      "score": 73,
+      "score": 38,
       "score_breakdown": {
         "skills": 4,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 8,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "network",
@@ -4437,7 +4472,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -4452,7 +4487,8 @@
         "network"
       ],
       "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
-      "verified_at": "2026-10-23T15:40:05.344233+00:00"
+      "verified_at": "2026-10-23T15:40:05.344233+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "3d8134939cbabbff",
@@ -4586,7 +4622,8 @@
         "redes"
       ],
       "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
-      "verified_at": "2026-10-23T15:40:05.344233+00:00"
+      "verified_at": "2026-10-23T15:40:05.344233+00:00",
+      "work_mode": ""
     },
     {
       "id": "6ad0368bee50e974",
@@ -4715,7 +4752,8 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": ""
     },
     {
       "id": "8b76fd3282dcf5a2",
@@ -4728,17 +4766,17 @@
       "source": "LinkedIn",
       "published_at": "2026-09-14",
       "found_at": "2026-10-09T17:17:03.869982+00:00",
-      "score": 99,
+      "score": 69,
       "score_breakdown": {
         "skills": 27,
-        "location": 20,
+        "location": 10,
         "level": 10,
         "keywords": 10,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 2,
         "title": 10,
-        "overseas": 15
+        "overseas": 3
       },
       "skills_match": [
         "cloud",
@@ -4830,7 +4868,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "medio",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -4846,7 +4884,8 @@
         "networking"
       ],
       "last_seen_at": "2026-10-14T15:41:11.477749+00:00",
-      "verified_at": "2026-10-20T15:32:02.481233+00:00"
+      "verified_at": "2026-10-20T15:32:02.481233+00:00",
+      "work_mode": "remote"
     },
     {
       "id": "e5bea9fe68f20575",
@@ -4859,17 +4898,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-09",
       "found_at": "2026-10-09T17:17:16.883695+00:00",
-      "score": 73,
+      "score": 38,
       "score_breakdown": {
         "skills": 6,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 6,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "network",
@@ -4961,7 +5000,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -4979,7 +5018,8 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "ab648e60745a043e",
@@ -4992,17 +5032,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-09",
       "found_at": "2026-10-09T17:17:23.389389+00:00",
-      "score": 78,
+      "score": 43,
       "score_breakdown": {
         "skills": 9,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 8,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "teams",
@@ -5094,7 +5134,7 @@
         "wireshark",
         "yealink"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -5109,7 +5149,8 @@
         "unified communications"
       ],
       "last_seen_at": "2026-10-13T17:54:34.322706+00:00",
-      "verified_at": "2026-10-23T15:40:05.344233+00:00"
+      "verified_at": "2026-10-23T15:40:05.344233+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "381b474030d1adb9",
@@ -5122,17 +5163,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-05",
       "found_at": "2026-10-09T17:17:31.894431+00:00",
-      "score": 97,
+      "score": 49,
       "score_breakdown": {
         "skills": 22,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 10,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 5,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "cloud",
@@ -5224,7 +5265,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -5243,7 +5284,8 @@
         "unified communications"
       ],
       "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
-      "verified_at": "2026-10-20T15:32:02.481233+00:00"
+      "verified_at": "2026-10-20T15:32:02.481233+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "9defe2ce9cf1fd1f",
@@ -5372,7 +5414,8 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": ""
     },
     {
       "id": "1492fc5e208eb4c0",
@@ -5385,17 +5428,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-12",
       "found_at": "2026-10-12T20:05:24.886972+00:00",
-      "score": 76,
+      "score": 41,
       "score_breakdown": {
         "skills": 8,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 8,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 0,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "sbc",
@@ -5487,7 +5530,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -5500,7 +5543,8 @@
       "target_company": false,
       "priority_skills": [],
       "last_seen_at": "2026-10-14T15:41:11.477749+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00"
+      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "5c06d802e90873c2",
@@ -5627,7 +5671,8 @@
       "target_company": false,
       "priority_skills": [],
       "last_seen_at": "2026-10-13T17:54:34.322706+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00"
+      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "work_mode": ""
     },
     {
       "id": "eb14ccab679fcc24",
@@ -5753,7 +5798,8 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": ""
     },
     {
       "id": "d49a6d787d378a70",
@@ -5766,17 +5812,17 @@
       "source": "LinkedIn",
       "published_at": "2026-09-16",
       "found_at": "2026-10-14T15:40:54.462315+00:00",
-      "score": 65,
+      "score": 30,
       "score_breakdown": {
         "skills": 2,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 2,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "network"
@@ -5868,7 +5914,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -5883,7 +5929,8 @@
         "network"
       ],
       "last_seen_at": "2026-10-15T15:27:11.982252+00:00",
-      "verified_at": "2026-10-20T15:32:02.481233+00:00"
+      "verified_at": "2026-10-20T15:32:02.481233+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "4798cd515fb68fd3",
@@ -6013,7 +6060,8 @@
         "redes"
       ],
       "last_seen_at": "2026-10-15T15:27:11.982252+00:00",
-      "verified_at": "2026-10-21T15:47:53.849813+00:00"
+      "verified_at": "2026-10-21T15:47:53.849813+00:00",
+      "work_mode": ""
     },
     {
       "id": "be5f44c56453cbad",
@@ -6140,7 +6188,8 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": ""
     },
     {
       "id": "44b421ab0a62ce53",
@@ -6268,7 +6317,8 @@
       "target_company": false,
       "priority_skills": [],
       "last_seen_at": "2026-10-20T15:32:02.467509+00:00",
-      "verified_at": "2026-10-19T17:18:39.158506+00:00"
+      "verified_at": "2026-10-19T17:18:39.158506+00:00",
+      "work_mode": ""
     },
     {
       "id": "1e52f18662ce56bb",
@@ -6398,7 +6448,8 @@
         "redes"
       ],
       "last_seen_at": "2026-10-15T15:27:11.982252+00:00",
-      "verified_at": "2026-10-19T17:18:39.158506+00:00"
+      "verified_at": "2026-10-19T17:18:39.158506+00:00",
+      "work_mode": ""
     },
     {
       "id": "429138ba502b8755",
@@ -6411,17 +6462,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-15",
       "found_at": "2026-10-15T15:26:52.653315+00:00",
-      "score": 78,
+      "score": 56,
       "score_breakdown": {
         "skills": 8,
-        "location": 20,
+        "location": 10,
         "level": 10,
         "keywords": 8,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 2,
         "title": 10,
-        "overseas": 15
+        "overseas": 3
       },
       "skills_match": [
         "network",
@@ -6513,7 +6564,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "medio",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -6529,7 +6580,8 @@
         "networking"
       ],
       "last_seen_at": "2026-10-16T15:07:01.012659+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00"
+      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "work_mode": "remote"
     },
     {
       "id": "11bc6898f8799a1f",
@@ -6542,17 +6594,17 @@
       "source": "LinkedIn",
       "published_at": "2026-09-25",
       "found_at": "2026-10-15T15:26:56.078570+00:00",
-      "score": 80,
+      "score": 45,
       "score_breakdown": {
         "skills": 10,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 8,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 2,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "dns",
@@ -6644,7 +6696,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -6659,7 +6711,8 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "6400ce5c69762ae9",
@@ -6788,7 +6841,8 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": ""
     },
     {
       "id": "97d85a8d75393577",
@@ -6801,17 +6855,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-05",
       "found_at": "2026-10-16T15:06:39.974291+00:00",
-      "score": 77,
+      "score": 45,
       "score_breakdown": {
         "skills": 6,
-        "location": 20,
+        "location": 3,
         "level": 10,
         "keywords": 10,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "network",
@@ -6903,7 +6957,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -6918,7 +6972,8 @@
         "network"
       ],
       "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
-      "verified_at": "2026-10-19T17:18:39.158506+00:00"
+      "verified_at": "2026-10-19T17:18:39.158506+00:00",
+      "work_mode": "country_locked"
     },
     {
       "id": "c0045a16dd08e24a",
@@ -6931,17 +6986,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-01",
       "found_at": "2026-10-16T15:06:50.826525+00:00",
-      "score": 71,
+      "score": 36,
       "score_breakdown": {
         "skills": 4,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 6,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "network",
@@ -7033,7 +7088,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -7048,7 +7103,8 @@
         "network"
       ],
       "last_seen_at": "2026-10-16T15:07:01.012659+00:00",
-      "verified_at": "2026-10-23T15:40:05.344233+00:00"
+      "verified_at": "2026-10-23T15:40:05.344233+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "baa96cdf232824a2",
@@ -7061,17 +7117,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-16",
       "found_at": "2026-10-16T15:06:50.826556+00:00",
-      "score": 75,
+      "score": 43,
       "score_breakdown": {
         "skills": 6,
-        "location": 20,
+        "location": 3,
         "level": 10,
         "keywords": 8,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "network",
@@ -7163,7 +7219,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -7178,7 +7234,8 @@
         "network"
       ],
       "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
-      "verified_at": "2026-10-19T17:18:39.158506+00:00"
+      "verified_at": "2026-10-19T17:18:39.158506+00:00",
+      "work_mode": "country_locked"
     },
     {
       "id": "ba1a8cc24831da34",
@@ -7191,17 +7248,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-01",
       "found_at": "2026-10-16T15:06:55.741494+00:00",
-      "score": 74,
+      "score": 39,
       "score_breakdown": {
         "skills": 7,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 6,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "network",
@@ -7293,7 +7350,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -7307,7 +7364,8 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "768c7f28b592479a",
@@ -7320,17 +7378,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-09",
       "found_at": "2026-10-16T15:06:55.741518+00:00",
-      "score": 65,
+      "score": 30,
       "score_breakdown": {
         "skills": 2,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 2,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "unified communications"
@@ -7422,7 +7480,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -7436,7 +7494,8 @@
       "priority_skills": [
         "unified communications"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "fe77fdfb9c8d2df8",
@@ -7566,7 +7625,8 @@
         "redes"
       ],
       "last_seen_at": "2026-10-19T17:18:39.126889+00:00",
-      "verified_at": "2026-10-23T15:40:05.344233+00:00"
+      "verified_at": "2026-10-23T15:40:05.344233+00:00",
+      "work_mode": ""
     },
     {
       "id": "d47a01d4708161e5",
@@ -7695,7 +7755,8 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": ""
     },
     {
       "id": "80c1ba3809ca9e1f",
@@ -7824,7 +7885,8 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": ""
     },
     {
       "id": "b0fc55ca802d4083",
@@ -7837,17 +7899,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-08",
       "found_at": "2026-10-19T17:18:22.026155+00:00",
-      "score": 69,
+      "score": 34,
       "score_breakdown": {
         "skills": 4,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 4,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "network",
@@ -7939,7 +8001,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -7953,7 +8015,8 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "da42a5fa8b6715a9",
@@ -7966,17 +8029,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-16",
       "found_at": "2026-10-19T17:18:22.026176+00:00",
-      "score": 76,
+      "score": 41,
       "score_breakdown": {
         "skills": 10,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 4,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 2,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "cisco",
@@ -8068,7 +8131,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -8084,7 +8147,8 @@
         "networking"
       ],
       "last_seen_at": "2026-10-20T15:32:02.467509+00:00",
-      "verified_at": "2026-10-23T15:40:05.344233+00:00"
+      "verified_at": "2026-10-23T15:40:05.344233+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "9c5e682e4b255580",
@@ -8097,17 +8161,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-07",
       "found_at": "2026-10-19T17:18:33.366784+00:00",
-      "score": 80,
+      "score": 45,
       "score_breakdown": {
         "skills": 12,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 6,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 2,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "cisco",
@@ -8199,7 +8263,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -8215,7 +8279,8 @@
         "unified communications"
       ],
       "last_seen_at": "2026-10-20T15:32:02.467509+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00"
+      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "cf2166bce113ebc0",
@@ -8345,7 +8410,8 @@
         "redes"
       ],
       "last_seen_at": "2026-10-20T15:32:02.467509+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00"
+      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "work_mode": ""
     },
     {
       "id": "3da922e48da86c75",
@@ -8474,7 +8540,8 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": ""
     },
     {
       "id": "af703775b1e11b14",
@@ -8601,7 +8668,8 @@
       "title_class": "core",
       "target_company": true,
       "priority_skills": [],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": ""
     },
     {
       "id": "89c26b88e1746acf",
@@ -8728,7 +8796,8 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": ""
     },
     {
       "id": "ff052829a66c09d6",
@@ -8741,17 +8810,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-16",
       "found_at": "2026-10-21T15:47:31.353727+00:00",
-      "score": 80,
+      "score": 58,
       "score_breakdown": {
         "skills": 8,
-        "location": 20,
+        "location": 10,
         "level": 10,
         "keywords": 10,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 2,
         "title": 10,
-        "overseas": 15
+        "overseas": 3
       },
       "skills_match": [
         "network",
@@ -8843,7 +8912,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "medio",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -8858,7 +8927,8 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": "remote"
     },
     {
       "id": "a95ca8a2fa2b9971",
@@ -8987,7 +9057,8 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-22T15:47:08.625121+00:00"
+      "last_seen_at": "2026-10-22T15:47:08.625121+00:00",
+      "work_mode": ""
     },
     {
       "id": "9d3a6a93f1c1398e",
@@ -9116,7 +9187,8 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": ""
     },
     {
       "id": "80f54d2972d50231",
@@ -9242,7 +9314,8 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": ""
     },
     {
       "id": "736fe7b0d8531f7a",
@@ -9372,7 +9445,8 @@
         "redes"
       ],
       "last_seen_at": "2026-10-23T15:40:05.328836+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00"
+      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "work_mode": ""
     },
     {
       "id": "ec8a59d14772e71c",
@@ -9499,7 +9573,8 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": ""
     },
     {
       "id": "119351eaf09f1245",
@@ -9632,7 +9707,8 @@
         "redes"
       ],
       "last_seen_at": "2026-10-23T15:40:05.328836+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00"
+      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "work_mode": ""
     },
     {
       "id": "89d2b65a0ab17480",
@@ -9645,17 +9721,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-23",
       "found_at": "2026-10-23T15:38:48.018256+00:00",
-      "score": 95,
+      "score": 69,
       "score_breakdown": {
         "skills": 23,
-        "location": 20,
+        "location": 10,
         "level": 10,
         "keywords": 10,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 2,
         "title": 10,
-        "overseas": 15
+        "overseas": 3
       },
       "skills_match": [
         "cloud",
@@ -9747,7 +9823,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "medio",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -9762,7 +9838,8 @@
         "cloud",
         "redes"
       ],
-      "last_seen_at": "2026-10-23T15:40:05.328836+00:00"
+      "last_seen_at": "2026-10-23T15:40:05.328836+00:00",
+      "work_mode": "remote"
     },
     {
       "id": "44057deb4efc1c6b",
@@ -9891,7 +9968,8 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": ""
     },
     {
       "id": "8cfa114085a16703",
@@ -10025,7 +10103,8 @@
         "networking",
         "redes"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": ""
     },
     {
       "id": "69e217e9fac62c7f",
@@ -10158,7 +10237,8 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": ""
     },
     {
       "id": "becbfbbb8491f236",
@@ -10171,17 +10251,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-13",
       "found_at": "2026-10-26T17:06:06.829939+00:00",
-      "score": 65,
+      "score": 30,
       "score_breakdown": {
         "skills": 3,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 2,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 0,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "sip"
@@ -10273,7 +10353,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -10285,7 +10365,8 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "284d274e0bb79848",
@@ -10298,17 +10379,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-23",
       "found_at": "2026-10-26T17:06:06.829947+00:00",
-      "score": 65,
+      "score": 30,
       "score_breakdown": {
         "skills": 3,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 2,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 0,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "voip"
@@ -10400,7 +10481,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -10412,7 +10493,8 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "76adbfa2ba983a7c",
@@ -10425,17 +10507,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-26",
       "found_at": "2026-10-26T17:06:06.829952+00:00",
-      "score": 69,
+      "score": 34,
       "score_breakdown": {
         "skills": 7,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 2,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 0,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "asterisk",
@@ -10527,7 +10609,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -10539,7 +10621,8 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "7349964f4f137bce",
@@ -10552,17 +10635,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-10",
       "found_at": "2026-10-26T17:06:06.829958+00:00",
-      "score": 65,
+      "score": 30,
       "score_breakdown": {
         "skills": 3,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 2,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 0,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "voip"
@@ -10654,7 +10737,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -10666,7 +10749,8 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "17507ddebdabd3db",
@@ -10679,17 +10763,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-26",
       "found_at": "2026-10-26T17:06:12.998442+00:00",
-      "score": 79,
+      "score": 44,
       "score_breakdown": {
         "skills": 10,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 8,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "dns",
@@ -10781,7 +10865,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -10795,7 +10879,8 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "bb2fa303bf75ff2f",
@@ -10808,17 +10893,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-26",
       "found_at": "2026-10-26T17:06:16.669206+00:00",
-      "score": 67,
+      "score": 32,
       "score_breakdown": {
         "skills": 2,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 4,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "network"
@@ -10910,7 +10995,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -10924,7 +11009,8 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": "onsite"
     },
     {
       "id": "94b8263abf05e833",
@@ -10937,17 +11023,17 @@
       "source": "LinkedIn",
       "published_at": "2026-10-20",
       "found_at": "2026-10-26T17:06:28.907145+00:00",
-      "score": 65,
+      "score": 30,
       "score_breakdown": {
         "skills": 2,
-        "location": 20,
+        "location": 0,
         "level": 10,
         "keywords": 2,
         "salary": 5,
         "target_company": 0,
         "priority_skills": 1,
         "title": 10,
-        "overseas": 15
+        "overseas": 0
       },
       "skills_match": [
         "unified communications"
@@ -11039,7 +11125,7 @@
         "yealink",
         "zoom phone"
       ],
-      "fit_level": "alto",
+      "fit_level": "baixo",
       "status": "nova",
       "applied_at": null,
       "cover_letter": null,
@@ -11053,15 +11139,16 @@
       "priority_skills": [
         "unified communications"
       ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00"
+      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "work_mode": "onsite"
     }
   ],
-  "last_updated": "2026-10-26T17:06:39.182156+00:00",
+  "last_updated": "2026-10-26T23:35:23.771952+00:00",
   "stats": {
     "total": 85,
-    "alto_fit": 55,
-    "medio_fit": 28,
-    "baixo_fit": 2,
+    "alto_fit": 8,
+    "medio_fit": 36,
+    "baixo_fit": 41,
     "enviadas": 1
   }
 }

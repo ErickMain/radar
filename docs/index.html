@@ -1882,9 +1882,13 @@ function renderCard(job) {
     ? `<span class="badge badge-gcp" title="Skills de crescimento: ${(job.priority_skills || []).join(', ')}">🌱 Crescimento</span>`
     : '';
 
-  const overseasBadge = job.is_overseas
-    ? `<span class="badge badge-target" title="Vaga remota internacional — carta e abordagem geradas em inglês">🌍 Remoto internacional</span>`
-    : '';
+  // Vagas antigas, sem work_mode, mantêm o selo genérico só se tinham o bônus.
+  const wm = _JS_MODE_LABEL[job.work_mode];
+  const overseasBadge = !job.is_overseas ? ''
+    : wm ? `<span class="badge ${['open', 'latam'].includes(job.work_mode) ? 'badge-target' : ''}" title="${wm[1]} — carta e abordagem geradas em inglês">${wm[0]}</span>`
+    : ((job.score_breakdown || {}).overseas > 0
+        ? `<span class="badge badge-target" title="Vaga remota internacional — carta e abordagem geradas em inglês">🌍 Remoto internacional</span>`
+        : '');
 
   // Badge 'NEW' para vagas com found_at < 48h
   let newBadge = '';
@@ -2834,6 +2838,56 @@ function _wb(skill) {
   return new RegExp('\\b' + skill.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b');
 }
 
+// Modo de trabalho de vaga no exterior — espelho de classify_work_mode() do
+// scorer.py (mantenha os dois em sincronia). "Achada fora do Brasil" não prova
+// remoto: o texto precisa provar, e restrição a um país tira o crédito.
+const _JS_REMOTE_WORD = /\bremot[eoa]\b|\bremotely\b|\bteletrabaj\w*|\bwork(?:ing)? from home\b|\bhome[- ]office\b|\btrabalho remoto\b|\btrabajo remoto\b|\bwfh\b|\bwork from anywhere\b/g;
+const _JS_REMOTE_TASK = /^(?:remot(?:e|ely)\s+(?:monitor\w*|access\w*|troubleshoot\w*|diagnos\w*|assist\w*|sites?|hands|locations?|devices?|servers?|data|connect\w*|login|desktop|session\w*|customers?|clients?|users?|offices?)\b|remote[- ]working\s+(?:\w+\s+)?(?:solutions?|tools?|environments?|capabilit\w+|technolog\w+)\b)/;
+const _JS_STRONG_REMOTE = /\bfully[- ]remote\b|\b100\s?%\s*remote\b|\bremote[- ]first\b|\bremote (?:position|role|job|work)\b|\bwork(?:ing)? remotely\b|\bwork from (?:home|anywhere)\b|\bteletrabaj\w*|\bmodalidad remota\b|\btrabajo remoto\b|\btrabalho remoto\b|\bhome[- ]office\b|\(remote\)|[-–—]\s*remote\b|\bremote\s*[-–—,(:]\s+\S|\blocation:?\s*remote\b|\bremote\s+(?:latam|latin|worldwide|global|brazil|anywhere)/;
+const _JS_HARD_REMOTE = /\bfully[- ]remote\b|\b100\s?%\s*remote\b|\bremote[- ]first\b|\bwork from anywhere\b/;
+const _JS_HYBRID_OFFICE = /\bhybrid\s+(?:work|working|model|role|position|schedule|environment|setup|arrangement|workspace|mode|basis|office)\b|\b(?:work|working)\s+hybrid\b|\bhybrid\b[^.]{0,25}\b(?:days?|office)\b|\bh[ií]brid[oa]\b|\bpresencial\w*|\bin[- ]office\b|\boffice[- ]based\b|\b(?:in|at|from)\s+(?:our|the)\s+[\w'\-, ]{0,40}\boffice\b|\b(?:based|located)\s+in\s+(?:our|the)\s+[\w'\-, ]{0,40}\boffice\b|\b(?:will be|is|are)\s+located\s+in\b|\brelocat\w+|\b(?:partly|partially|part[- ]time)\b[^.]{0,30}\b(?:on[- ]?site|office|campus)\b|\b(?:[1-9]\d?)\s?%\s*(?:home[- ]?office|remote|telework\w*|mobile work)/;
+const _JS_ONSITE_WORD = /\bon[- ]?site\b|\bin[- ]person\b/;
+const _JS_COUNTRIES = '(?:us|usa|u\\.s\\.a?\\.?|united states|canada|uk|u\\.k\\.|united kingdom|europe|eu|spain|españa|germany|france|italy|poland|netherlands|ireland|australia|india|mexico|méxico|portugal|philippines|singapore|japan)';
+const _JS_LOCKED = new RegExp(
+  '\\b' + _JS_COUNTRIES + '\\s*[-–—,(/:]?\\s*remote\\b|\\bremote\\s*[-–—,(/:]\\s*' + _JS_COUNTRIES + '\\b' +
+  '|\\bremote\\s+(?:in|within|from)\\s+(?:the\\s+)?' + _JS_COUNTRIES + '\\b' +
+  '|\\b(?:must|need to)\\s+(?:be|live|reside|work)\\s+(?:located\\s+)?in\\b|\\bauthori[sz]ed to work in\\b' +
+  '|\\bwork authori[sz]ation\\b|\\bright to work\\b|(?<!no )citizenship\\b|\\bsecurity clearance\\b' +
+  '|\\bresidents? of\\b|\\bus[- ]based\\b|\\bu\\.?s\\.? (?:only|citizens?)\\b');
+const _JS_OPEN = /\blatam\b|\blatin america\w*|\bam[eé]rica latina\b|\bbrazil\b|\bbrasil\b|\bremote\s*[-–—,(:]?\s*(?:worldwide|global|anywhere)\b|\b(?:worldwide|global)\s+remote\b|\bwork from anywhere\b|\banywhere in the world\b|\bindependent contractors?\b|\bb2b\b|\bcontractor\b|\bemployer of record\b/;
+// [pontos de localização, bônus overseas, teto do score, limiar de alto fit]
+const _JS_MODE_RULES = {
+  open: [20, 15, null, 60], latam: [14, 10, null, 70], remote: [10, 3, 69, 70],
+  country_locked: [3, 0, 65, 70], onsite: [0, 0, 49, 70],
+};
+const _JS_MODE_LABEL = {
+  open: ['🌍 Remoto aberto ao Brasil', 'Texto menciona Brasil/LATAM/contractor/worldwide'],
+  latam: ['🌎 Remoto LATAM', 'Achada na busca da América Latina'],
+  remote: ['🌐 Remoto (elegibilidade a confirmar)', 'Remoto, mas não diz se aceita quem mora no Brasil — pergunte antes de candidatar'],
+  country_locked: ['⛔ Remoto só no país', 'Remoto restrito a um país/autorização de trabalho'],
+  onsite: ['🏢 Presencial/híbrido', 'Sem prova de trabalho 100% remoto — não serve para quem mora no Brasil'],
+};
+
+function classifyWorkMode(job) {
+  const t = `${job.title} ${job.company} ${job.description} ${job.location}`.toLowerCase();
+  const strong = _JS_STRONG_REMOTE.test(t);
+  let evidence = strong;
+  if (!evidence) {
+    for (const m of t.matchAll(_JS_REMOTE_WORD)) {
+      if (_JS_REMOTE_TASK.test(t.slice(m.index, m.index + 120))) continue;
+      evidence = true; break;
+    }
+  }
+  if (!evidence) return 'onsite';
+  const hard = _JS_HARD_REMOTE.test(t);
+  if (_JS_HYBRID_OFFICE.test(t) && !hard) return 'onsite';
+  if (_JS_ONSITE_WORD.test(t) && !(strong || hard)) return 'onsite';
+  if (_JS_OPEN.test(t)) return 'open';
+  if (_JS_LOCKED.test(t)) return 'country_locked';
+  if (job.latam_ok) return 'latam';
+  return 'remote';
+}
+
 function scoreJobLocal(job) {
   const text = `${job.title} ${job.company} ${job.description} ${job.location}`.toLowerCase();
 
@@ -2863,11 +2917,18 @@ function scoreJobLocal(job) {
   }
   skillsScore = Math.min(skillsScore, 40);
 
-  // Localização (20) — vaga marcada is_overseas é remota por definição
+  // Localização (20) — vaga do exterior pontua pelo modo de trabalho no texto
   const locText = (job.location + ' ' + job.description).toLowerCase();
-  const isRemote = job.is_overseas || _JS_LOC_REMOTE.test(locText);
-  const isBH = _JS_LOC_BH.test(locText);
-  const locationScore = (isRemote || isBH) ? 20 : 0;
+  const isOverseasJob = !!job.is_overseas;
+  const workMode = isOverseasJob ? classifyWorkMode(job) : '';
+  let isRemote, locationScore;
+  if (isOverseasJob) {
+    locationScore = _JS_MODE_RULES[workMode][0];
+    isRemote = ['open', 'latam', 'remote'].includes(workMode);
+  } else {
+    isRemote = _JS_LOC_REMOTE.test(locText);
+    locationScore = (isRemote || _JS_LOC_BH.test(locText)) ? 20 : 0;
+  }
 
   // Nível (20)
   let levelScore = 10;
@@ -2904,16 +2965,23 @@ function scoreJobLocal(job) {
   const priorityFound = _JS_PRIORITY_SKILLS.filter(s => _wb(s).test(text));
   const priorityBonus = Math.min(priorityFound.length, 10);
 
-  // Remoto internacional (cap 15) — flat se job.is_overseas, senão por keyword
-  const isOverseasJob = !!job.is_overseas;
+  // Remoto internacional (cap 15) — pelo modo de trabalho se do exterior, senão por keyword
   const overseasKwCount = _JS_OVERSEAS.filter(k => text.includes(k)).length;
-  const overseasBonus = isOverseasJob ? 15 : Math.min(overseasKwCount * 3, 15);
+  const overseasBonus = isOverseasJob ? _JS_MODE_RULES[workMode][1] : Math.min(overseasKwCount * 3, 15);
 
   let total = skillsScore + locationScore + levelScore + kwScore + salaryScore +
     bigTechBonus + priorityBonus + overseasBonus;
   total = Math.min(total, 100);
+  const cap = isOverseasJob ? _JS_MODE_RULES[workMode][2] : null;
+  if (cap !== null) total = Math.min(total, cap);
 
-  const altoThreshold = (isBigTech || isOverseasJob) ? 60 : 70;
+  let altoThreshold;
+  if (isOverseasJob) {
+    altoThreshold = _JS_MODE_RULES[workMode][3];
+    if (isBigTech && altoThreshold > 60 && ['open', 'latam', 'remote'].includes(workMode)) altoThreshold = 60;
+  } else {
+    altoThreshold = isBigTech ? 60 : 70;
+  }
   let fitLevel = 'baixo';
   if (total >= altoThreshold) fitLevel = 'alto';
   else if (total >= 50) fitLevel = 'medio';
@@ -2933,6 +3001,7 @@ function scoreJobLocal(job) {
     target_company: isBigTech,
     priority_skills: priorityFound.sort(),
     is_overseas: isOverseasJob,
+    work_mode: workMode,
   };
 }
 
@@ -3010,6 +3079,7 @@ async function previewAndAddJob() {
     target_company: score.target_company,
     priority_skills: score.priority_skills,
     is_overseas: isOverseas,
+    work_mode: score.work_mode || '',
   };
 
   allJobs.unshift(newJob);
