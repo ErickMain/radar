@@ -29,6 +29,34 @@
       "outreach_source": "groq"
     },
     {
+      "id": "d33c9ec1cba04c01",
+      "name": "Cristiane Freitas",
+      "profile_url": "https://br.linkedin.com/in/cristiane-freitas-6a281ba",
+      "headline": "Analista de Recrutamento e Seleção | Especialista em R&S End-to-End | Gupy | LinkedIn Recruiter | Redução de Turnover & Aumento de NPS",
+      "is_recruiter": true,
+      "country": "BR",
+      "companies": [
+        "Telefónica Tech"
+      ],
+      "jobs": [
+        {
+          "id": "fbe0bf3db75b40c3",
+          "title": "Analista Operações Jr. - redes privadas",
+          "company": "Telefónica Tech",
+          "url": "https://br.linkedin.com/jobs/view/analista-opera%C3%A7%C3%B5es-jr-redes-privadas-at-telef%C3%B3nica-tech-4482298652",
+          "score": 72,
+          "fit_level": "alto",
+          "found_at": "2026-10-28T16:54:23.980000+00:00"
+        }
+      ],
+      "first_seen": "2026-10-28T16:56:53.743336+00:00",
+      "last_seen": "2026-10-28T16:56:53.743336+00:00",
+      "message": "Olá Cristiane, a oportunidade de Analista Operações Jr. me interessa bastante. Trabalho com provisionamento de ramais e dispositivos IP e realizo diagnóstico de problemas de áudio, registro SIP, NAT e firewall. Acredito que minhas habilidades podem contribuir na gestão das redes privadas. Posso enviar meu currículo?",
+      "priority": 65,
+      "invite_note": "Oi Cristiane, vi a vaga Analista Operações Jr. – redes privadas na Telefónica Tech e me chamou atenção por envolver suporte técnico avançado. Tenho experiência com análise de protocolos SIP e RTP, além de troubleshooting de SBCs. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
       "id": "5f5b38852f1dd7a3",
       "name": "Thayane Oliveira",
       "profile_url": "https://br.linkedin.com/in/thayane-oliveira-83ab5b19b",
@@ -720,5 +748,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-10-27T16:09:52.935431+00:00"
+  "last_updated": "2026-10-28T16:56:53.743336+00:00"
 }
