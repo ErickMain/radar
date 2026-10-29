@@ -391,7 +391,7 @@
         "network"
       ],
       "last_seen_at": "2026-10-01T17:14:36.833531+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "verified_at": "2026-10-29T17:15:28.749446+00:00",
       "work_mode": "onsite"
     },
     {
@@ -653,7 +653,7 @@
         "unified communications"
       ],
       "last_seen_at": "2026-10-01T17:14:36.833531+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "verified_at": "2026-10-29T17:15:28.749446+00:00",
       "work_mode": "onsite"
     },
     {
@@ -786,7 +786,7 @@
         "network"
       ],
       "last_seen_at": "2026-09-25T15:43:53.421941+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "verified_at": "2026-10-29T17:15:28.749446+00:00",
       "work_mode": "country_locked"
     },
     {
@@ -1049,7 +1049,7 @@
         "sd-wan"
       ],
       "last_seen_at": "2026-10-06T17:02:19.103324+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "verified_at": "2026-10-29T17:15:28.749446+00:00",
       "work_mode": ""
     },
     {
@@ -1180,7 +1180,7 @@
         "redes",
         "sd-wan"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00",
       "work_mode": ""
     },
@@ -1579,7 +1579,7 @@
         "network"
       ],
       "last_seen_at": "2026-09-28T18:21:57.916502+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "verified_at": "2026-10-29T17:15:28.749446+00:00",
       "work_mode": "onsite"
     },
     {
@@ -1710,7 +1710,7 @@
         "redes"
       ],
       "last_seen_at": "2026-10-22T15:47:08.625121+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "verified_at": "2026-10-29T17:15:28.749446+00:00",
       "work_mode": ""
     },
     {
@@ -1841,7 +1841,7 @@
         "network"
       ],
       "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "verified_at": "2026-10-29T17:15:28.749446+00:00",
       "work_mode": "onsite"
     },
     {
@@ -2105,7 +2105,7 @@
         "redes"
       ],
       "last_seen_at": "2026-10-13T17:54:34.322706+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "verified_at": "2026-10-29T17:15:28.749446+00:00",
       "work_mode": ""
     },
     {
@@ -2236,7 +2236,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "verified_at": "2026-10-20T15:32:02.481233+00:00",
       "work_mode": "country_locked"
     },
@@ -2369,7 +2369,7 @@
         "redes"
       ],
       "last_seen_at": "2026-10-15T15:27:11.982252+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "verified_at": "2026-10-29T17:15:28.749446+00:00",
       "work_mode": "onsite"
     },
     {
@@ -2499,7 +2499,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": ""
     },
     {
@@ -2768,7 +2768,7 @@
         "networking",
         "zero trust"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00",
       "work_mode": "onsite"
     },
@@ -2900,7 +2900,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00",
       "work_mode": "country_locked"
     },
@@ -3035,7 +3035,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": "onsite"
     },
     {
@@ -3296,7 +3296,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": ""
     },
     {
@@ -3429,142 +3429,6 @@
         "networking"
       ],
       "last_seen_at": "2026-10-06T17:02:19.103324+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00",
-      "work_mode": "onsite"
-    },
-    {
-      "id": "a145bb090de9a07a",
-      "title": "Network Operations Center Engineer",
-      "company": "Indovision Services Private Limited",
-      "location": "Berlim, Alemanha",
-      "salary": "",
-      "description": "Position: NOC Engineer / Network Operations Engineer Location: Germany Experience: 2–7 years Industry: Telecom / ISP / Fiber / Network Infrastructure Shift: 24×7 rotational shifts Employment: Full-time Job Summary We are looking for experienced NOC Engineers to provide 24×7 monitoring, fault management, troubleshooting and service assurance for telecom and network infrastructure. The engineer will monitor network infrastructure, identify and troubleshoot incidents, manage tickets according to SLA, coordinate with field engineers/OEMs/service providers, and ensure rapid restoration of network services. Key Responsibilities Monitor network infrastructure 24×7 using NMS/EMS and monitoring platforms . Detect, analyze and correlate network alarms and events. Perform L1/L2 troubleshooting of network and telecom infrastructure. Manage incidents from detection through resolution. Create, update and close tickets in ServiceNow / Jira / other ITSM systems . Prioritize incidents according to P1/P2/P3/P4 and SLA requirements . Escalate incidents to L2/L3 engineering, OEMs or field-service teams. Coordinate remote and on-site troubleshooting activities. Conduct initial Root Cause Analysis (RCA) for recurring and major incidents. Support Major Incident Management and conference/bridge calls. Monitor network availability, performance and capacity. Technical Skills Mandatory Strong understanding of IP networking TCP/IP Routing & Switching Network monitoring/NMS tools Incident and ticket management SLA/KPI management Qualifications Bachelor's degree/diploma in: Telecommunications Electronics & Communication Certifications – Preferred CCNA CCNP JNCIA/JNCIS Nokia/Ericsson/Huawei certifications Show more Show less",
-      "url": "https://de.linkedin.com/jobs/view/network-operations-center-engineer-at-indovision-services-private-limited-4474688279",
-      "source": "LinkedIn",
-      "published_at": "2026-10-06",
-      "found_at": "2026-10-06T17:02:03.026906+00:00",
-      "score": 49,
-      "score_breakdown": {
-        "skills": 12,
-        "location": 0,
-        "level": 10,
-        "keywords": 10,
-        "salary": 5,
-        "target_company": 0,
-        "priority_skills": 2,
-        "title": 10,
-        "overseas": 0
-      },
-      "skills_match": [
-        "huawei",
-        "network",
-        "networking",
-        "noc",
-        "teams",
-        "troubleshooting"
-      ],
-      "skills_gap": [
-        "3cx",
-        "active directory",
-        "algar",
-        "algar telecom",
-        "analise de logs",
-        "asterisk",
-        "atendimento tecnico",
-        "avaya",
-        "aws",
-        "azure",
-        "bgp",
-        "broadworks",
-        "call center",
-        "cdr",
-        "cisco",
-        "cloud",
-        "codec",
-        "codecs",
-        "comunicacoes unificadas",
-        "contact center",
-        "cybersecurity",
-        "digitro",
-        "dns",
-        "documentacao tecnica",
-        "e1",
-        "embratel",
-        "firewall",
-        "fortigate",
-        "freeswitch",
-        "g.711",
-        "g.729",
-        "gateway",
-        "gcp",
-        "genesys",
-        "grandstream",
-        "intelbras",
-        "ip pbx",
-        "isdn",
-        "khomp",
-        "leucotron",
-        "linux",
-        "mikrotik",
-        "nat",
-        "nivel 2",
-        "olt",
-        "operadora",
-        "ordem de servico",
-        "pabx",
-        "pabx ip",
-        "qos",
-        "ramais",
-        "ramal",
-        "rede",
-        "redes",
-        "rtp",
-        "sbc",
-        "sd-wan",
-        "seguranca da informacao",
-        "session border controller",
-        "sip",
-        "sip trunk",
-        "sql server",
-        "srtp",
-        "stun",
-        "suporte nivel 2",
-        "suporte tecnico",
-        "tim brasil",
-        "turn",
-        "unified communications",
-        "ura",
-        "vlan",
-        "vmware",
-        "voip",
-        "vpn",
-        "webex",
-        "windows server",
-        "wireguard",
-        "wireshark",
-        "yealink",
-        "zoom phone"
-      ],
-      "fit_level": "baixo",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
-      "contact_email": null,
-      "recruiter": {
-        "name": "Suchi Aggarwal",
-        "profile_url": "https://in.linkedin.com/in/suchi-aggarwal-00085179",
-        "headline": "Director-Sales I GCC Sales I Talent Acquisition - ICT- Europe"
-      },
-      "valid_through": "2026-11-05T07:23:47.000Z",
-      "company_logo": "https://media.licdn.com/dms/image/v2/C510BAQEMzL4LUVb6UQ/company-logo_100_100/company-logo_100_100/0/1631415009524/indovision_services_private_limited_logo?e=2147483647&v=beta&t=TXzd1K8vffgnW6vtdyezKUXRfk3fZYysJPm4n6ExXW8",
-      "is_overseas": true,
-      "title_class": "core",
-      "target_company": false,
-      "priority_skills": [
-        "network",
-        "networking"
-      ],
-      "last_seen_at": "2026-10-21T15:47:53.839666+00:00",
       "verified_at": "2026-10-26T17:06:35.217681+00:00",
       "work_mode": "onsite"
     },
@@ -3702,7 +3566,7 @@
         "networking"
       ],
       "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
-      "verified_at": "2026-10-12T20:05:47.414438+00:00",
+      "verified_at": "2026-10-29T17:15:28.749446+00:00",
       "work_mode": "onsite"
     },
     {
@@ -4226,7 +4090,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": ""
     },
     {
@@ -4356,7 +4220,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": "onsite"
     },
     {
@@ -4752,7 +4616,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": ""
     },
     {
@@ -5018,7 +4882,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": "onsite"
     },
     {
@@ -5283,7 +5147,7 @@
         "networking",
         "unified communications"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "verified_at": "2026-10-20T15:32:02.481233+00:00",
       "work_mode": "onsite"
     },
@@ -5414,7 +5278,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": ""
     },
     {
@@ -5543,136 +5407,8 @@
       "target_company": false,
       "priority_skills": [],
       "last_seen_at": "2026-10-14T15:41:11.477749+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "verified_at": "2026-10-29T17:15:28.749446+00:00",
       "work_mode": "onsite"
-    },
-    {
-      "id": "5c06d802e90873c2",
-      "title": "Analista de suporte técnico",
-      "company": "Tyna Host - Datacenter no Brasil",
-      "location": "Muriaé, MG",
-      "salary": "",
-      "description": "",
-      "url": "https://br.linkedin.com/jobs/view/analista-de-suporte-t%C3%A9cnico-at-tyna-host-datacenter-no-brasil-4476417850",
-      "source": "LinkedIn",
-      "published_at": "2026-10-13",
-      "found_at": "2026-10-13T17:53:55.857082+00:00",
-      "score": 45,
-      "score_breakdown": {
-        "skills": 0,
-        "location": 20,
-        "level": 10,
-        "keywords": 0,
-        "salary": 5,
-        "target_company": 0,
-        "priority_skills": 0,
-        "title": 10,
-        "overseas": 0
-      },
-      "skills_match": [],
-      "skills_gap": [
-        "3cx",
-        "active directory",
-        "algar",
-        "algar telecom",
-        "analise de logs",
-        "asterisk",
-        "atendimento tecnico",
-        "avaya",
-        "aws",
-        "azure",
-        "bgp",
-        "broadworks",
-        "call center",
-        "cdr",
-        "cisco",
-        "cloud",
-        "codec",
-        "codecs",
-        "comunicacoes unificadas",
-        "contact center",
-        "cybersecurity",
-        "digitro",
-        "dns",
-        "documentacao tecnica",
-        "e1",
-        "embratel",
-        "firewall",
-        "fortigate",
-        "freeswitch",
-        "g.711",
-        "g.729",
-        "gateway",
-        "gcp",
-        "genesys",
-        "grandstream",
-        "huawei",
-        "intelbras",
-        "ip pbx",
-        "isdn",
-        "khomp",
-        "leucotron",
-        "linux",
-        "mikrotik",
-        "nat",
-        "network",
-        "networking",
-        "nivel 2",
-        "noc",
-        "olt",
-        "operadora",
-        "ordem de servico",
-        "pabx",
-        "pabx ip",
-        "qos",
-        "ramais",
-        "ramal",
-        "rede",
-        "redes",
-        "rtp",
-        "sbc",
-        "sd-wan",
-        "seguranca da informacao",
-        "session border controller",
-        "sip",
-        "sip trunk",
-        "sql server",
-        "srtp",
-        "stun",
-        "suporte nivel 2",
-        "suporte tecnico",
-        "teams",
-        "tim brasil",
-        "troubleshooting",
-        "turn",
-        "unified communications",
-        "ura",
-        "vlan",
-        "vmware",
-        "voip",
-        "vpn",
-        "webex",
-        "windows server",
-        "wireguard",
-        "wireshark",
-        "yealink",
-        "zoom phone"
-      ],
-      "fit_level": "baixo",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
-      "contact_email": null,
-      "recruiter": null,
-      "valid_through": "2027-04-17T11:58:52.000Z",
-      "company_logo": "https://media.licdn.com/dms/image/v2/C4E0BAQF0NFz-aA_zPQ/company-logo_100_100/company-logo_100_100/0/1637075954301?e=2147483647&v=beta&t=RS3FmpaJi7Z_0JsgRPDo1CU7thWKu2i8Z-vCloc43AE",
-      "is_overseas": false,
-      "title_class": "core",
-      "target_company": false,
-      "priority_skills": [],
-      "last_seen_at": "2026-10-13T17:54:34.322706+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00",
-      "work_mode": ""
     },
     {
       "id": "eb14ccab679fcc24",
@@ -5798,7 +5534,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": ""
     },
     {
@@ -6057,7 +5793,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": ""
     },
     {
@@ -6449,7 +6185,7 @@
         "networking"
       ],
       "last_seen_at": "2026-10-16T15:07:01.012659+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "verified_at": "2026-10-29T17:15:28.749446+00:00",
       "work_mode": "remote"
     },
     {
@@ -6580,7 +6316,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": "onsite"
     },
     {
@@ -6710,7 +6446,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": ""
     },
     {
@@ -6840,7 +6576,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00",
       "work_mode": "country_locked"
     },
@@ -7102,7 +6838,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00",
       "work_mode": "country_locked"
     },
@@ -7233,7 +6969,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": "onsite"
     },
     {
@@ -7363,138 +7099,8 @@
       "priority_skills": [
         "unified communications"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": "onsite"
-    },
-    {
-      "id": "d47a01d4708161e5",
-      "title": "Engenheiro(a) de Redes, Conectividade e Segurança",
-      "company": "green4T",
-      "location": "Belo Horizonte, MG",
-      "salary": "",
-      "description": "Sobre a green4T: Valorizamos ações assertivas, orientadas para a eficiência e embasadas pelo know-how . Buscamos novas formas de olhar e encarar desafios, sempre com uma postura resiliente e perseverante. Nos antecipamos às situações, garantindo a minimização do risco. Somos pragmáticos, com foco em resultados e em nossos clientes, e prezamos pela excelência. A green4T é uma empresa líder em soluções de tecnologia e infraestrutura digital. Fundada em 2016 e presente em 12 países da América Latina, contamos com 30% das 1.000 maiores empresas do Brasil em nossa carteira de clientes. Gerimos nossos negócios de forma socialmente responsável. Temos o compromisso de desenvolver soluções de tecnologia e infraestrutura para a transformação digital de empresas, cidades e nações de forma eficiente e sustentável para o planeta. Defendemos o respeito a pluralidade nos processos seletivos e nas relações de trabalho. Valorizamos a diversidade e buscamos promover a inclusão em nossa empresa. Por conta disso, encorajamos a inscrição de talentos que representem a diversidade de gênero, etnia, de orientações afetivo-sexuais, deficiências, idades, origens e culturas. Vamos juntos #Begreen nessa transformação? # Juntos somos maisgreen. Responsabilidades e atribuições Estamos buscando um(a) Engenheiro(a) de Redes, Conectividade e Segurança para atuar na execução e acompanhamento de obras de infraestrutura de redes, conectividade e segurança em ambientes de missão crítica e Data Centers, onde será responsável por interpretar projetos técnicos elaborados por empresas de engenharia e garantir sua correta execução em campo , acompanhando as atividades, equipes, fornecedores e o cumprimento dos padrões técnicos e de qualidade estabelecidos. O(a) profissional ideal deverá ter um perfil executor, organizado, hands-on e orientado a resultados , com capacidade para interpretar projetos, acompanhar sua execução em campo e garantir que os serviços sejam realizados dentro dos padrões técnicos, de qualidade, prazo e segurança estabelecidos. É importante ter senso de responsabilidade, capacidade de acompanhamento de equipes e fornecedores, atenção aos detalhes e habilidade para identificar e solucionar problemas durante a execução da obra. Principais responsabilidades: Interpretar e analisar projetos técnicos de redes, conectividade e segurança para execução das obras; Acompanhar e garantir a execução dos serviços conforme projetos, especificações técnicas, normas e procedimentos estabelecidos; Supervisionar equipes próprias, terceiros e fornecedores envolvidos na execução dos serviços; Acompanhar o cronograma físico das obras e garantir o cumprimento dos prazos estabelecidos; Fiscalizar a qualidade dos serviços executados, identificando desvios e orientando as correções necessárias; Realizar acompanhamento técnico das instalações de infraestrutura de redes, conectividade e segurança; Acompanhar atividades relacionadas a cabeamento, conectividade, redes LAN/WAN, equipamentos de re",
-      "url": "https://br.linkedin.com/jobs/view/engenheiro-a-de-redes-conectividade-e-seguran%C3%A7a-at-green4t-4481219102",
-      "source": "LinkedIn",
-      "published_at": "2026-10-19",
-      "found_at": "2026-10-19T17:17:50.183631+00:00",
-      "score": 52,
-      "score_breakdown": {
-        "skills": 2,
-        "location": 20,
-        "level": 10,
-        "keywords": 4,
-        "salary": 5,
-        "target_company": 0,
-        "priority_skills": 1,
-        "title": 10,
-        "overseas": 0
-      },
-      "skills_match": [
-        "redes"
-      ],
-      "skills_gap": [
-        "3cx",
-        "active directory",
-        "algar",
-        "algar telecom",
-        "analise de logs",
-        "asterisk",
-        "atendimento tecnico",
-        "avaya",
-        "aws",
-        "azure",
-        "bgp",
-        "broadworks",
-        "call center",
-        "cdr",
-        "cisco",
-        "cloud",
-        "codec",
-        "codecs",
-        "comunicacoes unificadas",
-        "contact center",
-        "cybersecurity",
-        "digitro",
-        "dns",
-        "documentacao tecnica",
-        "e1",
-        "embratel",
-        "firewall",
-        "fortigate",
-        "freeswitch",
-        "g.711",
-        "g.729",
-        "gateway",
-        "gcp",
-        "genesys",
-        "grandstream",
-        "huawei",
-        "intelbras",
-        "ip pbx",
-        "isdn",
-        "khomp",
-        "leucotron",
-        "linux",
-        "mikrotik",
-        "nat",
-        "network",
-        "networking",
-        "nivel 2",
-        "noc",
-        "olt",
-        "operadora",
-        "ordem de servico",
-        "pabx",
-        "pabx ip",
-        "qos",
-        "ramais",
-        "ramal",
-        "rede",
-        "rtp",
-        "sbc",
-        "sd-wan",
-        "seguranca da informacao",
-        "session border controller",
-        "sip",
-        "sip trunk",
-        "sql server",
-        "srtp",
-        "stun",
-        "suporte nivel 2",
-        "suporte tecnico",
-        "teams",
-        "tim brasil",
-        "troubleshooting",
-        "turn",
-        "unified communications",
-        "ura",
-        "vlan",
-        "vmware",
-        "voip",
-        "vpn",
-        "webex",
-        "windows server",
-        "wireguard",
-        "wireshark",
-        "yealink",
-        "zoom phone"
-      ],
-      "fit_level": "medio",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
-      "contact_email": null,
-      "recruiter": null,
-      "valid_through": "2026-10-29T09:55:47.000Z",
-      "company_logo": "https://media.licdn.com/dms/image/v2/C4E0BAQGcD78mGj4k2Q/company-logo_100_100-alternative/company-logo_100_100-alternative/0/1630643897601/green4t_logo?e=2147483647&v=beta&t=FMzgWBP1ERWWEywC5Xz46aBFIOFm6QxbqeWeXdQq9rw",
-      "is_overseas": false,
-      "title_class": "core",
-      "target_company": false,
-      "priority_skills": [
-        "redes"
-      ],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
-      "work_mode": ""
     },
     {
       "id": "80c1ba3809ca9e1f",
@@ -7623,7 +7229,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": ""
     },
     {
@@ -7753,7 +7359,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": "onsite"
     },
     {
@@ -8017,7 +7623,7 @@
         "unified communications"
       ],
       "last_seen_at": "2026-10-20T15:32:02.467509+00:00",
-      "verified_at": "2026-10-26T17:06:35.217681+00:00",
+      "verified_at": "2026-10-29T17:15:28.749446+00:00",
       "work_mode": "onsite"
     },
     {
@@ -8278,7 +7884,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": ""
     },
     {
@@ -8406,7 +8012,7 @@
       "title_class": "core",
       "target_company": true,
       "priority_skills": [],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": ""
     },
     {
@@ -8665,7 +8271,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": "remote"
     },
     {
@@ -8926,7 +8532,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": ""
     },
     {
@@ -9053,7 +8659,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": ""
     },
     {
@@ -9312,7 +8918,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": ""
     },
     {
@@ -9445,7 +9051,7 @@
         "cloud",
         "redes"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "verified_at": "2026-10-26T17:06:35.217681+00:00",
       "work_mode": ""
     },
@@ -9577,7 +9183,7 @@
         "cloud",
         "redes"
       ],
-      "last_seen_at": "2026-10-23T15:40:05.328836+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": "remote",
       "verified_at": "2026-10-27T16:09:52.937366+00:00"
     },
@@ -9708,7 +9314,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": ""
     },
     {
@@ -9843,7 +9449,7 @@
         "networking",
         "redes"
       ],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": ""
     },
     {
@@ -10105,7 +9711,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": "onsite"
     },
     {
@@ -10233,135 +9839,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
-      "work_mode": "onsite"
-    },
-    {
-      "id": "76adbfa2ba983a7c",
-      "title": "VoIP Software Engineer (Asterisk and FreeSWITCH Development)",
-      "company": "XINIX",
-      "location": "Paquistão",
-      "salary": "",
-      "description": "",
-      "url": "https://pk.linkedin.com/jobs/view/voip-software-engineer-asterisk-and-freeswitch-development-at-xinix-4483540187",
-      "source": "LinkedIn",
-      "published_at": "2026-10-26",
-      "found_at": "2026-10-26T17:06:06.829952+00:00",
-      "score": 34,
-      "score_breakdown": {
-        "skills": 7,
-        "location": 0,
-        "level": 10,
-        "keywords": 2,
-        "salary": 5,
-        "target_company": 0,
-        "priority_skills": 0,
-        "title": 10,
-        "overseas": 0
-      },
-      "skills_match": [
-        "asterisk",
-        "freeswitch",
-        "voip"
-      ],
-      "skills_gap": [
-        "3cx",
-        "active directory",
-        "algar",
-        "algar telecom",
-        "analise de logs",
-        "atendimento tecnico",
-        "avaya",
-        "aws",
-        "azure",
-        "bgp",
-        "broadworks",
-        "call center",
-        "cdr",
-        "cisco",
-        "cloud",
-        "codec",
-        "codecs",
-        "comunicacoes unificadas",
-        "contact center",
-        "cybersecurity",
-        "digitro",
-        "dns",
-        "documentacao tecnica",
-        "e1",
-        "embratel",
-        "firewall",
-        "fortigate",
-        "g.711",
-        "g.729",
-        "gateway",
-        "gcp",
-        "genesys",
-        "grandstream",
-        "huawei",
-        "intelbras",
-        "ip pbx",
-        "isdn",
-        "khomp",
-        "leucotron",
-        "linux",
-        "mikrotik",
-        "nat",
-        "network",
-        "networking",
-        "nivel 2",
-        "noc",
-        "olt",
-        "operadora",
-        "ordem de servico",
-        "pabx",
-        "pabx ip",
-        "qos",
-        "ramais",
-        "ramal",
-        "rede",
-        "redes",
-        "rtp",
-        "sbc",
-        "sd-wan",
-        "seguranca da informacao",
-        "session border controller",
-        "sip",
-        "sip trunk",
-        "sql server",
-        "srtp",
-        "stun",
-        "suporte nivel 2",
-        "suporte tecnico",
-        "teams",
-        "tim brasil",
-        "troubleshooting",
-        "turn",
-        "unified communications",
-        "ura",
-        "vlan",
-        "vmware",
-        "vpn",
-        "webex",
-        "windows server",
-        "wireguard",
-        "wireshark",
-        "yealink",
-        "zoom phone"
-      ],
-      "fit_level": "baixo",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
-      "contact_email": null,
-      "recruiter": null,
-      "valid_through": null,
-      "company_logo": "https://media.licdn.com/dms/image/v2/D4D0BAQHdvgwWhIeXDg/company-logo_100_100/B4DaCAg1seHUAM-/0/1788862487542/xinix_io_logo?e=2147483647&v=beta&t=hfx2BVKLfZOn-ENyYwfpltmGDyKJVwOkDhabQgkNkJs",
-      "is_overseas": true,
-      "title_class": "core",
-      "target_company": false,
-      "priority_skills": [],
-      "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": "onsite"
     },
     {
@@ -10489,7 +9967,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
       "work_mode": "onsite"
     },
     {
@@ -10620,7 +10098,8 @@
         "network"
       ],
       "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
-      "work_mode": "onsite"
+      "work_mode": "onsite",
+      "verified_at": "2026-10-29T17:15:28.749446+00:00"
     },
     {
       "id": "bb2fa303bf75ff2f",
@@ -10880,7 +10359,8 @@
         "unified communications"
       ],
       "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
-      "work_mode": "onsite"
+      "work_mode": "onsite",
+      "verified_at": "2026-10-29T17:15:28.749446+00:00"
     },
     {
       "id": "5edd8d9c0910d974",
@@ -11406,7 +10886,7 @@
         "network"
       ],
       "work_mode": "remote",
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00"
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00"
     },
     {
       "id": "c307fe3748e91c02",
@@ -11538,7 +11018,7 @@
         "network"
       ],
       "work_mode": "latam",
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00"
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00"
     },
     {
       "id": "9fba05ba556fa026",
@@ -11670,7 +11150,7 @@
         "redes"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00"
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00"
     },
     {
       "id": "676bd25bdd2f3603",
@@ -11933,7 +11413,7 @@
         "redes"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00"
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00"
     },
     {
       "id": "dafc536d07918e9b",
@@ -12068,7 +11548,7 @@
         "network"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00"
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00"
     },
     {
       "id": "91c598d0b845a213",
@@ -12200,7 +11680,7 @@
         "redes"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-10-27T16:09:52.862435+00:00"
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00"
     },
     {
       "id": "de5bcc62b267e912",
@@ -12331,7 +11811,7 @@
         "redes"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00"
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00"
     },
     {
       "id": "bf5221755540ef3b",
@@ -12467,7 +11947,7 @@
         "networking"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00"
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00"
     },
     {
       "id": "d15b0e59af7b1246",
@@ -12733,7 +12213,7 @@
         "redes"
       ],
       "work_mode": "",
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00"
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00"
     },
     {
       "id": "5b939b4410fa9c51",
@@ -12865,7 +12345,7 @@
         "redes"
       ],
       "work_mode": "",
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00"
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00"
     },
     {
       "id": "a3b8fbff55f6a43b",
@@ -12996,7 +12476,7 @@
         "network"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00"
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00"
     },
     {
       "id": "9132adc06170d636",
@@ -13260,7 +12740,7 @@
         "networking"
       ],
       "work_mode": "country_locked",
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00"
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00"
     },
     {
       "id": "87c51a79b4bea24b",
@@ -13392,7 +12872,7 @@
         "networking"
       ],
       "work_mode": "country_locked",
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00"
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00"
     },
     {
       "id": "4542a63588b1d8c8",
@@ -13524,7 +13004,7 @@
         "network"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00"
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00"
     },
     {
       "id": "82ecd512df728ba4",
@@ -13791,15 +13271,286 @@
         "redes"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-10-28T16:56:53.689441+00:00"
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00"
+    },
+    {
+      "id": "838ea587b125ae93",
+      "title": "Ing. Soporte NOC N-1",
+      "company": "Paynau",
+      "location": "México",
+      "salary": "",
+      "description": "🚀 ¡Estamos buscando Ingenieros NOC N-1 en Paynau! ¿Tienes experiencia en monitoreo de infraestructura, gestión de incidentes y herramientas de observabilidad? ¡Esta oportunidad puede ser para ti! En Paynau, buscamos talento que contribuya a mantener la disponibilidad y continuidad de nuestros servicios tecnológicos y financieros, mediante el monitoreo proactivo, la detección temprana de incidentes y el escalamiento oportuno de eventos críticos. 🔎 ¿Cuál será tu misión? Serás responsable de monitorear nuestra infraestructura híbrida (AWS y On-Premise), identificar anomalías, ejecutar procedimientos de atención de primer nivel y escalar incidentes conforme a los protocolos establecidos, contribuyendo a la estabilidad y disponibilidad de los servicios. 🛠️ ¿Qué buscamos? Ingeniería en Sistemas, Computación, Telecomunicaciones, Redes o carrera afín, o experiencia equivalente demostrable. 2 a 3 años de experiencia en operaciones de infraestructura TI, soporte técnico o NOC. Experiencia en Dynatrace (indispensable): dashboards, gestión de alertas, análisis de problemas con Davis AI, trazas distribuidas y monitoreo de hosts y servicios. Conocimientos de AWS, Linux y/o Windows Server. Experiencia con herramientas de monitoreo y observabilidad como Datadog, CloudWatch, Prometheus o Grafana. Conocimientos de redes, bases de datos PostgreSQL/MySQL, gestión de tickets ITSM y procedimientos SOP/runbooks. Disponibilidad para trabajar en turnos rotativos 24/7. ⭐ ¿Qué valoramos? Capacidad analítica y atención al detalle. Facilidad para trabajar bajo presión en entornos de misión crítica. Comunicación técnica clara y oportuna. Disciplina operativa, trabajo colaborativo y orientación a la mejora continua. Será un plus contar con experiencia en plataformas financieras o fintech, así como certificaciones en AWS, ITIL, Linux o redes. 💜 ¿Te interesa formar parte de Paynau? Si buscas un reto en el que puedas aportar tus conocimientos técnicos y contribuir a la continuidad de servicios financieros críticos, ¡Queremos conocerte! 📩 Postúlate en el link que viene en esta publicación #Hiring #VacantesTI #NOC #InfraestructuraTI #Dynatrace #AWS #Monitoreo #Fintech #Paynau Show more Show less",
+      "url": "https://mx.linkedin.com/jobs/view/ing-soporte-noc-n-1-at-paynau-4484270967",
+      "source": "LinkedIn",
+      "published_at": "2026-10-27",
+      "found_at": "2026-10-29T17:15:18.692329+00:00",
+      "score": 47,
+      "score_breakdown": {
+        "skills": 10,
+        "location": 0,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 2,
+        "title": 10,
+        "overseas": 0
+      },
+      "skills_match": [
+        "aws",
+        "linux",
+        "noc",
+        "redes",
+        "windows server"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "mikrotik",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "troubleshooting",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "webex",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "baixo",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": {
+        "name": "Lau Ramírez",
+        "profile_url": "https://mx.linkedin.com/in/lauramsa",
+        "headline": "Generalista de RR. HH. | Gestión del capital humano"
+      },
+      "valid_through": null,
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4E0BAQEz7a6ZLHBdcg/company-logo_100_100/company-logo_100_100/0/1726079536353/red_efectiva_transacciones_electronicas__logo?e=2147483647&v=beta&t=VOpksK7YvuGKrCbRniYbAj3LGgUeCu5xor2qXF89g4Y",
+      "is_overseas": true,
+      "latam_ok": true,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "aws",
+        "redes"
+      ],
+      "work_mode": "onsite",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00"
+    },
+    {
+      "id": "58529cdf4d32e75e",
+      "title": "Ingeniero(a) NOC Redes Fijas HFC/FTTH",
+      "company": "Hitss Colombia",
+      "location": "Bogota, D.C., Distrito Capital de Bogotá - Departamento, Colômbia",
+      "salary": "",
+      "description": "🔎 Buscamos profesionales con experiencia en redes fijas y tecnologías como HFC, FTTH y RPHY , que deseen formar parte de un equipo responsable de garantizar la disponibilidad y calidad de los servicios de telecomunicaciones para el segmento masivo. 🎓 Perfil Académico Profesional en Ingeniería de Telecomunicaciones, Electrónica, Sistemas o carreras afines. 💼 Experiencia Mínimo 1 año de experiencia en operación, soporte o monitoreo de redes de telecomunicaciones. ⚡ Principales Responsabilidades ✅ Monitorear y gestionar plataformas HFC, FTTH, CABLE y RPHY. ✅ Realizar diagnóstico y análisis de incidentes de primer nivel. ✅ Ejecutar configuraciones y validaciones básicas sobre la red. ✅ Hacer seguimiento a la disponibilidad y calidad del servicio. ✅ Gestionar, documentar y escalar casos según su nivel de complejidad. ✅ Contribuir a la continuidad operativa de los servicios del segmento masivo. 🛠️ Conocimientos Técnicos Redes HFC, FTTH, CABLE y RPHY. Configuración y validación de servicios de primer nivel. Protocolos de comunicación: TR-069, SNMP, PTP, ICMP y BGP básico . Plataformas ópticas y herramientas de gestión de red. Monitoreo y gestión de incidentes. 📍 Condiciones de la Vacante 📌 Ubicación: Bogotá D.C. 🏢 Modalidad: Presencial 📄 Tipo de contrato: Indefinido 💰 Salario: A convenir Show more Show less",
+      "url": "https://co.linkedin.com/jobs/view/ingeniero-a-noc-redes-fijas-hfc-ftth-at-hitss-colombia-4482556462",
+      "source": "LinkedIn",
+      "published_at": "2026-10-28",
+      "found_at": "2026-10-29T17:15:22.972898+00:00",
+      "score": 42,
+      "score_breakdown": {
+        "skills": 6,
+        "location": 0,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 1,
+        "title": 10,
+        "overseas": 0
+      },
+      "skills_match": [
+        "bgp",
+        "noc",
+        "redes"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "troubleshooting",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "baixo",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": {
+        "name": "Maria Alejandra Góngora Zambrano",
+        "profile_url": "https://www.linkedin.com/in/mariaalejandragongora",
+        "headline": "IT Recruiter |Talent acquisition | RH | Psicóloga | Selección | Reclutamiento | Capacitaciones | Talento Humano"
+      },
+      "valid_through": "2026-11-27T20:58:45.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGJO9-KdVvKmg/company-logo_100_100/company-logo_100_100/0/1737736097137/hitss_colombia_logo?e=2147483647&v=beta&t=5hJrluPP6jCehNP1fK8VqpounFSvj2o9GVbie8HEkX8",
+      "is_overseas": true,
+      "latam_ok": true,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "redes"
+      ],
+      "work_mode": "onsite",
+      "last_seen_at": "2026-10-29T17:15:28.731757+00:00"
     }
   ],
-  "last_updated": "2026-10-28T16:56:54.621720+00:00",
+  "last_updated": "2026-10-29T17:15:32.563211+00:00",
   "stats": {
-    "total": 105,
+    "total": 103,
     "alto_fit": 11,
-    "medio_fit": 38,
-    "baixo_fit": 56,
+    "medio_fit": 37,
+    "baixo_fit": 55,
     "enviadas": 1
   }
 }
