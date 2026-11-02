@@ -1,34 +1,6 @@
 {
   "recruiters": [
     {
-      "id": "5333a65688c1eb32",
-      "name": "Ana Paula Ribeiro",
-      "profile_url": "https://br.linkedin.com/in/ana-paula-ribeiro-55899a168",
-      "headline": "Tech Recruiter Sênior | Talent Acquisition & Tech Hiring | Hunting Estratégico | Data Driven Recruiting | Technology & Digital",
-      "is_recruiter": true,
-      "country": "BR",
-      "companies": [
-        "V8.TECH"
-      ],
-      "jobs": [
-        {
-          "id": "017a3370f38beec7",
-          "title": "Analista de Redes Pleno",
-          "company": "V8.TECH",
-          "url": "https://br.linkedin.com/jobs/view/analista-de-redes-pleno-at-v8-tech-4472934860",
-          "score": 95,
-          "fit_level": "alto",
-          "found_at": "2026-10-01T17:14:26.061529+00:00"
-        }
-      ],
-      "first_seen": "2026-10-01T17:14:36.867204+00:00",
-      "last_seen": "2026-10-01T17:14:36.867204+00:00",
-      "message": "Obrigado por aceitar! A vaga de Analista de Redes Pleno combina com minha experiência em análise de protocolos SIP/RTP e provisionamento de dispositivos IP. Também atuo com troubleshooting de SBCs e configuração de telefones IP. Posso enviar meu currículo?",
-      "priority": 67,
-      "invite_note": "Oi Ana, vi a vaga de Analista de Redes Pleno na V8.TECH e achei interessante. Tenho experiência com suporte especializado em telefonia IP e VoIP, além de análise de protocolos SIP e RTP. Gostaria de conectar para conversar.",
-      "outreach_source": "groq"
-    },
-    {
       "id": "d33c9ec1cba04c01",
       "name": "Cristiane Freitas",
       "profile_url": "https://br.linkedin.com/in/cristiane-freitas-6a281ba",
@@ -85,31 +57,31 @@
       "outreach_source": "groq"
     },
     {
-      "id": "668f36c6fd01c64e",
-      "name": "Mindy Wendt",
-      "profile_url": "https://www.linkedin.com/in/mindy-wendt-586923135",
-      "headline": "Senior Talent Acquisition Partner at Koch Engineered Solutions | Supporting Diverse Recruiting Efforts",
+      "id": "5333a65688c1eb32",
+      "name": "Ana Paula Ribeiro",
+      "profile_url": "https://br.linkedin.com/in/ana-paula-ribeiro-55899a168",
+      "headline": "Tech Recruiter Sênior | Talent Acquisition & Tech Hiring | Hunting Estratégico | Data Driven Recruiting | Technology & Digital",
       "is_recruiter": true,
-      "country": "?",
+      "country": "BR",
       "companies": [
-        "Koch"
+        "V8.TECH"
       ],
       "jobs": [
         {
-          "id": "ab5487ce0db21c64",
-          "title": "Network Operations Engineer",
-          "company": "Koch",
-          "url": "https://www.linkedin.com/jobs/view/network-operations-engineer-at-koch-4472675922",
-          "score": 99,
+          "id": "017a3370f38beec7",
+          "title": "Analista de Redes Pleno",
+          "company": "V8.TECH",
+          "url": "https://br.linkedin.com/jobs/view/analista-de-redes-pleno-at-v8-tech-4472934860",
+          "score": 95,
           "fit_level": "alto",
-          "found_at": "2026-10-01T17:14:16.288689+00:00"
+          "found_at": "2026-10-01T17:14:26.061529+00:00"
         }
       ],
       "first_seen": "2026-10-01T17:14:36.867204+00:00",
       "last_seen": "2026-10-01T17:14:36.867204+00:00",
-      "message": "Obrigado por aceitar, Mindy! Vejo que a posição exige forte atuação em redes e monitoramento de tráfego. Tenho amplo background em análise de protocolos SIP/RTP e diagnóstico de áudio e NAT usando Wireshark, além de provisionamento de dispositivos IP. Posso enviar meu currículo?",
-      "priority": 54,
-      "invite_note": "Oi Mindy, vi a vaga de Network Operations Engineer na Koch e achei que minha experiência com suporte especializado em telefonia IP/VoIP e análise de protocolos SIP e RTP pode agregar ao time. Vamos nos conectar?",
+      "message": "Obrigado por aceitar! A vaga de Analista de Redes Pleno combina com minha experiência em análise de protocolos SIP/RTP e provisionamento de dispositivos IP. Também atuo com troubleshooting de SBCs e configuração de telefones IP. Posso enviar meu currículo?",
+      "priority": 61,
+      "invite_note": "Oi Ana, vi a vaga de Analista de Redes Pleno na V8.TECH e achei interessante. Tenho experiência com suporte especializado em telefonia IP e VoIP, além de análise de protocolos SIP e RTP. Gostaria de conectar para conversar.",
       "outreach_source": "groq"
     },
     {
@@ -166,6 +138,34 @@
       "message": "Obrigado por aceitar, Suchi! Na minha atuação na Método Telecom, faço provisionamento de ramais e dispositivos IP e realizo diagnóstico de problemas de áudio, registro SIP e NAT usando Wireshark. Acredito que essas competências se alinham bem ao NOC Engineer. Posso te enviar meu currículo?",
       "priority": 48,
       "invite_note": "Olá Suchi, vi a vaga de Network Operations Center Engineer na Indovision. Meu background em suporte especializado de telefonia IP e análise de protocolos SIP/RTP pode agregar ao seu time. Vamos conectar?",
+      "outreach_source": "groq"
+    },
+    {
+      "id": "668f36c6fd01c64e",
+      "name": "Mindy Wendt",
+      "profile_url": "https://www.linkedin.com/in/mindy-wendt-586923135",
+      "headline": "Senior Talent Acquisition Partner at Koch Engineered Solutions | Supporting Diverse Recruiting Efforts",
+      "is_recruiter": true,
+      "country": "?",
+      "companies": [
+        "Koch"
+      ],
+      "jobs": [
+        {
+          "id": "ab5487ce0db21c64",
+          "title": "Network Operations Engineer",
+          "company": "Koch",
+          "url": "https://www.linkedin.com/jobs/view/network-operations-engineer-at-koch-4472675922",
+          "score": 99,
+          "fit_level": "alto",
+          "found_at": "2026-10-01T17:14:16.288689+00:00"
+        }
+      ],
+      "first_seen": "2026-10-01T17:14:36.867204+00:00",
+      "last_seen": "2026-10-01T17:14:36.867204+00:00",
+      "message": "Obrigado por aceitar, Mindy! Vejo que a posição exige forte atuação em redes e monitoramento de tráfego. Tenho amplo background em análise de protocolos SIP/RTP e diagnóstico de áudio e NAT usando Wireshark, além de provisionamento de dispositivos IP. Posso enviar meu currículo?",
+      "priority": 48,
+      "invite_note": "Oi Mindy, vi a vaga de Network Operations Engineer na Koch e achei que minha experiência com suporte especializado em telefonia IP/VoIP e análise de protocolos SIP e RTP pode agregar ao time. Vamos nos conectar?",
       "outreach_source": "groq"
     },
     {
@@ -250,34 +250,6 @@
       "message": "Obrigado por aceitar! A posição de NOC Engineer combina com minha experiência em troubleshooting de SBCs e na captura/interpretção de tráfego via Wireshark. Posso enviar meu currículo?",
       "priority": 47,
       "invite_note": "Oi Brigitte, vi a vaga de NOC Engineer na SUBCO e me identifiquei pelo suporte especializado em telefonia IP e análise de protocolos SIP/RTP que realizo na Método Telecom. Vamos conectar?",
-      "outreach_source": "groq"
-    },
-    {
-      "id": "95b9d474cc12530f",
-      "name": "Bridget Rikhotso",
-      "profile_url": "https://za.linkedin.com/in/bridget-rikhotso-a74655b3",
-      "headline": "Talent Acquisition Partner - Middle East & Africa",
-      "is_recruiter": true,
-      "country": "ZA",
-      "companies": [
-        "Beijing Foreign Enterprise Management Consultants Co.,Ltd."
-      ],
-      "jobs": [
-        {
-          "id": "29757099b4654e02",
-          "title": "Core Network Engineer",
-          "company": "Beijing Foreign Enterprise Management Consultants Co.,Ltd.",
-          "url": "https://mw.linkedin.com/jobs/view/core-network-engineer-at-beijing-foreign-enterprise-management-consultants-co-ltd-4474718979",
-          "score": 77,
-          "fit_level": "alto",
-          "found_at": "2026-10-02T16:27:40.843018+00:00"
-        }
-      ],
-      "first_seen": "2026-10-02T16:27:47.898530+00:00",
-      "last_seen": "2026-10-02T16:27:47.898530+00:00",
-      "message": "Bridget, a posição de Core Network Engineer me chamou atenção porque lido diariamente com análise de protocolos SIP e RTP e com provisionamento e configuração de dispositivos IP. Essas competências se alinham ao foco da vaga. Posso enviar meu currículo?",
-      "priority": 45,
-      "invite_note": "Oi Bridget, vi a vaga de Core Network Engineer e notei que meu trabalho com suporte avançado a telefonia IP, análise de protocolos SIP/RTP e troubleshooting de SBCs pode agregar ao time. Vamos nos conectar?",
       "outreach_source": "groq"
     },
     {
@@ -502,6 +474,34 @@
       "message": "Obrigado por aceitar, Adriano! A vaga de Analista de rede de telecomunicações combina bem com minha prática em troubleshooting de SBCs e análise de CDRs/SIP logs. Também costumo provisionar ramais e dispositivos IP em ambientes BroadWorks. Posso enviar meu currículo?",
       "priority": 40,
       "invite_note": "Olá Adriano, vi a vaga de Analista de rede de telecomunicações na Zapi Internet. Tenho experiência em suporte especializado a telefonia IP, configurando ramais e dispositivos IP, e já fiz troubleshooting de SBCs e análise de protocolos SIP. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
+      "id": "95b9d474cc12530f",
+      "name": "Bridget Rikhotso",
+      "profile_url": "https://za.linkedin.com/in/bridget-rikhotso-a74655b3",
+      "headline": "Talent Acquisition Partner - Middle East & Africa",
+      "is_recruiter": true,
+      "country": "ZA",
+      "companies": [
+        "Beijing Foreign Enterprise Management Consultants Co.,Ltd."
+      ],
+      "jobs": [
+        {
+          "id": "29757099b4654e02",
+          "title": "Core Network Engineer",
+          "company": "Beijing Foreign Enterprise Management Consultants Co.,Ltd.",
+          "url": "https://mw.linkedin.com/jobs/view/core-network-engineer-at-beijing-foreign-enterprise-management-consultants-co-ltd-4474718979",
+          "score": 77,
+          "fit_level": "alto",
+          "found_at": "2026-10-02T16:27:40.843018+00:00"
+        }
+      ],
+      "first_seen": "2026-10-02T16:27:47.898530+00:00",
+      "last_seen": "2026-10-02T16:27:47.898530+00:00",
+      "message": "Bridget, a posição de Core Network Engineer me chamou atenção porque lido diariamente com análise de protocolos SIP e RTP e com provisionamento e configuração de dispositivos IP. Essas competências se alinham ao foco da vaga. Posso enviar meu currículo?",
+      "priority": 39,
+      "invite_note": "Oi Bridget, vi a vaga de Core Network Engineer e notei que meu trabalho com suporte avançado a telefonia IP, análise de protocolos SIP/RTP e troubleshooting de SBCs pode agregar ao time. Vamos nos conectar?",
       "outreach_source": "groq"
     },
     {
@@ -748,5 +748,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-10-30T16:56:13.027398+00:00"
+  "last_updated": "2026-11-02T20:37:48.591833+00:00"
 }
