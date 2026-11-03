@@ -127,7 +127,7 @@
         "redes"
       ],
       "last_seen_at": "2026-09-11T21:23:44.807591+00:00",
-      "verified_at": "2026-10-30T16:56:13.028799+00:00",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00",
       "is_overseas": false,
       "work_mode": ""
     },
@@ -260,7 +260,7 @@
         "networking"
       ],
       "last_seen_at": "2026-09-29T16:44:28.439665+00:00",
-      "verified_at": "2026-10-30T16:56:13.028799+00:00",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00",
       "work_mode": "remote"
     },
     {
@@ -522,7 +522,7 @@
         "network"
       ],
       "last_seen_at": "2026-09-13T07:33:26.441400+00:00",
-      "verified_at": "2026-10-30T16:56:13.028799+00:00",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00",
       "work_mode": "onsite"
     },
     {
@@ -917,7 +917,7 @@
         "unified communications"
       ],
       "last_seen_at": "2026-09-18T14:44:45.821650+00:00",
-      "verified_at": "2026-10-30T16:56:13.028799+00:00",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00",
       "work_mode": "onsite"
     },
     {
@@ -1180,7 +1180,7 @@
         "redes",
         "sd-wan"
       ],
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00",
       "work_mode": ""
     },
@@ -1312,7 +1312,7 @@
         "redes"
       ],
       "last_seen_at": "2026-10-16T15:07:01.012659+00:00",
-      "verified_at": "2026-10-30T16:56:13.028799+00:00",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00",
       "work_mode": ""
     },
     {
@@ -1448,7 +1448,7 @@
         "unified communications"
       ],
       "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
-      "verified_at": "2026-10-30T16:56:13.028799+00:00",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00",
       "work_mode": "onsite"
     },
     {
@@ -1841,7 +1841,7 @@
         "network"
       ],
       "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
-      "verified_at": "2026-10-29T17:15:28.749446+00:00",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00",
       "work_mode": "onsite"
     },
     {
@@ -1973,7 +1973,7 @@
         "cybersecurity"
       ],
       "last_seen_at": "2026-10-07T17:39:05.828387+00:00",
-      "verified_at": "2026-10-30T16:56:13.028799+00:00",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00",
       "work_mode": "onsite"
     },
     {
@@ -2236,7 +2236,7 @@
         "redes"
       ],
       "last_seen_at": "2026-10-13T17:54:34.322706+00:00",
-      "verified_at": "2026-10-30T16:56:13.028799+00:00",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00",
       "work_mode": ""
     },
     {
@@ -2637,7 +2637,7 @@
         "networking"
       ],
       "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
-      "verified_at": "2026-10-29T17:15:28.749446+00:00",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00",
       "work_mode": "onsite"
     },
     {
@@ -2768,7 +2768,7 @@
         "redes"
       ],
       "last_seen_at": "2026-10-08T17:42:13.424691+00:00",
-      "verified_at": "2026-10-30T16:56:13.028799+00:00",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00",
       "work_mode": ""
     },
     {
@@ -2902,7 +2902,7 @@
         "networking"
       ],
       "last_seen_at": "2026-10-14T15:41:11.477749+00:00",
-      "verified_at": "2026-10-30T16:56:13.028799+00:00",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00",
       "work_mode": "onsite"
     },
     {
@@ -3033,7 +3033,8 @@
         "redes"
       ],
       "last_seen_at": "2026-10-30T16:56:13.002941+00:00",
-      "work_mode": ""
+      "work_mode": "",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00"
     },
     {
       "id": "2b24c8b27c02c88a",
@@ -3162,7 +3163,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00",
       "work_mode": "onsite"
     },
     {
@@ -3293,7 +3294,7 @@
         "network"
       ],
       "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
-      "verified_at": "2026-10-30T16:56:13.028799+00:00",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00",
       "work_mode": "onsite"
     },
     {
@@ -3428,7 +3429,7 @@
         "redes"
       ],
       "last_seen_at": "2026-10-09T17:17:37.964079+00:00",
-      "verified_at": "2026-10-30T16:56:13.028799+00:00",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00",
       "work_mode": ""
     },
     {
@@ -3558,7 +3559,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00",
       "work_mode": ""
     },
     {
@@ -3694,140 +3695,6 @@
       "work_mode": "remote"
     },
     {
-      "id": "e5bea9fe68f20575",
-      "title": "Network Operations Control Center (NOCC)",
-      "company": "Tata Consultancy Services",
-      "location": "Sydney, Nova Gales do Sul, Austrália",
-      "salary": "",
-      "description": "About Organization: Join Tata Consultancy Services, Asia Pacific and be part of an organization committed to sustainable development for our future. TCS follows the Tata group philosophy of building sustainable businesses that are rooted in the community and demonstrate care for the environment. Our unique values position us to combine a purpose-driven worldview with digital innovation, collaborating with customers, communities and governments to lead and shape innovative solutions for a sustainable future. TCS has been carbon neutral in its operations across 11 countries, 12 delivery centres and 18 offices in Asia Pacific since 2022. This is only the initial stage in TCS’ journey as we strive to achieve long-term net zero emissions by 2030. Corporate sustainability is embedded in our triple-bottom-line, focusing on people, the planet, and our purpose. Our offices are designed with eco-friendly features that significantly reduce our carbon footprint and enhance energy efficiency. We actively champion green initiatives, such as promoting paperless operations, implementing energy-efficient practices, and fostering employee engagement in sustainability efforts. When you become part of the TCS family, you will play an essential role dedicated to innovation, excellence, and crafting a brighter, greener future together. Join us and be a part of our mission to drive sustainability through technology and talent at Tata Consultancy Services, APAC today Network Operations Control Center (NOCC) – Level 1 and Level 1.5 Engineer Role Summary: The Network Operations Control Center (NOCC) Level 1 / Level 1.5 Engineer is responsible for proactive network monitoring, incident triage, and operational support to ensure high network availability and performance. The role covers first-level monitoring activities and advanced Level 1.5 tasks based on approved Standard Operating Procedures (SOPs) and runbooks. Level 1 Responsibilities Network Monitoring & Surveillance • Monitor dashboards and alerts for device availability, interface status, CPU, memory, temperature, port utilisation, response time, latency, packet loss, and HA status. • Check device reachability using ping, traceroute, ICMP, and SNMP. Incident Detection & Triage • Initial incident triage, ticket logging, documentation. • Escalate issues following the escalation matrix. Operational Tasks • Track incidents, update knowledge bases, and communicate outages. Level 1.5 Responsibilities Advanced Monitoring & Diagnostics • Review syslogs and SNMP traps. • Daily health checks and reports. • Hop-by-hop tracing, read-only CLI checks, WAN vs LAN troubleshooting. • Assist L2 with diagnostic data. Change & Outage Support • Alert suppression during approved windows. • Perform SOP-based tasks: restart SNMP polling, clear false alerts, trigger NCM backups, restart management sessions, and perform approved change tasks. Escalation & Collaboration • Escalate complex issues to L2 teams and maintain communication. Require",
-      "url": "https://au.linkedin.com/jobs/view/network-operations-control-center-nocc-at-tata-consultancy-services-4476253734",
-      "source": "LinkedIn",
-      "published_at": "2026-10-09",
-      "found_at": "2026-10-09T17:17:16.883695+00:00",
-      "score": 38,
-      "score_breakdown": {
-        "skills": 6,
-        "location": 0,
-        "level": 10,
-        "keywords": 6,
-        "salary": 5,
-        "target_company": 0,
-        "priority_skills": 1,
-        "title": 10,
-        "overseas": 0
-      },
-      "skills_match": [
-        "network",
-        "teams",
-        "troubleshooting"
-      ],
-      "skills_gap": [
-        "3cx",
-        "active directory",
-        "algar",
-        "algar telecom",
-        "analise de logs",
-        "asterisk",
-        "atendimento tecnico",
-        "avaya",
-        "aws",
-        "azure",
-        "bgp",
-        "broadworks",
-        "call center",
-        "cdr",
-        "cisco",
-        "cloud",
-        "codec",
-        "codecs",
-        "comunicacoes unificadas",
-        "contact center",
-        "cybersecurity",
-        "digitro",
-        "dns",
-        "documentacao tecnica",
-        "e1",
-        "embratel",
-        "firewall",
-        "fortigate",
-        "freeswitch",
-        "g.711",
-        "g.729",
-        "gateway",
-        "gcp",
-        "genesys",
-        "grandstream",
-        "huawei",
-        "intelbras",
-        "ip pbx",
-        "isdn",
-        "khomp",
-        "leucotron",
-        "linux",
-        "mikrotik",
-        "nat",
-        "networking",
-        "nivel 2",
-        "noc",
-        "olt",
-        "operadora",
-        "ordem de servico",
-        "pabx",
-        "pabx ip",
-        "qos",
-        "ramais",
-        "ramal",
-        "rede",
-        "redes",
-        "rtp",
-        "sbc",
-        "sd-wan",
-        "seguranca da informacao",
-        "session border controller",
-        "sip",
-        "sip trunk",
-        "sql server",
-        "srtp",
-        "stun",
-        "suporte nivel 2",
-        "suporte tecnico",
-        "tim brasil",
-        "turn",
-        "unified communications",
-        "ura",
-        "vlan",
-        "vmware",
-        "voip",
-        "vpn",
-        "webex",
-        "windows server",
-        "wireguard",
-        "wireshark",
-        "yealink",
-        "zoom phone"
-      ],
-      "fit_level": "baixo",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
-      "contact_email": null,
-      "recruiter": {
-        "name": "Balaji V",
-        "profile_url": "https://au.linkedin.com/in/balaji-v-b32879194",
-        "headline": "HR IT Recruiter"
-      },
-      "valid_through": "2026-11-08T05:32:46.000Z",
-      "company_logo": "https://media.licdn.com/dms/image/v2/D4D0BAQGsGR9p4ikS5w/company-logo_100_100/company-logo_100_100/0/1708946550425/tata_consultancy_services_logo?e=2147483647&v=beta&t=P-PkUMh7Ks1GQY0_l7GhzQiwfyLfQpvKWwX8Tq18Yc4",
-      "is_overseas": true,
-      "title_class": "core",
-      "target_company": false,
-      "priority_skills": [
-        "network"
-      ],
-      "last_seen_at": "2026-10-30T16:56:13.002941+00:00",
-      "work_mode": "onsite"
-    },
-    {
       "id": "ab648e60745a043e",
       "title": "Unified Communications Analyst",
       "company": "Dane Street",
@@ -3955,7 +3822,7 @@
         "unified communications"
       ],
       "last_seen_at": "2026-10-13T17:54:34.322706+00:00",
-      "verified_at": "2026-10-30T16:56:13.028799+00:00",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00",
       "work_mode": "onsite"
     },
     {
@@ -4089,7 +3956,7 @@
         "networking",
         "unified communications"
       ],
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00",
       "verified_at": "2026-10-20T15:32:02.481233+00:00",
       "work_mode": "onsite"
     },
@@ -4220,7 +4087,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00",
       "work_mode": ""
     },
     {
@@ -4476,7 +4343,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00",
       "work_mode": ""
     },
     {
@@ -4735,7 +4602,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00",
       "work_mode": ""
     },
     {
@@ -4995,7 +4862,7 @@
         "redes"
       ],
       "last_seen_at": "2026-10-15T15:27:11.982252+00:00",
-      "verified_at": "2026-10-30T16:56:13.028799+00:00",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00",
       "work_mode": ""
     },
     {
@@ -5258,7 +5125,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00",
       "work_mode": "onsite"
     },
     {
@@ -5388,7 +5255,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00",
       "work_mode": ""
     },
     {
@@ -5518,7 +5385,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00",
       "work_mode": "country_locked"
     },
@@ -5911,7 +5778,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00",
       "work_mode": ""
     },
     {
@@ -6041,7 +5908,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00",
       "work_mode": "onsite"
     },
     {
@@ -6305,7 +6172,7 @@
         "unified communications"
       ],
       "last_seen_at": "2026-10-20T15:32:02.467509+00:00",
-      "verified_at": "2026-10-29T17:15:28.749446+00:00",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00",
       "work_mode": "onsite"
     },
     {
@@ -6435,7 +6302,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00",
       "work_mode": ""
     },
     {
@@ -6824,7 +6691,7 @@
         "network",
         "networking"
       ],
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00",
       "work_mode": "remote"
     },
     {
@@ -7082,138 +6949,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00",
-      "work_mode": ""
-    },
-    {
-      "id": "736fe7b0d8531f7a",
-      "title": "Analista de Redes - Belo Horizonte - Posições Disponíveis",
-      "company": "Espaço Crescerh",
-      "location": "Belo Horizonte e Região",
-      "salary": "",
-      "description": "Espaço Crescerh Belo Horizonte-MG Remoto Área: Informática / TI / Tecnologia Salário: R$ 5.191,00 Requisitos Requisitos Mínimos: * Ensino Superior completo na área de TI * Experiência com VMware, Windows Server e VPNs, TOLTS * Conhecimento em Scripting * Vivência em administração de redes Atividades Principais Atividades: * Administrar e monitorar redes LAN, WAN e Wi-Fi * Configurar e gerenciar roteadores, switches e firewalls * Identificar e solucionar problemas de conectividade e desempenho * Implementar e gerenciar VPNs para acesso remoto * Realizar backups e garantir a segurança das configurações de rede * Gerenciar servidores de impressão e apoiar melhorias na infraestrutura ⏰ Segunda a sexta-feira | 07:00 às 17:00 | ✅ Benefícios: * Vale-transporte * Vale-refeição – R$ 35,00/dia Confira mais vagas em divulgavagas.com.br Show more Show less",
-      "url": "https://br.linkedin.com/jobs/view/analista-de-redes-belo-horizonte-posi%C3%A7%C3%B5es-dispon%C3%ADveis-at-espa%C3%A7o-crescerh-4480637172",
-      "source": "LinkedIn",
-      "published_at": "2026-10-23",
-      "found_at": "2026-10-23T15:32:47.477521+00:00",
-      "score": 60,
-      "score_breakdown": {
-        "skills": 8,
-        "location": 20,
-        "level": 10,
-        "keywords": 6,
-        "salary": 5,
-        "target_company": 0,
-        "priority_skills": 1,
-        "title": 10,
-        "overseas": 0
-      },
-      "skills_match": [
-        "rede",
-        "redes",
-        "vmware",
-        "windows server"
-      ],
-      "skills_gap": [
-        "3cx",
-        "active directory",
-        "algar",
-        "algar telecom",
-        "analise de logs",
-        "asterisk",
-        "atendimento tecnico",
-        "avaya",
-        "aws",
-        "azure",
-        "bgp",
-        "broadworks",
-        "call center",
-        "cdr",
-        "cisco",
-        "cloud",
-        "codec",
-        "codecs",
-        "comunicacoes unificadas",
-        "contact center",
-        "cybersecurity",
-        "digitro",
-        "dns",
-        "documentacao tecnica",
-        "e1",
-        "embratel",
-        "firewall",
-        "fortigate",
-        "freeswitch",
-        "g.711",
-        "g.729",
-        "gateway",
-        "gcp",
-        "genesys",
-        "grandstream",
-        "huawei",
-        "intelbras",
-        "ip pbx",
-        "isdn",
-        "khomp",
-        "leucotron",
-        "linux",
-        "mikrotik",
-        "nat",
-        "network",
-        "networking",
-        "nivel 2",
-        "noc",
-        "olt",
-        "operadora",
-        "ordem de servico",
-        "pabx",
-        "pabx ip",
-        "qos",
-        "ramais",
-        "ramal",
-        "rtp",
-        "sbc",
-        "sd-wan",
-        "seguranca da informacao",
-        "session border controller",
-        "sip",
-        "sip trunk",
-        "sql server",
-        "srtp",
-        "stun",
-        "suporte nivel 2",
-        "suporte tecnico",
-        "teams",
-        "tim brasil",
-        "troubleshooting",
-        "turn",
-        "unified communications",
-        "ura",
-        "vlan",
-        "voip",
-        "vpn",
-        "webex",
-        "wireguard",
-        "wireshark",
-        "yealink",
-        "zoom phone"
-      ],
-      "fit_level": "medio",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
-      "contact_email": null,
-      "recruiter": null,
-      "valid_through": "2026-11-22T07:43:26.000Z",
-      "company_logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHYfACGo2PM8Q/company-logo_100_100/company-logo_100_100/0/1641256920518?e=2147483647&v=beta&t=bSVdBktuMpW7-uvlrl4bVtUUEL43LoEEKbaiPxBWHfc",
-      "is_overseas": false,
-      "title_class": "core",
-      "target_company": false,
-      "priority_skills": [
-        "redes"
-      ],
-      "last_seen_at": "2026-10-23T15:40:05.328836+00:00",
-      "verified_at": "2026-10-30T16:56:13.028799+00:00",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00",
       "work_mode": ""
     },
     {
@@ -7341,7 +7077,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00",
       "work_mode": ""
     },
     {
@@ -7474,7 +7210,7 @@
         "cloud",
         "redes"
       ],
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00",
       "verified_at": "2026-10-26T17:06:35.217681+00:00",
       "work_mode": ""
     },
@@ -7738,7 +7474,8 @@
         "redes"
       ],
       "last_seen_at": "2026-10-30T16:56:13.002941+00:00",
-      "work_mode": ""
+      "work_mode": "",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00"
     },
     {
       "id": "8cfa114085a16703",
@@ -7873,7 +7610,8 @@
         "redes"
       ],
       "last_seen_at": "2026-10-30T16:56:13.002941+00:00",
-      "work_mode": ""
+      "work_mode": "",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00"
     },
     {
       "id": "becbfbbb8491f236",
@@ -8258,7 +7996,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00",
       "work_mode": "onsite"
     },
     {
@@ -8390,7 +8128,7 @@
       ],
       "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
       "work_mode": "onsite",
-      "verified_at": "2026-10-29T17:15:28.749446+00:00"
+      "verified_at": "2026-11-03T18:13:25.296216+00:00"
     },
     {
       "id": "94b8263abf05e833",
@@ -8786,7 +8524,7 @@
       ],
       "work_mode": "onsite",
       "last_seen_at": "2026-10-27T16:09:52.862435+00:00",
-      "verified_at": "2026-10-30T16:56:13.028799+00:00"
+      "verified_at": "2026-11-03T18:13:25.296216+00:00"
     },
     {
       "id": "ba99be451fc37130",
@@ -8917,7 +8655,7 @@
         "network"
       ],
       "work_mode": "remote",
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00"
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
     },
     {
       "id": "c307fe3748e91c02",
@@ -9049,7 +8787,7 @@
         "network"
       ],
       "work_mode": "latam",
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00"
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
     },
     {
       "id": "9fba05ba556fa026",
@@ -9181,7 +8919,7 @@
         "redes"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00"
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
     },
     {
       "id": "676bd25bdd2f3603",
@@ -9714,7 +9452,7 @@
         "redes"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00"
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
     },
     {
       "id": "de5bcc62b267e912",
@@ -9981,7 +9719,7 @@
         "networking"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00"
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
     },
     {
       "id": "d15b0e59af7b1246",
@@ -10248,7 +9986,7 @@
         "redes"
       ],
       "work_mode": "",
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00"
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
     },
     {
       "id": "5b939b4410fa9c51",
@@ -10380,7 +10118,7 @@
         "redes"
       ],
       "work_mode": "",
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00"
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
     },
     {
       "id": "a3b8fbff55f6a43b",
@@ -10515,138 +10253,6 @@
       "verified_at": "2026-11-02T20:37:48.593421+00:00"
     },
     {
-      "id": "cffa67a28759a901",
-      "title": "NOC Analyst II (weekends, Fri-Mon)",
-      "company": "VC3",
-      "location": "Montreal e Região",
-      "salary": "",
-      "description": "Department: Infrastructure & Security Location: Canada - Remote Description At VC3, we don’t just solve IT problems — we own them. We serve hundreds of municipalities and organizations across the United States and Canada, bringing IT to the people who need it most. We believe in earning trust, having a growth mindset, and delivering excellence every single time. We're a team of doers, builders, and tech whisperers who live by 4 core values: Go Beyond | Own It | Be Curious | Serve as One We pride ourselves on making IT personal, making IT easy, and getting IT right. And it all starts with our talented team that is committed to raising the bar. The Impact you will have: We are seeking a NOC Analyst II to join our Network Operations Center (NOC) team. The successful candidate will be responsible for monitoring and maintaining our network and systems to ensure optimal performance and uptime. This mid-level position offers the opportunity to take on additional responsibilities and help mentor junior analysts within our organization. Work Schedule: Shift: 4 X 10 (4 days/week, 10 hours/day) Days: Friday though Monday Hours: 10am - 9:00pm What you will be doing: Monitor network and system performance using various monitoring tools and software. Identify and troubleshoot complex network and system issues, escalating as necessary. Perform and assist identification and troubleshooting of complex network and system issues, acting as a point of escalation as necessary. Perform system and network device configurations and deployments, as coordinated with the Backup Specialists and Toolset Orchestration Specialists. Maintain accurate documentation of network and system configurations and changes. Collaborate with cross-functional teams to resolve issues and implement solutions. Monitor and respond to alerts and notifications generated by our network and system monitoring tools. Provide timely and effective communication of network and system issues to internal and external stakeholders. Participate in on-call rotation and respond to after-hours incidents as needed. Mentor and train Analyst I on network and system monitoring best practices. Ensure Tickets are properly created and notated to account for time Manage personal workload and ensure that service level agreements (SLAs) are met. Additional duties as required. The tools you bring: Associate's degree in Computer Science or related field, or equivalent work experience. 3+ years of experience in network and system monitoring or related field. Experience with network and system monitoring tools; ConnectWise Ticketing, OpenDNS, Kaseya VSA, and PRTG a plus. Knowledge of advanced networking concepts such as load balancing, VPN, and firewalls. Advanced understanding of server and operating system concepts, including Windows and Linux. Strong analytical and problem-solving skills. Excellent communication and interpersonal skills. Ability to work independently and in a team-oriented environment. Attention to detai",
-      "url": "https://ca.linkedin.com/jobs/view/noc-analyst-ii-weekends-fri-mon-at-vc3-4484296818",
-      "source": "LinkedIn",
-      "published_at": "2026-10-03",
-      "found_at": "2026-10-28T16:56:19.318603+00:00",
-      "score": 64,
-      "score_breakdown": {
-        "skills": 14,
-        "location": 3,
-        "level": 20,
-        "keywords": 10,
-        "salary": 5,
-        "target_company": 0,
-        "priority_skills": 2,
-        "title": 10,
-        "overseas": 0
-      },
-      "skills_match": [
-        "linux",
-        "network",
-        "networking",
-        "noc",
-        "teams",
-        "troubleshooting",
-        "vpn"
-      ],
-      "skills_gap": [
-        "3cx",
-        "active directory",
-        "algar",
-        "algar telecom",
-        "analise de logs",
-        "asterisk",
-        "atendimento tecnico",
-        "avaya",
-        "aws",
-        "azure",
-        "bgp",
-        "broadworks",
-        "call center",
-        "cdr",
-        "cisco",
-        "cloud",
-        "codec",
-        "codecs",
-        "comunicacoes unificadas",
-        "contact center",
-        "cybersecurity",
-        "digitro",
-        "dns",
-        "documentacao tecnica",
-        "e1",
-        "embratel",
-        "firewall",
-        "fortigate",
-        "freeswitch",
-        "g.711",
-        "g.729",
-        "gateway",
-        "gcp",
-        "genesys",
-        "grandstream",
-        "huawei",
-        "intelbras",
-        "ip pbx",
-        "isdn",
-        "khomp",
-        "leucotron",
-        "mikrotik",
-        "nat",
-        "nivel 2",
-        "olt",
-        "operadora",
-        "ordem de servico",
-        "pabx",
-        "pabx ip",
-        "qos",
-        "ramais",
-        "ramal",
-        "rede",
-        "redes",
-        "rtp",
-        "sbc",
-        "sd-wan",
-        "seguranca da informacao",
-        "session border controller",
-        "sip",
-        "sip trunk",
-        "sql server",
-        "srtp",
-        "stun",
-        "suporte nivel 2",
-        "suporte tecnico",
-        "tim brasil",
-        "turn",
-        "unified communications",
-        "ura",
-        "vlan",
-        "vmware",
-        "voip",
-        "webex",
-        "windows server",
-        "wireguard",
-        "wireshark",
-        "yealink",
-        "zoom phone"
-      ],
-      "fit_level": "medio",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
-      "contact_email": null,
-      "recruiter": null,
-      "valid_through": "2027-04-26T02:27:40.000Z",
-      "company_logo": "https://media.licdn.com/dms/image/v2/D560BAQEJbXl8rvxzNg/company-logo_100_100/company-logo_100_100/0/1685667318160/vc3_logo?e=2147483647&v=beta&t=-M0CHwEtmHQ3bGYph-7KSiY0dYCggBwFNtRLTTjAAHE",
-      "is_overseas": true,
-      "latam_ok": false,
-      "title_class": "core",
-      "target_company": false,
-      "priority_skills": [
-        "network",
-        "networking"
-      ],
-      "work_mode": "country_locked",
-      "last_seen_at": "2026-10-30T16:56:13.002941+00:00"
-    },
-    {
       "id": "87c51a79b4bea24b",
       "title": "NOC Analyst I (evenings/overnight)",
       "company": "VC3",
@@ -10776,7 +10382,8 @@
         "networking"
       ],
       "work_mode": "country_locked",
-      "last_seen_at": "2026-10-30T16:56:13.002941+00:00"
+      "last_seen_at": "2026-10-30T16:56:13.002941+00:00",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00"
     },
     {
       "id": "4542a63588b1d8c8",
@@ -10908,7 +10515,7 @@
         "network"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00"
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
     },
     {
       "id": "82ecd512df728ba4",
@@ -11313,7 +10920,7 @@
         "redes"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00"
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
     },
     {
       "id": "58529cdf4d32e75e",
@@ -11448,7 +11055,7 @@
         "redes"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00"
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
     },
     {
       "id": "44386b188fd6ffc5",
@@ -11579,7 +11186,7 @@
         "redes"
       ],
       "work_mode": "",
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00"
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
     },
     {
       "id": "c29d2e04b524ceba",
@@ -11710,7 +11317,8 @@
         "redes"
       ],
       "work_mode": "",
-      "last_seen_at": "2026-10-30T16:56:13.002941+00:00"
+      "last_seen_at": "2026-10-30T16:56:13.002941+00:00",
+      "verified_at": "2026-11-03T18:13:25.296216+00:00"
     },
     {
       "id": "dd55cc5a82a4e9f7",
@@ -11841,7 +11449,7 @@
         "network"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00"
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
     },
     {
       "id": "4cb7577f0dd9774d",
@@ -11977,7 +11585,7 @@
         "networking"
       ],
       "work_mode": "country_locked",
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00"
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
     },
     {
       "id": "475345cf8378c660",
@@ -12109,7 +11717,7 @@
         "redes"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00"
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
     },
     {
       "id": "b42ea1488ac691d2",
@@ -12371,7 +11979,7 @@
         "redes"
       ],
       "work_mode": "",
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00"
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
     },
     {
       "id": "9087fe674938edc3",
@@ -12502,7 +12110,7 @@
         "redes"
       ],
       "work_mode": "",
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00"
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
     },
     {
       "id": "acc27bd1fb47eada",
@@ -12635,7 +12243,7 @@
         "networking"
       ],
       "work_mode": "remote",
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00"
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
     },
     {
       "id": "2dc6a5c3c777e263",
@@ -12897,7 +12505,7 @@
         "redes"
       ],
       "work_mode": "open",
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00"
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
     },
     {
       "id": "23978d3f13dfcd51",
@@ -13028,15 +12636,549 @@
         "redes"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-02T20:37:48.557087+00:00"
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
+    },
+    {
+      "id": "01bb5a3f1f9ab139",
+      "title": "Analista de Redes - Belo Horizonte - Cadastre-Se para a Vaga - Nova Oportunidade",
+      "company": "Espaço Crescerh",
+      "location": "Belo Horizonte e Região",
+      "salary": "",
+      "description": "Espaço Crescerh Belo Horizonte-MG Remoto Área: Informática / TI / Tecnologia Salário: R$ 5.191,00 Requisitos Requisitos Mínimos: * Ensino Superior completo na área de TI * Experiência com VMware, Windows Server e VPNs, TOLTS * Conhecimento em Scripting * Vivência em administração de redes Atividades Principais Atividades: * Administrar e monitorar redes LAN, WAN e Wi-Fi * Configurar e gerenciar roteadores, switches e firewalls * Identificar e solucionar problemas de conectividade e desempenho * Implementar e gerenciar VPNs para acesso remoto * Realizar backups e garantir a segurança das configurações de rede * Gerenciar servidores de impressão e apoiar melhorias na infraestrutura ⏰ Segunda a sexta-feira | 07:00 às 17:00 | ✅ Benefícios: * Vale-transporte * Vale-refeição – R$ 35,00/dia Confira mais vagas em divulgavagas.com.br Show more Show less",
+      "url": "https://br.linkedin.com/jobs/view/analista-de-redes-belo-horizonte-cadastre-se-para-a-vaga-nova-oportunidade-at-espa%C3%A7o-crescerh-4484320604",
+      "source": "LinkedIn",
+      "published_at": "2026-11-02",
+      "found_at": "2026-11-03T18:10:50.287392+00:00",
+      "score": 60,
+      "score_breakdown": {
+        "skills": 8,
+        "location": 20,
+        "level": 10,
+        "keywords": 6,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 1,
+        "title": 10,
+        "overseas": 0
+      },
+      "skills_match": [
+        "rede",
+        "redes",
+        "vmware",
+        "windows server"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "noc",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "troubleshooting",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "voip",
+        "vpn",
+        "webex",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "medio",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2026-12-02T07:44:05.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHYfACGo2PM8Q/company-logo_100_100/company-logo_100_100/0/1641256920518?e=2147483647&v=beta&t=bSVdBktuMpW7-uvlrl4bVtUUEL43LoEEKbaiPxBWHfc",
+      "is_overseas": false,
+      "latam_ok": false,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "redes"
+      ],
+      "work_mode": "",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
+    },
+    {
+      "id": "49f4196fe4a977d4",
+      "title": "Analista de NOC",
+      "company": "Proativa Inteligência em TI",
+      "location": "Belo Horizonte, MG",
+      "salary": "",
+      "description": "Conheça a Proativa Inteligência em TI Proativos por essência. Inteligentes na entrega. Tecnologia que resolve e evolui. Fundada em 1995, a Proativa Inteligência em TI possui mais de 30 anos de experiência no mercado de tecnologia, construindo uma trajetória pautada pela inovação, confiança e compromisso com a excelência. Acreditamos que a tecnologia vai além de soluções e sistemas: ela conecta pessoas, transforma negócios e impulsiona resultados. Por isso, buscamos evoluir continuamente, oferecendo soluções eficientes e construindo relacionamentos sólidos com nossos clientes e parceiros. Descritivo de cargo: Atuar no monitoramento contínuo dos ambientes de infraestrutura, redes, servidores e serviços de TI, garantindo a disponibilidade, desempenho e estabilidade dos sistemas. Prestar suporte de primeiro nível na identificação, registro, análise e encaminhamento de incidentes, executando procedimentos operacionais e de troubleshooting conforme padrões estabelecidos. Apoiar a manutenção da documentação técnica, contribuir para a melhoria contínua dos processos de monitoramento e colaborar com as equipes técnicas para assegurar a qualidade e a continuidade dos serviços prestados aos clientes. Informações da vaga: • Atuação 100% presencial; • Segunda a sexta-feira, das 08h às 18h (1h30 de intervalo). Requisitos Técnicos: •\tConhecimento básico em infraestrutura de TI, redes e sistemas operacionais; •\tNoções de Windows Server e Linux; •\tConhecimento básico de redes TCP/IP, DNS e VPN; •\tFacilidade para análise e resolução de problemas; •\tInteresse em monitoramento, infraestrutura e operações de TI. •\tExperiência em ferramentas de monitoramento (Zabbix, Grafana ou similares); Desejável: •\tNoções de computação em nuvem (AWS, Azure ou OCI); •\tConhecimento básico em ITIL e gestão de incidentes; •\tCertificações ou cursos na área de infraestrutura, redes ou cloud. Benefícios: • Cartão Flex (VR/VA) de R$ 33,50 por dia; • Vale-transporte ou ajuda de mobilidade; • Assistência médica Unimed; • Assistência odontológica; • Seguro de vida; • Day Off no aniversário; • Kit maternidade/paternidade; • Convênio com o Sesc. Show more Show less",
+      "url": "https://br.linkedin.com/jobs/view/analista-de-noc-at-proativa-intelig%C3%AAncia-em-ti-4486049615",
+      "source": "LinkedIn",
+      "published_at": "2026-11-03",
+      "found_at": "2026-11-03T18:11:09.794899+00:00",
+      "score": 79,
+      "score_breakdown": {
+        "skills": 20,
+        "location": 20,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 4,
+        "title": 10,
+        "overseas": 0
+      },
+      "skills_match": [
+        "aws",
+        "azure",
+        "cloud",
+        "dns",
+        "linux",
+        "noc",
+        "redes",
+        "troubleshooting",
+        "vpn",
+        "windows server"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "mikrotik",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "webex",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "alto",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": {
+        "name": "Maria Alice F. Santos",
+        "profile_url": "https://br.linkedin.com/in/mariaalicefsantos",
+        "headline": ""
+      },
+      "valid_through": "2026-12-03T14:17:16.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4D0BAQE-RRVAuJLrQg/company-logo_100_100/company-logo_100_100/0/1730828102719/proativaintelig_nciaemti_logo?e=2147483647&v=beta&t=01sC0IFIDH1h8zmrjJ0fMUHYPHpnX2Cuq5hmecgLB0g",
+      "is_overseas": false,
+      "latam_ok": false,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "aws",
+        "azure",
+        "cloud",
+        "redes"
+      ],
+      "work_mode": "",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
+    },
+    {
+      "id": "99f3e0cd18b093af",
+      "title": "Operador Noc / Huancayo",
+      "company": "GLOBAL FIBER PERU",
+      "location": "Huancayo, Junín, Peru",
+      "salary": "",
+      "description": "Somos una empresa líder de capitales peruanos con 19 años de experiencia en el sector de telecomunicaciones. Contamos con presencia en Perú, Brasil y Colombia, y somos especialistas en fibra óptica, enlaces dedicados a internet, seguridad gestionada y soluciones cloud. Trabajamos con el firme compromiso de llevar conectividad y reducir la brecha digital, respaldados por un equipo de profesionales altamente capacitados. Hoy queremos sumar nuevos talentos a nuestro equipo para el puesto de: NOC para integrarse a nuestra operación en la ciudad de Huancayo . Requisitos Egresado o Titulado en Ingeniería de Telecomunicaciones, Sistemas, Redes o carreras afines. Experiencia de 6 meses en funciones de soporte técnico y atención en Call Center/NOC. Conocimientos en el Modelo OSI y fundamentos de redes (Cisco). Experiencia en configuración de equipos MikroTik. Manejo de sistemas de monitoreo de red. Dominio de Microsoft Office (especialmente Excel para reportes) y Visio para diagramación. Alta capacidad de comunicación asertiva, resolución de problemas bajo presión, empatía con el cliente y minuciosidad en la documentación. Funciones Supervisar, operar y realizar el mantenimiento de los servicios gestionados brindados a nuestros clientes. Gestionar llamadas de forma rápida, amable y técnica, manteniendo una comunicación fluida sobre el estado de sus servicios. Asegurar el ciclo de vida completo de los tickets (apertura, seguimiento y cierre) según los procesos definidos. Elaborar informes de incidencias basados en datos actualizados, asegurando la calidad de la información para la toma de decisiones. Realizar configuraciones en equipos MikroTik, Fortigate y Cisco según los requerimientos. Informar proactivamente al cliente sobre avances, cambios de estado y soluciones implementadas. Ejecutar otras funciones que el jefe inmediato solicite. ¿QUÉ OFRECEMOS? Oportunidad de crecimiento laboral y línea de carrera técnica. Formar parte de una empresa en expansión con presencia internacional. Un ambiente de trabajo colaborativo, dinámico y de alto aprendizaje tecnológico. Si buscas un lugar donde tu trabajo tenga impacto y puedas crecer junto a un equipo comprometido con la innovación y el desarrollo del país... ¡Forma parte de nuestro grupo empresarial y crece con nosotros! ¡Te esperamos! Show more Show less",
+      "url": "https://pe.linkedin.com/jobs/view/operador-noc-huancayo-at-global-fiber-peru-4486485848",
+      "source": "LinkedIn",
+      "published_at": "2026-11-03",
+      "found_at": "2026-11-03T18:13:14.215728+00:00",
+      "score": 49,
+      "score_breakdown": {
+        "skills": 14,
+        "location": 0,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 2,
+        "title": 10,
+        "overseas": 0
+      },
+      "skills_match": [
+        "call center",
+        "cisco",
+        "cloud",
+        "fortigate",
+        "mikrotik",
+        "noc",
+        "redes"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "cdr",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "troubleshooting",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "baixo",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2026-12-03T01:04:55.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHqC0PIqCubAQ/company-logo_100_100/company-logo_100_100/0/1631347182116?e=2147483647&v=beta&t=Eic1NYO0CFiNqjo8sh81HAWEII5zg9YH3yfVyHjO2Jc",
+      "is_overseas": true,
+      "latam_ok": true,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "cloud",
+        "redes"
+      ],
+      "work_mode": "onsite",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
+    },
+    {
+      "id": "74f7cd0dff06e167",
+      "title": "Technical Support Analyst SMS / NOC / CNOC - Ingles B2",
+      "company": "IPCOM",
+      "location": "México, México",
+      "salary": "",
+      "description": "¿Te apasiona el mundo de las telecomunicaciones, la mensajería empresarial y las plataformas digitales? En IPCOM estamos buscando un CNOC SMS, quien nos ayudara a darle soporte nuestros servicios de Mensajería. Lo que buscamos: 🔹 Estudiante o profesional en carreras de ingeniería (Eléctrica, electrónica, telecomunicaciones...). 🔹 Experiencia de mínimo 1 año en áreas de soporte técnico bilingüe. 🔹 Ingles B2 o superior. 🔹 Actitud proactiva, con interés en aprender sobre soporte especializado en SMS. 🔹 Deseable: Conocimientos o nociones en monitoreo de servicios de mensajería (VoIP, A2P y SMPP). Tus funciones: Brindar atención y soporte especializado. Registrar, documentar y dar seguimiento a los incidentes presentados. Monitoreo de trafico y desempeño de rutas. Supervisar la estabilidad y calidad de las rutas nacionales e internacionales. Escalar casos al área técnica cuando se requiera análisis técnico. ¿Por qué IPCOM? 💚 Formarás parte de una compañía líder en soluciones de comunicación y transformación digital. 🚀 Trabajarás con tecnologías innovadoras y proyectos de impacto internacional. 📚 Accederás a oportunidades de aprendizaje y crecimiento profesional continuo. 🤝 Encontrarás una cultura colaborativa enfocada en el bienestar, el desarrollo y la mejora continua. 🌎 Tendrás la oportunidad de interactuar con clientes y equipos de diferentes países de Latinoamérica. 📍 Ubicación: México 💳 Salario + Bono de disponibilidad + Seguro de gastos menores 🏢 Modalidad: Remota ¿Listo para asumir el reto y llevar tu carrera al siguiente nivel? 📩 Envía tu CV a: tomas.munoz@ipcom.ai ✨ ¡Únete a nuestro universo y conviértete en el próximo IPCOMer! Show more Show less",
+      "url": "https://mx.linkedin.com/jobs/view/technical-support-analyst-sms-noc-cnoc-ingles-b2-at-ipcom-4484693462",
+      "source": "LinkedIn",
+      "published_at": "2026-11-03",
+      "found_at": "2026-11-03T18:13:17.349285+00:00",
+      "score": 64,
+      "score_breakdown": {
+        "skills": 5,
+        "location": 14,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 0,
+        "title": 10,
+        "overseas": 10
+      },
+      "skills_match": [
+        "noc",
+        "voip"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "redes",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "troubleshooting",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "medio",
+      "status": "enviada",
+      "applied_at": "2026-11-03T18:13:23.871878+00:00",
+      "cover_letter": "I am a Telecommunications Analyst with five years of experience supporting IP‑telephony and VoIP services in mission‑critical environments. At Método Telecom I administer BroadWorks platforms, provision IP phones and ATAs, and perform SIP and RTP analysis, including detailed CDR and packet‑capture investigations with Wireshark. This background aligns directly with the SMS/NOC role’s focus on monitoring and troubleshooting messaging traffic.\n\nMy daily responsibilities involve troubleshooting Session Border Controllers, resolving registration, NAT, firewall and codec issues, and handling escalated incidents while maintaining precise documentation and ticket tracking. I have worked directly with carriers such as Oi, Algar and TIP, which gives me practical experience in carrier liaison and service stability—key for supervising route quality and escalation processes.\n\nI am comfortable with asynchronous, written communication in English (advanced reading and writing) and have a proven track record of delivering clear technical reports and operational procedures. My expertise in SIP/CDR log analysis and network‑level diagnostics equips me to monitor traffic performance and quickly identify anomalies in SMS, A2P or SMPP flows.\n\nI am available for an interview at your convenience and look forward to discussing how my VoIP and NOC experience can contribute to IPCOM’s messaging services.",
+      "contact_email": "tomas.munoz@ipcom.ai",
+      "recruiter": {
+        "name": "Hasbleidy Castillo",
+        "profile_url": "https://co.linkedin.com/in/hasbleidy-castillo-0b0612141",
+        "headline": "Administradora de empresas| Tecnóloga en gestión de talento humano | Selección Humano| Telecomunicaciones | Tecnología | Transformación digital |…"
+      },
+      "valid_through": "2026-12-03T16:23:56.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/C4E0BAQGnnzVCe6Oiuw/company-logo_100_100/company-logo_100_100/0/1639145906320/ipcom_network_logo?e=2147483647&v=beta&t=KjS7OYYItcfQLIlqdMVYghe0QcAAXDExoq7maxOcZs0",
+      "is_overseas": true,
+      "latam_ok": true,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [],
+      "work_mode": "latam",
+      "last_seen_at": "2026-11-03T18:13:19.822178+00:00"
     }
   ],
-  "last_updated": "2026-11-02T20:37:54.338799+00:00",
+  "last_updated": "2026-11-03T18:13:30.213127+00:00",
   "stats": {
-    "total": 99,
-    "alto_fit": 11,
+    "total": 100,
+    "alto_fit": 12,
     "medio_fit": 38,
     "baixo_fit": 50,
-    "enviadas": 1
+    "enviadas": 2
   }
 }

@@ -277,6 +277,37 @@
       },
       "cover_letter": "I am a Telecommunications Analyst with five years of experience delivering tier‑2 support for IP‑telephony and VoIP services. My daily responsibilities include SIP and RTP protocol analysis, SBC troubleshooting, and end‑to‑end incident handling in mission‑critical environments, which directly aligns with the advanced troubleshooting focus of the Analista de Redes N2 role.\n\nI have extensive hands‑on experience capturing and interpreting traffic with Wireshark, performing CDR and SIP log analysis, and diagnosing issues related to NAT, firewalls, and codecs. These skills translate to the detailed packet‑level diagnostics required for complex layer‑2/3 incidents and performance monitoring.\n\nMy work involves direct technical coordination with carriers such as Oi, Algar and TIP, handling service tickets, and documenting operational procedures. This background equips me to provide consultative support to customers and to manage change windows and firmware updates across multivendor environments.\n\nI am based in Belo Horizonte and open to fully remote work. I am available for an interview at your convenience to discuss how my expertise can contribute to Union Network’s network operations.",
       "description": "🚨 VAGA ABERTA | Analista de Redes N2 (Pleno) | 100% Remoto Sobre a vaga A Union Network busca um Analista de Redes N2 para atuar no suporte avançado, na sustentação e na otimização de infraestruturas de telecomunicações e provedores de internet (ISP). Você será responsável pela resolução de incidentes complexos de camada 2 e 3, pela gestão de redes ópticas (GPON/FTTH), pelo roteamento dinâmico, pelos serviços de acesso e pelo monitoramento do ambiente, com atuação consultiva junto aos clientes. Principais responsabilidades Troubleshooting N2: tratar incidentes escalados de camada 2 e 3, identificando e resolvendo falhas de conectividade, degradação de tráfego e problemas de roteamento. Redes ópticas (FTTH/GPON): provisionar, configurar e resolver problemas em OLTs e ONUs/ONTs (Huawei, Nokia, entre outros). Roteamento e borda: configurar e manter sessões BGP (eBGP/iBGP), engenharia de tráfego, OSPF e políticas de roteamento. Acesso e endereçamento: administrar BNG para autenticação de clientes e gerir arquiteturas de CGNAT (pool de IPs públicos, tradução de portas e logs). Monitoramento e performance: criar e acompanhar dashboards e alertas no Zabbix e no Grafana, analisando tráfego, latência e disponibilidade. Sustentação multivendor: atuar em Mikrotik (RouterOS), Huawei (VRP), Cisco (IOS/IOS-XR) e Nokia (SR-OS). Gestão de mudanças (GMUD): executar janelas de manutenção, atualizações de firmware/software e alterações topológicas programadas. Requisitos obrigatórios Mínimo de 2 anos de experiência comprovada em provedores de internet (ISP) ou em infraestrutura/telecomunicações. Experiência comprovada com OLT, GPON Domínio prático de CGNAT e BNG/PPPoE. Sólida experiência em BGP e OSPF. Domínio de comutação e roteamento em Mikrotik, Huawei, Cisco e Nokia. Domínio de Zabbix e Grafana. Competências técnicas Acesso óptico/FTTH: OLT, GPON, ONU/ONT, provisionamento e análise de sinal óptico. Serviços de ISP e borda: BNG (PPPoE/IPoE), CGNAT (Deterministic/NAT444), gestão de "
+    },
+    {
+      "job_id": "74f7cd0dff06e167",
+      "title": "Technical Support Analyst SMS / NOC / CNOC - Ingles B2",
+      "company": "IPCOM",
+      "location": "México, México",
+      "source": "LinkedIn",
+      "url": "https://mx.linkedin.com/jobs/view/technical-support-analyst-sms-noc-cnoc-ingles-b2-at-ipcom-4484693462",
+      "sent_at": "2026-11-03T18:13:23.871032+00:00",
+      "score": 64,
+      "fit_level": "medio",
+      "target_company": false,
+      "contact_email": "tomas.munoz@ipcom.ai",
+      "to_email": "tomas.munoz@ipcom.ai",
+      "skills_match": [
+        "noc",
+        "voip"
+      ],
+      "score_breakdown": {
+        "skills": 5,
+        "location": 14,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 0,
+        "title": 10,
+        "overseas": 10
+      },
+      "cover_letter": "I am a Telecommunications Analyst with five years of experience supporting IP‑telephony and VoIP services in mission‑critical environments. At Método Telecom I administer BroadWorks platforms, provision IP phones and ATAs, and perform SIP and RTP analysis, including detailed CDR and packet‑capture investigations with Wireshark. This background aligns directly with the SMS/NOC role’s focus on monitoring and troubleshooting messaging traffic.\n\nMy daily responsibilities involve troubleshooting Session Border Controllers, resolving registration, NAT, firewall and codec issues, and handling escalated incidents while maintaining precise documentation and ticket tracking. I have worked directly with carriers such as Oi, Algar and TIP, which gives me practical experience in carrier liaison and service stability—key for supervising route quality and escalation processes.\n\nI am comfortable with asynchronous, written communication in English (advanced reading and writing) and have a proven track record of delivering clear technical reports and operational procedures. My expertise in SIP/CDR log analysis and network‑level diagnostics equips me to monitor traffic performance and quickly identify anomalies in SMS, A2P or SMPP flows.\n\nI am available for an interview at your convenience and look forward to discussing how my VoIP and NOC experience can contribute to IPCOM’s messaging services.",
+      "description": "¿Te apasiona el mundo de las telecomunicaciones, la mensajería empresarial y las plataformas digitales? En IPCOM estamos buscando un CNOC SMS, quien nos ayudara a darle soporte nuestros servicios de Mensajería. Lo que buscamos: 🔹 Estudiante o profesional en carreras de ingeniería (Eléctrica, electrónica, telecomunicaciones...). 🔹 Experiencia de mínimo 1 año en áreas de soporte técnico bilingüe. 🔹 Ingles B2 o superior. 🔹 Actitud proactiva, con interés en aprender sobre soporte especializado en SMS. 🔹 Deseable: Conocimientos o nociones en monitoreo de servicios de mensajería (VoIP, A2P y SMPP). Tus funciones: Brindar atención y soporte especializado. Registrar, documentar y dar seguimiento a los incidentes presentados. Monitoreo de trafico y desempeño de rutas. Supervisar la estabilidad y calidad de las rutas nacionales e internacionales. Escalar casos al área técnica cuando se requiera análisis técnico. ¿Por qué IPCOM? 💚 Formarás parte de una compañía líder en soluciones de comunicación y transformación digital. 🚀 Trabajarás con tecnologías innovadoras y proyectos de impacto internacional. 📚 Accederás a oportunidades de aprendizaje y crecimiento profesional continuo. 🤝 Encontrarás una cultura colaborativa enfocada en el bienestar, el desarrollo y la mejora continua. 🌎 Tendrás la oportunidad de interactuar con clientes y equipos de diferentes países de Latinoamérica. 📍 Ubicación: México 💳 Salario + Bono de disponibilidad + Seguro de gastos menores 🏢 Modalidad: Remota ¿Listo para asumir el reto y llevar tu carrera al siguiente nivel? 📩 Envía tu CV a: tomas.munoz@ipcom.ai ✨ ¡Únete a nuestro universo y conviértete en el próximo IPCOMer! Show more Show less"
     }
   ]
 }

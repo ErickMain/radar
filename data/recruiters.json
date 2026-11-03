@@ -29,34 +29,6 @@
       "outreach_source": "groq"
     },
     {
-      "id": "5f5b38852f1dd7a3",
-      "name": "Thayane Oliveira",
-      "profile_url": "https://br.linkedin.com/in/thayane-oliveira-83ab5b19b",
-      "headline": "Analista de RH | Tech Recruiter | Talent Acquisition | DHO | Clima e Cultura Organizacional | T&D | Employee Experience | Employer Branding",
-      "is_recruiter": true,
-      "country": "BR",
-      "companies": [
-        "IT-ONE"
-      ],
-      "jobs": [
-        {
-          "id": "69e217e9fac62c7f",
-          "title": "Operador de Suporte - NOC (Noturno)",
-          "company": "IT-ONE",
-          "url": "https://br.linkedin.com/jobs/view/operador-de-suporte-noc-noturno-at-it-one-information-technology-4481462316",
-          "score": 62,
-          "fit_level": "medio",
-          "found_at": "2026-10-26T17:04:46.346290+00:00"
-        }
-      ],
-      "first_seen": "2026-10-26T17:06:33.942252+00:00",
-      "last_seen": "2026-10-26T17:06:33.942252+00:00",
-      "message": "Obrigado por aceitar! A vaga de Operador de Suporte - NOC combina com minha prática em troubleshooting de SBCs e na captura e interpretação de tráfego usando Wireshark. Posso enviar meu currículo para avaliarmos a aderência?",
-      "priority": 62,
-      "invite_note": "Oi Thayane, vi a vaga de Operador de Suporte - NOC (Noturno) na IT-ONE e achei que minha experiência com análise de protocolos SIP e RTP pode ser muito útil. Vamos conectar?",
-      "outreach_source": "groq"
-    },
-    {
       "id": "5333a65688c1eb32",
       "name": "Ana Paula Ribeiro",
       "profile_url": "https://br.linkedin.com/in/ana-paula-ribeiro-55899a168",
@@ -82,6 +54,34 @@
       "message": "Obrigado por aceitar! A vaga de Analista de Redes Pleno combina com minha experiência em análise de protocolos SIP/RTP e provisionamento de dispositivos IP. Também atuo com troubleshooting de SBCs e configuração de telefones IP. Posso enviar meu currículo?",
       "priority": 61,
       "invite_note": "Oi Ana, vi a vaga de Analista de Redes Pleno na V8.TECH e achei interessante. Tenho experiência com suporte especializado em telefonia IP e VoIP, além de análise de protocolos SIP e RTP. Gostaria de conectar para conversar.",
+      "outreach_source": "groq"
+    },
+    {
+      "id": "5f5b38852f1dd7a3",
+      "name": "Thayane Oliveira",
+      "profile_url": "https://br.linkedin.com/in/thayane-oliveira-83ab5b19b",
+      "headline": "Analista de RH | Tech Recruiter | Talent Acquisition | DHO | Clima e Cultura Organizacional | T&D | Employee Experience | Employer Branding",
+      "is_recruiter": true,
+      "country": "BR",
+      "companies": [
+        "IT-ONE"
+      ],
+      "jobs": [
+        {
+          "id": "69e217e9fac62c7f",
+          "title": "Operador de Suporte - NOC (Noturno)",
+          "company": "IT-ONE",
+          "url": "https://br.linkedin.com/jobs/view/operador-de-suporte-noc-noturno-at-it-one-information-technology-4481462316",
+          "score": 62,
+          "fit_level": "medio",
+          "found_at": "2026-10-26T17:04:46.346290+00:00"
+        }
+      ],
+      "first_seen": "2026-10-26T17:06:33.942252+00:00",
+      "last_seen": "2026-10-26T17:06:33.942252+00:00",
+      "message": "Obrigado por aceitar! A vaga de Operador de Suporte - NOC combina com minha prática em troubleshooting de SBCs e na captura e interpretação de tráfego usando Wireshark. Posso enviar meu currículo para avaliarmos a aderência?",
+      "priority": 55,
+      "invite_note": "Oi Thayane, vi a vaga de Operador de Suporte - NOC (Noturno) na IT-ONE e achei que minha experiência com análise de protocolos SIP e RTP pode ser muito útil. Vamos conectar?",
       "outreach_source": "groq"
     },
     {
@@ -337,6 +337,34 @@
       "outreach_source": "groq"
     },
     {
+      "id": "ba36a35d7e39b130",
+      "name": "Maria Alice F. Santos",
+      "profile_url": "https://br.linkedin.com/in/mariaalicefsantos",
+      "headline": "",
+      "is_recruiter": false,
+      "country": "BR",
+      "companies": [
+        "Proativa Inteligência em TI"
+      ],
+      "jobs": [
+        {
+          "id": "49f4196fe4a977d4",
+          "title": "Analista de NOC",
+          "company": "Proativa Inteligência em TI",
+          "url": "https://br.linkedin.com/jobs/view/analista-de-noc-at-proativa-intelig%C3%AAncia-em-ti-4486049615",
+          "score": 79,
+          "fit_level": "alto",
+          "found_at": "2026-11-03T18:11:09.794899+00:00"
+        }
+      ],
+      "first_seen": "2026-11-03T18:13:23.872401+00:00",
+      "last_seen": "2026-11-03T18:13:23.872401+00:00",
+      "message": "Obrigado por aceitar, Maria! A vaga de Analista de NOC combina bem com meu trabalho de diagnóstico de problemas de áudio e registro SIP, além do uso diário de Wireshark para captura de tráfego. Posso te enviar meu currículo?",
+      "priority": 43,
+      "invite_note": "Oi Maria, vi a vaga de Analista de NOC na Proativa e achei interessante. Tenho experiência em troubleshooting de SBCs e análise de protocolos SIP/RTP, que são essenciais para monitoramento de rede. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
       "id": "8c15afcbcc89ea54",
       "name": "Nicole G.",
       "profile_url": "https://za.linkedin.com/in/nicolegsa",
@@ -449,34 +477,6 @@
       "outreach_source": "groq"
     },
     {
-      "id": "c36f69eb878ae132",
-      "name": "Adriano Morais Oliveira",
-      "profile_url": "https://br.linkedin.com/in/adriano-morais-oliveira-627215269",
-      "headline": "CEO apaixonado por liderar equipes multifuncionais e mentorear.",
-      "is_recruiter": false,
-      "country": "BR",
-      "companies": [
-        "Zapi Internet"
-      ],
-      "jobs": [
-        {
-          "id": "8cfa114085a16703",
-          "title": "Analista de rede de telecomunicações",
-          "company": "Zapi Internet",
-          "url": "https://br.linkedin.com/jobs/view/analista-de-rede-de-telecomunica%C3%A7%C3%B5es-at-zapi-internet-4480693984",
-          "score": 71,
-          "fit_level": "alto",
-          "found_at": "2026-10-26T17:04:31.789110+00:00"
-        }
-      ],
-      "first_seen": "2026-10-26T17:06:33.942252+00:00",
-      "last_seen": "2026-10-26T17:06:33.942252+00:00",
-      "message": "Obrigado por aceitar, Adriano! A vaga de Analista de rede de telecomunicações combina bem com minha prática em troubleshooting de SBCs e análise de CDRs/SIP logs. Também costumo provisionar ramais e dispositivos IP em ambientes BroadWorks. Posso enviar meu currículo?",
-      "priority": 40,
-      "invite_note": "Olá Adriano, vi a vaga de Analista de rede de telecomunicações na Zapi Internet. Tenho experiência em suporte especializado a telefonia IP, configurando ramais e dispositivos IP, e já fiz troubleshooting de SBCs e análise de protocolos SIP. Vamos nos conectar?",
-      "outreach_source": "groq"
-    },
-    {
       "id": "95b9d474cc12530f",
       "name": "Bridget Rikhotso",
       "profile_url": "https://za.linkedin.com/in/bridget-rikhotso-a74655b3",
@@ -561,6 +561,34 @@
       "outreach_source": "fallback"
     },
     {
+      "id": "c36f69eb878ae132",
+      "name": "Adriano Morais Oliveira",
+      "profile_url": "https://br.linkedin.com/in/adriano-morais-oliveira-627215269",
+      "headline": "CEO apaixonado por liderar equipes multifuncionais e mentorear.",
+      "is_recruiter": false,
+      "country": "BR",
+      "companies": [
+        "Zapi Internet"
+      ],
+      "jobs": [
+        {
+          "id": "8cfa114085a16703",
+          "title": "Analista de rede de telecomunicações",
+          "company": "Zapi Internet",
+          "url": "https://br.linkedin.com/jobs/view/analista-de-rede-de-telecomunica%C3%A7%C3%B5es-at-zapi-internet-4480693984",
+          "score": 71,
+          "fit_level": "alto",
+          "found_at": "2026-10-26T17:04:31.789110+00:00"
+        }
+      ],
+      "first_seen": "2026-10-26T17:06:33.942252+00:00",
+      "last_seen": "2026-10-26T17:06:33.942252+00:00",
+      "message": "Obrigado por aceitar, Adriano! A vaga de Analista de rede de telecomunicações combina bem com minha prática em troubleshooting de SBCs e análise de CDRs/SIP logs. Também costumo provisionar ramais e dispositivos IP em ambientes BroadWorks. Posso enviar meu currículo?",
+      "priority": 33,
+      "invite_note": "Olá Adriano, vi a vaga de Analista de rede de telecomunicações na Zapi Internet. Tenho experiência em suporte especializado a telefonia IP, configurando ramais e dispositivos IP, e já fiz troubleshooting de SBCs e análise de protocolos SIP. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
       "id": "786a6a6ab29636e2",
       "name": "Jasmin Loh",
       "profile_url": "https://my.linkedin.com/in/jasmin-loh-29baa747",
@@ -594,7 +622,7 @@
       "first_seen": "2026-09-11T21:23:44.989092+00:00",
       "last_seen": "2026-10-26T17:06:33.942252+00:00",
       "message": "Oi Jasmin, obrigado por aceitar!\n\nSobre a vaga de Network Operations Centre (NOC) Engineer na ViewQwest: atuo na administração de ambientes BroadWorks e troubleshooting de SBCs, com tratativas técnicas diretas junto a operadoras como Oi, Algar e TIP.\n\nPosso te enviar meu currículo?",
-      "priority": 37,
+      "priority": 30,
       "invite_note": "Oi Jasmin! Vi sua vaga de Network Operations Centre (NOC) Engineer na ViewQwest. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
       "outreach_source": "fallback"
     },
@@ -634,6 +662,34 @@
       "priority": 30,
       "invite_note": "Oi Nataliia! Vi sua vaga de IP Telephony Engineer (VoIP Engineer) na ABCommunication. Sou Analista de Telecomunicações há 5 anos e hoje cuido de SIP/VoIP, BroadWorks e troubleshooting de SBCs em ambiente de missão crítica. Gostaria de me conectar.",
       "outreach_source": "fallback"
+    },
+    {
+      "id": "dd340acb2d0b4aad",
+      "name": "Hasbleidy Castillo",
+      "profile_url": "https://co.linkedin.com/in/hasbleidy-castillo-0b0612141",
+      "headline": "Administradora de empresas| Tecnóloga en gestión de talento humano | Selección Humano| Telecomunicaciones | Tecnología | Transformación digital |…",
+      "is_recruiter": false,
+      "country": "CO",
+      "companies": [
+        "IPCOM"
+      ],
+      "jobs": [
+        {
+          "id": "74f7cd0dff06e167",
+          "title": "Technical Support Analyst SMS / NOC / CNOC - Ingles B2",
+          "company": "IPCOM",
+          "url": "https://mx.linkedin.com/jobs/view/technical-support-analyst-sms-noc-cnoc-ingles-b2-at-ipcom-4484693462",
+          "score": 64,
+          "fit_level": "medio",
+          "found_at": "2026-11-03T18:13:17.349285+00:00"
+        }
+      ],
+      "first_seen": "2026-11-03T18:13:23.872401+00:00",
+      "last_seen": "2026-11-03T18:13:23.872401+00:00",
+      "message": "Obrigado por aceitar! A posição de Technical Support Analyst SMS/NOC combina bem com meu trabalho de análise de protocolos SIP e captura de tráfego com Wireshark, além do suporte a incidentes críticos em ambientes de missão crítica. Posso lhe enviar meu currículo?",
+      "priority": 23,
+      "invite_note": "Oi Hasbleidy, vi a vaga de Technical Support Analyst SMS/NOC na IPCOM e achei interessante. Tenho experiência em suporte especializado de telefonia IP, incluindo análise de protocolos SIP e troubleshooting de SBCs. Vamos nos conectar?",
+      "outreach_source": "groq"
     },
     {
       "id": "3e4166bf66645485",
@@ -748,5 +804,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-11-02T20:37:48.591833+00:00"
+  "last_updated": "2026-11-03T18:13:23.872401+00:00"
 }
