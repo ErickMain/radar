@@ -1,6 +1,34 @@
 {
   "recruiters": [
     {
+      "id": "efe87e519ed1a9b6",
+      "name": "Kharinna Rocha Leonardo",
+      "profile_url": "https://br.linkedin.com/in/kharinna-rocha-leonardo-549367b",
+      "headline": "Tech recruiter",
+      "is_recruiter": true,
+      "country": "BR",
+      "companies": [
+        "Ahoy by Belago"
+      ],
+      "jobs": [
+        {
+          "id": "254066f9cbf69f5f",
+          "title": "Analista de Suporte IPBX/Voip (Asterisk),",
+          "company": "Ahoy by Belago",
+          "url": "https://br.linkedin.com/jobs/view/analista-de-suporte-ipbx-voip-asterisk-at-ahoy-by-belago-4488884846",
+          "score": 66,
+          "fit_level": "medio",
+          "found_at": "2026-11-09T21:14:58.614452+00:00"
+        }
+      ],
+      "first_seen": "2026-11-09T21:15:10.687856+00:00",
+      "last_seen": "2026-11-09T21:15:10.687856+00:00",
+      "message": "Olá Kharinna, a vaga de Analista de Suporte IPBX/VoIP (Asterisk) me chamou atenção. Trabalho com análise de protocolos SIP e RTP e faço troubleshooting de SBCs, além de provisionar ramais e telefones IP. Posso enviar meu currículo?",
+      "priority": 63,
+      "invite_note": "Oi Kharinna, vi a vaga de Analista de Suporte IPBX/VoIP (Asterisk) na Ahoy by Belago. Tenho experiência em suporte especializado de telefonia IP/VoIP e no provisionamento de ramais e dispositivos IP. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
       "id": "5333a65688c1eb32",
       "name": "Ana Paula Ribeiro",
       "profile_url": "https://br.linkedin.com/in/ana-paula-ribeiro-55899a168",
@@ -250,34 +278,6 @@
       "message": "Obrigado por aceitar, Gaëtan! A posição de Unified Communications Engineer combina bem com minha experiência em administração de ambientes BroadWorks e análise de protocolos SIP/RTP. Posso enviar meu currículo para avançarmos?",
       "priority": 45,
       "invite_note": "Olá Gaëtan, vi a vaga de Unified Communications Engineer na CNS Communications e me identifiquei pelo trabalho com BroadWorks e configuração de dispositivos IP. Vamos nos conectar?",
-      "outreach_source": "groq"
-    },
-    {
-      "id": "69aaef78cabe686a",
-      "name": "Balaji V",
-      "profile_url": "https://au.linkedin.com/in/balaji-v-b32879194",
-      "headline": "HR IT Recruiter",
-      "is_recruiter": true,
-      "country": "AU",
-      "companies": [
-        "Tata Consultancy Services"
-      ],
-      "jobs": [
-        {
-          "id": "e5bea9fe68f20575",
-          "title": "Network Operations Control Center (NOCC)",
-          "company": "Tata Consultancy Services",
-          "url": "https://au.linkedin.com/jobs/view/network-operations-control-center-nocc-at-tata-consultancy-services-4476253734",
-          "score": 73,
-          "fit_level": "alto",
-          "found_at": "2026-10-09T17:17:16.883695+00:00"
-        }
-      ],
-      "first_seen": "2026-10-09T17:17:37.985943+00:00",
-      "last_seen": "2026-10-09T17:17:37.985943+00:00",
-      "message": "Obrigado por aceitar, Balaji! A posição de NOCC parece combinar com meu trabalho em análise de SIP e RTP e no provisionamento de dispositivos IP em ambientes críticos. Como posso enviar meu currículo para avançarmos?",
-      "priority": 44,
-      "invite_note": "Olá Balaji, vi a vaga de Network Operations Control Center na TCS e achei interessante. Tenho experiência com suporte especializado em telefonia IP, análise de protocolos SIP e troubleshooting de SBCs, que se alinham ao ambiente de NOC. Vamos conectar?",
       "outreach_source": "groq"
     },
     {
@@ -589,6 +589,34 @@
       "outreach_source": "fallback"
     },
     {
+      "id": "69aaef78cabe686a",
+      "name": "Balaji V",
+      "profile_url": "https://au.linkedin.com/in/balaji-v-b32879194",
+      "headline": "HR IT Recruiter",
+      "is_recruiter": true,
+      "country": "AU",
+      "companies": [
+        "Tata Consultancy Services"
+      ],
+      "jobs": [
+        {
+          "id": "e5bea9fe68f20575",
+          "title": "Network Operations Control Center (NOCC)",
+          "company": "Tata Consultancy Services",
+          "url": "https://au.linkedin.com/jobs/view/network-operations-control-center-nocc-at-tata-consultancy-services-4476253734",
+          "score": 73,
+          "fit_level": "alto",
+          "found_at": "2026-10-09T17:17:16.883695+00:00"
+        }
+      ],
+      "first_seen": "2026-10-09T17:17:37.985943+00:00",
+      "last_seen": "2026-10-09T17:17:37.985943+00:00",
+      "message": "Obrigado por aceitar, Balaji! A posição de NOCC parece combinar com meu trabalho em análise de SIP e RTP e no provisionamento de dispositivos IP em ambientes críticos. Como posso enviar meu currículo para avançarmos?",
+      "priority": 38,
+      "invite_note": "Olá Balaji, vi a vaga de Network Operations Control Center na TCS e achei interessante. Tenho experiência com suporte especializado em telefonia IP, análise de protocolos SIP e troubleshooting de SBCs, que se alinham ao ambiente de NOC. Vamos conectar?",
+      "outreach_source": "groq"
+    },
+    {
       "id": "c36f69eb878ae132",
       "name": "Adriano Morais Oliveira",
       "profile_url": "https://br.linkedin.com/in/adriano-morais-oliveira-627215269",
@@ -832,5 +860,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-11-06T17:47:45.689199+00:00"
+  "last_updated": "2026-11-09T21:15:10.687856+00:00"
 }
