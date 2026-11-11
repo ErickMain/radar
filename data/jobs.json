@@ -918,7 +918,7 @@
         "redes",
         "sd-wan"
       ],
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00",
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00",
       "work_mode": ""
     },
@@ -2486,7 +2486,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00",
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00",
       "work_mode": ""
     },
     {
@@ -3142,7 +3142,7 @@
       "priority_skills": [
         "network"
       ],
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00",
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00",
       "verified_at": "2026-10-19T17:18:39.158506+00:00",
       "work_mode": "country_locked"
     },
@@ -3667,7 +3667,7 @@
       "priority_skills": [
         "redes"
       ],
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00",
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00",
       "work_mode": ""
     },
     {
@@ -3923,7 +3923,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00",
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00",
       "work_mode": ""
     },
     {
@@ -4051,7 +4051,7 @@
       "title_class": "core",
       "target_company": false,
       "priority_skills": [],
-      "last_seen_at": "2026-11-09T21:15:10.674983+00:00",
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00",
       "work_mode": ""
     },
     {
@@ -5102,7 +5102,7 @@
       ],
       "last_seen_at": "2026-10-26T17:06:33.916579+00:00",
       "work_mode": "onsite",
-      "verified_at": "2026-11-06T17:47:45.690892+00:00"
+      "verified_at": "2026-11-11T18:16:36.131241+00:00"
     },
     {
       "id": "0faed4c71125aafc",
@@ -5632,7 +5632,7 @@
         "redes"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "676bd25bdd2f3603",
@@ -5897,7 +5897,7 @@
       ],
       "work_mode": "onsite",
       "last_seen_at": "2026-10-29T17:15:28.731757+00:00",
-      "verified_at": "2026-11-06T17:47:45.690892+00:00"
+      "verified_at": "2026-11-11T18:16:36.131241+00:00"
     },
     {
       "id": "dafc536d07918e9b",
@@ -6433,7 +6433,7 @@
         "networking"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "fbe0bf3db75b40c3",
@@ -6568,7 +6568,7 @@
         "redes"
       ],
       "work_mode": "",
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "5b939b4410fa9c51",
@@ -6700,7 +6700,7 @@
         "redes"
       ],
       "work_mode": "",
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "87c51a79b4bea24b",
@@ -6965,7 +6965,7 @@
         "network"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "82ecd512df728ba4",
@@ -7102,7 +7102,7 @@
       ],
       "work_mode": "onsite",
       "last_seen_at": "2026-10-28T16:56:53.689441+00:00",
-      "verified_at": "2026-11-06T17:47:45.690892+00:00"
+      "verified_at": "2026-11-11T18:16:36.131241+00:00"
     },
     {
       "id": "a41b0df68375b380",
@@ -7506,7 +7506,7 @@
         "redes"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "dd55cc5a82a4e9f7",
@@ -7770,7 +7770,7 @@
         "redes"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "b42ea1488ac691d2",
@@ -8165,7 +8165,7 @@
         "redes"
       ],
       "work_mode": "",
-      "last_seen_at": "2026-11-09T21:15:10.674983+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "2dc6a5c3c777e263",
@@ -8428,7 +8428,7 @@
         "redes"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "01bb5a3f1f9ab139",
@@ -8698,7 +8698,7 @@
         "redes"
       ],
       "work_mode": "",
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "99f3e0cd18b093af",
@@ -8830,7 +8830,7 @@
         "redes"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "74f7cd0dff06e167",
@@ -9095,7 +9095,7 @@
         "redes"
       ],
       "work_mode": "",
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "4d2cd2160d0b2f37",
@@ -9358,7 +9358,7 @@
         "redes"
       ],
       "work_mode": "",
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "af78ee0a8cdcc2d2",
@@ -10158,7 +10158,7 @@
         "redes"
       ],
       "work_mode": "",
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "a0872af0a93237c7",
@@ -10423,7 +10423,7 @@
         "redes"
       ],
       "work_mode": "",
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "6c37f9a38c50fe7e",
@@ -10560,7 +10560,7 @@
         "sd-wan"
       ],
       "work_mode": "remote",
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "85add542ab766738",
@@ -10691,7 +10691,7 @@
         "network"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-09T21:15:10.674983+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "6fc6fb2404715d7a",
@@ -11352,138 +11352,7 @@
         "sd-wan"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-09T21:15:10.674983+00:00"
-    },
-    {
-      "id": "091afb2fbfd321b0",
-      "title": "Analista de Monitoramento de NOC em Curitiba.",
-      "company": "Mundivox Communications",
-      "location": "Curitiba, PR",
-      "salary": "",
-      "description": "DESCRIÇÃO A Mundivox é uma empresa de *TELECOM*, licenciada pela Anatel e no mercado *há mais de 20 anos, hoje presente em 7 estados.* Estamos com uma oportunidade para Analista de Monitoramento de Noc - CURITIBA Local: Centro (Ed. Muralha – próximo ao Shopping Itália) Horário: Inicialmente 5x2 e, após cerca de 1 semana, escala 12x36, das 19h às 07:00h. Benefícios: VT (desconto de 6% da folha de pagamento) + Assistência Médica Amil (Coparticipação) + Assistência Odontológica Amil. Atividades Monitoramento da rede da Mundivox por meio dos sistemas de gerenciamento; Abertura de chamados e acionamento dos setores responsáveis; Contato com supervisores e gerentes em casos de incidentes; Controle e acompanhamento de técnicos em atividade externa. Requisitos Ensino Médio Completo Experiência em Telecom, TI, Informática, Redes ou NOC; Conhecimento em redes LAN/WAN, monitoramento de redes e abertura de chamados; Ensino médio completo (curso técnico é um diferencial); Experiência ou estar cursando Redes será um diferencial. Desejável: Grafana, Zabbix e CCNA. Local de trabalho: Curitiba, PR Regime de contratação de tipo: Efetivo – CLT Jornada: Noturno Área e especialização profissional: Engenharia - Engenharia Telecomunicações Nível hierárquico: Analista REQUISITOS Escolaridade Mínima: Ensino Médio (2º Grau) HABILIDADES Capacidade de análise REDES NOC Monitoramento Show more Show less",
-      "url": "https://br.linkedin.com/jobs/view/analista-de-monitoramento-de-noc-em-curitiba-at-mundivox-communications-4488190695",
-      "source": "LinkedIn",
-      "published_at": "2026-11-06",
-      "found_at": "2026-11-06T17:47:37.067500+00:00",
-      "score": 42,
-      "score_breakdown": {
-        "skills": 6,
-        "location": 0,
-        "level": 10,
-        "keywords": 10,
-        "salary": 5,
-        "target_company": 0,
-        "priority_skills": 1,
-        "title": 10,
-        "overseas": 0
-      },
-      "skills_match": [
-        "noc",
-        "rede",
-        "redes"
-      ],
-      "skills_gap": [
-        "3cx",
-        "active directory",
-        "algar",
-        "algar telecom",
-        "analise de logs",
-        "asterisk",
-        "atendimento tecnico",
-        "avaya",
-        "aws",
-        "azure",
-        "bgp",
-        "broadworks",
-        "call center",
-        "cdr",
-        "cisco",
-        "cloud",
-        "codec",
-        "codecs",
-        "comunicacoes unificadas",
-        "contact center",
-        "cybersecurity",
-        "digitro",
-        "dns",
-        "documentacao tecnica",
-        "e1",
-        "embratel",
-        "firewall",
-        "fortigate",
-        "freeswitch",
-        "g.711",
-        "g.729",
-        "gateway",
-        "gcp",
-        "genesys",
-        "grandstream",
-        "huawei",
-        "intelbras",
-        "ip pbx",
-        "isdn",
-        "khomp",
-        "leucotron",
-        "linux",
-        "mikrotik",
-        "nat",
-        "network",
-        "networking",
-        "nivel 2",
-        "olt",
-        "operadora",
-        "ordem de servico",
-        "pabx",
-        "pabx ip",
-        "qos",
-        "ramais",
-        "ramal",
-        "rtp",
-        "sbc",
-        "sd-wan",
-        "seguranca da informacao",
-        "session border controller",
-        "sip",
-        "sip trunk",
-        "sql server",
-        "srtp",
-        "stun",
-        "suporte nivel 2",
-        "suporte tecnico",
-        "teams",
-        "tim brasil",
-        "troubleshooting",
-        "turn",
-        "unified communications",
-        "ura",
-        "vlan",
-        "vmware",
-        "voip",
-        "vpn",
-        "webex",
-        "windows server",
-        "wireguard",
-        "wireshark",
-        "yealink",
-        "zoom phone"
-      ],
-      "fit_level": "baixo",
-      "status": "nova",
-      "applied_at": null,
-      "cover_letter": null,
-      "contact_email": null,
-      "recruiter": null,
-      "valid_through": null,
-      "company_logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHcyBz3GfFi6A/company-logo_100_100/company-logo_100_100/0/1631367413954/mundivox_communications_logo?e=2147483647&v=beta&t=AA46V5kAM_qDpVH8LK30EtF8uP4AqZAzQ0GMRc81cTQ",
-      "is_overseas": true,
-      "latam_ok": true,
-      "title_class": "core",
-      "target_company": false,
-      "priority_skills": [
-        "redes"
-      ],
-      "work_mode": "onsite",
-      "last_seen_at": "2026-11-06T17:47:45.669379+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "d5fb0bdb56c262bd",
@@ -11614,7 +11483,7 @@
         "networking"
       ],
       "work_mode": "",
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "b095608aaa350893",
@@ -11875,7 +11744,7 @@
         "unified communications"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "ac9883463ec1aad5",
@@ -12006,7 +11875,7 @@
         "unified communications"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-09T21:15:10.674983+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "426566b91943f8b9",
@@ -12268,7 +12137,7 @@
       "target_company": false,
       "priority_skills": [],
       "work_mode": "latam",
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "64731faf167316e4",
@@ -12399,7 +12268,7 @@
         "network"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     },
     {
       "id": "ed4905c801ec6638",
@@ -12531,15 +12400,409 @@
         "networking"
       ],
       "work_mode": "onsite",
-      "last_seen_at": "2026-11-10T18:25:34.629115+00:00"
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
+    },
+    {
+      "id": "4edbeae133acb3cf",
+      "title": "Cloud & Telco Engineer (SIP / Reliability)",
+      "company": "NAIRON GmbH",
+      "location": "Grécia",
+      "salary": "",
+      "description": "Intro For this position we are only looking for candidates located in Greece . Nairon GmbH is a Swiss startup building AI voice agents that answer and make phone calls for businesses. Our platform runs real-time conversations over the phone and on the web, connected to our customers' telephony and business tools. We value clear communication, thoughtful engineering, and a collaborative approach to problem-solving. Join us as we continue to develop tools that make a difference. You will own the hardest reliability problems on our platform: the telco edge where phone calls enter and leave, and the cloud infrastructure underneath that has to stay up during live calls. Tasks As a Cloud & Telco Engineer at Nairon GmbH, your responsibilities will include: Running and hardening our SIP edge: Kamailio -based session border controllers, carrier and customer SIP trunks, PBX integrations, TLS and SRTP. Making calls survive failures: redundancy, failover between zones and providers, graceful draining and releases without dropped calls. Troubleshooting call quality at SIP and RTP level: NAT traversal, codecs, DTMF, one-way audio, transfers and re-INVITEs. Running Kubernetes on AWS and European clouds with GitOps ( Argo CD , Helm ) and Terraform . Observability and incident response: metrics, logs and traces ( OpenTelemetry , Grafana ), alerting, runbooks and postmortems. Load testing, capacity planning and cost at the edge. Requirements Experience: Several years running production infrastructure where downtime is visible to customers, ideally in telecom, VoIP or real-time media. Technical Skills: Required: SIP in production: trunks, registrations, REFER and re-INVITE, NAT traversal, RTP, codecs and DTMF. Routing logic in a SIP proxy such as Kamailio or OpenSIPS ; GUI-only PBX administration is not enough. Linux networking and packet-level troubleshooting ( sngrep , Wireshark , SIPp ). Kubernetes in production and infrastructure as code ( Terraform or similar). Nice to have: AWS networking (VPC, load balancers, IAM) and multi-region or multi-provider setups. RTPengine , FreeSWITCH or Asterisk ; LiveKit or WebRTC. Carrier interconnects and number porting, in Greece or in the German-speaking markets we serve. Python or Go for tooling and automation. Communication: English proficiency is essential , both written and spoken, as it is the working language for all positions. Soft Skills: Calm during incidents; you find the root cause and write it down. You prefer boring, reliable systems over clever ones. Ownership: a call path that breaks is your problem until it is fixed. Benefits Flexible Work Setup: Work fully remotely or from a co-working space — whichever suits you best. Equipment Provided: Company laptop and phone provided for all employees. Collaborative Environment: Join a small, agile team where your contributions have a direct impact. Growth Opportunities: Own the path of every call, from the carrier to the AI agent. Closing If you enjoy making phone call",
+      "url": "https://gr.linkedin.com/jobs/view/cloud-telco-engineer-sip-reliability-at-nairon-gmbh-4483475253",
+      "source": "LinkedIn",
+      "published_at": "2026-10-30",
+      "found_at": "2026-11-11T18:15:55.165042+00:00",
+      "score": 69,
+      "score_breakdown": {
+        "skills": 31,
+        "location": 10,
+        "level": 10,
+        "keywords": 10,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 3,
+        "title": 10,
+        "overseas": 3
+      },
+      "skills_match": [
+        "asterisk",
+        "aws",
+        "cloud",
+        "codecs",
+        "freeswitch",
+        "linux",
+        "nat",
+        "networking",
+        "rtp",
+        "sip",
+        "srtp",
+        "troubleshooting",
+        "voip",
+        "wireshark"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "atendimento tecnico",
+        "avaya",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "codec",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "mikrotik",
+        "network",
+        "nivel 2",
+        "noc",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "redes",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip trunk",
+        "sql server",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "teams",
+        "tim brasil",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "medio",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": null,
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGS92Mm0wyz1A/company-logo_100_100/B4EZyaZ.FUGkAQ-/0/1772117025584/nairon_logo?e=2147483647&v=beta&t=Q68xFkEvuHrjFISI2qpmSdDi1GOHIuSuhXo9VvG4Vio",
+      "is_overseas": true,
+      "latam_ok": false,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "aws",
+        "cloud",
+        "networking"
+      ],
+      "work_mode": "remote",
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
+    },
+    {
+      "id": "9c6cf3d213b0bf28",
+      "title": "Network Operations Engineer (Tier 2 / L2)",
+      "company": "Kyndryl",
+      "location": "Boulder, Colorado, Estados Unidos",
+      "salary": "",
+      "description": "Who We Are At Kyndryl, we design, build, manage and modernize the mission-critical technology systems that the world depends on every day. So why work at Kyndryl? We are always moving forward – always pushing ourselves to go further in our efforts to build a more equitable, inclusive world for our employees, our customers and our communities. The Role Within the Network Services team at Kyndryl, you will serve as a Network Operations Engineer (Tier 2 / L2) , providing operational support, troubleshooting, and incident resolution for mission-critical enterprise environments supporting financial infrastructure accounts. In this role, you will be a key operational liaison between Tier 1 support teams and Tier 3 engineering specialists, ensuring high availability and swift recovery. Operating in a high-stakes, fast-paced environment, you will handle Tier 2 network escalations, analyze routing and switching issues, collaborate with hardware/telecom vendors, and execute planned operational maintenance. Beyond technical troubleshooting, this role is critical to client success: you will interact directly with demanding enterprise stakeholders, manage escalations under pressure with emotional composure, and maintain trust through transparent, professional communication. Your Future at Kyndryl At Kyndryl, we understand the importance of investing in our employees' professional growth and development. In Network Services, you can expect to receive comprehensive support and training programs to keep your skills and knowledge up to date with the latest industry trends and technologies. By joining our team, you will have the opportunity to work on cutting-edge projects and contribute to the development of innovative solutions for our customers—including new wireless and 5G technologies not yet adopted by most companies. Work Schedule Hours: 7 AM – 7 PM ET (12h shifts) Rotation: Alternating 3/4 days (Sun–Tue or Thu–Sat, + alt Wed) Support: Occasional on-call Kyndryl currently does not require employees to be fully vaccinated against COVID-19, however, if you are hired to work at a client, customer, or partner location, you may be required to show proof of vaccination to align with their respective COVID-19 vaccination policies. Those who believe they are eligible may apply for a medical or religious accommodation prior to the start of employment. Who You Are You combine solid hands-on Layer 2/Layer 3 networking troubleshooting capabilities with exceptional customer-facing diplomacy. You are calm under pressure, customer-focused, and comfortable navigating complex escalations within mission-critical infrastructure accounts. Required Technical And Professional Expertise Must be legally authorized to work in the United States without current or future sponsorship. Ability to successfully pass extensive, enhanced client-mandated federal background checks prior to onboarding. Demonstrated hands-on Tier 2 (L2) network operations experience diagnosing, isolating, and ",
+      "url": "https://www.linkedin.com/jobs/view/network-operations-engineer-tier-2-l2-at-kyndryl-4489647875",
+      "source": "LinkedIn",
+      "published_at": "2026-11-10",
+      "found_at": "2026-11-11T18:16:02.866065+00:00",
+      "score": 43,
+      "score_breakdown": {
+        "skills": 8,
+        "location": 0,
+        "level": 10,
+        "keywords": 8,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 2,
+        "title": 10,
+        "overseas": 0
+      },
+      "skills_match": [
+        "network",
+        "networking",
+        "teams",
+        "troubleshooting"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cisco",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "nivel 2",
+        "noc",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "redes",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "tim brasil",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "webex",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "baixo",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2026-12-10T23:32:16.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/C560BAQHgQ1kcTnuSCg/company-logo_100_100/company-logo_100_100/0/1630640554546/kyndryl_logo?e=2147483647&v=beta&t=-hGKJoU30DGfKUjMNT6koghuAwV_yfBBv35_c6l4JT8",
+      "is_overseas": true,
+      "latam_ok": false,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [
+        "network",
+        "networking"
+      ],
+      "work_mode": "onsite",
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
+    },
+    {
+      "id": "3d01dfd17472b7a4",
+      "title": "FBS (Mexico) - Application Development & Telecom Support Engineer",
+      "company": "Farmers Insurance Careers Mexico",
+      "location": "México, México",
+      "salary": "",
+      "description": "Farmers– where ambition meets opportunity. Farmers is known for more than its unforgettable jingle – it’s a team with a passion for purpose and making a real difference in people’s lives. Farmers employees deliver peace of mind when it matters most. The organization’s results-driven, high-performance culture thrives on creativity, accountability and bold solutions. Here, growth isn’t just a goal – it’s a way of life for both the organization and every individual on the team. Farmers employees tackle challenges head-on, learn from every experience and measure their impact on the customers who trust them. Join us and help power the success of Farmers. As a team member, you’ll collaborate with Farmers’ award-winning workforce, benefit from a culture of innovation and support and contribute to their mission of delivering protection and peace of mind to millions of U.S. customers. Ready to make your mark? Discover Farmers’ vibrant culture and explore career opportunities at www.Farmers.com/careers/corporate. Job Summary We are seeking an experienced Application Subject Matter Expert II to support the Farmers Voice Advantage team. This position plays a key role in the administration, maintenance, and enhancement of Farmers' telephony and call-routing solutions, primarily focused on Cisco Webex Calling , Cisco CVP IVR , and SQL-driven routing configurations . The ideal candidate will possess strong technical expertise in telecommunications and voice platforms, with hands-on experience administering Cisco Webex Calling environments, configuring call routing solutions, and managing SQL database records. This individual must also be comfortable collaborating with both technical and non-technical stakeholders to support business operations. Key Responsibilities Administer and support Cisco Webex Calling environments. Configure and maintain: Locations Users Hunt Groups Auto Attendants Calling features and end-user devices Manage and maintain SQL database records used for IVR and call-routing decisions. Support additions, modifications, and removals of routing configurations in Cisco CVP environments. Troubleshoot telephony, routing, and voice platform issues. Analyze application and configuration impacts across integrated systems. Collaborate with business and technical teams to understand requirements and implement solutions. Provide operational support, issue resolution, and technical guidance to stakeholders. Participate in testing, implementation, and validation activities for system enhancements. Ensure solutions align with business needs, scalability requirements, and operational standards. Required Qualifications 4-6 years of experience in application support, telecommunications, voice platforms, or related technical roles. Hands-on experience with: Cisco Webex Calling Hunt Groups and Auto Attendants administration Cisco telephony concepts and call routing SQL databases and query execution Experience with Cisco CVP (Customer Voice Portal). Strong unde",
+      "url": "https://mx.linkedin.com/jobs/view/fbs-mexico-application-development-telecom-support-engineer-at-farmers-insurance-careers-mexico-4487825516",
+      "source": "LinkedIn",
+      "published_at": "2026-11-10",
+      "found_at": "2026-11-11T18:16:24.916196+00:00",
+      "score": 35,
+      "score_breakdown": {
+        "skills": 6,
+        "location": 0,
+        "level": 10,
+        "keywords": 4,
+        "salary": 5,
+        "target_company": 0,
+        "priority_skills": 0,
+        "title": 10,
+        "overseas": 0
+      },
+      "skills_match": [
+        "cisco",
+        "teams",
+        "webex"
+      ],
+      "skills_gap": [
+        "3cx",
+        "active directory",
+        "algar",
+        "algar telecom",
+        "analise de logs",
+        "asterisk",
+        "atendimento tecnico",
+        "avaya",
+        "aws",
+        "azure",
+        "bgp",
+        "broadworks",
+        "call center",
+        "cdr",
+        "cloud",
+        "codec",
+        "codecs",
+        "comunicacoes unificadas",
+        "contact center",
+        "cybersecurity",
+        "digitro",
+        "dns",
+        "documentacao tecnica",
+        "e1",
+        "embratel",
+        "firewall",
+        "fortigate",
+        "freeswitch",
+        "g.711",
+        "g.729",
+        "gateway",
+        "gcp",
+        "genesys",
+        "grandstream",
+        "huawei",
+        "intelbras",
+        "ip pbx",
+        "isdn",
+        "khomp",
+        "leucotron",
+        "linux",
+        "mikrotik",
+        "nat",
+        "network",
+        "networking",
+        "nivel 2",
+        "noc",
+        "olt",
+        "operadora",
+        "ordem de servico",
+        "pabx",
+        "pabx ip",
+        "qos",
+        "ramais",
+        "ramal",
+        "rede",
+        "redes",
+        "rtp",
+        "sbc",
+        "sd-wan",
+        "seguranca da informacao",
+        "session border controller",
+        "sip",
+        "sip trunk",
+        "sql server",
+        "srtp",
+        "stun",
+        "suporte nivel 2",
+        "suporte tecnico",
+        "tim brasil",
+        "troubleshooting",
+        "turn",
+        "unified communications",
+        "ura",
+        "vlan",
+        "vmware",
+        "voip",
+        "vpn",
+        "windows server",
+        "wireguard",
+        "wireshark",
+        "yealink",
+        "zoom phone"
+      ],
+      "fit_level": "baixo",
+      "status": "nova",
+      "applied_at": null,
+      "cover_letter": null,
+      "contact_email": null,
+      "recruiter": null,
+      "valid_through": "2026-12-10T21:59:47.000Z",
+      "company_logo": "https://media.licdn.com/dms/image/v2/D4D0BAQF_WUpH2AwlUg/company-logo_100_100/B4DaBjSnZpIQAI-/0/1788372219714?e=2147483647&v=beta&t=q_2-S4PXr6bjZ4DE--FU3Zg2Fzu6vPKMNlLngPh_6pk",
+      "is_overseas": true,
+      "latam_ok": true,
+      "title_class": "core",
+      "target_company": false,
+      "priority_skills": [],
+      "work_mode": "onsite",
+      "last_seen_at": "2026-11-11T18:16:36.079174+00:00"
     }
   ],
-  "last_updated": "2026-11-10T18:25:39.358244+00:00",
+  "last_updated": "2026-11-11T18:16:36.856961+00:00",
   "stats": {
-    "total": 95,
+    "total": 97,
     "alto_fit": 10,
-    "medio_fit": 33,
-    "baixo_fit": 52,
+    "medio_fit": 34,
+    "baixo_fit": 53,
     "enviadas": 2
   }
 }

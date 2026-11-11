@@ -337,34 +337,6 @@
       "outreach_source": "groq"
     },
     {
-      "id": "ba36a35d7e39b130",
-      "name": "Maria Alice F. Santos",
-      "profile_url": "https://br.linkedin.com/in/mariaalicefsantos",
-      "headline": "",
-      "is_recruiter": false,
-      "country": "BR",
-      "companies": [
-        "Proativa Inteligência em TI"
-      ],
-      "jobs": [
-        {
-          "id": "49f4196fe4a977d4",
-          "title": "Analista de NOC",
-          "company": "Proativa Inteligência em TI",
-          "url": "https://br.linkedin.com/jobs/view/analista-de-noc-at-proativa-intelig%C3%AAncia-em-ti-4486049615",
-          "score": 79,
-          "fit_level": "alto",
-          "found_at": "2026-11-03T18:11:09.794899+00:00"
-        }
-      ],
-      "first_seen": "2026-11-03T18:13:23.872401+00:00",
-      "last_seen": "2026-11-03T18:13:23.872401+00:00",
-      "message": "Obrigado por aceitar, Maria! A vaga de Analista de NOC combina bem com meu trabalho de diagnóstico de problemas de áudio e registro SIP, além do uso diário de Wireshark para captura de tráfego. Posso te enviar meu currículo?",
-      "priority": 43,
-      "invite_note": "Oi Maria, vi a vaga de Analista de NOC na Proativa e achei interessante. Tenho experiência em troubleshooting de SBCs e análise de protocolos SIP/RTP, que são essenciais para monitoramento de rede. Vamos nos conectar?",
-      "outreach_source": "groq"
-    },
-    {
       "id": "8c15afcbcc89ea54",
       "name": "Nicole G.",
       "profile_url": "https://za.linkedin.com/in/nicolegsa",
@@ -617,6 +589,34 @@
       "outreach_source": "groq"
     },
     {
+      "id": "ba36a35d7e39b130",
+      "name": "Maria Alice F. Santos",
+      "profile_url": "https://br.linkedin.com/in/mariaalicefsantos",
+      "headline": "",
+      "is_recruiter": false,
+      "country": "BR",
+      "companies": [
+        "Proativa Inteligência em TI"
+      ],
+      "jobs": [
+        {
+          "id": "49f4196fe4a977d4",
+          "title": "Analista de NOC",
+          "company": "Proativa Inteligência em TI",
+          "url": "https://br.linkedin.com/jobs/view/analista-de-noc-at-proativa-intelig%C3%AAncia-em-ti-4486049615",
+          "score": 79,
+          "fit_level": "alto",
+          "found_at": "2026-11-03T18:11:09.794899+00:00"
+        }
+      ],
+      "first_seen": "2026-11-03T18:13:23.872401+00:00",
+      "last_seen": "2026-11-03T18:13:23.872401+00:00",
+      "message": "Obrigado por aceitar, Maria! A vaga de Analista de NOC combina bem com meu trabalho de diagnóstico de problemas de áudio e registro SIP, além do uso diário de Wireshark para captura de tráfego. Posso te enviar meu currículo?",
+      "priority": 36,
+      "invite_note": "Oi Maria, vi a vaga de Analista de NOC na Proativa e achei interessante. Tenho experiência em troubleshooting de SBCs e análise de protocolos SIP/RTP, que são essenciais para monitoramento de rede. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
       "id": "c36f69eb878ae132",
       "name": "Adriano Morais Oliveira",
       "profile_url": "https://br.linkedin.com/in/adriano-morais-oliveira-627215269",
@@ -720,34 +720,6 @@
       "outreach_source": "fallback"
     },
     {
-      "id": "dd340acb2d0b4aad",
-      "name": "Hasbleidy Castillo",
-      "profile_url": "https://co.linkedin.com/in/hasbleidy-castillo-0b0612141",
-      "headline": "Administradora de empresas| Tecnóloga en gestión de talento humano | Selección Humano| Telecomunicaciones | Tecnología | Transformación digital |…",
-      "is_recruiter": false,
-      "country": "CO",
-      "companies": [
-        "IPCOM"
-      ],
-      "jobs": [
-        {
-          "id": "74f7cd0dff06e167",
-          "title": "Technical Support Analyst SMS / NOC / CNOC - Ingles B2",
-          "company": "IPCOM",
-          "url": "https://mx.linkedin.com/jobs/view/technical-support-analyst-sms-noc-cnoc-ingles-b2-at-ipcom-4484693462",
-          "score": 64,
-          "fit_level": "medio",
-          "found_at": "2026-11-03T18:13:17.349285+00:00"
-        }
-      ],
-      "first_seen": "2026-11-03T18:13:23.872401+00:00",
-      "last_seen": "2026-11-03T18:13:23.872401+00:00",
-      "message": "Obrigado por aceitar! A posição de Technical Support Analyst SMS/NOC combina bem com meu trabalho de análise de protocolos SIP e captura de tráfego com Wireshark, além do suporte a incidentes críticos em ambientes de missão crítica. Posso lhe enviar meu currículo?",
-      "priority": 23,
-      "invite_note": "Oi Hasbleidy, vi a vaga de Technical Support Analyst SMS/NOC na IPCOM e achei interessante. Tenho experiência em suporte especializado de telefonia IP, incluindo análise de protocolos SIP e troubleshooting de SBCs. Vamos nos conectar?",
-      "outreach_source": "groq"
-    },
-    {
       "id": "3e4166bf66645485",
       "name": "Qun He",
       "profile_url": "https://cn.linkedin.com/in/qun-he-b21988325",
@@ -773,6 +745,34 @@
       "message": "Obrigado por aceitar, Qun! A posição de Core Network Engineer combina com meu trabalho de análise de protocolos SIP/RTP e com a resolução de problemas em SBCs. Como posso enviar meu currículo para avançarmos?",
       "priority": 20,
       "invite_note": "Olá Qun, vi a vaga de Core Network Engineer‑CS/IMS na ZTE CONGO SARL e achei interessante. Tenho experiência em análise de protocolos SIP e RTP, além de troubleshooting de SBCs em ambientes BroadWorks. Vamos conectar?",
+      "outreach_source": "groq"
+    },
+    {
+      "id": "dd340acb2d0b4aad",
+      "name": "Hasbleidy Castillo",
+      "profile_url": "https://co.linkedin.com/in/hasbleidy-castillo-0b0612141",
+      "headline": "Administradora de empresas| Tecnóloga en gestión de talento humano | Selección Humano| Telecomunicaciones | Tecnología | Transformación digital |…",
+      "is_recruiter": false,
+      "country": "CO",
+      "companies": [
+        "IPCOM"
+      ],
+      "jobs": [
+        {
+          "id": "74f7cd0dff06e167",
+          "title": "Technical Support Analyst SMS / NOC / CNOC - Ingles B2",
+          "company": "IPCOM",
+          "url": "https://mx.linkedin.com/jobs/view/technical-support-analyst-sms-noc-cnoc-ingles-b2-at-ipcom-4484693462",
+          "score": 64,
+          "fit_level": "medio",
+          "found_at": "2026-11-03T18:13:17.349285+00:00"
+        }
+      ],
+      "first_seen": "2026-11-03T18:13:23.872401+00:00",
+      "last_seen": "2026-11-03T18:13:23.872401+00:00",
+      "message": "Obrigado por aceitar! A posição de Technical Support Analyst SMS/NOC combina bem com meu trabalho de análise de protocolos SIP e captura de tráfego com Wireshark, além do suporte a incidentes críticos em ambientes de missão crítica. Posso lhe enviar meu currículo?",
+      "priority": 16,
+      "invite_note": "Oi Hasbleidy, vi a vaga de Technical Support Analyst SMS/NOC na IPCOM e achei interessante. Tenho experiência em suporte especializado de telefonia IP, incluindo análise de protocolos SIP e troubleshooting de SBCs. Vamos nos conectar?",
       "outreach_source": "groq"
     },
     {
@@ -860,5 +860,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-11-10T18:25:34.649286+00:00"
+  "last_updated": "2026-11-11T18:16:36.101002+00:00"
 }
