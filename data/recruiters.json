@@ -29,6 +29,34 @@
       "outreach_source": "groq"
     },
     {
+      "id": "05c782bf8ca2c2e5",
+      "name": "Roberta Santos",
+      "profile_url": "https://br.linkedin.com/in/robertasantostech",
+      "headline": "Tech Recruiter | Talent Acquisition | Analista de RH",
+      "is_recruiter": true,
+      "country": "BR",
+      "companies": [
+        "Quality Digital"
+      ],
+      "jobs": [
+        {
+          "id": "4e8300b16ae2c840",
+          "title": "Analista de Suporte Técnico Pleno",
+          "company": "Quality Digital",
+          "url": "https://br.linkedin.com/jobs/view/analista-de-suporte-t%C3%A9cnico-pleno-at-quality-digital-4487829422",
+          "score": 63,
+          "fit_level": "medio",
+          "found_at": "2026-11-12T18:40:43.559453+00:00"
+        }
+      ],
+      "first_seen": "2026-11-12T18:41:42.285653+00:00",
+      "last_seen": "2026-11-12T18:41:42.285653+00:00",
+      "message": "Roberta, a oportunidade de Analista de Suporte Técnico Pleno parece alinhada ao meu trabalho com suporte de telefonia IP e troubleshooting de SBCs. Também tenho experiência em análise de logs SIP e captura de tráfego com Wireshark. Posso te mandar meu currículo?",
+      "priority": 62,
+      "invite_note": "Oi Roberta, vi a vaga de Analista de Suporte Técnico Pleno na Quality Digital e me identifiquei pelo meu suporte especializado em telefonia IP e VoIP, além da análise de protocolos SIP e RTP. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
       "id": "5333a65688c1eb32",
       "name": "Ana Paula Ribeiro",
       "profile_url": "https://br.linkedin.com/in/ana-paula-ribeiro-55899a168",
@@ -860,5 +888,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-11-11T18:16:36.101002+00:00"
+  "last_updated": "2026-11-12T18:41:42.285653+00:00"
 }
