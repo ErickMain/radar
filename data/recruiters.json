@@ -141,34 +141,6 @@
       "outreach_source": "groq"
     },
     {
-      "id": "033b44075a6c8a5f",
-      "name": "Nahid Shaikh",
-      "profile_url": "https://in.linkedin.com/in/nahid-shaikh09",
-      "headline": "Lead Technical Recruiter at Stack",
-      "is_recruiter": true,
-      "country": "IN",
-      "companies": [
-        "IntelStack"
-      ],
-      "jobs": [
-        {
-          "id": "6c37f9a38c50fe7e",
-          "title": "L1 Network Operations Engineer",
-          "company": "IntelStack",
-          "url": "https://pl.linkedin.com/jobs/view/l1-network-operations-engineer-at-intelstack-4485810108",
-          "score": 65,
-          "fit_level": "medio",
-          "found_at": "2026-11-05T18:25:55.235500+00:00"
-        }
-      ],
-      "first_seen": "2026-11-05T18:26:30.057306+00:00",
-      "last_seen": "2026-11-05T18:26:30.057306+00:00",
-      "message": "Obrigado por aceitar, Nahid! A posição de L1 Network Operations Engineer combina bem com minha atuação em análise de protocolos SIP e RTP e no diagnóstico de problemas de áudio, NAT e firewalls. Posso enviar meu currículo?",
-      "priority": 48,
-      "invite_note": "Olá Nahid, vi a vaga de L1 Network Operations Engineer na IntelStack e achei interessante. Tenho experiência em troubleshooting de SBCs e análise de tráfego SIP/RTP, que são essenciais para a operação de redes de voz. Vamos nos conectar?",
-      "outreach_source": "groq"
-    },
-    {
       "id": "668f36c6fd01c64e",
       "name": "Mindy Wendt",
       "profile_url": "https://www.linkedin.com/in/mindy-wendt-586923135",
@@ -250,34 +222,6 @@
       "message": "Obrigado por aceitar, Camila! A vaga de Ajudante de Instalação/Reparação de Redes parece combinar com minha prática em provisionamento de ramais e dispositivos IP e no diagnóstico de tráfego usando Wireshark. Posso enviar meu currículo?",
       "priority": 48,
       "invite_note": "Oi Camila, vi a vaga de Ajudante de Instalação/Reparação de Redes na BOT Internet. Tenho experiência em provisionamento de dispositivos IP e diagnóstico de problemas de áudio e NAT, que podem ser úteis no suporte de redes. Vamos conectar?",
-      "outreach_source": "groq"
-    },
-    {
-      "id": "d38469a6348b6994",
-      "name": "Brigitte Cooney",
-      "profile_url": "https://au.linkedin.com/in/brigittecooney",
-      "headline": "Talent Acquisition & People Experience",
-      "is_recruiter": true,
-      "country": "AU",
-      "companies": [
-        "SUBCO"
-      ],
-      "jobs": [
-        {
-          "id": "0a1e53555d6f2503",
-          "title": "NOC Engineer",
-          "company": "SUBCO",
-          "url": "https://au.linkedin.com/jobs/view/noc-engineer-at-subco-4468874973",
-          "score": 80,
-          "fit_level": "alto",
-          "found_at": "2026-10-14T15:40:54.462303+00:00"
-        }
-      ],
-      "first_seen": "2026-10-14T15:41:11.496831+00:00",
-      "last_seen": "2026-10-14T15:41:11.496831+00:00",
-      "message": "Obrigado por aceitar! A posição de NOC Engineer combina com minha experiência em troubleshooting de SBCs e na captura/interpretção de tráfego via Wireshark. Posso enviar meu currículo?",
-      "priority": 47,
-      "invite_note": "Oi Brigitte, vi a vaga de NOC Engineer na SUBCO e me identifiquei pelo suporte especializado em telefonia IP e análise de protocolos SIP/RTP que realizo na Método Telecom. Vamos conectar?",
       "outreach_source": "groq"
     },
     {
@@ -502,6 +446,90 @@
       "message": "Oi Dave, agradeço por aceitar! A vaga de NOC Engineer combina com minha atuação em análise de protocolos SIP/RTP e no provisionamento de dispositivos IP, além do suporte técnico de nível 2 em ambientes críticos. Posso te enviar meu currículo?",
       "priority": 42,
       "invite_note": "Olá Dave, vi a vaga de NOC Engineer na Spectrum IT e achei interessante. Tenho experiência em análise de protocolos SIP e RTP e no troubleshooting de SBCs em ambientes de telefonia IP. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
+      "id": "033b44075a6c8a5f",
+      "name": "Nahid Shaikh",
+      "profile_url": "https://in.linkedin.com/in/nahid-shaikh09",
+      "headline": "Lead Technical Recruiter at Stack",
+      "is_recruiter": true,
+      "country": "IN",
+      "companies": [
+        "IntelStack"
+      ],
+      "jobs": [
+        {
+          "id": "6c37f9a38c50fe7e",
+          "title": "L1 Network Operations Engineer",
+          "company": "IntelStack",
+          "url": "https://pl.linkedin.com/jobs/view/l1-network-operations-engineer-at-intelstack-4485810108",
+          "score": 65,
+          "fit_level": "medio",
+          "found_at": "2026-11-05T18:25:55.235500+00:00"
+        }
+      ],
+      "first_seen": "2026-11-05T18:26:30.057306+00:00",
+      "last_seen": "2026-11-05T18:26:30.057306+00:00",
+      "message": "Obrigado por aceitar, Nahid! A posição de L1 Network Operations Engineer combina bem com minha atuação em análise de protocolos SIP e RTP e no diagnóstico de problemas de áudio, NAT e firewalls. Posso enviar meu currículo?",
+      "priority": 41,
+      "invite_note": "Olá Nahid, vi a vaga de L1 Network Operations Engineer na IntelStack e achei interessante. Tenho experiência em troubleshooting de SBCs e análise de tráfego SIP/RTP, que são essenciais para a operação de redes de voz. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
+      "id": "d38469a6348b6994",
+      "name": "Brigitte Cooney",
+      "profile_url": "https://au.linkedin.com/in/brigittecooney",
+      "headline": "Talent Acquisition & People Experience",
+      "is_recruiter": true,
+      "country": "AU",
+      "companies": [
+        "SUBCO"
+      ],
+      "jobs": [
+        {
+          "id": "0a1e53555d6f2503",
+          "title": "NOC Engineer",
+          "company": "SUBCO",
+          "url": "https://au.linkedin.com/jobs/view/noc-engineer-at-subco-4468874973",
+          "score": 80,
+          "fit_level": "alto",
+          "found_at": "2026-10-14T15:40:54.462303+00:00"
+        }
+      ],
+      "first_seen": "2026-10-14T15:41:11.496831+00:00",
+      "last_seen": "2026-10-14T15:41:11.496831+00:00",
+      "message": "Obrigado por aceitar! A posição de NOC Engineer combina com minha experiência em troubleshooting de SBCs e na captura/interpretção de tráfego via Wireshark. Posso enviar meu currículo?",
+      "priority": 41,
+      "invite_note": "Oi Brigitte, vi a vaga de NOC Engineer na SUBCO e me identifiquei pelo suporte especializado em telefonia IP e análise de protocolos SIP/RTP que realizo na Método Telecom. Vamos conectar?",
+      "outreach_source": "groq"
+    },
+    {
+      "id": "2190a3e777bdff19",
+      "name": "Juliana Garcia",
+      "profile_url": "https://br.linkedin.com/in/julianamgarcia",
+      "headline": "",
+      "is_recruiter": false,
+      "country": "BR",
+      "companies": [
+        "Ápice Tecnologia"
+      ],
+      "jobs": [
+        {
+          "id": "92a82cab57a4f539",
+          "title": "Analista Service Desk N2",
+          "company": "Ápice Tecnologia",
+          "url": "https://br.linkedin.com/jobs/view/analista-service-desk-n2-at-%C3%A1pice-tecnologia-4488551908",
+          "score": 70,
+          "fit_level": "alto",
+          "found_at": "2026-11-16T20:45:26.766331+00:00"
+        }
+      ],
+      "first_seen": "2026-11-16T20:47:18.339335+00:00",
+      "last_seen": "2026-11-16T20:47:18.339335+00:00",
+      "message": "Juliana, a oportunidade de Analista Service Desk N2 me chamou atenção porque trabalho com diagnóstico de problemas de áudio e registro SIP, além de atender incidentes críticos em ambientes de missão crítica. Posso enviar meu currículo?",
+      "priority": 40,
+      "invite_note": "Oi Juliana, vi a vaga de Analista Service Desk N2 na Ápice Tecnologia e achei que minha experiência com suporte técnico de incidentes críticos e análise de logs SIP/RTP poderia ser útil. Vamos conectar?",
       "outreach_source": "groq"
     },
     {
@@ -888,5 +916,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-11-13T18:20:56.437689+00:00"
+  "last_updated": "2026-11-16T20:47:18.339335+00:00"
 }
