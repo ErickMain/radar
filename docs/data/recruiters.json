@@ -1,6 +1,44 @@
 {
   "recruiters": [
     {
+      "id": "5f5b38852f1dd7a3",
+      "name": "Thayane Oliveira",
+      "profile_url": "https://br.linkedin.com/in/thayane-oliveira-83ab5b19b",
+      "headline": "Analista de RH | Tech Recruiter | Talent Acquisition | DHO | Clima e Cultura Organizacional | T&D | Employee Experience | Employer Branding",
+      "is_recruiter": true,
+      "country": "BR",
+      "companies": [
+        "IT-ONE"
+      ],
+      "jobs": [
+        {
+          "id": "407a9b6f2042ff98",
+          "title": "[Banco de Talentos] Operador de Suporte - NOC | Diurno - 12x36",
+          "company": "IT-ONE",
+          "url": "https://br.linkedin.com/jobs/view/banco-de-talentos-operador-de-suporte-noc-diurno-12x36-at-it-one-information-technology-4492258235",
+          "score": 62,
+          "fit_level": "medio",
+          "found_at": "2026-11-19T19:17:05.340818+00:00",
+          "inferred": true
+        },
+        {
+          "id": "69e217e9fac62c7f",
+          "title": "Operador de Suporte - NOC (Noturno)",
+          "company": "IT-ONE",
+          "url": "https://br.linkedin.com/jobs/view/operador-de-suporte-noc-noturno-at-it-one-information-technology-4481462316",
+          "score": 62,
+          "fit_level": "medio",
+          "found_at": "2026-10-26T17:04:46.346290+00:00"
+        }
+      ],
+      "first_seen": "2026-10-26T17:06:33.942252+00:00",
+      "last_seen": "2026-11-19T19:18:30.997537+00:00",
+      "message": "Obrigado por aceitar! A vaga de Operador de Suporte - NOC combina com minha prática em troubleshooting de SBCs e na captura e interpretação de tráfego usando Wireshark. Posso enviar meu currículo para avaliarmos a aderência?",
+      "priority": 70,
+      "invite_note": "Oi Thayane, vi a vaga de Operador de Suporte - NOC (Noturno) na IT-ONE e achei que minha experiência com análise de protocolos SIP e RTP pode ser muito útil. Vamos conectar?",
+      "outreach_source": "groq"
+    },
+    {
       "id": "05c782bf8ca2c2e5",
       "name": "Roberta Santos",
       "profile_url": "https://br.linkedin.com/in/robertasantostech",
@@ -110,34 +148,6 @@
       "message": "Olá Kharinna, a vaga de Analista de Suporte IPBX/VoIP (Asterisk) me chamou atenção. Trabalho com análise de protocolos SIP e RTP e faço troubleshooting de SBCs, além de provisionar ramais e telefones IP. Posso enviar meu currículo?",
       "priority": 56,
       "invite_note": "Oi Kharinna, vi a vaga de Analista de Suporte IPBX/VoIP (Asterisk) na Ahoy by Belago. Tenho experiência em suporte especializado de telefonia IP/VoIP e no provisionamento de ramais e dispositivos IP. Vamos nos conectar?",
-      "outreach_source": "groq"
-    },
-    {
-      "id": "5f5b38852f1dd7a3",
-      "name": "Thayane Oliveira",
-      "profile_url": "https://br.linkedin.com/in/thayane-oliveira-83ab5b19b",
-      "headline": "Analista de RH | Tech Recruiter | Talent Acquisition | DHO | Clima e Cultura Organizacional | T&D | Employee Experience | Employer Branding",
-      "is_recruiter": true,
-      "country": "BR",
-      "companies": [
-        "IT-ONE"
-      ],
-      "jobs": [
-        {
-          "id": "69e217e9fac62c7f",
-          "title": "Operador de Suporte - NOC (Noturno)",
-          "company": "IT-ONE",
-          "url": "https://br.linkedin.com/jobs/view/operador-de-suporte-noc-noturno-at-it-one-information-technology-4481462316",
-          "score": 62,
-          "fit_level": "medio",
-          "found_at": "2026-10-26T17:04:46.346290+00:00"
-        }
-      ],
-      "first_seen": "2026-10-26T17:06:33.942252+00:00",
-      "last_seen": "2026-10-26T17:06:33.942252+00:00",
-      "message": "Obrigado por aceitar! A vaga de Operador de Suporte - NOC combina com minha prática em troubleshooting de SBCs e na captura e interpretação de tráfego usando Wireshark. Posso enviar meu currículo para avaliarmos a aderência?",
-      "priority": 55,
-      "invite_note": "Oi Thayane, vi a vaga de Operador de Suporte - NOC (Noturno) na IT-ONE e achei que minha experiência com análise de protocolos SIP e RTP pode ser muito útil. Vamos conectar?",
       "outreach_source": "groq"
     },
     {
@@ -916,5 +926,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-11-18T19:14:36.727328+00:00"
+  "last_updated": "2026-11-19T19:18:30.997537+00:00"
 }
