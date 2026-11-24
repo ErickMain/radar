@@ -515,34 +515,6 @@
       "outreach_source": "groq"
     },
     {
-      "id": "2190a3e777bdff19",
-      "name": "Juliana Garcia",
-      "profile_url": "https://br.linkedin.com/in/julianamgarcia",
-      "headline": "",
-      "is_recruiter": false,
-      "country": "BR",
-      "companies": [
-        "Ápice Tecnologia"
-      ],
-      "jobs": [
-        {
-          "id": "92a82cab57a4f539",
-          "title": "Analista Service Desk N2",
-          "company": "Ápice Tecnologia",
-          "url": "https://br.linkedin.com/jobs/view/analista-service-desk-n2-at-%C3%A1pice-tecnologia-4488551908",
-          "score": 70,
-          "fit_level": "alto",
-          "found_at": "2026-11-16T20:45:26.766331+00:00"
-        }
-      ],
-      "first_seen": "2026-11-16T20:47:18.339335+00:00",
-      "last_seen": "2026-11-16T20:47:18.339335+00:00",
-      "message": "Juliana, a oportunidade de Analista Service Desk N2 me chamou atenção porque trabalho com diagnóstico de problemas de áudio e registro SIP, além de atender incidentes críticos em ambientes de missão crítica. Posso enviar meu currículo?",
-      "priority": 40,
-      "invite_note": "Oi Juliana, vi a vaga de Analista Service Desk N2 na Ápice Tecnologia e achei que minha experiência com suporte técnico de incidentes críticos e análise de logs SIP/RTP poderia ser útil. Vamos conectar?",
-      "outreach_source": "groq"
-    },
-    {
       "id": "95b9d474cc12530f",
       "name": "Bridget Rikhotso",
       "profile_url": "https://za.linkedin.com/in/bridget-rikhotso-a74655b3",
@@ -680,6 +652,34 @@
       "message": "Obrigado por aceitar, Maria! A vaga de Analista de NOC combina bem com meu trabalho de diagnóstico de problemas de áudio e registro SIP, além do uso diário de Wireshark para captura de tráfego. Posso te enviar meu currículo?",
       "priority": 36,
       "invite_note": "Oi Maria, vi a vaga de Analista de NOC na Proativa e achei interessante. Tenho experiência em troubleshooting de SBCs e análise de protocolos SIP/RTP, que são essenciais para monitoramento de rede. Vamos nos conectar?",
+      "outreach_source": "groq"
+    },
+    {
+      "id": "2190a3e777bdff19",
+      "name": "Juliana Garcia",
+      "profile_url": "https://br.linkedin.com/in/julianamgarcia",
+      "headline": "",
+      "is_recruiter": false,
+      "country": "BR",
+      "companies": [
+        "Ápice Tecnologia"
+      ],
+      "jobs": [
+        {
+          "id": "92a82cab57a4f539",
+          "title": "Analista Service Desk N2",
+          "company": "Ápice Tecnologia",
+          "url": "https://br.linkedin.com/jobs/view/analista-service-desk-n2-at-%C3%A1pice-tecnologia-4488551908",
+          "score": 70,
+          "fit_level": "alto",
+          "found_at": "2026-11-16T20:45:26.766331+00:00"
+        }
+      ],
+      "first_seen": "2026-11-16T20:47:18.339335+00:00",
+      "last_seen": "2026-11-16T20:47:18.339335+00:00",
+      "message": "Juliana, a oportunidade de Analista Service Desk N2 me chamou atenção porque trabalho com diagnóstico de problemas de áudio e registro SIP, além de atender incidentes críticos em ambientes de missão crítica. Posso enviar meu currículo?",
+      "priority": 33,
+      "invite_note": "Oi Juliana, vi a vaga de Analista Service Desk N2 na Ápice Tecnologia e achei que minha experiência com suporte técnico de incidentes críticos e análise de logs SIP/RTP poderia ser útil. Vamos conectar?",
       "outreach_source": "groq"
     },
     {
@@ -926,5 +926,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-11-23T22:21:42.367537+00:00"
+  "last_updated": "2026-11-24T20:59:11.449554+00:00"
 }
