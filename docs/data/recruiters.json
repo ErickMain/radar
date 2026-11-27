@@ -34,7 +34,7 @@
       "first_seen": "2026-10-26T17:06:33.942252+00:00",
       "last_seen": "2026-11-19T19:18:30.997537+00:00",
       "message": "Obrigado por aceitar! A vaga de Operador de Suporte - NOC combina com minha prática em troubleshooting de SBCs e na captura e interpretação de tráfego usando Wireshark. Posso enviar meu currículo para avaliarmos a aderência?",
-      "priority": 70,
+      "priority": 63,
       "invite_note": "Oi Thayane, vi a vaga de Operador de Suporte - NOC (Noturno) na IT-ONE e achei que minha experiência com análise de protocolos SIP e RTP pode ser muito útil. Vamos conectar?",
       "outreach_source": "groq"
     },
@@ -926,5 +926,5 @@
       "outreach_source": "fallback"
     }
   ],
-  "last_updated": "2026-11-26T19:58:14.816863+00:00"
+  "last_updated": "2026-11-27T19:46:47.620810+00:00"
 }
